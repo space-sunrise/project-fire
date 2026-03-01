@@ -9,14 +9,14 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 using Content.Shared.GameTicking;
+using Robust.Client.Audio;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Components;
-using Robust.Shared.Audio.Systems;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using DependencyAttribute = Robust.Shared.IoC.DependencyAttribute;
 
-namespace Content.Goobstation.Client.Audio;
+namespace Content.Client._Scp.Audio;
 
 /// <summary>
 ///     Handler for client-side audio effects.
@@ -24,7 +24,7 @@ namespace Content.Goobstation.Client.Audio;
 public sealed class AudioEffectSystem : EntitySystem
 {
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
-    [Dependency] private readonly SharedAudioSystem _audioSystem = default!;
+    [Dependency] private readonly AudioSystem _audioSystem = default!;
 
     /// <summary>
     ///     Whether creating new auxiliaries is safe.

@@ -54,7 +54,9 @@ public sealed partial class ScpTab : Control
 
         // Эхо
         Control.AddOptionCheckBox(ScpCCVars.EchoEnabled, EchoEnabled);
-        Control.AddOptionCheckBox(ScpCCVars.EchoStrongPresetPreferred, EchoStrongPresetPreferred);
+        Control.AddOptionCheckBox(ScpCCVars.EchoHighResolution, EchoHighResolution);
+        Control.AddOptionSlider(ScpCCVars.EchoReflectionCount, EchoReflectionCount, 1, 8);
+        Control.AddOptionSlider(ScpCCVars.EchoRecalculationInterval, EchoRecalculationInterval, 1, 4);
 
         // Подавление звуков
         Control.AddOptionCheckBox(ScpCCVars.AudioMufflingEnabled, AudioMufflingEnabled);
@@ -133,7 +135,9 @@ public sealed partial class ScpTab : Control
 
     private void ToggleEcho(BaseButton.ButtonToggledEventArgs value = default!)
     {
-        EchoStrongPresetPreferred.Visible = EchoEnabled.Pressed;
+        EchoHighResolution.Visible = EchoEnabled.Pressed;
+        EchoReflectionCount.Visible = EchoEnabled.Pressed;
+        EchoRecalculationInterval.Visible = EchoEnabled.Pressed;
     }
 
     private void ToggleAudioMuffling(BaseButton.ButtonToggledEventArgs value = default!)

@@ -3,6 +3,7 @@
 //
 // SPDX-License-Identifier: MPL-2.0
 
+using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Numerics;
@@ -43,7 +44,13 @@ public sealed class AreaEchoSystem : EntitySystem
     ///     The directions that are raycasted to determine size for echo.
     ///         Used relative to the grid.
     /// </summary>
-    private Angle[] _calculatedDirections = [Direction.North.ToAngle(), Direction.West.ToAngle(), Direction.South.ToAngle(), Direction.East.ToAngle()];
+    private Angle[] _calculatedDirections =
+    [
+        Direction.North.ToAngle(),
+        Direction.West.ToAngle(),
+        Direction.South.ToAngle(),
+        Direction.East.ToAngle(),
+    ];
 
     /// <summary>
     ///     Values for the minimum arbitrary size at which a certain audio preset
@@ -51,15 +58,17 @@ public sealed class AreaEchoSystem : EntitySystem
     ///         the generally more calculations it has to do.
     /// </summary>
     /// <remarks>
-    ///     Keep in ascending order.
+    ///     Keep in descending order.
     /// </remarks>
-    private static readonly List<(float, ProtoId<AudioPresetPrototype>)> DistancePresets = new()
-    {
-        (12f, "Hallway"),
-        (20f, "Auditorium"),
-        (30f, "ConcertHall"),
-        (40f, "Hangar"),
-    };
+    private static readonly (float Distance, ProtoId<AudioPresetPrototype> Preset)[] DistancePresets =
+    [
+        (14f, "Hangar"),
+        (12f, "ConcertHall"),
+        (8f, "Auditorium"),
+        (3f, "Hallway"),
+    ];
+
+    private const float BounceDampening = 0.1f;
 
     /// <summary>
     ///     When is the next time we should check all audio entities and see if they are eligible to be updated.
@@ -85,6 +94,8 @@ public sealed class AreaEchoSystem : EntitySystem
     {
         base.Initialize();
 
+        UpdatesBefore.Add(typeof(AudioMuffleSystem));
+
         _configSub = _cfg.SubscribeMultiple()
             .OnValueChanged(ScpCCVars.EchoReflectionCount, x => _echoMaxReflections = x, invokeImmediately: true)
             .OnValueChanged(ScpCCVars.EchoEnabled, x => _echoEnabled = x, invokeImmediately: true)
@@ -100,6 +111,8 @@ public sealed class AreaEchoSystem : EntitySystem
         _roofQuery = GetEntityQuery<RoofComponent>();
 
         SubscribeLocalEvent<AudioComponent, EntParentChangedMessage>(OnAudioParentChanged);
+
+        Log.Level = LogLevel.Verbose;
     }
 
     public override void Shutdown()
@@ -121,14 +134,7 @@ public sealed class AreaEchoSystem : EntitySystem
 
         _nextExistingUpdate = _timing.CurTime + _calculationInterval;
 
-        var minimumMagnitude = DistancePresets.TryFirstOrNull(out var first)
-            ? first.Value.Item1
-            : 0f;
-        DebugTools.Assert(minimumMagnitude > 0f, "First distance preset was less than or equal to 0!");
-        if (minimumMagnitude <= 0f)
-            return;
-
-        var maximumMagnitude = DistancePresets.Last().Item1;
+        var (minimumMagnitude, maximumMagnitude) = GetMinMax();
 
         var audioEnumerator = AllEntityQuery<AudioComponent, TransformComponent>();
         while (audioEnumerator.MoveNext(out var uid, out var audio, out var xform))
@@ -261,6 +267,8 @@ public sealed class AreaEchoSystem : EntitySystem
             var currentOriginWorldPosition = worldPosition;
             var currentOriginTileIndices = originTileIndices;
 
+            var currentAcousticEnergy = 1.0f;
+
             for (var reflectIteration = 0; reflectIteration <= _echoMaxReflections /* if maxreflections is 0 we still cast atleast once */; reflectIteration++)
             {
                 var (distanceCovered, raycastResults) = CastEchoRay(
@@ -274,7 +282,10 @@ public sealed class AreaEchoSystem : EntitySystem
                     remainingDistance
                 );
 
-                totalDistance += distanceCovered;
+                // Добавляем пройденную дистанцию с учетом оставшейся "энергии" звука
+                totalDistance += distanceCovered * currentAcousticEnergy;
+
+                // Физический лимит луча отнимаем по-настоящему
                 remainingDistance -= distanceCovered;
 
                 // we don't need further logic anyway if we just finished the last iteration
@@ -283,6 +294,8 @@ public sealed class AreaEchoSystem : EntitySystem
 
                 if (raycastResults is null) // means we didnt hit anything
                     break;
+
+                currentAcousticEnergy *= BounceDampening;
 
                 // i think cross-grid would actually be pretty easy here? but the tile-marching doesnt often account for that at fidelities above 1 so whatever.
 
@@ -308,10 +321,10 @@ public sealed class AreaEchoSystem : EntitySystem
                 currentDirectionVector = Reflect(currentDirectionVector, normalVector);
             }
 
-            magnitude += totalDistance;
+            if (totalDistance > magnitude)
+                magnitude = totalDistance;
         }
 
-        magnitude /= _calculatedDirections.Length * _echoMaxReflections;
         return true;
     }
 
@@ -433,23 +446,36 @@ public sealed class AreaEchoSystem : EntitySystem
     {
         TryProcessAreaSpaceMagnitude((entity, transformComponent), maximumMagnitude, out var echoMagnitude);
 
-        if (echoMagnitude > minimumMagnitude)
+        if (echoMagnitude <= minimumMagnitude)
         {
-            ProtoId<AudioPresetPrototype>? bestPreset = null;
-            for (var i = DistancePresets.Count - 1; i >= 0; i--)
-            {
-                var preset = DistancePresets[i];
-                if (preset.Item1 < echoMagnitude)
-                    continue;
-
-                bestPreset = preset.Item2;
-            }
-
-            if (bestPreset != null)
-                _audioEffect.TryAddEffect(entity, DistancePresets[0].Item2);
-        }
-        else
             _audioEffect.TryRemoveEffect(entity);
+            return;
+        }
+
+        if (!TryGetPreset(echoMagnitude, out var bestPreset))
+        {
+            _audioEffect.TryRemoveEffect(entity);
+            return;
+        }
+
+        Log.Debug($"Used preset {bestPreset.Value}");
+        _audioEffect.TryAddEffect(entity, bestPreset.Value);
+    }
+
+    private bool TryGetPreset(float echoMagnitude, [NotNullWhen(true)] out ProtoId<AudioPresetPrototype>? bestPreset)
+    {
+        bestPreset = null;
+
+        foreach (var (distance, preset) in DistancePresets)
+        {
+            if (echoMagnitude < distance)
+                continue;
+
+            bestPreset = preset;
+            return true;
+        }
+
+        return false;
     }
 
     // Maybe TODO: defer this onto ticks? but whatever its just clientside
@@ -464,13 +490,19 @@ public sealed class AreaEchoSystem : EntitySystem
         if (args.Transform.MapID == MapId.Nullspace)
             return;
 
-        var minimumMagnitude = DistancePresets.TryFirstOrNull(out var first) ? first.Value.Item1 : 0f;
-        DebugTools.Assert(minimumMagnitude > 0f, "First distance preset was less than or equal to 0!");
-        if (minimumMagnitude <= 0f)
-            return;
-
-        var maximumMagnitude = DistancePresets.Last().Item1;
+        var (minimumMagnitude, maximumMagnitude) = GetMinMax();
 
         ProcessAudioEntity(ent, args.Transform, minimumMagnitude, maximumMagnitude);
+    }
+
+    private static (float Min, float Max) GetMinMax()
+    {
+        var minimumMagnitude = DistancePresets.Last().Distance;
+        DebugTools.Assert(minimumMagnitude > 0f, "Minimum distance must be greater than zero!");
+
+        var maximumMagnitude = DistancePresets.First().Distance;
+        DebugTools.Assert(maximumMagnitude > 0f, "Maximum distance must be greater than zero!");
+
+        return (minimumMagnitude, maximumMagnitude);
     }
 }

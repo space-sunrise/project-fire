@@ -90,3 +90,9 @@
     shoes: ClothingShoesBootsWinterSci
 
 # ID
+
+- type: loadout
+  id: ScpLoadoutScientificServicePurpleGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorPurple
+

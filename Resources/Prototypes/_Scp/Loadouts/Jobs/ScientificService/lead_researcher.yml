@@ -33,3 +33,21 @@
   hidden: true
   loadouts:
   - ScpLoadoutClothingOuterCoatLabSeniorResearcher
+
+- type: loadout
+  id: ScpLoadoutLeadResearcherSeniorResearcher
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorResearcher
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSeniorResearcher
+
+
+- type: loadout
+  id: ScpLoadoutLeadResearcherSeniorResearcherSeniorResearcher
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorResearcher
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSeniorResearcher
+

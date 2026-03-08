@@ -42,3 +42,116 @@
   minLimit: 1
   loadouts:
   - ScpLoadoutClothingEyesHudMedicalEyes
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistJumpsuit
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorPhysician
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSeniorPhysician
+
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistJumpskirt
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorPhysician
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSeniorPhysician
+
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistSeniorBeret
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorPhysicianClothingTimer
+  equipment:
+    head: ClothingHeadHatBeretSeniorPhysician
+
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistBeret
+  equipment:
+    head: ClothingHeadHatBeretMedic
+
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistChemistryBeret
+  equipment:
+    head: ClothingHeadHatBeretChemistry
+
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistNurseHat
+  equipment:
+    head: ClothingHeadNurseHat
+
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistBlueSurgicalCap
+  equipment:
+    head: ClothingHeadHatSurgcapBlue
+
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistGreenSurgicalCap
+  equipment:
+    head: ClothingHeadHatSurgcapGreen
+
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistPurpleSurgicalCap
+  equipment:
+    head: ClothingHeadHatSurgcapPurple
+
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistHeadMirror
+  equipment:
+    head: ClothingHeadMirror
+
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistChemistryLabCoat
+  equipment:
+    outerClothing: ClothingOuterCoatLabChem
+
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistSeniorLabCoat
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorPhysicianClothingTimer
+  equipment:
+    outerClothing: ClothingOuterCoatLabSeniorPhysician
+
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistChemistryWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterChem
+
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterMed
+
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistSterileMask
+  equipment:
+    mask: ClothingMaskSterile
+
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistWinterBoots
+  equipment:
+    shoes: ClothingShoesBootsWinterMed
+
+
+- type: loadout
+  id: ScpLoadoutSeniorMedicalSpecialistNitrileGloves
+  equipment:
+    gloves: ClothingHandsGlovesNitrile

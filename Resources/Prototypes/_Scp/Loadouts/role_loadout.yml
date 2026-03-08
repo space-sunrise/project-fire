@@ -58,9 +58,9 @@
   - ScpLoadoutGroupBra
   - ScpLoadoutGroupPants
   - ScpLoadoutGroupSocks
-  - ScpLoadoutGroupEyesClothingEyesGlassesSecurity
+  - ScpLoadoutGroupSecurityCommanderEyes
   - ScpLoadoutGroupIdKeyCardSecurityCommander
-  - ScpLoadoutGroupGlovesClothingHandsGlovesCombat
+  - ScpLoadoutGroupSecurityCommanderGloves
   - ScpLoadoutGroupEarsClothingHeadsetAltSecurityAdministration
   - ScpLoadoutGroupPocket2SecurityCommanderPDA
   - ScpLoadoutGroupBackStorageFlash

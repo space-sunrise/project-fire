@@ -16,3 +16,32 @@
   minLimit: 1
   loadouts:
   - ScpLoadoutClothingEyesHudMedicalEyes
+
+- type: loadout
+  id: ScpLoadoutMedicalSpecialistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMedicalDoctor
+
+
+- type: loadout
+  id: ScpLoadoutMedicalSpecialistJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtMedicalDoctor
+
+
+- type: loadout
+  id: ScpLoadoutMedicalSpecialistBlueScrubs
+  equipment:
+    jumpsuit: UniformScrubsColorBlue
+
+
+- type: loadout
+  id: ScpLoadoutMedicalSpecialistGreenScrubs
+  equipment:
+    jumpsuit: UniformScrubsColorGreen
+
+
+- type: loadout
+  id: ScpLoadoutMedicalSpecialistPurpleScrubs
+  equipment:
+    jumpsuit: UniformScrubsColorPurple

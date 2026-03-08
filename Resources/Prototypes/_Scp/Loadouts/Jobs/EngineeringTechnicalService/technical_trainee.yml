@@ -21,3 +21,15 @@
   hidden: true
   loadouts:
   - ScpLoadoutBookEngineersHandbook
+
+- type: loadout
+  id: ScpLoadoutTechnicalTraineeJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorYellow
+
+
+- type: loadout
+  id: ScpLoadoutTechnicalTraineeJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtColorYellow
+

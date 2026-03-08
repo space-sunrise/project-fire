@@ -9,3 +9,61 @@
   hidden: true
   loadouts:
   - ScpLoadoutKeyCardGeneralTechnicalSpecialist
+
+- type: loadout
+  id: ScpLoadoutGeneralTechnicalSpecialistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitEngineering
+
+
+- type: loadout
+  id: ScpLoadoutGeneralTechnicalSpecialistJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtEngineering
+
+
+- type: loadout
+  id: ScpLoadoutGeneralTechnicalSpecialistHazardJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitEngineeringHazard
+
+- type: loadout
+  id: ScpLoadoutGeneralTechnicalSpecialistRedHardHat
+  equipment:
+    head: ClothingHeadHatHardhatRed
+
+- type: loadout
+  id: ScpLoadoutGeneralTechnicalSpecialistOrangeHardHat
+  equipment:
+    head: ClothingHeadHatHardhatOrange
+
+- type: loadout
+  id: ScpLoadoutGeneralTechnicalSpecialistYellowHardHat
+  equipment:
+    head: ClothingHeadHatHardhatYellow
+
+- type: loadout
+  id: ScpLoadoutGeneralTechnicalSpecialistDarkYellowHardHat
+  equipment:
+    head: ClothingHeadHatHardhatYellowDark
+
+- type: loadout
+  id: ScpLoadoutGeneralTechnicalSpecialistEngineeringBeret
+  equipment:
+    head: ClothingHeadHatBeretEngineering
+
+- type: loadout
+  id: ScpLoadoutGeneralTechnicalSpecialistAtmosBeret
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobElectricalTechnicalSpecialist
+      time: 360000 # 100 hour
+  equipment:
+    head: ClothingHeadHatBeretAtmos
+
+- type: loadout
+  id: ScpLoadoutGeneralTechnicalSpecialistGasMask
+  equipment:
+    mask: ClothingMaskGas

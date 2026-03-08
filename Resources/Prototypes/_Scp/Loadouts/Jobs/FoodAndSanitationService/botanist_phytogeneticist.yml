@@ -57,3 +57,51 @@
   hidden: true
   loadouts:
   - ScpLoadoutScpServicePDA
+
+- type: loadout
+  id: ScpLoadoutBotanistPhytogeneticistTruckerCap
+  equipment:
+    head: ClothingHeadHatTrucker
+
+
+- type: loadout
+  id: ScpLoadoutBotanistPhytogeneticistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHydroponics
+
+
+- type: loadout
+  id: ScpLoadoutBotanistPhytogeneticistJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtHydroponics
+
+
+- type: loadout
+  id: ScpLoadoutBotanistPhytogeneticistOveralls
+  equipment:
+    jumpsuit: ClothingUniformOveralls
+
+
+- type: loadout
+  id: ScpLoadoutBotanistPhytogeneticistBackpack
+  equipment:
+    back: ClothingBackpackHydroponics
+
+
+- type: loadout
+  id: ScpLoadoutBotanistPhytogeneticistSatchel
+  equipment:
+    back: ClothingBackpackSatchelHydroponics
+
+
+- type: loadout
+  id: ScpLoadoutBotanistPhytogeneticistDuffelbag
+  equipment:
+    back: ClothingBackpackDuffelHydroponics
+
+
+- type: loadout
+  id: ScpLoadoutBotanistPhytogeneticistWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterHydro
+

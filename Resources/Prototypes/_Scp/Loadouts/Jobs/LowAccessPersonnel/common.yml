@@ -1,0 +1,25 @@
+- type: loadout
+  id: ScpLoadoutClassDCellblockPin
+  groupBy: "prison"
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: PlanetPrison
+      time: 180000 # 50 hrs
+  equipment:
+    neck: ClothingNeckPlanetPrisonCellblockPin
+
+
+- type: loadout
+  id: ScpLoadoutClassDLockdownPin
+  groupBy: "prison"
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: PlanetPrison
+      time: 360000 # 100 hrs
+  equipment:
+    neck: ClothingNeckPlanetPrisonLockdownPin
+

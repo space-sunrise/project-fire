@@ -1,9 +1,164 @@
 - type: loadout
-  id: ScpLoadoutClothingNeckScarfCe
+  id: ScpLoadoutChiefTechnicalSpecialistScarf
   equipment:
     neck: ClothingNeckScarfCe
 
 - type: loadout
-  id: ScpLoadoutClothingNeckCloakLegacyCe
+  id: ScpLoadoutChiefTechnicalSpecialistLegacyCloak
   equipment:
     neck: ClothingNeckCloakLegacyCe
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistBackpack
+  equipment:
+    back: ClothingBackpackCE
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistSatchel
+  equipment:
+    back: ClothingBackpackSatchelCE
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistDuffelbag
+  equipment:
+    back: ClothingBackpackDuffelCE
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChiefEngineer
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChiefEngineer
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistTurtleneckJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChiefEngineerTurtle
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistTurtleneckJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChiefEngineerTurtle
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistCloak
+  equipment:
+    neck: ClothingNeckCloakCe
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistMantle
+  equipment:
+    neck: ClothingNeckMantleCE
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCE
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistChiefWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterCE
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistHazardVest
+  equipment:
+    outerClothing: ClothingOuterVestHazard
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistEngineeringWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterEngi
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistAtmosWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterAtmos
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistWinterBoots
+  equipment:
+    shoes: ClothingShoesBootsWinterEngi
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistOrangeGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorOrange
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistBeret
+  equipment:
+    head: ClothingHeadHatBeretCE
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistRedHardHat
+  equipment:
+    head: ClothingHeadHatHardhatRed
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistEngineeringBeret
+  equipment:
+    head: ClothingHeadHatBeretEngineering
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistDarkYellowHardHat
+  equipment:
+    head: ClothingHeadHatHardhatYellowDark
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistBlueHardHat
+  equipment:
+    head: ClothingHeadHatHardhatBlue
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistWhiteHardHat
+  equipment:
+    head: ClothingHeadHatHardhatWhite
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistGasMask
+  equipment:
+    mask: ClothingMaskGas
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistAtmosGasMask
+  equipment:
+    mask: ClothingMaskGasAtmos
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistOrangeHardHat
+  equipment:
+    head: ClothingHeadHatHardhatOrange
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistYellowHardHat
+  equipment:
+    head: ClothingHeadHatHardhatYellow
+
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistSinguloHardHat
+  equipment:
+    head: ClothingHeadHatSingulo
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: BigMasterCE

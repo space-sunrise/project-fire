@@ -1,4 +1,72 @@
 - type: loadout
-  id: ScpLoadoutClothingNeckScarfCmo
+  id: ScpLoadoutHeadOfMedicalSectorScarf
   equipment:
     neck: ClothingNeckScarfCmo
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorSterileMask
+  equipment:
+    mask: ClothingMaskSterile
+
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorNitrileGloves
+  equipment:
+    gloves: ClothingHandsGlovesNitrile
+
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorBeret
+  equipment:
+    head: ClothingHeadHatBeretCmo
+
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCMO
+
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCMO
+
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorTurtleneckJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCMOTurtle
+
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorTurtleneckJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCMOTurtle
+
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorLabCoat
+  equipment:
+    outerClothing: ClothingOuterCoatLabCmo
+
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterCMO
+
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorCloak
+  equipment:
+    neck: ClothingCloakCmo
+
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorMantle
+  equipment:
+    neck: ClothingNeckMantleCMO
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCMO

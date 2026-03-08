@@ -1,4 +1,99 @@
 - type: loadout
-  id: ScpLoadoutClothingNeckScarfQm
+  id: ScpLoadoutSeniorLogisticsOfficerScarf
   equipment:
     neck: ClothingNeckScarfQm
+
+- type: loadout
+  id: ScpLoadoutSeniorLogisticsOfficerSoftCap
+  equipment:
+    head: ClothingHeadHatQMsoft
+
+
+- type: loadout
+  id: ScpLoadoutSeniorLogisticsOfficerBeret
+  equipment:
+    head: ClothingHeadHatBeretQM
+
+- type: loadout
+  id: ScpLoadoutSeniorLogisticsOfficerOrangeHardHat
+  equipment:
+    head: ClothingHeadHatHardhatOrange
+
+- type: loadout
+  id: ScpLoadoutSeniorLogisticsOfficerYellowHardHat
+  equipment:
+    head: ClothingHeadHatHardhatYellow
+
+- type: loadout
+  id: ScpLoadoutSeniorLogisticsOfficerDarkYellowHardHat
+  equipment:
+    head: ClothingHeadHatHardhatYellowDark
+
+
+- type: loadout
+  id: ScpLoadoutSeniorLogisticsOfficerJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitQM
+
+
+- type: loadout
+  id: ScpLoadoutSeniorLogisticsOfficerJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtQM
+
+
+- type: loadout
+  id: ScpLoadoutSeniorLogisticsOfficerTurtleneckJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitQMTurtleneck
+
+
+- type: loadout
+  id: ScpLoadoutSeniorLogisticsOfficerTurtleneckJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtQMTurtleneck
+
+
+- type: loadout
+  id: ScpLoadoutSeniorLogisticsOfficerFormalSuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitQMFormal
+
+
+- type: loadout
+  id: ScpLoadoutSeniorLogisticsOfficerCloak
+  equipment:
+    neck: ClothingNeckCloakQm
+
+
+- type: loadout
+  id: ScpLoadoutSeniorLogisticsOfficerMantle
+  equipment:
+    neck: ClothingNeckMantleQM
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterQM
+
+
+- type: loadout
+  id: ScpLoadoutSeniorLogisticsOfficerWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterQM
+
+
+- type: loadout
+  id: ScpLoadoutSeniorLogisticsOfficerWinterBoots
+  equipment:
+    shoes: ClothingShoesBootsWinterCargo
+
+
+- type: loadout
+  id: ScpLoadoutSeniorLogisticsOfficerOrangeGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorOrange
+
+
+- type: loadout
+  id: ScpLoadoutSeniorLogisticsOfficerPurpleGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorPurple

@@ -29,3 +29,45 @@
   minLimit: 1
   loadouts:
   - ScpLoadoutClothingShoesLeather
+
+- type: loadout
+  id: ScpLoadoutPsychotherapistHeadMirror
+  equipment:
+    head: ClothingHeadMirror
+
+
+- type: loadout
+  id: ScpLoadoutPsychotherapistWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterMed
+
+
+- type: loadout
+  id: ScpLoadoutPsychotherapistSterileMask
+  equipment:
+    mask: ClothingMaskSterile
+
+
+- type: loadout
+  id: ScpLoadoutPsychotherapistNitrileGloves
+  equipment:
+    gloves: ClothingHandsGlovesNitrile
+
+
+- type: loadout
+  id: ScpLoadoutPsychotherapistWinterBoots
+  equipment:
+    shoes: ClothingShoesBootsWinterMed
+
+
+- type: loadout
+  id: ScpLoadoutPsychotherapistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitPsychologist
+
+
+- type: loadout
+  id: ScpLoadoutPsychotherapistJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtPsychologist
+

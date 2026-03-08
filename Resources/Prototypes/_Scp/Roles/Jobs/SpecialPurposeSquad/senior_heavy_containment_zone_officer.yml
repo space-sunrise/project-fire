@@ -59,13 +59,18 @@
 - type: startingGear
   id: SeniorHeavyContainmentZoneOfficerGear
   equipment:
-    mask: ClothingMaskSecurityBandBlack
+    head: ClothingHeadHelmetBasic
     eyes: ClothingEyesGlassesSecurityGuard
+    mask: ClothingMaskSecurityBandBlack
+    neck: ClothingNeckMantleSecurity
+    jumpsuit: ClothingUniformSecurityBlack
+    outerClothing: ClothingOuterArmorSecurity
+    gloves: ClothingHandsGlovesColorBlack
+    shoes: ClothingShoesBootsSecurityGuard
+    back: ClothingBackpackSecurity
+    suitstorage: WeaponSubMachineGunMP5
     id: KeyCardSeniorHeavyContainmentZoneOfficer
     ears: ClothingHeadsetHeavyContainmentSecurityService
-    head: ClothingHeadHelmetBasic
-    gloves: ClothingHandsGlovesColorBlack
+    belt: ScpClothingBeltSecurityWebbingFilled
+    pocket1: WeaponPistolG22
     pocket2: ScpSecurityPDA
-  storage:
-    back:
-    - Flash

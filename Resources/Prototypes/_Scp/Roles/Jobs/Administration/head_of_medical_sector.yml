@@ -43,11 +43,14 @@
 - type: startingGear
   id: HeadOfMedicalSectorGear
   equipment:
+    head: ClothingHeadHatBeretParamedic
+    eyes: ClothingEyesGlasses
+    mask: ClothingMaskSterileBlack
+    neck: ClothingNeckScarfCmo
+    outerClothing: ClothingOuterCoatLab
+    gloves: ClothingHandsGlovesLatex
+    shoes: ClothingShoesColorBrown
     id: KeyCardHeadOfMedicalSector
     ears: ClothingHeadsetAltMedicalService
     belt: ClothingBeltMedicalFilled
     pocket2: HeadOfMedicalSectorPDA
-  storage:
-    back:
-    - Flash
-    - Telebaton

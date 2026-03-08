@@ -25,8 +25,14 @@
 - type: startingGear
   id: ElectricalTechnicalSpecialistGear
   equipment:
+    head: ClothingHeadHatBeretEngineering
     eyes: ClothingEyesGlassesMeson
+    mask: ClothingMaskGas
+    neck: ClothingNeckScarfStripedRed
+    outerClothing: ClothingOuterWinterColorRed
+    gloves: ClothingHandsGlovesFingerlessInsulated
+    shoes: ClothingShoesColorWhite
     id: KeyCardElectricalTechnicalSpecialist
-    belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineeringTechnicalService
+    belt: ClothingBeltUtilityEngineering
     pocket2: ScpEngineeringPDA

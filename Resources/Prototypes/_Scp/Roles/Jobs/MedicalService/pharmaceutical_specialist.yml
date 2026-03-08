@@ -28,9 +28,15 @@
 - type: startingGear
   id: PharmaceuticalSpecialistGear
   equipment:
+    head: ClothingHeadHatRedsoft
+    eyes: ClothingEyesGlassesChemical
+    mask: ClothingMaskSterileRed
+    neck: ClothingNeckScarfStripedRed
+    outerClothing: ClothingOuterCoatLab
+    gloves: ClothingHandsGlovesLatex
+    shoes: ClothingShoesColorWhite
     id: KeyCardPharmaceuticalSpecialist
     ears: ClothingHeadsetMedicalService
     belt: ChemBag
-    eyes: ClothingEyesGlassesChemical
     pocket1: HandLabeler
     pocket2: ScpMedicalPDA

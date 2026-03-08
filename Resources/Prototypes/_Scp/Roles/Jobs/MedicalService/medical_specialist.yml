@@ -29,8 +29,14 @@
 - type: startingGear
   id: MedicalSpecialistGear
   equipment:
+    head: ClothingHeadHatRedsoft
+    eyes: ClothingEyesHudMedical
+    mask: ClothingMaskSterileRed
+    neck: ClothingNeckScarfStripedRed
+    outerClothing: ClothingOuterCoatLab
+    gloves: ClothingHandsGlovesLatex
+    shoes: ClothingShoesColorWhite
+    id: KeyCardMedicalSpecialist
     ears: ClothingHeadsetMedicalService
     belt: ClothingBeltMedicalFilled
-    eyes: ClothingEyesHudMedical
-    id: KeyCardMedicalSpecialist
     pocket2: ScpMedicalPDA

@@ -26,6 +26,13 @@
 - type: startingGear
   id: LogisticsOfficerGear
   equipment:
+    head: ClothingHeadBandOrange
+    eyes: ClothingEyesGlasses
+    mask: ClothingMaskBandOrange
+    neck: ClothingNeckScarfStripedOrange
+    outerClothing: ClothingOuterWinterColorOrange
+    gloves: ClothingHandsGlovesColorLightBrown
+    shoes: ClothingShoesColorBlack
     id: KeyCardLogisticsOfficer
     ears: ClothingHeadsetLogistics
     pocket1: AppraisalTool

@@ -22,9 +22,16 @@
 - type: startingGear
   id: HospitalInternGear
   equipment:
+    head: ClothingHeadHatRedsoft
+    eyes: ClothingEyesHudMedical
+    mask: ClothingMaskSterileRed
+    neck: ClothingNeckScarfStripedRed
+    jumpsuit: ClothingUniformJumpsuitColorWhite
+    outerClothing: ClothingOuterCoatLab
+    gloves: ClothingHandsGlovesLatex
+    shoes: ClothingShoesColorWhite
     id: KeyCardHospitalIntern
     ears: ClothingHeadsetMedicalService
     belt: ClothingBeltMedicalFilled
-    eyes: ClothingEyesHudMedical
     pocket1: BookMedicalReferenceBook
     pocket2: ScpMedicalPDA

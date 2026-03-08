@@ -31,7 +31,10 @@
 - type: startingGear
   id: JuniorResearcherGear
   equipment:
+    eyes: ClothingEyesGlasses
+    jumpsuit: ClothingUniformJumpsuitColorWhite
     shoes: ClothingShoesColorWhite
+    back: ClothingBackpackScience
     id: KeyCardJuniorResearcher
     ears: ClothingHeadsetScientificService
     pocket1: BookScientistsGuidebook

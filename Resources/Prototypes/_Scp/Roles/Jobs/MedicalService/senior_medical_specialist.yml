@@ -29,11 +29,14 @@
 - type: startingGear
   id: SeniorMedicalSpecialistGear
   equipment:
+    head: ClothingHeadHatBeretParamedic
+    eyes: ClothingEyesHudMedical
+    mask: ClothingMaskSterileBlack
+    neck: ClothingNeckScarfStripedBlack
+    outerClothing: ClothingOuterCoatLab
+    gloves: ClothingHandsGlovesLatex
+    shoes: ClothingShoesColorBrown
     id: KeyCardSeniorMedicalSpecialist
     ears: ClothingHeadsetMedicalService
-    eyes: ClothingEyesHudMedical
+    belt: ClothingBeltMedicalFilled
     pocket2: ScpMedicalPDA
-  storage:
-    back:
-    - MedicatedSuture
-    - RegenerativeMesh

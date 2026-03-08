@@ -66,12 +66,17 @@
   id: HeavyContainmentZoneCommandantGear
   equipment:
     head: ClothingHeadHatCapLeatherSquadLeader
-    ears: ClothingHeadsetAltHeavyContainmentSecurityService
     eyes: ClothingEyesGlassesSecurity
+    mask: ClothingMaskSecurityBandBlack
     neck: ClothingNeckMantleSecurity
     jumpsuit: ClothingUniformJumpsuitSquadLeader
     outerClothing: ClothingOuterArmorSecurity
     gloves: ClothingHandsGlovesColorBlackAlt
     shoes: ClothingShoesBootsSecurityGuard
+    back: ClothingBackpackSecurity
+    suitstorage: WeaponSubMachineGunMP5
     id: KeyCardHeavyContainmentZoneCommandant
+    ears: ClothingHeadsetAltHeavyContainmentSecurityService
+    belt: ScpClothingBeltSecurityWebbingFilled
+    pocket1: WeaponPistolG22
     pocket2: ScpSecurityPDA

@@ -32,10 +32,14 @@
 - type: startingGear
   id: SeniorLogisticsOfficerGear
   equipment:
+    head: ClothingHeadBandOrange
+    eyes: ClothingEyesGlasses
+    mask: ClothingMaskGasExplorer
+    neck: ClothingNeckScarfQm
+    outerClothing: ClothingOuterWinterMiner
+    gloves: ClothingHandsGlovesColorLightBrown
+    shoes: ClothingShoesColorBrown
     id: KeyCardSeniorLogisticsOfficer
     ears: ClothingHeadsetAltLogistics
     pocket1: AppraisalTool
     pocket2: SeniorLogisticsOfficerPDA
-  storage:
-    back:
-    - Flash

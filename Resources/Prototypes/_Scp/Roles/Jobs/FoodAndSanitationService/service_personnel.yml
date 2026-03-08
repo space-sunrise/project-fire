@@ -19,7 +19,11 @@
 - type: startingGear
   id: ServicePersonnelGear
   equipment:
+    head: ClothingHeadHatPurplesoft
+    eyes: ClothingEyesGlasses
+    gloves: ClothingHandsGlovesJanitor
     shoes: ClothingShoesGaloshes
+    back: ClothingBackpack
     id: KeyCardServicePersonnel
     ears: ClothingHeadsetFoodAndSanitation
     belt: ClothingBeltJanitorFilled

@@ -19,7 +19,11 @@
 - type: startingGear
   id: GastronomicSpecialistGear
   equipment:
+    head: ClothingHeadHatChef
+    eyes: ClothingEyesGlasses
+    outerClothing: ClothingOuterApronChef
     shoes: ClothingShoesColorBlack
+    back: ClothingBackpack
     id: KeyCardGastronomicSpecialist
     ears: ClothingHeadsetFoodAndSanitation
     belt: ClothingBeltChefFilled

@@ -22,8 +22,15 @@
 - type: startingGear
   id: TechnicalTraineeGear
   equipment:
+    head: ClothingHeadHatBeretEngineering
+    mask: ClothingMaskBandRed
+    neck: ClothingNeckScarfStripedRed
+    outerClothing: ClothingOuterWinterColorRed
+    gloves: ClothingHandsGlovesFingerlessInsulated
+    shoes: ClothingShoesColorRed
+    suitstorage: NitrogenTankFilled
     id: KeyCardTechnicalTrainee
-    belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineeringTechnicalService
+    belt: ClothingBeltUtilityEngineering
     pocket1: BookEngineersHandbook
     pocket2: ScpEngineeringPDA

@@ -31,6 +31,13 @@
 - type: startingGear
   id: AnomarchologyResearcherGear
   equipment:
-    ears: ClothingHeadsetScientificService
+    eyes: ClothingEyesGlasses
+    neck: ClothingNeckTieSci
+    jumpsuit: ClothingUniformJumpsuitScientist
+    outerClothing: ClothingOuterCoatLab
+    gloves: ClothingHandsGlovesLatex
+    shoes: ClothingShoesColorWhite
+    back: ClothingBackpackScience
     id: KeyCardAnomarchologyResearcher
+    ears: ClothingHeadsetScientificService
     pocket2: ScpResearchPDA

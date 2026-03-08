@@ -32,7 +32,11 @@
   id: LeadResearcherGear
   equipment:
     head: ClothingHeadHatBeretRND
+    eyes: ClothingEyesGlasses
+    outerClothing: ClothingOuterCoatLabSeniorResearcher
+    gloves: ClothingHandsGlovesLatex
+    shoes: ClothingShoesColorWhite
+    back: ClothingBackpackScience
     id: KeyCardLeadResearcher
     ears: ClothingHeadsetScientificService
-    outerClothing: ClothingOuterCoatLabSeniorResearcher
     pocket2: ScpResearchPDA

@@ -71,10 +71,11 @@
   id: SecurityCommanderGear
   equipment:
     eyes: ClothingEyesGlassesSecurity
-    id: KeyCardSecurityCommander
+    neck: ClothingNeckScarfHos
     gloves: ClothingHandsGlovesCombat
+    shoes: ClothingShoesBootsSecurityGuard
+    back: ClothingBackpackSecurity
+    id: KeyCardSecurityCommander
     ears: ClothingHeadsetAltSecurityAdministration
+    belt: ScpClothingBeltSecurityWebbingFilled
     pocket2: SecurityCommanderPDA
-  storage:
-    back:
-    - Flash

@@ -59,8 +59,18 @@
 - type: startingGear
   id: SeniorExternalAdministrativeZoneOfficerGear
   equipment:
-    eyes: ClothingEyesGlassesSecurity
     head: ClothingHeadHatBeretSecurity
+    eyes: ClothingEyesGlassesSecurity
+    mask: ClothingMaskSecurityBandBlack
+    neck: ClothingNeckMantleSecurity
+    jumpsuit: ClothingUniformSecurity2
+    outerClothing: ClothingOuterArmorSecurity
+    gloves: ClothingHandsGlovesSecurity
+    shoes: ClothingShoesBootsSecurityGuard
+    back: ClothingBackpackSecurity
+    suitstorage: WeaponSubMachineGunMP7
     id: KeyCardSeniorLightContainmentZoneSecurityOfficer
     ears: ClothingHeadsetExternalAdministrativeZoneSecurityService
+    belt: ScpClothingBeltSecurityWebbingFilled
+    pocket1: WeaponTaser
     pocket2: ScpSecurityPDA

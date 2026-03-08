@@ -48,11 +48,16 @@
 - type: startingGear
   id: JuniorHeavyContainmentZoneOfficerGear
   equipment:
+    head: ClothingHeadHelmetBasic
+    eyes: ClothingEyesGlassesSecurity
     mask: ClothingMaskSecurityBandBlack
+    jumpsuit: ClothingUniformSecurityBlack
+    outerClothing: ClothingOuterArmorSecurity
+    gloves: ClothingHandsGlovesSecurity
+    shoes: ClothingShoesBootsSecurityGuard
+    back: ClothingBackpackSecurity
     id: KeyCardJuniorHeavyContainmentZoneOfficer
     ears: ClothingHeadsetHeavyContainmentSecurityService
+    belt: ScpClothingBeltSecurityWebbingFilled
     pocket1: HyperLinkBookCorporateLaw
     pocket2: ScpSecurityPDA
-  storage:
-    back:
-    - Flash

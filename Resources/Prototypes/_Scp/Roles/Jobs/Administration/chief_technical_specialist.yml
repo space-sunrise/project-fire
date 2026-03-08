@@ -33,12 +33,15 @@
 - type: startingGear
   id: ChiefTechnicalSpecialistGear
   equipment:
-    id: KeyCardChiefTechnicalSpecialist
+    head: ClothingHeadHatHardhatWhite
     eyes: ClothingEyesGlassesMeson
+    mask: ClothingMaskGas
+    neck: ClothingNeckScarfCe
+    outerClothing: ClothingOuterWinterColorWhite
+    gloves: ClothingHandsGlovesFingerlessInsulated
+    shoes: ClothingShoesColorBrown
+    suitstorage: NitrogenTankFilled
+    id: KeyCardChiefTechnicalSpecialist
     ears: ClothingHeadsetAltEngineeringTechnicalService
     belt: ClothingBeltUtilityEngineering
     pocket2: ChiefTechnicalSpecialistPDA
-  storage:
-    back:
-    - Flash
-    - Telebaton

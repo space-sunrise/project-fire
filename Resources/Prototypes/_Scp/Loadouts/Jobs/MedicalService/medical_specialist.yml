@@ -1,106 +1,18 @@
-- type: loadout
-  id: ScpLoadoutClothingHeadMirror
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MedicalHeadMirrorTimer
+﻿- type: loadout
+  id: ScpLoadoutKeyCardMedicalSpecialist
   equipment:
-    head: ClothingHeadMirror
+    id: KeyCardMedicalSpecialist
 
-- type: loadout
-  id: ScpLoadoutClothingHeadHatBeretMedic
-  equipment:
-    head: ClothingHeadHatBeretMedic
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardMedicalSpecialist
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardMedicalSpecialist
 
-- type: loadout
-  id: ScpLoadoutClothingHeadHatSurgcapBlue
-  equipment:
-    head: ClothingHeadHatSurgcapBlue
-
-- type: loadout
-  id: ScpLoadoutClothingHeadHatSurgcapGreen
-  equipment:
-    head: ClothingHeadHatSurgcapGreen
-
-- type: loadout
-  id: ScpLoadoutClothingHeadHatSurgcapPurple
-  equipment:
-    head: ClothingHeadHatSurgcapPurple
-
-- type: loadout
-  id: ScpLoadoutClothingHeadNurseHat
-  equipment:
-    head: ClothingHeadNurseHat
-
-# Jumpsuit
-
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitMedicalDoctor
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitMedicalDoctor
-
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtMedicalDoctor
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtMedicalDoctor
-
-- type: loadout
-  id: ScpLoadoutUniformScrubsColorBlue
-  equipment:
-    jumpsuit: UniformScrubsColorBlue
-
-- type: loadout
-  id: ScpLoadoutUniformScrubsColorGreen
-  equipment:
-    jumpsuit: UniformScrubsColorGreen
-
-- type: loadout
-  id: ScpLoadoutUniformScrubsColorPurple
-  equipment:
-    jumpsuit: UniformScrubsColorPurple
-
-# Back
-
-- type: loadout
-  id: ScpLoadoutClothingBackpackMedical
-  equipment:
-    back: ClothingBackpackMedical
-
-- type: loadout
-  id: ScpLoadoutClothingBackpackSatchelMedical
-  equipment:
-    back: ClothingBackpackSatchelMedical
-
-- type: loadout
-  id: ScpLoadoutClothingBackpackDuffelMedical
-  equipment:
-    back: ClothingBackpackDuffelMedical
-
-# OuterClothing
-
-- type: loadout
-  id: ScpLoadoutClothingOuterWinterMed
-  equipment:
-    outerClothing: ClothingOuterWinterMed
-
-# Shoes
-
-- type: loadout
-  id: ScpLoadoutClothingShoesBootsWinterMed
-  equipment:
-    shoes: ClothingShoesBootsWinterMed
-
-# Gloves
-
-- type: loadout
-  id: ScpLoadoutClothingHandsGlovesNitrile
-  equipment:
-    gloves: ClothingHandsGlovesNitrile
-
-#Masks
-
-- type: loadout
-  id: ScpLoadoutClothingMaskSterile
-  equipment:
-    mask: ClothingMaskSterile
-
-#Eyewear
+- type: loadoutGroup
+  parent: [ScpLoadoutGroupGlasses]
+  id: ScpLoadoutGroupMedicalSpecialistEyes
+  minLimit: 1
+  loadouts:
+  - ScpLoadoutClothingEyesHudMedicalEyes

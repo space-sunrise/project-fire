@@ -1,37 +1,78 @@
-﻿#Униформа
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitWithWhiteShirt
+﻿- type: loadout
+  id: ScpLoadoutClothingEyesSunGlassesHudSkill
   equipment:
-    jumpsuit: ClothingUniformJumpsuitWithWhiteShirt
+    eyes: ClothingEyesSunGlassesHudSkill
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitBlackFormal
+  id: ScpLoadoutClothingHeadHatCapEthicsCommittee
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBlackFormal
+    head: ClothingHeadHatCapEthicsCommittee
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtWithWhiteShirt
+  id: ScpLoadoutKeyCardEthicsCommitteePass
   equipment:
-    jumpsuit: ClothingUniformJumpskirtWithWhiteShirt
-
-#Внешняя одежда
-- type: loadout
-  id: ScpLoadoutClothingOuterCoatBlackFancy
-  equipment:
-    outerClothing: ClothingOuterCoatBlackFancy
+    id: KeyCardEthicsCommitteePass
 
 - type: loadout
-  id: ScpLoadoutClothingOuterCoatBlackFancyOpen
+  id: ScpLoadoutClothingHeadsetAltEthicsCommittee
   equipment:
-    outerClothing: ClothingOuterCoatBlackFancyOpen
+    ears: ClothingHeadsetAltEthicsCommittee
 
-# Печать
 - type: loadout
-  id: ScpLoadoutRubberStampVeto
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: Administration
-  storage:
-    back:
-    - RubberStampVeto
-  groupBy: folders
+  id: ScpLoadoutClothingBackpackSatchelLeatherEthicsCommitteeFilled
+  equipment:
+    back: ClothingBackpackSatchelLeatherEthicsCommitteeFilled
+
+- type: loadout
+  id: ScpLoadoutBaseFoundationPDA
+  equipment:
+    pocket2: BaseFoundationPDA
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupShoesClothingShoesBootsLaceup
+  name: loadout-group-shoes
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingShoesBootsLaceup
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupEyesClothingEyesSunGlassesHudSkill
+  name: loadout-group-eyes
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingEyesSunGlassesHudSkill
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupHeadClothingHeadHatCapEthicsCommittee
+  name: loadout-group-head
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHeadHatCapEthicsCommittee
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardEthicsCommitteePass
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardEthicsCommitteePass
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupEarsClothingHeadsetAltEthicsCommittee
+  name: loadout-group-ears
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHeadsetAltEthicsCommittee
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBackClothingBackpackSatchelLeatherEthicsCommitteeFilled
+  name: loadout-group-back
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingBackpackSatchelLeatherEthicsCommitteeFilled
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket2BaseFoundationPDA
+  name: loadout-group-pda
+  hidden: true
+  loadouts:
+  - ScpLoadoutBaseFoundationPDA

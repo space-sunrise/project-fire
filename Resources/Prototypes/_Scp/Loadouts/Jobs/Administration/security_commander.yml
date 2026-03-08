@@ -1,162 +1,35 @@
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitHoS
+﻿- type: loadout
+  id: ScpLoadoutKeyCardSecurityCommander
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHoS
-  groupBy: "jumpsuit"
-
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtHoS
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtHoS
-  groupBy: "jumpskirt"
+    id: KeyCardSecurityCommander
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitHoSAlt
+  id: ScpLoadoutClothingHeadsetAltSecurityAdministration
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHoSAlt
-  groupBy: "jumpsuit"
+    ears: ClothingHeadsetAltSecurityAdministration
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtHoSAlt
+  id: ScpLoadoutSecurityCommanderPDA
   equipment:
-    jumpsuit: ClothingUniformJumpskirtHoSAlt
-  groupBy: "jumpskirt"
+    pocket2: SecurityCommanderPDA
 
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitHosFormal
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitHosFormal
-  groupBy: "jumpsuit"
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardSecurityCommander
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardSecurityCommander
 
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtHosFormal
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtHosFormal
-  groupBy: "jumpskirt"
+- type: loadoutGroup
+  id: ScpLoadoutGroupEarsClothingHeadsetAltSecurityAdministration
+  name: loadout-group-ears
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHeadsetAltSecurityAdministration
 
-#Sunrise-Start
-
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitHoSOld
-  sponsorOnly: false
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitHoSOld
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterHoS
-
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitUSSPBlack
-  sponsorOnly: false
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitUSSPBlack
-#Sunrise-End
-
-# Head
-
-- type: loadout
-  id: ScpLoadoutClothingHeadHatHoshat
-  equipment:
-    head: ClothingHeadHatHoshat
-
-- type: loadout
-  id: ScpLoadoutClothingHeadHatBeretHoS
-  equipment:
-    head: ClothingHeadHatBeretHoS
-
-#Sunrise-Start
-
-- type: loadout
-  id: ScpLoadoutClothingHeadHatCapHoS
-  equipment:
-    head: ClothingHeadHatCapHoS
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterHoS
-
-- type: loadout
-  id: ScpLoadoutClothingHeadHatCapUSSPBlack
-  sponsorOnly: false
-  equipment:
-    head: ClothingHeadHatCapUSSPBlack
-
-- type: loadout
-  id: ScpLoadoutClothingHeadHatCapLeatherHoS
-  sponsorOnly: false
-  equipment:
-    head: ClothingHeadHatCapLeatherHoS
-#Sunrise-End
-
-# Neck
-
-- type: loadout
-  id: ScpLoadoutClothingNeckCloakHos
-  equipment:
-    neck: ClothingNeckCloakHos
-
-- type: loadout
-  id: ScpLoadoutClothingNeckMantleHOS
-  equipment:
-    neck: ClothingNeckMantleHOS
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterHoS
-
-- type: loadout
-  id: ScpLoadoutClothingNeckCloakHOSCloak
-  sponsorOnly: false
-  equipment:
-    neck: ClothingNeckCloakHOSCloak
-
-- type: loadout
-  id: ScpLoadoutClothingNeckCloakDarthHOSCloak
-  sponsorOnly: false
-  equipment:
-    neck: ClothingNeckCloakDarthHOSCloak
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterHoS
-
-# OuterClothing
-
-- type: loadout
-  id: ScpLoadoutClothingOuterCoatHoSTrench
-  equipment:
-    outerClothing: ClothingOuterCoatHoSTrench
-
-- type: loadout
-  id: ScpLoadoutClothingOuterWinterHoS
-  equipment:
-    outerClothing: ClothingOuterWinterHoS
-
-#Sunrise-Start
-
-- type: loadout
-  id: ScpLoadoutClothingOuterCoatHoSGreatcoat
-  equipment:
-    outerClothing: ClothingOuterCoatHoSGreatcoat
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterHoS
-
-- type: loadout
-  id: ScpLoadoutClothingOuterCoatHOSOvercoatBlack
-  sponsorOnly: false
-  equipment:
-    outerClothing: ClothingOuterCoatHOSOvercoatBlack
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterHoS
-
-- type: loadout
-  id: ScpLoadoutClothingOuterCoatUSSPOvercoatBlack
-  sponsorOnly: false
-  equipment:
-    outerClothing: ClothingOuterCoatUSSPOvercoatBlack
-
-- type: loadout
-  id: ScpLoadoutClothingOuterCoatHoSOvercoat
-  sponsorOnly: false
-  equipment:
-    outerClothing: ClothingOuterCoatHoSOvercoat
-#Sunrise-End
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket2SecurityCommanderPDA
+  name: loadout-group-pda
+  hidden: true
+  loadouts:
+  - ScpLoadoutSecurityCommanderPDA

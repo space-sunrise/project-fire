@@ -1,43 +1,47 @@
-- type: loadout
-  id: ScpLoadoutClothingHeadHatBeretChemistry
+﻿- type: loadout
+  id: ScpLoadoutKeyCardPharmaceuticalSpecialist
   equipment:
-    head: ClothingHeadHatBeretChemistry
-
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitChemistry
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitChemistry
+    id: KeyCardPharmaceuticalSpecialist
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtChemistry
+  id: ScpLoadoutClothingEyesGlassesChemical
   equipment:
-    jumpsuit: ClothingUniformJumpskirtChemistry
-
-# Back
+    eyes: ClothingEyesGlassesChemical
 
 - type: loadout
-  id: ScpLoadoutClothingBackpackChemistry
+  id: ScpLoadoutChemBag
   equipment:
-    back: ClothingBackpackChemistry
+    belt: ChemBag
 
 - type: loadout
-  id: ScpLoadoutClothingBackpackSatchelChemistry
+  id: ScpLoadoutHandLabelerPocket1
   equipment:
-    back: ClothingBackpackSatchelChemistry
+    pocket1: HandLabeler
 
-- type: loadout
-  id: ScpLoadoutClothingBackpackDuffelChemistry
-  equipment:
-    back: ClothingBackpackDuffelChemistry
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardPharmaceuticalSpecialist
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardPharmaceuticalSpecialist
 
-# Outer clothing
+- type: loadoutGroup
+  id: ScpLoadoutGroupBeltChemBag
+  name: loadout-group-belt
+  hidden: true
+  loadouts:
+  - ScpLoadoutChemBag
 
-- type: loadout
-  id: ScpLoadoutClothingOuterCoatLabChem
-  equipment:
-    outerClothing: ClothingOuterCoatLabChem
+- type: loadoutGroup
+  id: ScpLoadoutGroupEyesClothingEyesGlassesChemical
+  name: loadout-group-eyes
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingEyesGlassesChemical
 
-- type: loadout
-  id: ScpLoadoutClothingOuterWinterChem
-  equipment:
-    outerClothing: ClothingOuterWinterChem
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket1HandLabeler
+  name: loadout-group-storage
+  hidden: true
+  loadouts:
+  - ScpLoadoutHandLabelerPocket1

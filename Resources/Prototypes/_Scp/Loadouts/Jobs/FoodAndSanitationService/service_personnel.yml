@@ -1,51 +1,23 @@
-- type: loadout
-  id: ScpLoadoutClothingHeadHatPurplesoft
+﻿- type: loadout
+  id: ScpLoadoutKeyCardServicePersonnel
   equipment:
-    head: ClothingHeadHatPurplesoft
-
-# Jumpsuit
+    id: KeyCardServicePersonnel
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitJanitor
+  id: ScpLoadoutClothingBeltJanitorFilled
   equipment:
-    jumpsuit: ClothingUniformJumpsuitJanitor
+    belt: ClothingBeltJanitorFilled
 
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtJanitor
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtJanitor
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardServicePersonnel
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardServicePersonnel
 
-# Sunrise-start
-
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtElegantMaid
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MaidJanitor
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtElegantMaid
-# Sunrise-end
-
-# Gloves
-
-- type: loadout
-  id: ScpLoadoutClothingHandsGlovesJanitor
-  equipment:
-    gloves: ClothingHandsGlovesJanitor
-
-- type: loadout
-  id: ScpLoadoutClothingHandsGlovesColorOrange
-  equipment:
-    gloves: ClothingHandsGlovesColorOrange
-
-- type: loadout
-  id: ScpLoadoutClothingHandsGlovesColorPurple
-  equipment:
-    gloves: ClothingHandsGlovesColorPurple
-
-# Outer clothing
-
-- type: loadout
-  id: ScpLoadoutClothingOuterWinterJani
-  equipment:
-    outerClothing: ClothingOuterWinterJani
+- type: loadoutGroup
+  id: ScpLoadoutGroupBeltClothingBeltJanitorFilled
+  name: loadout-group-belt
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingBeltJanitorFilled

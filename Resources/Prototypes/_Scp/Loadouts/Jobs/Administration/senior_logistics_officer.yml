@@ -1,56 +1,35 @@
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitQM
+﻿- type: loadout
+  id: ScpLoadoutKeyCardSeniorLogisticsOfficer
   equipment:
-    jumpsuit: ClothingUniformJumpsuitQM
-
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtQM
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtQM
+    id: KeyCardSeniorLogisticsOfficer
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitQMTurtleneck
+  id: ScpLoadoutClothingHeadsetAltLogistics
   equipment:
-    jumpsuit: ClothingUniformJumpsuitQMTurtleneck
+    ears: ClothingHeadsetAltLogistics
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtQMTurtleneck
+  id: ScpLoadoutSeniorLogisticsOfficerPDA
   equipment:
-    jumpsuit: ClothingUniformJumpskirtQMTurtleneck
+    pocket2: SeniorLogisticsOfficerPDA
 
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitQMFormal
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitQMFormal
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardSeniorLogisticsOfficer
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardSeniorLogisticsOfficer
 
-# Head
+- type: loadoutGroup
+  id: ScpLoadoutGroupEarsClothingHeadsetAltLogistics
+  name: loadout-group-ears
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHeadsetAltLogistics
 
-- type: loadout
-  id: ScpLoadoutClothingHeadHatQMsoft
-  equipment:
-    head: ClothingHeadHatQMsoft
-
-- type: loadout
-  id: ScpLoadoutClothingHeadHatBeretQM
-  equipment:
-    head: ClothingHeadHatBeretQM
-
-# Neck
-
-- type: loadout
-  id: ScpLoadoutClothingNeckCloakQm
-  equipment:
-    neck: ClothingNeckCloakQm
-
-- type: loadout
-  id: ScpLoadoutClothingNeckMantleQM
-  equipment:
-    neck: ClothingNeckMantleQM
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterQM
-
-- type: loadout
-  id: ScpLoadoutClothingOuterWinterQM
-  equipment:
-    outerClothing: ClothingOuterWinterQM
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket2SeniorLogisticsOfficerPDA
+  name: loadout-group-pda
+  hidden: true
+  loadouts:
+  - ScpLoadoutSeniorLogisticsOfficerPDA

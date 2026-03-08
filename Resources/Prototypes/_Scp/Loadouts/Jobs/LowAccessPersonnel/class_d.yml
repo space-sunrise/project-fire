@@ -1,23 +1,23 @@
 ﻿- type: loadout
-  id: ScpLoadoutClothingNeckPlanetPrisonLockdownPin
-  groupBy: "prison"
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:DepartmentTimeRequirement
-      department: LowAccessPersonnel
-      time: 360000 # 100 hrs
+  id: ScpLoadoutClothingUniformClassD
   equipment:
-    neck: ClothingNeckPlanetPrisonLockdownPin
+    jumpsuit: ClothingUniformClassD
 
 - type: loadout
-  id: ScpLoadoutClothingNeckPlanetPrisonCellblockPin
-  groupBy: "prison"
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:DepartmentTimeRequirement
-      department: LowAccessPersonnel
-      time: 180000 # 50 hrs
+  id: ScpLoadoutClothingShoesClassD
   equipment:
-    neck: ClothingNeckPlanetPrisonCellblockPin
+    shoes: ClothingShoesClassD
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupJumpsuitClothingUniformClassD
+  name: loadout-group-jumpsuit
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingUniformClassD
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupShoesClothingShoesClassD
+  name: loadout-group-shoes
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingShoesClassD

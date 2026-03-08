@@ -1,0 +1,98 @@
+﻿- type: loadout
+  id: ScpLoadoutClothingShoesGaloshes
+  equipment:
+    shoes: ClothingShoesGaloshes
+
+- type: loadout
+  id: ScpLoadoutKeyCardClassDJanitor
+  equipment:
+    id: KeyCardClassDJanitor
+
+- type: loadout
+  id: ScpLoadoutClothingBeltJanitor
+  equipment:
+    belt: ClothingBeltJanitor
+
+- type: loadout
+  id: ScpLoadoutSoap
+  storage:
+    belt:
+    - Soap
+
+- type: loadout
+  id: ScpLoadoutLightReplacer
+  storage:
+    belt:
+    - LightReplacer
+
+- type: loadout
+  id: ScpLoadoutSprayBottleSpaceCleaner
+  storage:
+    belt:
+    - SprayBottleSpaceCleaner
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatPurplesoft
+  equipment:
+    head: ClothingHeadHatPurplesoft
+
+- type: loadout
+  id: ScpLoadoutClothingHandsGlovesJanitor
+  equipment:
+    gloves: ClothingHandsGlovesJanitor
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupHeadClothingHeadHatPurplesoft
+  name: loadout-group-head
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHeadHatPurplesoft
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGlovesClothingHandsGlovesJanitor
+  name: loadout-group-gloves
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHandsGlovesJanitor
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupShoesClothingShoesGaloshes
+  name: loadout-group-shoes
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingShoesGaloshes
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardClassDJanitor
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardClassDJanitor
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBeltClothingBeltJanitor
+  name: loadout-group-belt
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingBeltJanitor
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBeltStorageSoap
+  name: loadout-group-storage
+  hidden: true
+  loadouts:
+  - ScpLoadoutSoap
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBeltStorageLightReplacer
+  name: loadout-group-storage
+  hidden: true
+  loadouts:
+  - ScpLoadoutLightReplacer
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBeltStorageSprayBottleSpaceCleaner
+  name: loadout-group-storage
+  hidden: true
+  loadouts:
+  - ScpLoadoutSprayBottleSpaceCleaner

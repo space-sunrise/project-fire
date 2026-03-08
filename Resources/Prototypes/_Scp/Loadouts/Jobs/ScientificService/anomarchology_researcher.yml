@@ -1,0 +1,35 @@
+﻿- type: loadout
+  id: ScpLoadoutClothingHeadsetScientificService
+  equipment:
+    ears: ClothingHeadsetScientificService
+
+- type: loadout
+  id: ScpLoadoutKeyCardAnomarchologyResearcher
+  equipment:
+    id: KeyCardAnomarchologyResearcher
+
+- type: loadout
+  id: ScpLoadoutScpResearchPDA
+  equipment:
+    pocket2: ScpResearchPDA
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupEarsClothingHeadsetScientificService
+  name: loadout-group-ears
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHeadsetScientificService
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardAnomarchologyResearcher
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardAnomarchologyResearcher
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket2ScpResearchPDA
+  name: loadout-group-pda
+  hidden: true
+  loadouts:
+  - ScpLoadoutScpResearchPDA

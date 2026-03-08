@@ -1,46 +1,54 @@
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitHoP
+﻿- type: loadout
+  id: ScpLoadoutKeyCardPersonnelOfficer
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHoP
-
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtHoP
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtHoP
-
-# Head
+    id: KeyCardPersonnelOfficer
 
 - type: loadout
-  id: ScpLoadoutClothingHeadHatHopcap
+  id: ScpLoadoutClothingHandsGlovesHop
   equipment:
-    head: ClothingHeadHatHopcap
-
-# Neck
+    gloves: ClothingHandsGlovesHop
 
 - type: loadout
-  id: ScpLoadoutClothingNeckCloakHop
+  id: ScpLoadoutBoxFolderClipboardBelt
   equipment:
-    neck: ClothingNeckCloakHop
+    belt: BoxFolderClipboard
 
 - type: loadout
-  id: ScpLoadoutClothingNeckMantleHOP
+  id: ScpLoadoutPersonnelOfficerPDA
   equipment:
-    neck: ClothingNeckMantleHOP
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterHoP
+    pocket2: PersonnelOfficerPDA
 
-- type: loadout
-  id: ScpLoadoutClothingBackpackIan
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: ProfessionalHoP
-  equipment:
-    back: ClothingBackpackIan
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardPersonnelOfficer
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardPersonnelOfficer
 
-# Outerclothing
+- type: loadoutGroup
+  id: ScpLoadoutGroupGlovesClothingHandsGlovesHop
+  name: loadout-group-gloves
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHandsGlovesHop
 
-- type: loadout
-  id: ScpLoadoutClothingOuterWinterHoP
-  equipment:
-    outerClothing: ClothingOuterWinterHoP
+- type: loadoutGroup
+  id: ScpLoadoutGroupEarsClothingHeadsetAltAdministration
+  name: loadout-group-ears
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHeadsetAltAdministration
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBeltBoxFolderClipboard
+  name: loadout-group-belt
+  hidden: true
+  loadouts:
+  - ScpLoadoutBoxFolderClipboardBelt
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket2PersonnelOfficerPDA
+  name: loadout-group-pda
+  hidden: true
+  loadouts:
+  - ScpLoadoutPersonnelOfficerPDA

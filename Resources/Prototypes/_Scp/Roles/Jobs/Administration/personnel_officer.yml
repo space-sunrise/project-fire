@@ -17,7 +17,6 @@
       department: Administration
       time: 18000
   weight: 950
-  startingGear: PersonnelOfficerGear
   icon: JobPersonnelOfficer
   supervisors: job-supervisors-director
   canBeAntag: false

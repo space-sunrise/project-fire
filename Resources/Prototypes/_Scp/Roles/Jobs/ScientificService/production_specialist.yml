@@ -10,7 +10,6 @@
   - !type:DepartmentTimeRequirement
     department: EngineeringTechnicalService
     time: 10800
-  startingGear: ProductionSpecialistGear
   icon: JobProductionSpecialist
   supervisors: job-supervisors-scientific-service-director
   displayWeight: 10

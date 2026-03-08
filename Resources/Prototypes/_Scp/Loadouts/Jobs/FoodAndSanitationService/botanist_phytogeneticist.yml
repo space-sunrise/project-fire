@@ -1,55 +1,59 @@
-- type: loadout
-  id: ScpLoadoutClothingHeadHatTrucker
+﻿- type: loadout
+  id: ScpLoadoutKeyCardBotanistPhytogeneticist
   equipment:
-    head: ClothingHeadHatTrucker
-
-- type: loadout
-  id: ScpLoadoutClothingHeadBandBotany
-  equipment:
-    head: ClothingHeadBandBotany
-
-# Jumpsuit
+    id: KeyCardBotanistPhytogeneticist
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitHydroponics
+  id: ScpLoadoutClothingHeadsetFoodAndSanitation
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHydroponics
+    ears: ClothingHeadsetFoodAndSanitation
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtHydroponics
+  id: ScpLoadoutClothingBeltPlantFilled
   equipment:
-    jumpsuit: ClothingUniformJumpskirtHydroponics
+    belt: ClothingBeltPlantFilled
 
 - type: loadout
-  id: ScpLoadoutClothingUniformOveralls
+  id: ScpLoadoutScpServicePDA
   equipment:
-    jumpsuit: ClothingUniformOveralls
-
-# Back
+    pocket2: ScpServicePDA
 
 - type: loadout
-  id: ScpLoadoutClothingBackpackHydroponics
+  id: ScpLoadoutClothingShoesColorBrown
   equipment:
-    back: ClothingBackpackHydroponics
+    shoes: ClothingShoesColorBrown
 
-- type: loadout
-  id: ScpLoadoutClothingBackpackSatchelHydroponics
-  equipment:
-    back: ClothingBackpackSatchelHydroponics
+- type: loadoutGroup
+  id: ScpLoadoutGroupShoesClothingShoesColorBrown
+  name: loadout-group-shoes
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingShoesColorBrown
 
-- type: loadout
-  id: ScpLoadoutClothingBackpackDuffelHydroponics
-  equipment:
-    back: ClothingBackpackDuffelHydroponics
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardBotanistPhytogeneticist
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardBotanistPhytogeneticist
 
-# Outer clothing
+- type: loadoutGroup
+  id: ScpLoadoutGroupEarsClothingHeadsetFoodAndSanitation
+  name: loadout-group-ears
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHeadsetFoodAndSanitation
 
-- type: loadout
-  id: ScpLoadoutClothingOuterApronBotanist
-  equipment:
-    outerClothing: ClothingOuterApronBotanist
+- type: loadoutGroup
+  id: ScpLoadoutGroupBeltClothingBeltPlantFilled
+  name: loadout-group-belt
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingBeltPlantFilled
 
-- type: loadout
-  id: ScpLoadoutClothingOuterWinterHydro
-  equipment:
-    outerClothing: ClothingOuterWinterHydro
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket2ScpServicePDA
+  name: loadout-group-pda
+  hidden: true
+  loadouts:
+  - ScpLoadoutScpServicePDA

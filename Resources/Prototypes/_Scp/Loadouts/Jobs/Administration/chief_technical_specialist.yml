@@ -1,76 +1,73 @@
-- type: loadout
-  id: ScpLoadoutClothingBackpackCE
+﻿- type: loadout
+  id: ScpLoadoutKeyCardChiefTechnicalSpecialist
   equipment:
-    back: ClothingBackpackCE
-
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitChiefEngineer
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitChiefEngineer
+    id: KeyCardChiefTechnicalSpecialist
 
 - type: loadout
-  id: ScpLoadoutClothingBackpackSatchelCE
+  id: ScpLoadoutClothingEyesGlassesMeson
   equipment:
-    back: ClothingBackpackSatchelCE
+    eyes: ClothingEyesGlassesMeson
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtChiefEngineer
+  id: ScpLoadoutClothingHeadsetAltEngineeringTechnicalService
   equipment:
-    jumpsuit: ClothingUniformJumpskirtChiefEngineer
+    ears: ClothingHeadsetAltEngineeringTechnicalService
 
 - type: loadout
-  id: ScpLoadoutClothingBackpackDuffelCE
+  id: ScpLoadoutClothingBeltUtilityEngineering
   equipment:
-    back: ClothingBackpackDuffelCE
-
-# Head
+    belt: ClothingBeltUtilityEngineering
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitChiefEngineerTurtle
+  id: ScpLoadoutChiefTechnicalSpecialistPDA
   equipment:
-    jumpsuit: ClothingUniformJumpsuitChiefEngineerTurtle
+    pocket2: ChiefTechnicalSpecialistPDA
 
-- type: loadout
-  id: ScpLoadoutClothingHeadHatSingulo
-  equipment:
-    head: ClothingHeadHatSingulo
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: BigMasterCE
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardChiefTechnicalSpecialist
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardChiefTechnicalSpecialist
 
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtChiefEngineerTurtle
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtChiefEngineerTurtle
+- type: loadoutGroup
+  id: ScpLoadoutGroupEyesClothingEyesGlassesMeson
+  name: loadout-group-eyes
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingEyesGlassesMeson
 
-# Neck
+- type: loadoutGroup
+  id: ScpLoadoutGroupEarsClothingHeadsetAltEngineeringTechnicalService
+  name: loadout-group-ears
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHeadsetAltEngineeringTechnicalService
 
-- type: loadout
-  id: ScpLoadoutClothingHeadHatBeretCE
-  equipment:
-    head: ClothingHeadHatBeretCE
+- type: loadoutGroup
+  id: ScpLoadoutGroupBeltClothingBeltUtilityEngineering
+  name: loadout-group-belt
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingBeltUtilityEngineering
 
-- type: loadout
-  id: ScpLoadoutClothingNeckCloakCe
-  equipment:
-    neck: ClothingNeckCloakCe
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket2ChiefTechnicalSpecialistPDA
+  name: loadout-group-pda
+  hidden: true
+  loadouts:
+  - ScpLoadoutChiefTechnicalSpecialistPDA
 
-- type: loadout
-  id: ScpLoadoutClothingNeckMantleCE
-  equipment:
-    neck: ClothingNeckMantleCE
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterCE
+- type: loadoutGroup
+  id: ScpLoadoutGroupBackStorageFlash
+  name: loadout-group-storage
+  hidden: true
+  loadouts:
+  - ScpLoadoutFlash
 
-- type: loadout
-  id: ScpLoadoutClothingOuterWinterCE
-  equipment:
-    outerClothing: ClothingOuterWinterCE
-
-# Shoes
-
-- type: loadout
-  id: ScpLoadoutClothingShoesColorBrown
-  equipment:
-    shoes: ClothingShoesColorBrown
+- type: loadoutGroup
+  id: ScpLoadoutGroupBackStorageTelebaton
+  name: loadout-group-storage
+  hidden: true
+  loadouts:
+  - ScpLoadoutTelebaton

@@ -1,9 +1,24 @@
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitSeniorEngineer
+﻿- type: loadout
+  id: ScpLoadoutKeyCardLeadTechnicalSpecialist
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSeniorEngineer
+    id: KeyCardLeadTechnicalSpecialist
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtSeniorEngineer
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtSeniorEngineer
+  id: ScpLoadoutClothingOuterHardsuitEngineeringCompact
+  storage:
+    back:
+    - ClothingOuterHardsuitEngineeringCompact
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardLeadTechnicalSpecialist
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardLeadTechnicalSpecialist
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBackStorageClothingOuterHardsuitEngineeringCompact
+  name: loadout-group-storage
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingOuterHardsuitEngineeringCompact

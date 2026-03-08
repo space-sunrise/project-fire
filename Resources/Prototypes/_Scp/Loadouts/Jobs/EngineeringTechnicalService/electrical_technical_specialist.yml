@@ -1,45 +1,35 @@
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitAtmos
+﻿- type: loadout
+  id: ScpLoadoutKeyCardElectricalTechnicalSpecialist
   equipment:
-    jumpsuit: ClothingUniformJumpsuitAtmos
-
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtAtmos
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtAtmos
+    id: KeyCardElectricalTechnicalSpecialist
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitAtmosCasual
+  id: ScpLoadoutClothingHeadsetEngineeringTechnicalService
   equipment:
-    jumpsuit: ClothingUniformJumpsuitAtmosCasual
-
-# Back
+    ears: ClothingHeadsetEngineeringTechnicalService
 
 - type: loadout
-  id: ScpLoadoutClothingBackpackAtmospherics
+  id: ScpLoadoutScpEngineeringPDA
   equipment:
-    back: ClothingBackpackAtmospherics
+    pocket2: ScpEngineeringPDA
 
-- type: loadout
-  id: ScpLoadoutClothingBackpackSatchelAtmospherics
-  equipment:
-    back: ClothingBackpackSatchelAtmospherics
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardElectricalTechnicalSpecialist
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardElectricalTechnicalSpecialist
 
-- type: loadout
-  id: ScpLoadoutClothingBackpackDuffelAtmospherics
-  equipment:
-    back: ClothingBackpackDuffelAtmospherics
+- type: loadoutGroup
+  id: ScpLoadoutGroupEarsClothingHeadsetEngineeringTechnicalService
+  name: loadout-group-ears
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHeadsetEngineeringTechnicalService
 
-# OuterClothing
-
-- type: loadout
-  id: ScpLoadoutClothingOuterWinterAtmos
-  equipment:
-    outerClothing: ClothingOuterWinterAtmos
-
-# Shoes
-
-- type: loadout
-  id: ScpLoadoutClothingShoesColorWhite
-  equipment:
-    shoes: ClothingShoesColorWhite
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket2ScpEngineeringPDA
+  name: loadout-group-pda
+  hidden: true
+  loadouts:
+  - ScpLoadoutScpEngineeringPDA

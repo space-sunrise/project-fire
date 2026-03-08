@@ -10,7 +10,6 @@
   - !type:DepartmentTimeRequirement
     department: MedicalService
     time: 10800
-  startingGear: FieldMedicalSpecialistGear
   icon: JobAmnesthesiologist
   supervisors: job-supervisors-heavy-containment-zone-commandant
   canBeAntag: false

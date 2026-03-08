@@ -1,49 +1,47 @@
-- type: loadout
-  id: ScpLoadoutClothingHeadHatCargosoft
+﻿- type: loadout
+  id: ScpLoadoutKeyCardLogisticsOfficer
   equipment:
-    head: ClothingHeadHatCargosoft
-
-# Jumpsuit
+    id: KeyCardLogisticsOfficer
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitCargo
+  id: ScpLoadoutClothingHeadsetLogistics
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCargo
+    ears: ClothingHeadsetLogistics
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtCargo
+  id: ScpLoadoutAppraisalTool
   equipment:
-    jumpsuit: ClothingUniformJumpskirtCargo
-
-# Back
+    pocket1: AppraisalTool
 
 - type: loadout
-  id: ScpLoadoutClothingBackpackCargo
+  id: ScpLoadoutScpLogisticsPDA
   equipment:
-    back: ClothingBackpackCargo
+    pocket2: ScpLogisticsPDA
 
-- type: loadout
-  id: ScpLoadoutClothingBackpackSatchelCargo
-  equipment:
-    back: ClothingBackpackSatchelCargo
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardLogisticsOfficer
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardLogisticsOfficer
 
-- type: loadout
-  id: ScpLoadoutClothingBackpackDuffelCargo
-  equipment:
-    back: ClothingBackpackDuffelCargo
+- type: loadoutGroup
+  id: ScpLoadoutGroupEarsClothingHeadsetLogistics
+  name: loadout-group-ears
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHeadsetLogistics
 
-# OuterClothing
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket1AppraisalTool
+  name: loadout-group-storage
+  hidden: true
+  loadouts:
+  - ScpLoadoutAppraisalTool
 
-- type: loadout
-  id: ScpLoadoutClothingOuterWinterCargo
-  equipment:
-    outerClothing: ClothingOuterWinterCargo
-
-# Shoes
-
-- type: loadout
-  id: ScpLoadoutClothingShoesBootsWinterCargo
-  equipment:
-    shoes: ClothingShoesBootsWinterCargo
-
-# ID
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket2ScpLogisticsPDA
+  name: loadout-group-pda
+  hidden: true
+  loadouts:
+  - ScpLoadoutScpLogisticsPDA

@@ -1,70 +1,11 @@
-- type: loadout
-  id: ScpLoadoutClothingHeadHatHardhatYellow
+﻿- type: loadout
+  id: ScpLoadoutKeyCardGeneralTechnicalSpecialist
   equipment:
-    head: ClothingHeadHatHardhatYellow
+    id: KeyCardGeneralTechnicalSpecialist
 
-- type: loadout
-  id: ScpLoadoutClothingHeadHatHardhatOrange
-  equipment:
-    head: ClothingHeadHatHardhatOrange
-
-- type: loadout
-  id: ScpLoadoutClothingHeadHatHardhatRed
-  equipment:
-    head: ClothingHeadHatHardhatRed
-
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitEngineering
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitEngineering
-
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtEngineering
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtEngineering
-
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitEngineeringHazard
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitEngineeringHazard
-
-- type: loadout
-  id: ScpLoadoutClothingBackpackEngineering
-  equipment:
-    back: ClothingBackpackEngineering
-
-- type: loadout
-  id: ScpLoadoutClothingBackpackSatchelEngineering
-  equipment:
-    back: ClothingBackpackSatchelEngineering
-
-- type: loadout
-  id: ScpLoadoutClothingBackpackDuffelEngineering
-  equipment:
-    back: ClothingBackpackDuffelEngineering
-
-# OuterClothing
-
-- type: loadout
-  id: ScpLoadoutClothingOuterVestHazard
-  equipment:
-    outerClothing: ClothingOuterVestHazard
-
-- type: loadout
-  id: ScpLoadoutClothingOuterWinterEngi
-  equipment:
-    outerClothing: ClothingOuterWinterEngi
-
-# Shoes
-
-- type: loadout
-  id: ScpLoadoutClothingShoesBootsWork
-  equipment:
-    shoes: ClothingShoesBootsWork
-
-- type: loadout
-  id: ScpLoadoutClothingShoesBootsWinterEngi
-  equipment:
-    shoes: ClothingShoesBootsWinterEngi
-
-# ID
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardGeneralTechnicalSpecialist
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardGeneralTechnicalSpecialist

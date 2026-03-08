@@ -8,7 +8,6 @@
     department: EngineeringTechnicalService
     time: 54000
   weight: 940
-  startingGear: ChiefTechnicalSpecialistGear
   icon: JobChiefTechnicalSpecialist
   supervisors: job-supervisors-director
   radioBold: true

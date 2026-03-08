@@ -8,7 +8,6 @@
     department: ScientificService
     time: 54000
   weight: 960
-  startingGear: ScientificServiceDirectorGear
   icon: JobScientificServiceDirector
   supervisors: job-supervisors-director
   canBeAntag: true

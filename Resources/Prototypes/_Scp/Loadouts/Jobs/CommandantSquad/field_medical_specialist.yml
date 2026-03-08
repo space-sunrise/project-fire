@@ -1,26 +1,109 @@
-- type: loadout
-  id: ScpLoadoutClothingBackpackBrigmedic
+﻿- type: loadout
+  id: ScpLoadoutClothingOuterCoatLabSecurityMedic
   equipment:
-    back: ClothingBackpackBrigmedic
+    outerClothing: ClothingOuterCoatLabSecurityMedic
 
 - type: loadout
-  id: ScpLoadoutClothingBackpackDuffelBrigmedic
+  id: ScpLoadoutClothingEyesHudMedSec
   equipment:
-    back: ClothingBackpackDuffelBrigmedic
+    eyes: ClothingEyesHudMedSec
 
 - type: loadout
-  id: ScpLoadoutClothingBackpackSatchelBrigmedic
+  id: ScpLoadoutClothingHeadHatBeretSecurityMedic
   equipment:
-    back: ClothingBackpackSatchelBrigmedic
+    head: ClothingHeadHatBeretSecurityMedic
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitBrigmedic
+  id: ScpLoadoutKeyCardFieldMedicalSpecialist
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBrigmedic
+    id: KeyCardFieldMedicalSpecialist
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtBrigmedic
+  id: ScpLoadoutClothingBeltMedicalFilled
   equipment:
-    jumpsuit: ClothingUniformJumpskirtBrigmedic
+    belt: ClothingBeltMedicalFilled
 
-# Injectors
+- type: loadout
+  id: ScpLoadoutClothingHeadsetFieldMedicalSpecialist
+  equipment:
+    ears: ClothingHeadsetFieldMedicalSpecialist
+
+- type: loadout
+  id: ScpLoadoutAmnesiacSpray
+  equipment:
+    pocket1: AmnesiacSpray
+
+- type: loadout
+  id: ScpLoadoutScpMedicalPDA
+  equipment:
+    pocket2: ScpMedicalPDA
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupOuterClothingClothingOuterCoatLabSecurityMedic
+  name: loadout-group-outer-clothing
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingOuterCoatLabSecurityMedic
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupShoesClothingShoesColorRed
+  name: loadout-group-shoes
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingShoesColorRed
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGlovesClothingHandsGlovesLatex
+  name: loadout-group-gloves
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHandsGlovesLatex
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupEyesClothingEyesHudMedSec
+  name: loadout-group-eyes
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingEyesHudMedSec
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupHeadClothingHeadHatBeretSecurityMedic
+  name: loadout-group-head
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHeadHatBeretSecurityMedic
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardFieldMedicalSpecialist
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardFieldMedicalSpecialist
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupEarsClothingHeadsetFieldMedicalSpecialist
+  name: loadout-group-ears
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHeadsetFieldMedicalSpecialist
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBeltClothingBeltMedicalFilled
+  name: loadout-group-belt
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingBeltMedicalFilled
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket2ScpMedicalPDA
+  name: loadout-group-pda
+  hidden: true
+  loadouts:
+  - ScpLoadoutScpMedicalPDA
+
+- type: loadoutGroup
+  parent: [ScpLoadoutGroupCommandantSquadWeaponSecondary]
+  id: ScpLoadoutGroupFieldMedicalSpecialistPocket1
+  minLimit: 1
+  loadouts:
+  - ScpLoadoutAmnesiacSpray

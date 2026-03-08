@@ -1,4 +1,4 @@
-- type: job
+﻿- type: job
   id: EthicsCommitteeRepresentative
   name: job-name-ethics-committee-representative
   description: job-description-ethics-committee-representative
@@ -6,7 +6,6 @@
   requirements:
     - !type:DiscordRoleRequirement
   weight: 860
-  startingGear: EthicsCommitteeRepresentativeGear
   icon: JobEthicsCommitteeRepresentative
   supervisors: job-supervisors-ethics-committee
   canBeAntag: true

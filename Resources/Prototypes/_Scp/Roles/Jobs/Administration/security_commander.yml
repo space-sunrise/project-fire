@@ -11,7 +11,6 @@
     department: ExternalAdministrativeZoneSecurityService
     time: 36000
   weight: 955
-  startingGear: SecurityCommanderGear
   icon: JobSecurityCommander
   supervisors: job-supervisors-director
   canBeAntag: false

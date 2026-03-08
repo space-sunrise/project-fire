@@ -7,7 +7,6 @@
   - !type:DepartmentTimeRequirement
     department: ScientificService
     time: 36000
-  startingGear: LeadResearcherGear
   icon: JobLeadResearcher
   supervisors: job-supervisors-scientific-service-director
   displayWeight: 35

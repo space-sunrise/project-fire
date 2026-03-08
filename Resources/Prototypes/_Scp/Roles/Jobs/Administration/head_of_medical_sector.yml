@@ -14,7 +14,6 @@
       department: MedicalService
       time: 36000
   weight: 945
-  startingGear: HeadOfMedicalSectorGear
   icon: JobHeadOfMedicalSector
   supervisors: job-supervisors-director
   canBeAntag: true

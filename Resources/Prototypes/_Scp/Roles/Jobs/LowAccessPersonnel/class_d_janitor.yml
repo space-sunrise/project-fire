@@ -3,7 +3,6 @@
   name: job-name-class-d-janitor
   description: job-description-class-d-janitor
   playTimeTracker: JobClassDJanitor
-  startingGear: ClassDJanitorGear
   icon: JobClassDJanitor
   supervisors: job-supervisors-security-and-research
   access:

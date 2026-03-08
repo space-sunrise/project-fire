@@ -1,49 +1,35 @@
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitCMO
+﻿- type: loadout
+  id: ScpLoadoutKeyCardHeadOfMedicalSector
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCMO
+    id: KeyCardHeadOfMedicalSector
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtCMO
+  id: ScpLoadoutClothingHeadsetAltMedicalService
   equipment:
-    jumpsuit: ClothingUniformJumpskirtCMO
+    ears: ClothingHeadsetAltMedicalService
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitCMOTurtle
+  id: ScpLoadoutHeadOfMedicalSectorPDA
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCMOTurtle
+    pocket2: HeadOfMedicalSectorPDA
 
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtCMOTurtle
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtCMOTurtle
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardHeadOfMedicalSector
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardHeadOfMedicalSector
 
-# Head
+- type: loadoutGroup
+  id: ScpLoadoutGroupEarsClothingHeadsetAltMedicalService
+  name: loadout-group-ears
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHeadsetAltMedicalService
 
-- type: loadout
-  id: ScpLoadoutClothingHeadHatBeretCmo
-  equipment:
-    head: ClothingHeadHatBeretCmo
-
-- type: loadout
-  id: ScpLoadoutClothingCloakCmo
-  equipment:
-    neck: ClothingCloakCmo
-
-- type: loadout
-  id: ScpLoadoutClothingNeckMantleCMO
-  equipment:
-    neck: ClothingNeckMantleCMO
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterCMO
-
-- type: loadout
-  id: ScpLoadoutClothingOuterCoatLabCmo
-  equipment:
-    outerClothing: ClothingOuterCoatLabCmo
-
-- type: loadout
-  id: ScpLoadoutClothingOuterWinterCMO
-  equipment:
-    outerClothing: ClothingOuterWinterCMO
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket2HeadOfMedicalSectorPDA
+  name: loadout-group-pda
+  hidden: true
+  loadouts:
+  - ScpLoadoutHeadOfMedicalSectorPDA

@@ -6,7 +6,6 @@
   requirements:
   - !type:OverallPlaytimeRequirement
     time: 3600 # 1 час
-  startingGear: ClassDBotanistGear
   icon: JobClassDBotanist
   supervisors: job-supervisors-security-and-research
   access:

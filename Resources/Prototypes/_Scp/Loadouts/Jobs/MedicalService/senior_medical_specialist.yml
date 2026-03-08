@@ -1,37 +1,44 @@
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitSeniorPhysician
+﻿- type: loadout
+  id: ScpLoadoutKeyCardSeniorMedicalSpecialist
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSeniorPhysician
+    id: KeyCardSeniorMedicalSpecialist
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtSeniorPhysician
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtSeniorPhysician
+  id: ScpLoadoutMedicatedSuture
+  storage:
+    back:
+    - MedicatedSuture
 
 - type: loadout
-  id: ScpLoadoutChemBag
-  equipment:
-    belt: ChemBag
+  id: ScpLoadoutRegenerativeMesh
+  storage:
+    back:
+    - RegenerativeMesh
 
-- type: loadout
-  id: ScpLoadoutClothingBeltMedicalFilled
-  equipment:
-    belt: ClothingBeltMedicalFilled
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardSeniorMedicalSpecialist
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardSeniorMedicalSpecialist
 
-# Other Timers
+- type: loadoutGroup
+  id: ScpLoadoutGroupBackStorageMedicatedSuture
+  name: loadout-group-storage
+  hidden: true
+  loadouts:
+  - ScpLoadoutMedicatedSuture
 
-- type: loadout
-  id: ScpLoadoutClothingHeadHatBeretSeniorPhysician
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorPhysicianClothingTimer
-  equipment:
-    head: ClothingHeadHatBeretSeniorPhysician
+- type: loadoutGroup
+  id: ScpLoadoutGroupBackStorageRegenerativeMesh
+  name: loadout-group-storage
+  hidden: true
+  loadouts:
+  - ScpLoadoutRegenerativeMesh
 
-- type: loadout
-  id: ScpLoadoutClothingOuterCoatLabSeniorPhysician
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorPhysicianClothingTimer
-  equipment:
-    outerClothing: ClothingOuterCoatLabSeniorPhysician
+- type: loadoutGroup
+  parent: [ScpLoadoutGroupGlasses]
+  id: ScpLoadoutGroupSeniorMedicalSpecialistEyes
+  minLimit: 1
+  loadouts:
+  - ScpLoadoutClothingEyesHudMedicalEyes

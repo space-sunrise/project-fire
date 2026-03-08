@@ -1,9 +1,23 @@
-- type: loadout
-  id: ScpLoadoutClothingUniformJumpsuitColorYellow
+﻿- type: loadout
+  id: ScpLoadoutKeyCardTechnicalTrainee
   equipment:
-    jumpsuit: ClothingUniformJumpsuitColorYellow
+    id: KeyCardTechnicalTrainee
 
 - type: loadout
-  id: ScpLoadoutClothingUniformJumpskirtColorYellow
+  id: ScpLoadoutBookEngineersHandbook
   equipment:
-    jumpsuit: ClothingUniformJumpskirtColorYellow
+    pocket1: BookEngineersHandbook
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardTechnicalTrainee
+  name: loadout-group-id
+  hidden: true
+  loadouts:
+  - ScpLoadoutKeyCardTechnicalTrainee
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket1BookEngineersHandbook
+  name: loadout-group-storage
+  hidden: true
+  loadouts:
+  - ScpLoadoutBookEngineersHandbook

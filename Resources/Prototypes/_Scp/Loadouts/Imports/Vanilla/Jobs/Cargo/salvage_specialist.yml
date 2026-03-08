@@ -1,8 +1,0 @@
-# Copied for _Scp role loadouts.
-
-- type: loadout
-  id: ScpSalvageSpecialistWintercoat
-  equipment:
-    outerClothing: ClothingOuterWinterMiner
-
-# Shoes

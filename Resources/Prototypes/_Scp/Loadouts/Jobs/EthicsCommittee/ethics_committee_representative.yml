@@ -1,0 +1,37 @@
+﻿#Униформа
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitWithWhiteShirt
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitWithWhiteShirt
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitBlackFormal
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBlackFormal
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtWithWhiteShirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtWithWhiteShirt
+
+#Внешняя одежда
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatBlackFancy
+  equipment:
+    outerClothing: ClothingOuterCoatBlackFancy
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatBlackFancyOpen
+  equipment:
+    outerClothing: ClothingOuterCoatBlackFancyOpen
+
+# Печать
+- type: loadout
+  id: ScpLoadoutRubberStampVeto
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Administration
+  storage:
+    back:
+    - RubberStampVeto
+  groupBy: folders

@@ -1,0 +1,143 @@
+﻿# Голова
+- type: loadout
+  id: ScpLoadoutClothingHeadHelmetSecurity
+  equipment:
+    head: ClothingHeadHelmetSecurity
+
+- type: loadout
+  id: ScpLoadoutClothingHeadClosedHelmetSecurity
+  equipment:
+    head: ClothingHeadClosedHelmetSecurity
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatSecBlack
+  equipment:
+    head: ClothingHeadHatSecBlack
+
+- type: loadout
+  id: ScpLoadoutClothingHeadSecurityBeret
+  equipment:
+    head: ClothingHeadSecurityBeret
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHelmetSecurityRiot
+  equipment:
+    head: ClothingHeadHelmetSecurityRiot
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: LightweightRiotArmorTimer
+
+# Уши
+- type: loadout
+  id: ScpLoadoutClothingHeadsetExternalAdministrativeZoneSecurityService
+  equipment:
+    ears: ClothingHeadsetExternalAdministrativeZoneSecurityService
+
+# Шея
+- type: loadout
+  id: ScpLoadoutClothingNeckMantleSecurity
+  equipment:
+    neck: ClothingNeckMantleSecurity
+
+# Перчатки
+- type: loadout
+  id: ScpLoadoutClothingHandsGlovesSecurity
+  equipment:
+    gloves: ClothingHandsGlovesSecurity
+
+- type: loadout
+  id: ScpLoadoutClothingHandsGlovesWinterSecurity
+  equipment:
+    gloves: ClothingHandsGlovesWinterSecurity
+
+# Униформа
+- type: loadout
+  id: ScpLoadoutClothingUniformSecurity2
+  equipment:
+    jumpsuit: ClothingUniformSecurity2
+
+- type: loadout
+  id: ScpLoadoutClothingUniformSecurity
+  equipment:
+    jumpsuit: ClothingUniformSecurity
+
+- type: loadout
+  id: ScpLoadoutClothingUniformSecurity3
+  equipment:
+    jumpsuit: ClothingUniformSecurity3
+
+- type: loadout
+  id: ScpLoadoutClothingUniformSecurityWhite
+  equipment:
+    jumpsuit: ClothingUniformSecurityWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: CommandantSquadWhiteUniformTimer
+
+- type: loadout
+  id: ScpLoadoutClothingUniformSecurityWhiteAlternativeCommandant
+  equipment:
+    jumpsuit: ClothingUniformSecurityWhiteAlternative
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: CommandantSquadWhiteUniformTimer
+
+# Верхняя одежда
+- type: loadout
+  id: ScpLoadoutClothingOuterArmorSecurity
+  equipment:
+    outerClothing: ClothingOuterArmorSecurity
+
+- type: loadout
+  id: ScpLoadoutClothingOuterArmorSecurityBulletproof
+  equipment:
+    outerClothing: ClothingOuterArmorSecurityBulletproof
+
+- type: loadout
+  id: ScpLoadoutClothingOuterArmorSecurityWinter
+  equipment:
+    outerClothing: ClothingOuterArmorSecurityWinter
+
+- type: loadout
+  id: ScpLoadoutClothingOuterArmorSecurityRiotLight
+  equipment:
+    outerClothing: ClothingOuterArmorSecurityRiotLight
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: LightweightRiotArmorTimer
+
+# Ботинки
+- type: loadout
+  id: ScpLoadoutClothingShoesBootsSecurityGuard
+  equipment:
+    shoes: ClothingShoesBootsSecurityGuard
+
+- type: loadout
+  id: ScpLoadoutClothingShoesBootsWinterSecurityGuard
+  equipment:
+    shoes: ClothingShoesBootsWinterSecurityGuard
+
+# Остальное
+- type: loadout
+  id: ScpLoadoutRadioHandheldExternalAdministrativeZoneSecurityService
+  storage:
+    back:
+    - RadioHandheldExternalAdministrativeZoneSecurityService
+
+# Пистолет-пулемет
+- type: loadout
+  id: ScpLoadoutWeaponSubMachineGunMP7
+  equipment:
+    suitstorage: WeaponSubMachineGunMP7
+
+# Дробовик
+- type: loadout
+  id: ScpLoadoutWeaponShotgunRiot
+  equipment:
+    suitstorage: WeaponShotgunRiot
+
+# Тазер
+- type: loadout
+  id: ScpLoadoutWeaponTaser
+  equipment:
+    pocket1: WeaponTaser

@@ -1,0 +1,26 @@
+- type: loadout
+  id: ScpLoadoutClothingBackpackBrigmedic
+  equipment:
+    back: ClothingBackpackBrigmedic
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackDuffelBrigmedic
+  equipment:
+    back: ClothingBackpackDuffelBrigmedic
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackSatchelBrigmedic
+  equipment:
+    back: ClothingBackpackSatchelBrigmedic
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitBrigmedic
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBrigmedic
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtBrigmedic
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtBrigmedic
+
+# Injectors

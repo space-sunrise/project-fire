@@ -1,99 +1,99 @@
 ﻿# Директор
 
 - type: loadoutGroup
-  id: DirectorHead
+  id: ScpLoadoutGroupDirectorHead
   name: loadout-group-head
   minLimit: 0
   loadouts:
-  - DirectorHat
-  - DirectorCap
+  - ScpLoadoutClothingHeadHatDirector
+  - ScpLoadoutClothingHeadHatCapDirector
 
 - type: loadoutGroup
-  id: DirectorNeck
+  id: ScpLoadoutGroupDirectorNeck
   name: loadout-group-neck
   minLimit: 0
   loadouts:
-  - BlackTie
+  - ScpLoadoutClothingNeckTieDet
 
 - type: loadoutGroup
-  id: DirectorJumpsuit
+  id: ScpLoadoutGroupDirectorJumpsuit
   name: loadout-group-jumpsuit
   loadouts:
-  - DirectorJumpsuit
-  - DirectorJumpsuitBlueFormal
+  - ScpLoadoutClothingUniformJumpsuitDirector
+  - ScpLoadoutClothingUniformJumpsuitBlueDirectorFormal
 
 - type: loadoutGroup
-  id: DirectorOuterClothing
+  id: ScpLoadoutGroupDirectorOuterClothing
   name: loadout-group-outer-clothing
   minLimit: 0
   loadouts:
-  - DirectorTrench
+  - ScpLoadoutClothingOuterCoatDirectorTrench
 
 - type: loadoutGroup
-  id: DirectorGloves
+  id: ScpLoadoutGroupDirectorGloves
   name: loadout-group-gloves
   minLimit: 0
   loadouts:
-  - DirectorGloves
-  - DirectorGlovesSpecial
+  - ScpLoadoutClothingHandsGlovesDirector
+  - ScpLoadoutClothingHandsGlovesDirectorSpecial
 
 - type: loadoutGroup
-  id: DirectorKeyCard
+  id: ScpLoadoutGroupDirectorKeyCard
   name: loadout-group-key-card
   loadouts:
-  - DirectorKeyCard
+  - ScpLoadoutKeyCardDirector
 
 - type: loadoutGroup
-  id: DirectorPDA
+  id: ScpLoadoutGroupDirectorPDA
   name: loadout-group-pda
   loadouts:
-  - LoadoutDirectorPDA
+  - ScpLoadoutDirectorPDA
 
 - type: loadoutGroup
-  id: DirectorBack
+  id: ScpLoadoutGroupDirectorBack
   name: loadout-group-back
   loadouts:
-  - DirectorSatchelLeather
+  - ScpLoadoutClothingBackpackSatchelLeatherDirectorFilled
 
 - type: loadoutGroup
-  id: DirectorShoes
+  id: ScpLoadoutGroupDirectorShoes
   name: loadout-group-shoes
   loadouts:
-  - LaceupBoots
-  - LeatherShoes
-  - LeatherShoesBlack
+  - ScpLoadoutClothingShoesBootsLaceup
+  - ScpLoadoutClothingShoesLeather
+  - ScpLoadoutClothingShoesUSSPBlack
 
 - type: loadoutGroup
-  id: DirectorStorage
+  id: ScpLoadoutGroupDirectorStorage
   name: loadout-group-storage
   loadouts:
-  - DirectorStamp
+  - ScpLoadoutRubberStampCaptain
 
 # Общие
 
 - type: loadoutGroup
-  id: CommonAdministrationGlasses
+  id: ScpLoadoutGroupAdministrationGlasses
   name: loadout-group-eyes
   minLimit: 0
   loadouts:
-  - Sunglasses
-  - ScpGlasses
-  - ScpGlassesJamjar
-  - GlassesMercenary
+  - ScpLoadoutClothingEyesGlassesSunglasses
+  - ScpLoadoutClothingEyesGlasses
+  - ScpLoadoutClothingEyesGlassesJamjar
+  - ScpLoadoutClothingEyesGlassesMercenary
 
 - type: loadoutGroup
-  id: CommonAdministrationHeadset
+  id: ScpLoadoutGroupAdministrationHeadset
   name: loadout-group-ears
   minLimit: 1
   maxLimit: 1
   loadouts:
-  - AdministrationHeadset
+  - ScpLoadoutClothingHeadsetAltAdministration
 
 - type: loadoutGroup
-  id: CommonAdministrationStorage
+  id: ScpLoadoutGroupAdministrationStorage
   name: loadout-group-storage
   minLimit: 0
   maxLimit: 2
   loadouts:
-  - FlashStorage
-  - TelebatonStorage
+  - ScpLoadoutFlash
+  - ScpLoadoutTelebaton

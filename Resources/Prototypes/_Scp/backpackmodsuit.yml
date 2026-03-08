@@ -1,0 +1,5 @@
+- type: loadout
+  id: ScpLoadoutClothingCommonModsuit
+  sponsorOnly: true
+  equipment:
+    back: ClothingCommonModsuit

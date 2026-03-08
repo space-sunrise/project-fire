@@ -1,0 +1,367 @@
+- type: loadout
+  id: ScpLoadoutClothingHeadBandRed
+  equipment:
+    head: ClothingHeadBandRed
+
+- type: loadout
+  id: ScpLoadoutClothingHeadBandWhite
+  equipment:
+    head: ClothingHeadBandWhite
+
+- type: loadout
+  id: ScpLoadoutClothingHeadBandOrange
+  equipment:
+    head: ClothingHeadBandOrange
+
+- type: loadout
+  id: ScpLoadoutClothingHeadBandYellow
+  equipment:
+    head: ClothingHeadBandYellow
+
+- type: loadout
+  id: ScpLoadoutClothingHeadBandCyan
+  equipment:
+    head: ClothingHeadBandCyan
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatBlacksoft
+  equipment:
+    head: ClothingHeadHatBlacksoft
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatRedsoft
+  equipment:
+    head: ClothingHeadHatRedsoft
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatOrangesoft
+  equipment:
+    head: ClothingHeadHatOrangesoft
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatYellowsoft
+  equipment:
+    head: ClothingHeadHatYellowsoft
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatBluesoft
+  equipment:
+    head: ClothingHeadHatBluesoft
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatCyansoft
+  equipment:
+    head: ClothingHeadHatCyansoft
+
+- type: loadout
+  id: ScpLoadoutClothingHeadBandPurple
+  equipment:
+    head: ClothingHeadBandPurple
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatBrownsoft
+  equipment:
+    head: ClothingHeadHatBrownsoft
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatBrownFlatcap
+  equipment:
+    head: ClothingHeadHatBrownFlatcap
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatFedoraBrown
+  equipment:
+    head: ClothingHeadHatFedoraBrown
+
+- type: loadout
+  id: ScpLoadoutClothingHeadBandBrown
+  equipment:
+    head: ClothingHeadBandBrown
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHelmetCosmonaut
+  equipment:
+    head: ClothingHeadHelmetCosmonaut
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatAnimalCatBrown
+  equipment:
+    head: ClothingHeadHatAnimalCatBrown
+
+- type: loadout
+  id: ScpLoadoutMaterialHideBear
+  equipment:
+    head: MaterialHideBear
+
+#Mask
+
+- type: loadout
+  id: ScpLoadoutClothingMaskBandWhite
+  equipment:
+    mask: ClothingMaskBandWhite
+
+- type: loadout
+  id: ScpLoadoutClothingMaskBandRed
+  equipment:
+    mask: ClothingMaskBandRed
+
+- type: loadout
+  id: ScpLoadoutClothingMaskBandOrange
+  equipment:
+    mask: ClothingMaskBandOrange
+
+- type: loadout
+  id: ScpLoadoutClothingMaskBandYellow
+  equipment:
+    mask: ClothingMaskBandYellow
+
+- type: loadout
+  id: ScpLoadoutClothingMaskBandCyan
+  equipment:
+    mask: ClothingMaskBandCyan
+
+- type: loadout
+  id: ScpLoadoutClothingMaskBandPurple
+  equipment:
+    mask: ClothingMaskBandPurple
+
+- type: loadout
+  id: ScpLoadoutClothingMaskGasExplorer
+  equipment:
+    mask: ClothingMaskGasExplorer
+
+- type: loadout
+  id: ScpLoadoutClothingMaskBandBrown
+  equipment:
+    mask: ClothingMaskBandBrown
+
+#Neck
+
+- type: loadout
+  id: ScpLoadoutClothingNeckScarfStripedBlack
+  equipment:
+    neck: ClothingNeckScarfStripedBlack
+
+- type: loadout
+  id: ScpLoadoutClothingNeckScarfStripedGreen
+  equipment:
+    neck: ClothingNeckScarfStripedGreen
+
+- type: loadout
+  id: ScpLoadoutClothingNeckScarfStripedRed
+  equipment:
+    neck: ClothingNeckScarfStripedRed
+
+- type: loadout
+  id: ScpLoadoutClothingNeckScarfStripedOrange
+  equipment:
+    neck: ClothingNeckScarfStripedOrange
+
+- type: loadout
+  id: ScpLoadoutClothingNeckScarfStripedBlue
+  equipment:
+    neck: ClothingNeckScarfStripedBlue
+
+- type: loadout
+  id: ScpLoadoutClothingNeckScarfStripedYellow
+  equipment:
+    neck: ClothingNeckScarfStripedYellow
+
+- type: loadout
+  id: ScpLoadoutClothingNeckScarfStripedCyan
+  equipment:
+    neck: ClothingNeckScarfStripedCyan
+
+- type: loadout
+  id: ScpLoadoutClothingNeckScarfStripedLightBlue
+  equipment:
+    neck: ClothingNeckScarfStripedLightBlue
+
+- type: loadout
+  id: ScpLoadoutClothingNeckTieRed
+  equipment:
+    neck: ClothingNeckTieRed
+
+- type: loadout
+  id: ScpLoadoutBedsheetCosmos
+  equipment:
+    neck: BedsheetCosmos
+
+- type: loadout
+  id: ScpLoadoutClothingNeckScarfStripedBrown
+  equipment:
+    neck: ClothingNeckScarfStripedBrown
+
+- type: loadout
+  id: ScpLoadoutClothingNeckScarfStripedPurple
+  equipment:
+    neck: ClothingNeckScarfStripedPurple
+
+#OuterClothing
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterColorYellow
+  equipment:
+    outerClothing: ClothingOuterWinterColorYellow
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterColorOrange
+  equipment:
+    outerClothing: ClothingOuterWinterColorOrange
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterColorRed
+  equipment:
+    outerClothing: ClothingOuterWinterColorRed
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterColorWhite
+  equipment:
+    outerClothing: ClothingOuterWinterColorWhite
+
+- type: loadout
+  id: ScpLoadoutClothingOuterFlannelWhite
+  equipment:
+    outerClothing: ClothingOuterFlannelWhite
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterColorBrown
+  equipment:
+    outerClothing: ClothingOuterWinterColorBrown
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterColorBlue
+  equipment:
+    outerClothing: ClothingOuterWinterColorBlue
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterColorPurple
+  equipment:
+    outerClothing: ClothingOuterWinterColorPurple
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterColorGreen
+  equipment:
+    outerClothing: ClothingOuterWinterColorGreen
+
+- type: loadout
+  id: ScpLoadoutClothingOuterPonchoClassic
+  equipment:
+    outerClothing: ClothingOuterPonchoClassic
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterColorLightBrown
+  equipment:
+    outerClothing: ClothingOuterWinterColorLightBrown
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatBomber
+  equipment:
+    outerClothing: ClothingOuterCoatBomber
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatTrench
+  equipment:
+    outerClothing: ClothingOuterCoatTrench
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterColorCyan
+  equipment:
+    outerClothing: ClothingOuterWinterColorCyan
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterColorBlack
+  equipment:
+    outerClothing: ClothingOuterWinterColorBlack
+
+#Shoes
+
+- type: loadout
+  id: ScpLoadoutClothingShoesColorYellow
+  equipment:
+    shoes: ClothingShoesColorYellow
+
+- type: loadout
+  id: ScpLoadoutClothingShoesColorRed
+  equipment:
+    shoes: ClothingShoesColorRed
+
+- type: loadout
+  id: ScpLoadoutClothingShoesColorOrange
+  equipment:
+    shoes: ClothingShoesColorOrange
+
+- type: loadout
+  id: ScpLoadoutClothingShoesColorPurple
+  equipment:
+    shoes: ClothingShoesColorPurple
+
+- type: loadout
+  id: ScpLoadoutClothingShoesColorCyan
+  equipment:
+    shoes: ClothingShoesColorCyan
+
+- type: loadout
+  id: ScpLoadoutClothingShoesColorGreen
+  equipment:
+    shoes: ClothingShoesColorGreen
+
+- type: loadout
+  id: ScpLoadoutClothingShoesLeather
+  equipment:
+    shoes: ClothingShoesLeather
+
+# Gloves
+
+- type: loadout
+  id: ScpLoadoutClothingHandsGlovesColorBlack
+  equipment:
+    gloves: ClothingHandsGlovesColorBlack
+
+- type: loadout
+  id: ScpLoadoutClothingHandsGlovesColorRed
+  equipment:
+    gloves: ClothingHandsGlovesColorRed
+
+- type: loadout
+  id: ScpLoadoutClothingHandsGlovesColorTeal
+  equipment:
+    gloves: ClothingHandsGlovesColorTeal
+
+- type: loadout
+  id: ScpLoadoutClothingHandsGlovesColorBlue
+  equipment:
+    gloves: ClothingHandsGlovesColorBlue
+
+- type: loadout
+  id: ScpLoadoutClothingHandsGlovesColorGreen
+  equipment:
+    gloves: ClothingHandsGlovesColorGreen
+
+- type: loadout
+  id: ScpLoadoutClothingHandsGlovesColorYellowBudget
+  equipment:
+    gloves: ClothingHandsGlovesColorYellowBudget
+
+- type: loadout
+  id: ScpLoadoutClothingHandsGlovesColorWhite
+  equipment:
+    gloves: ClothingHandsGlovesColorWhite
+
+- type: loadout
+  id: ScpLoadoutClothingHandsGlovesColorBrown
+  equipment:
+    gloves: ClothingHandsGlovesColorBrown
+
+- type: loadout
+  id: ScpLoadoutClothingHandsGlovesColorLightBrown
+  equipment:
+    gloves: ClothingHandsGlovesColorLightBrown
+
+#Back
+
+- type: loadout
+  id: ScpLoadoutBoxFolderClipboard
+  storage:
+    back:
+    - BoxFolderClipboard

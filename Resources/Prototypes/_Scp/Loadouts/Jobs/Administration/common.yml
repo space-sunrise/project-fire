@@ -1,18 +1,18 @@
 ﻿# Уши
 - type: loadout
-  id: AdministrationHeadset
+  id: ScpLoadoutClothingHeadsetAltAdministration
   equipment:
     ears: ClothingHeadsetAltAdministration
 
 # В сумке
 - type: loadout
-  id: FlashStorage
+  id: ScpLoadoutFlash
   storage:
     back:
     - Flash
 
 - type: loadout
-  id: TelebatonStorage
+  id: ScpLoadoutTelebaton
   storage:
     back:
     - Telebaton

@@ -1,0 +1,43 @@
+- type: loadout
+  id: ScpLoadoutClothingHeadHatBeretChemistry
+  equipment:
+    head: ClothingHeadHatBeretChemistry
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitChemistry
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChemistry
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtChemistry
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChemistry
+
+# Back
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackChemistry
+  equipment:
+    back: ClothingBackpackChemistry
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackSatchelChemistry
+  equipment:
+    back: ClothingBackpackSatchelChemistry
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackDuffelChemistry
+  equipment:
+    back: ClothingBackpackDuffelChemistry
+
+# Outer clothing
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatLabChem
+  equipment:
+    outerClothing: ClothingOuterCoatLabChem
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterChem
+  equipment:
+    outerClothing: ClothingOuterWinterChem

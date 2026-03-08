@@ -1,0 +1,69 @@
+﻿# Голова
+- type: loadout
+  id: ScpLoadoutClothingHeadHelmetBasic
+  equipment:
+    head: ClothingHeadHelmetBasic
+
+# Уши
+- type: loadout
+  id: ScpLoadoutClothingHeadsetHeavyContainmentSecurityService
+  equipment:
+    ears: ClothingHeadsetHeavyContainmentSecurityService
+
+# Глаза
+- type: loadout
+  id: ScpLoadoutClothingEyesGlassesSecurity
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+
+# Униформа
+- type: loadout
+  id: ScpLoadoutClothingUniformSecurityBlack
+  equipment:
+    jumpsuit: ClothingUniformSecurityBlack
+
+- type: loadout
+  id: ScpLoadoutClothingUniformTurleneckBlack
+  equipment:
+    jumpsuit: ClothingUniformTurleneckBlack
+
+- type: loadout
+  id: ScpLoadoutClothingUniformTurleneckBlackSleeveless
+  equipment:
+    jumpsuit: ClothingUniformTurleneckBlackSleeveless
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: CommandantSquadFancyUniformTimer
+
+- type: loadout
+  id: ScpLoadoutClothingUniformSecurityBlackCamouflage
+  equipment:
+    jumpsuit: ClothingUniformSecurityBlackCamouflage
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: CommandantSquadFancyUniformTimer
+
+# Рация
+- type: loadout
+  id: ScpLoadoutRadioHandheldHeavyContainmentSecurityService
+  storage:
+    back:
+    - RadioHandheldHeavyContainmentSecurityService
+
+# Пистолет-пулемет
+- type: loadout
+  id: ScpLoadoutWeaponSubMachineGunMP5
+  equipment:
+    suitstorage: WeaponSubMachineGunMP5
+
+# Дробовик
+- type: loadout
+  id: ScpLoadoutWeaponShotgunSPAS12
+  equipment:
+    suitstorage: WeaponShotgunSPAS12
+
+# Пистолет
+- type: loadout
+  id: ScpLoadoutWeaponPistolG22
+  equipment:
+    pocket1: WeaponPistolG22

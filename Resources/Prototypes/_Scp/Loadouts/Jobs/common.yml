@@ -1,50 +1,34 @@
 ﻿# Глаза
 - type: loadout
-  id: Sunglasses
+  id: ScpLoadoutClothingEyesGlassesSunglasses
   equipment:
     eyes: ClothingEyesGlassesSunglasses
 
 - type: loadout
-  id: ScpGlasses
-  equipment:
-    eyes: ClothingEyesGlasses
-
-- type: loadout
-  id: GlassesMercenary
+  id: ScpLoadoutClothingEyesGlassesMercenary
   equipment:
     eyes: ClothingEyesGlassesMercenary
 
 - type: loadout
-  id: ScpGlassesJamjar
-  equipment:
-    eyes: ClothingEyesGlassesJamjar
-
-# Шея
-- type: loadout
-  id: BlackTie
+  id: ScpLoadoutClothingNeckTieDet
   equipment:
     neck: ClothingNeckTieDet
 
 # Ботинки
 
 - type: loadout
-  id: LaceupBoots
+  id: ScpLoadoutClothingShoesBootsLaceup
   equipment:
     shoes: ClothingShoesBootsLaceup
 
 - type: loadout
-  id: LeatherShoes
-  equipment:
-    shoes: ClothingShoesLeather
-
-- type: loadout
-  id: LeatherShoesBlack
+  id: ScpLoadoutClothingShoesUSSPBlack
   equipment:
     shoes: ClothingShoesUSSPBlack
 
 # Вещи
 - type: loadout
-  id: PortableStationMap
+  id: ScpLoadoutHandheldStationMap
   storage:
     back:
     - HandheldStationMap

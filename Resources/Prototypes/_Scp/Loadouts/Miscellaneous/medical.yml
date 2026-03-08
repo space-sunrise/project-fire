@@ -1,0 +1,244 @@
+- type: loadout
+  id: ScpLoadoutSyringe
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: MedicalService # Fire Edit
+      time: 7200 # 2hr
+  storage:
+    back:
+    - Syringe
+
+- type: loadout
+  id: ScpLoadoutChemistryBottleEpinephrine
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: MedicalService # Fire Edit
+      time: 7200 # 2hr
+  storage:
+    back:
+    - ChemistryBottleEpinephrine
+
+- type: loadout
+  id: ScpLoadoutHandheldHealthAnalyzer
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: MedicalService # Fire Edit
+      time: 7200 # 2hr
+  storage:
+    back:
+    - HandheldHealthAnalyzer
+
+- type: loadout
+  id: ScpLoadoutClothingEyesHudMedical
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: MedicalService # Fire Edit
+      time: 7200 # 2hr
+  storage:
+    back:
+    - ClothingEyesHudMedical
+
+- type: loadout
+  id: ScpLoadoutClothingEyesEyepatchHudMedical
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: MedicalService # Fire Edit
+      time: 7200 # 2hr
+  storage:
+    back:
+    - ClothingEyesEyepatchHudMedical
+
+- type: loadout
+  id: ScpLoadoutBoxMouthSwab
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: MedicalService # Fire Edit
+      time: 7200 # 2hr
+  storage:
+    back:
+    - BoxMouthSwab
+
+- type: loadout
+  id: ScpLoadoutToyFigurineChemist
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobPharmaceuticalSpecialist # Fire Edit
+      time: 72000 # 20 hour
+  storage:
+    back:
+    - ToyFigurineChemist
+
+- type: loadout
+  id: ScpLoadoutToyFigurineChiefMedicalOfficer
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobHeadOfMedicalSector # Fire Edit
+      time: 72000 # 20 hour
+  storage:
+    back:
+    - ToyFigurineChiefMedicalOfficer
+
+- type: loadout
+  id: ScpLoadoutToyFigurineParamedic
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobMedicalSpecialist # Fire Edit
+      time: 72000 # 20 hour
+  storage:
+    back:
+    - ToyFigurineParamedic
+
+- type: loadout
+  id: ScpLoadoutToyFigurineMedicalDoctor
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobMedicalSpecialist # Fire Edit
+      time: 72000 # 20 hour
+  storage:
+    back:
+    - ToyFigurineMedicalDoctor
+
+- type: loadout
+  id: ScpLoadoutClothingNeckStethoscopeGold
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: MedicalService # Fire Edit
+      time: 1080000 # 300hr
+  storage:
+    back:
+    - ClothingNeckStethoscopeGold
+
+#Neck
+
+- type: loadout
+  id: ScpLoadoutClothingNeckStethoscope
+  equipment:
+    neck: ClothingNeckStethoscope
+
+#Mask
+
+- type: loadout
+  id: ScpLoadoutClothingMaskBreathMedical
+  equipment:
+    mask: ClothingMaskBreathMedical
+
+- type: loadout
+  id: ScpLoadoutClothingMaskBreathMedicalRed
+  equipment:
+    mask: ClothingMaskBreathMedicalRed
+
+- type: loadout
+  id: ScpLoadoutClothingMaskBreathMedicalGreen
+  equipment:
+    mask: ClothingMaskBreathMedicalGreen
+
+- type: loadout
+  id: ScpLoadoutClothingMaskBreathMedicalOrange
+  equipment:
+    mask: ClothingMaskBreathMedicalOrange
+
+- type: loadout
+  id: ScpLoadoutClothingMaskBreathMedicalBlack
+  equipment:
+    mask: ClothingMaskBreathMedicalBlack
+
+- type: loadout
+  id: ScpLoadoutClothingMaskBreathMedicalBlue
+  equipment:
+    mask: ClothingMaskBreathMedicalBlue
+
+- type: loadout
+  id: ScpLoadoutClothingMaskSterileBlack
+  equipment:
+    mask: ClothingMaskSterileBlack
+
+- type: loadout
+  id: ScpLoadoutClothingMaskSterileBlue
+  equipment:
+    mask: ClothingMaskSterileBlue
+
+- type: loadout
+  id: ScpLoadoutClothingMaskSterileGreen
+  equipment:
+    mask: ClothingMaskSterileGreen
+
+- type: loadout
+  id: ScpLoadoutClothingMaskSterileOrange
+  equipment:
+    mask: ClothingMaskSterileOrange
+
+- type: loadout
+  id: ScpLoadoutClothingMaskSterileRed
+  equipment:
+    mask: ClothingMaskSterileRed
+
+# #Gloves
+
+# - type: loadout
+#   id: Sunrise-GlovesNitrileBlack # Sunrise-TODO: Не добавлять, пока не сделаете им уникальные для каждой волокна, ибо на момент комита тут все "нитриловые"
+#   equipment:
+#     gloves: ClothingHandsGlovesNitrileBlack
+
+# - type: loadout
+#   id: Sunrise-GlovesNitrileGreen
+#   equipment:
+#     gloves: ClothingHandsGlovesNitrileGreen
+
+# - type: loadout
+#   id: Sunrise-GlovesNitrileOrange
+#   equipment:
+#     gloves: ClothingHandsGlovesNitrileOrange
+
+# - type: loadout
+#   id: Sunrise-GlovesNitrileRed
+#   equipment:
+#     gloves: ClothingHandsGlovesNitrileRed
+
+# - type: loadout
+#   id: Sunrise-GlovesNitrileBlue
+#   equipment:
+#     gloves: ClothingHandsGlovesNitrileBlue
+
+# Когда появятся вирусолог и генетик, перенести к ним (если появятся конечно)
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterGen
+  equipment:
+    outerClothing: ClothingOuterWinterGen
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatLabGene
+  equipment:
+    outerClothing: ClothingOuterCoatLabGene
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterViro
+  equipment:
+    outerClothing: ClothingOuterWinterViro
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatLabViro
+  equipment:
+    outerClothing: ClothingOuterCoatLabViro

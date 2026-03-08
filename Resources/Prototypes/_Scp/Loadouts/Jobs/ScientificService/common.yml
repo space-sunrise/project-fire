@@ -1,0 +1,92 @@
+- type: loadout
+  id: ScpLoadoutClothingHeadHatCorpsoft
+  equipment:
+    head: ClothingHeadHatCorpsoft
+
+- type: loadout
+  id: ScpLoadoutClothingHeadBandSkull
+  equipment:
+    head: ClothingHeadBandSkull
+
+# Neck
+
+- type: loadout
+  id: ScpLoadoutClothingNeckTieSci
+  equipment:
+    neck: ClothingNeckTieSci
+
+# Jumpsuit
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitScientist
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitScientist
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtScientist
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtScientist
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitRoboticist
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitRoboticist
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtRoboticist
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtRoboticist
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackScience
+  equipment:
+    back: ClothingBackpackScience
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackSatchelScience
+  equipment:
+    back: ClothingBackpackSatchelScience
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackDuffelScience
+  equipment:
+    back: ClothingBackpackDuffelScience
+
+# OuterClothing
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatLab
+  equipment:
+    outerClothing: ClothingOuterCoatLab
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatRnd
+  equipment:
+    outerClothing: ClothingOuterCoatRnd
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterSci
+  equipment:
+    outerClothing: ClothingOuterWinterSci
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatRobo
+  equipment:
+    outerClothing: ClothingOuterCoatRobo
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterRobo
+  equipment:
+    outerClothing: ClothingOuterWinterRobo
+
+- type: loadout
+  id: ScpLoadoutClothingHandsGlovesLatex
+  equipment:
+    gloves: ClothingHandsGlovesLatex
+
+- type: loadout
+  id: ScpLoadoutClothingShoesBootsWinterSci
+  equipment:
+    shoes: ClothingShoesBootsWinterSci
+
+# ID

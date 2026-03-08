@@ -1,0 +1,76 @@
+- type: loadout
+  id: ScpLoadoutClothingBackpackCE
+  equipment:
+    back: ClothingBackpackCE
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitChiefEngineer
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChiefEngineer
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackSatchelCE
+  equipment:
+    back: ClothingBackpackSatchelCE
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtChiefEngineer
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChiefEngineer
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackDuffelCE
+  equipment:
+    back: ClothingBackpackDuffelCE
+
+# Head
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitChiefEngineerTurtle
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChiefEngineerTurtle
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatSingulo
+  equipment:
+    head: ClothingHeadHatSingulo
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: BigMasterCE
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtChiefEngineerTurtle
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChiefEngineerTurtle
+
+# Neck
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatBeretCE
+  equipment:
+    head: ClothingHeadHatBeretCE
+
+- type: loadout
+  id: ScpLoadoutClothingNeckCloakCe
+  equipment:
+    neck: ClothingNeckCloakCe
+
+- type: loadout
+  id: ScpLoadoutClothingNeckMantleCE
+  equipment:
+    neck: ClothingNeckMantleCE
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCE
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterCE
+  equipment:
+    outerClothing: ClothingOuterWinterCE
+
+# Shoes
+
+- type: loadout
+  id: ScpLoadoutClothingShoesColorBrown
+  equipment:
+    shoes: ClothingShoesColorBrown

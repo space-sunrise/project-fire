@@ -1,0 +1,258 @@
+- type: loadout
+  id: ScpLoadoutClothingThighWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingThighWhite
+
+- type: loadout
+  id: ScpLoadoutClothingFishnet
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingFishnet
+
+- type: loadout
+  id: ScpLoadoutClothingKneeWhite
+  sponsorOnly: false
+  equipment:
+    socks: ClothingKneeWhite
+
+- type: loadout
+  id: ScpLoadoutClothingKneeFishnet
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingKneeFishnet
+
+- type: loadout
+  id: ScpLoadoutClothingPantyhose
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingPantyhose
+
+- type: loadout
+  id: ScpLoadoutClothingShortBlack
+  sponsorOnly: false
+  equipment:
+    socks: ClothingShortBlack
+
+- type: loadout
+  id: ScpLoadoutClothingStockingsBlue
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingStockingsBlue
+
+- type: loadout
+  id: ScpLoadoutClothingStockingsCyan
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingStockingsCyan
+
+- type: loadout
+  id: ScpLoadoutClothingStockingsDpink
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingStockingsDpink
+
+- type: loadout
+  id: ScpLoadoutClothingStockingsGreen
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingStockingsGreen
+
+- type: loadout
+  id: ScpLoadoutClothingStockingslpink
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingStockingslpink
+
+- type: loadout
+  id: ScpLoadoutClothingStockingsOrange
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingStockingsOrange
+
+- type: loadout
+  id: ScpLoadoutClothingStockingsPurple
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingStockingsPurple
+
+- type: loadout
+  id: ScpLoadoutClothingThighAce
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingThighAce
+
+- type: loadout
+  id: ScpLoadoutClothingThighAsblastusa
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingThighAsblastusa
+
+- type: loadout
+  id: ScpLoadoutClothingThighBee
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingThighBee
+
+- type: loadout
+  id: ScpLoadoutClothingThighBlack
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingThighBlack
+
+- type: loadout
+  id: ScpLoadoutClothingThighCommie
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingThighCommie
+
+- type: loadout
+  id: ScpLoadoutClothingThighRainbow
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingThighRainbow
+
+- type: loadout
+  id: ScpLoadoutClothingThighTrans
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingThighTrans
+
+- type: loadout
+  id: ScpLoadoutClothingThighUk
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    socks: ClothingThighUk
+
+- type: loadout
+  id: ScpLoadoutClothingShortWhite
+  equipment:
+    socks: ClothingShortWhite
+
+- type: loadout
+  id: ScpLoadoutClothingKneeAce
+  sponsorOnly: false
+  equipment:
+    socks: ClothingKneeAce
+
+- type: loadout
+  id: ScpLoadoutClothingKneeAsblastusa
+  sponsorOnly: false
+  equipment:
+    socks: ClothingKneeAsblastusa
+
+- type: loadout
+  id: ScpLoadoutClothingKneeBee
+  sponsorOnly: false
+  equipment:
+    socks: ClothingKneeBee
+
+- type: loadout
+  id: ScpLoadoutClothingKneeBlack
+  sponsorOnly: false
+  equipment:
+    socks: ClothingKneeBlack
+
+- type: loadout
+  id: ScpLoadoutClothingKneeCommie
+  sponsorOnly: false
+  equipment:
+    socks: ClothingKneeCommie
+
+- type: loadout
+  id: ScpLoadoutClothingKneeRainbow
+  sponsorOnly: false
+  equipment:
+    socks: ClothingKneeRainbow
+
+- type: loadout
+  id: ScpLoadoutClothingKneeStriped
+  sponsorOnly: false
+  equipment:
+    socks: ClothingKneeStriped
+
+- type: loadout
+  id: ScpLoadoutClothingKneeThin
+  sponsorOnly: false
+  equipment:
+    socks: ClothingKneeThin
+
+- type: loadout
+  id: ScpLoadoutClothingKneeTrans
+  sponsorOnly: false
+  equipment:
+    socks: ClothingKneeTrans
+
+- type: loadout
+  id: ScpLoadoutClothingKneeUk
+  sponsorOnly: false
+  equipment:
+    socks: ClothingKneeUk
+
+- type: loadout
+  id: ScpLoadoutClothingNormBlack
+  sponsorOnly: false
+  equipment:
+    socks: ClothingNormBlack
+
+- type: loadout
+  id: ScpLoadoutClothingNormWhite
+  sponsorOnly: false
+  equipment:
+    socks: ClothingNormWhite

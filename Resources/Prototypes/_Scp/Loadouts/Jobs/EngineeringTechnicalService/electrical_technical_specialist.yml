@@ -1,0 +1,45 @@
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitAtmos
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitAtmos
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtAtmos
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtAtmos
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitAtmosCasual
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitAtmosCasual
+
+# Back
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackAtmospherics
+  equipment:
+    back: ClothingBackpackAtmospherics
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackSatchelAtmospherics
+  equipment:
+    back: ClothingBackpackSatchelAtmospherics
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackDuffelAtmospherics
+  equipment:
+    back: ClothingBackpackDuffelAtmospherics
+
+# OuterClothing
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterAtmos
+  equipment:
+    outerClothing: ClothingOuterWinterAtmos
+
+# Shoes
+
+- type: loadout
+  id: ScpLoadoutClothingShoesColorWhite
+  equipment:
+    shoes: ClothingShoesColorWhite

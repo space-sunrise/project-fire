@@ -1,0 +1,56 @@
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitQM
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitQM
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtQM
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtQM
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitQMTurtleneck
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitQMTurtleneck
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtQMTurtleneck
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtQMTurtleneck
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitQMFormal
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitQMFormal
+
+# Head
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatQMsoft
+  equipment:
+    head: ClothingHeadHatQMsoft
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatBeretQM
+  equipment:
+    head: ClothingHeadHatBeretQM
+
+# Neck
+
+- type: loadout
+  id: ScpLoadoutClothingNeckCloakQm
+  equipment:
+    neck: ClothingNeckCloakQm
+
+- type: loadout
+  id: ScpLoadoutClothingNeckMantleQM
+  equipment:
+    neck: ClothingNeckMantleQM
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterQM
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterQM
+  equipment:
+    outerClothing: ClothingOuterWinterQM

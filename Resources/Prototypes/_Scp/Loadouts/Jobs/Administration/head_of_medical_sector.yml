@@ -1,0 +1,49 @@
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitCMO
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCMO
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtCMO
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCMO
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitCMOTurtle
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCMOTurtle
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtCMOTurtle
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCMOTurtle
+
+# Head
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatBeretCmo
+  equipment:
+    head: ClothingHeadHatBeretCmo
+
+- type: loadout
+  id: ScpLoadoutClothingCloakCmo
+  equipment:
+    neck: ClothingCloakCmo
+
+- type: loadout
+  id: ScpLoadoutClothingNeckMantleCMO
+  equipment:
+    neck: ClothingNeckMantleCMO
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCMO
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatLabCmo
+  equipment:
+    outerClothing: ClothingOuterCoatLabCmo
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterCMO
+  equipment:
+    outerClothing: ClothingOuterWinterCMO

@@ -1,0 +1,36 @@
+- type: loadout
+  id: ScpLoadoutClothingNeckMantleRD
+  equipment:
+    neck: ClothingNeckMantleRD
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterRD
+
+- type: loadout
+  id: ScpLoadoutClothingNeckCloakRd
+  equipment:
+    neck: ClothingNeckCloakRd
+
+# Jumpsuit
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitResearchDirector
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitResearchDirector
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtResearchDirector
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtResearchDirector
+
+# OuterClothing
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatRD
+  equipment:
+    outerClothing: ClothingOuterCoatRD
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterRD
+  equipment:
+    outerClothing: ClothingOuterWinterRD

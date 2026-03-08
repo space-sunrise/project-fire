@@ -1,0 +1,20 @@
+﻿# Униформа
+- type: loadout
+  id: ScpLoadoutClothingUniformSecurityBlackDresscoat
+  equipment:
+    jumpsuit: ClothingUniformSecurityBlackDresscoat
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SpecialPurposeSquadLeaderFancyUniformTimer
+
+# Наушник
+- type: loadout
+  id: ScpLoadoutClothingHeadsetAltHeavyContainmentSecurityService
+  equipment:
+    ears: ClothingHeadsetAltHeavyContainmentSecurityService
+
+# Ключ карта
+- type: loadout
+  id: ScpLoadoutKeyCardHeavyContainmentZoneCommandant
+  equipment:
+    id: KeyCardHeavyContainmentZoneCommandant

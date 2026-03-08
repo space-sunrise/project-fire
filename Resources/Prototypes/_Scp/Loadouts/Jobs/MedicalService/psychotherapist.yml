@@ -1,0 +1,9 @@
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitPsychologist
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitPsychologist
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtPsychologist
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtPsychologist

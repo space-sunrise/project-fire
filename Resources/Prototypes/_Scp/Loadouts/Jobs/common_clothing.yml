@@ -1,0 +1,31 @@
+- type: loadout
+  id: ScpLoadoutClothingBackpack
+  equipment:
+    back: ClothingBackpack
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackSatchel
+  equipment:
+    back: ClothingBackpackSatchel
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackDuffel
+  equipment:
+    back: ClothingBackpackDuffel
+
+# Gloves
+
+- type: loadout
+  id: ScpLoadoutClothingHandsGlovesFingerlessInsulated
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GreyTider
+  equipment:
+    gloves: ClothingHandsGlovesFingerlessInsulated
+
+# Outerclothing
+
+- type: loadout
+  id: ScpLoadoutClothingShoesColorBlack
+  equipment:
+    shoes: ClothingShoesColorBlack

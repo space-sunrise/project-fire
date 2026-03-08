@@ -3,677 +3,677 @@
 - type: roleLoadout
   id: JobDirector
   groups:
-  - DirectorHead
-  - CommonAdministrationGlasses
-  - CommonAdministrationHeadset
-  - DirectorNeck
-  - DirectorJumpsuit
-  - DirectorOuterClothing
-  - DirectorGloves
-  - DirectorShoes
-  - DirectorKeyCard
-  - DirectorPDA
-  - DirectorBack
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupDirectorHead
+  - ScpLoadoutGroupAdministrationGlasses
+  - ScpLoadoutGroupAdministrationHeadset
+  - ScpLoadoutGroupDirectorNeck
+  - ScpLoadoutGroupDirectorJumpsuit
+  - ScpLoadoutGroupDirectorOuterClothing
+  - ScpLoadoutGroupDirectorGloves
+  - ScpLoadoutGroupDirectorShoes
+  - ScpLoadoutGroupDirectorKeyCard
+  - ScpLoadoutGroupDirectorPDA
+  - ScpLoadoutGroupDirectorBack
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobScientificServiceDirector
   groups:
-  - ScpGroupTankHarness
-  - ScpResearchDirectorNeck
-  - ScpResearchDirectorJumpsuit
-  - ScpScientistBackpack
-  - ScpResearchDirectorOuterClothing
-  - ScpScientistGloves
-  - ScpResearchDirectorShoes
-  - ScpGlasses
-  - ScpCommonTrinkets
-  - ScientificServiceTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupScientificServiceDirectorNeck
+  - ScpLoadoutGroupScientificServiceDirectorJumpsuit
+  - ScpLoadoutGroupScientistBackpack
+  - ScpLoadoutGroupScientificServiceDirectorOuterClothing
+  - ScpLoadoutGroupScientistGloves
+  - ScpLoadoutGroupScientificServiceDirectorShoes
+  - ScpLoadoutGroupGlasses
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupScientificServiceTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobSecurityCommander
   groups:
-  - ScpHeadofSecurityHead
-  - ScpHeadofSecurityNeck
-  - ScpHeadofSecurityJumpsuit
-  - ScpSecurityBackpack
-  - CommonSecurityBelt
-  - ScpHeadofSecurityOuterClothing
-  - GuardShoes
-  - SecurityCommanderWeapon
-  - SecurityRadio
-  - CommonSecurityTrinkets
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupSecurityCommanderHead
+  - ScpLoadoutGroupSecurityCommanderNeck
+  - ScpLoadoutGroupSecurityCommanderJumpsuit
+  - ScpLoadoutGroupSecurityBackpack
+  - ScpLoadoutGroupSecurityBelt
+  - ScpLoadoutGroupSecurityCommanderOuterClothing
+  - ScpLoadoutGroupGuardShoes
+  - ScpLoadoutGroupSecurityCommanderWeapon
+  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupSecurityTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobChiefTechnicalSpecialist
   groups:
-  - ScpGroupTankHarness
-  - ScpChiefEngineerHead
-  - ScpSunriseCEMask
-  - ScpChiefEngineerJumpsuit
-  - ScpSunriseCEGloves
-  - ScpChiefEngineerBackpack
-  - ScpChiefEngineerOuterClothing
-  - ScpChiefEngineerNeck
-  - ScpChiefEngineerShoes
-  - ScpSurvivalExtended
-  - ScpTrinketsEngineering
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupChiefTechnicalSpecialistHead
+  - ScpLoadoutGroupChiefTechnicalSpecialistMask
+  - ScpLoadoutGroupChiefTechnicalSpecialistJumpsuit
+  - ScpLoadoutGroupChiefTechnicalSpecialistGloves
+  - ScpLoadoutGroupChiefTechnicalSpecialistBackpack
+  - ScpLoadoutGroupChiefTechnicalSpecialistOuterClothing
+  - ScpLoadoutGroupChiefTechnicalSpecialistNeck
+  - ScpLoadoutGroupChiefTechnicalSpecialistShoes
+  - ScpLoadoutGroupSurvivalExtended
+  - ScpLoadoutGroupEngineeringTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobPersonnelOfficer
   groups:
-  - ScpGroupTankHarness
-  - ScpHoPHead
-  - ScpHoPNeck
-  - ScpHoPJumpsuit
-  - ScpHoPBackpack
-  - ScpHoPOuterClothing
-  - ScpGlasses
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupPersonnelOfficerHead
+  - ScpLoadoutGroupPersonnelOfficerNeck
+  - ScpLoadoutGroupPersonnelOfficerJumpsuit
+  - ScpLoadoutGroupPersonnelOfficerBackpack
+  - ScpLoadoutGroupPersonnelOfficerOuterClothing
+  - ScpLoadoutGroupGlasses
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobHeadOfMedicalSector
   groups:
-  - ScpGroupTankHarness
-  - ScpChiefMedicalOfficerHead
-  - ScpSunriseChiefMedicalOfficerMask
-  - ScpChiefMedicalOfficerJumpsuit
-  - ScpSunriseChiefMedicalOfficerGloves
-  - ScpMedicalBackpack
-  - ScpChiefMedicalOfficerOuterClothing
-  - ScpChiefMedicalOfficerNeck
-  - ScpChiefMedicalOfficerShoes
-  - ScpGlasses
-  - ScpMedicalTrinkets
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupHeadOfMedicalSectorHead
+  - ScpLoadoutGroupHeadOfMedicalSectorMask
+  - ScpLoadoutGroupHeadOfMedicalSectorJumpsuit
+  - ScpLoadoutGroupHeadOfMedicalSectorGloves
+  - ScpLoadoutGroupMedicalBackpack
+  - ScpLoadoutGroupHeadOfMedicalSectorOuterClothing
+  - ScpLoadoutGroupHeadOfMedicalSectorNeck
+  - ScpLoadoutGroupHeadOfMedicalSectorShoes
+  - ScpLoadoutGroupGlasses
+  - ScpLoadoutGroupMedicalTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobSeniorLogisticsOfficer
   groups:
-  - ScpGroupTankHarness
-  - ScpQuartermasterHead
-  - ScpSunriseQuartermasterMask
-  - ScpQuartermasterJumpsuit
-  - ScpSunriseQuartermasterGloves
-  - ScpCargoTechnicianBackpack
-  - ScpQuartermasterOuterClothing
-  - ScpQuartermasterNeck
-  - ScpQuartermasterShoes
-  - ScpGlasses
-  - ScpTrinketsCargo
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupSeniorLogisticsOfficerHead
+  - ScpLoadoutGroupSeniorLogisticsOfficerMask
+  - ScpLoadoutGroupSeniorLogisticsOfficerJumpsuit
+  - ScpLoadoutGroupSeniorLogisticsOfficerGloves
+  - ScpLoadoutGroupLogisticsOfficerBackpack
+  - ScpLoadoutGroupSeniorLogisticsOfficerOuterClothing
+  - ScpLoadoutGroupSeniorLogisticsOfficerNeck
+  - ScpLoadoutGroupSeniorLogisticsOfficerShoes
+  - ScpLoadoutGroupGlasses
+  - ScpLoadoutGroupCargoTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 # Комитет по этике
 
 - type: roleLoadout
   id: JobEthicsCommitteeRepresentative
   groups:
-  - EthicsCommitteeRepresentativeJumpsuit
-  - EthicsCommitteeRepresentativeOuterClothing
-  - EthicsCommitteeRepresentativeTrinkets
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupEthicsCommitteeRepresentativeJumpsuit
+  - ScpLoadoutGroupEthicsCommitteeRepresentativeOuterClothing
+  - ScpLoadoutGroupEthicsCommitteeRepresentativeTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 # Отряд специального назначения
 
 - type: roleLoadout
   id: JobHeavyContainmentZoneCommandant
   groups:
-  - SquadLeaderHead
-  - SpecialPurposeSquadLeaderEars
-  - CommonSecurityEyes
-  - GuardMantle
-  - SquadLeaderJumpsuit
-  - SquadLeaderOuterClothing
-  - SquadLeaderGloves
-  - GuardShoes
-  - SpecialPurposeSquadLeaderKeyCard
-  - CommonSecurityPDA
-  - ScpSecurityBackpack
-  - CommonSecurityBelt
-  - SpecialPurposeSquadWeaponPrimary
-  - SpecialPurposeSquadWeaponSecondary
-  - SecurityRadio
-  - CommonSecurityTrinkets
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupSquadLeaderHead
+  - ScpLoadoutGroupSpecialPurposeSquadLeaderEars
+  - ScpLoadoutGroupSecurityEyes
+  - ScpLoadoutGroupGuardMantle
+  - ScpLoadoutGroupSquadLeaderJumpsuit
+  - ScpLoadoutGroupSquadLeaderOuterClothing
+  - ScpLoadoutGroupSquadLeaderGloves
+  - ScpLoadoutGroupGuardShoes
+  - ScpLoadoutGroupSpecialPurposeSquadLeaderKeyCard
+  - ScpLoadoutGroupSecurityPDA
+  - ScpLoadoutGroupSecurityBackpack
+  - ScpLoadoutGroupSecurityBelt
+  - ScpLoadoutGroupSpecialPurposeSquadWeaponPrimary
+  - ScpLoadoutGroupSpecialPurposeSquadWeaponSecondary
+  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupSecurityTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobSeniorHeavyContainmentZoneOfficer
   groups:
-  - SpecialPurposeSquadHead
-  - SpecialPurposeSquadEars
-  - SpecialPurposeSquadEyes
-  - GuardMantle
-  - SpecialPurposeSquadJumpsuit
-  - GuardArmorVest
-  - GuardGloves
-  - GuardShoes
-  - SpecialPurposeSquadSeniorSeniorHeavyContainmentZoneOfficerKeyCard
-  - CommonSecurityPDA
-  - ScpSecurityBackpack
-  - CommonSecurityBelt
-  - SpecialPurposeSquadWeaponPrimary
-  - SpecialPurposeSquadWeaponSecondary
-  - SecurityRadio
-  - CommonSecurityTrinkets
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupSpecialPurposeSquadHead
+  - ScpLoadoutGroupSpecialPurposeSquadEars
+  - ScpLoadoutGroupSpecialPurposeSquadEyes
+  - ScpLoadoutGroupGuardMantle
+  - ScpLoadoutGroupSpecialPurposeSquadJumpsuit
+  - ScpLoadoutGroupGuardArmorVest
+  - ScpLoadoutGroupGuardGloves
+  - ScpLoadoutGroupGuardShoes
+  - ScpLoadoutGroupSpecialPurposeSquadSeniorHeavyContainmentZoneOfficerKeyCard
+  - ScpLoadoutGroupSecurityPDA
+  - ScpLoadoutGroupSecurityBackpack
+  - ScpLoadoutGroupSecurityBelt
+  - ScpLoadoutGroupSpecialPurposeSquadWeaponPrimary
+  - ScpLoadoutGroupSpecialPurposeSquadWeaponSecondary
+  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupSecurityTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobHeavyContainmentZoneOfficer
   groups:
-  - SpecialPurposeSquadHead
-  - SpecialPurposeSquadEars
-  - SpecialPurposeSquadEyes
-  - GuardMantle
-  - SpecialPurposeSquadJumpsuit
-  - GuardArmorVest
-  - GuardGloves
-  - GuardShoes
-  - SpecialPurposeSquadHeavyContainmentZoneOfficerKeyCard
-  - CommonSecurityPDA
-  - ScpSecurityBackpack
-  - CommonSecurityBelt
-  - SpecialPurposeSquadWeaponPrimary
-  - SpecialPurposeSquadWeaponSecondary
-  - SecurityRadio
-  - CommonSecurityTrinkets
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupSpecialPurposeSquadHead
+  - ScpLoadoutGroupSpecialPurposeSquadEars
+  - ScpLoadoutGroupSpecialPurposeSquadEyes
+  - ScpLoadoutGroupGuardMantle
+  - ScpLoadoutGroupSpecialPurposeSquadJumpsuit
+  - ScpLoadoutGroupGuardArmorVest
+  - ScpLoadoutGroupGuardGloves
+  - ScpLoadoutGroupGuardShoes
+  - ScpLoadoutGroupSpecialPurposeSquadHeavyContainmentZoneOfficerKeyCard
+  - ScpLoadoutGroupSecurityPDA
+  - ScpLoadoutGroupSecurityBackpack
+  - ScpLoadoutGroupSecurityBelt
+  - ScpLoadoutGroupSpecialPurposeSquadWeaponPrimary
+  - ScpLoadoutGroupSpecialPurposeSquadWeaponSecondary
+  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupSecurityTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobJuniorHeavyContainmentZoneOfficer
   groups:
-  - SpecialPurposeSquadHead
-  - SpecialPurposeSquadEars
-  - SpecialPurposeSquadEyes
-  - SpecialPurposeSquadJumpsuitJunior
-  - GuardArmorVest
-  - GuardGloves
-  - GuardShoes
-  - SpecialPurposeSquadJuniorHeavyContainmentZoneOfficerKeyCard
-  - CommonSecurityPDA
-  - ScpSecurityBackpack
-  - CommonSecurityBelt
-  - SpecialPurposeSquadWeaponSecondary
-  - SecurityRadio
-  - CommonSecurityTrinkets
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupSpecialPurposeSquadHead
+  - ScpLoadoutGroupSpecialPurposeSquadEars
+  - ScpLoadoutGroupSpecialPurposeSquadEyes
+  - ScpLoadoutGroupSpecialPurposeSquadJumpsuitJunior
+  - ScpLoadoutGroupGuardArmorVest
+  - ScpLoadoutGroupGuardGloves
+  - ScpLoadoutGroupGuardShoes
+  - ScpLoadoutGroupSpecialPurposeSquadJuniorHeavyContainmentZoneOfficerKeyCard
+  - ScpLoadoutGroupSecurityPDA
+  - ScpLoadoutGroupSecurityBackpack
+  - ScpLoadoutGroupSecurityBelt
+  - ScpLoadoutGroupSpecialPurposeSquadWeaponSecondary
+  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupSecurityTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 # Комендантский отряд
 
 - type: roleLoadout
   id: JobExternalAdministrativeZoneCommandant
   groups:
-  - SquadLeaderHead
-  - CommandantSquadLeaderEars
-  - CommonSecurityEyes
-  - GuardMantle
-  - SquadLeaderJumpsuit
-  - SquadLeaderOuterClothing
-  - SquadLeaderGloves
-  - GuardShoes
-  - CommandantSquadLeaderKeyCard
-  - CommonSecurityPDA
-  - CommonSecurityBelt
-  - ScpSecurityBackpack
-  - CommandantSquadWeaponPrimary
-  - CommandantSquadWeaponSecondary
-  - SecurityRadio
-  - CommonSecurityTrinkets
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupSquadLeaderHead
+  - ScpLoadoutGroupCommandantSquadLeaderEars
+  - ScpLoadoutGroupSecurityEyes
+  - ScpLoadoutGroupGuardMantle
+  - ScpLoadoutGroupSquadLeaderJumpsuit
+  - ScpLoadoutGroupSquadLeaderOuterClothing
+  - ScpLoadoutGroupSquadLeaderGloves
+  - ScpLoadoutGroupGuardShoes
+  - ScpLoadoutGroupCommandantSquadLeaderKeyCard
+  - ScpLoadoutGroupSecurityPDA
+  - ScpLoadoutGroupSecurityBelt
+  - ScpLoadoutGroupSecurityBackpack
+  - ScpLoadoutGroupCommandantSquadWeaponPrimary
+  - ScpLoadoutGroupCommandantSquadWeaponSecondary
+  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupSecurityTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobSeniorExternalAdministrativeZoneOfficer
   groups:
-  - GuardHead
-  - CommandantSquadEars
-  - CommonSecurityEyes
-  - GuardMantle
-  - GuardJumpsuit
-  - GuardArmorVest
-  - GuardGloves
-  - GuardShoes
-  - CommandantSquadSeniorLightContainmentZoneSecurityOfficerKeyCard
-  - CommonSecurityPDA
-  - CommonSecurityBelt
-  - ScpSecurityBackpack
-  - CommandantSquadWeaponPrimary
-  - CommandantSquadWeaponSecondary
-  - SecurityRadio
-  - CommonSecurityTrinkets
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupGuardHead
+  - ScpLoadoutGroupCommandantSquadEars
+  - ScpLoadoutGroupSecurityEyes
+  - ScpLoadoutGroupGuardMantle
+  - ScpLoadoutGroupGuardJumpsuit
+  - ScpLoadoutGroupGuardArmorVest
+  - ScpLoadoutGroupGuardGloves
+  - ScpLoadoutGroupGuardShoes
+  - ScpLoadoutGroupCommandantSquadSeniorLightContainmentZoneSecurityOfficerKeyCard
+  - ScpLoadoutGroupSecurityPDA
+  - ScpLoadoutGroupSecurityBelt
+  - ScpLoadoutGroupSecurityBackpack
+  - ScpLoadoutGroupCommandantSquadWeaponPrimary
+  - ScpLoadoutGroupCommandantSquadWeaponSecondary
+  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupSecurityTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobExternalAdministrativeZoneOfficer
   groups:
-  - GuardHead
-  - CommandantSquadEars
-  - CommonSecurityEyes
-  - GuardMantle
-  - GuardJumpsuit
-  - GuardArmorVest
-  - GuardGloves
-  - GuardShoes
-  - CommandantSquadLightContainmentZoneSecurityOfficerKeyCard
-  - CommonSecurityPDA
-  - CommonSecurityBelt
-  - ScpSecurityBackpack
-  - CommandantSquadWeaponPrimary
-  - CommandantSquadWeaponSecondary
-  - SecurityRadio
-  - CommonSecurityTrinkets
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupGuardHead
+  - ScpLoadoutGroupCommandantSquadEars
+  - ScpLoadoutGroupSecurityEyes
+  - ScpLoadoutGroupGuardMantle
+  - ScpLoadoutGroupGuardJumpsuit
+  - ScpLoadoutGroupGuardArmorVest
+  - ScpLoadoutGroupGuardGloves
+  - ScpLoadoutGroupGuardShoes
+  - ScpLoadoutGroupCommandantSquadLightContainmentZoneSecurityOfficerKeyCard
+  - ScpLoadoutGroupSecurityPDA
+  - ScpLoadoutGroupSecurityBelt
+  - ScpLoadoutGroupSecurityBackpack
+  - ScpLoadoutGroupCommandantSquadWeaponPrimary
+  - ScpLoadoutGroupCommandantSquadWeaponSecondary
+  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupSecurityTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobJuniorExternalAdministrativeZoneOfficer
   groups:
-  - GuardHead
-  - CommandantSquadEars
-  - CommonSecurityEyes
-  - GuardJumpsuit
-  - CommandantSquadArmorVestJunior
-  - GuardGloves
-  - GuardShoes
-  - CommandantSquadJuniorLightContainmentZoneSecurityOfficerKeyCard
-  - CommonSecurityPDA
-  - CommonSecurityBelt
-  - ScpSecurityBackpack
-  - CommandantSquadWeaponSecondary
-  - SecurityRadio
-  - CommonSecurityTrinkets
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupGuardHead
+  - ScpLoadoutGroupCommandantSquadEars
+  - ScpLoadoutGroupSecurityEyes
+  - ScpLoadoutGroupGuardJumpsuit
+  - ScpLoadoutGroupCommandantSquadArmorVestJunior
+  - ScpLoadoutGroupGuardGloves
+  - ScpLoadoutGroupGuardShoes
+  - ScpLoadoutGroupCommandantSquadJuniorLightContainmentZoneSecurityOfficerKeyCard
+  - ScpLoadoutGroupSecurityPDA
+  - ScpLoadoutGroupSecurityBelt
+  - ScpLoadoutGroupSecurityBackpack
+  - ScpLoadoutGroupCommandantSquadWeaponSecondary
+  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupSecurityTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobFieldMedicalSpecialist
   groups:
-  - ScpBrigmedicJumpsuit
-  - ScpBrigmedicBackpack
-  - CommandantSquadWeaponSecondary
-  - SecurityRadio
-  - CommonSecurityTrinkets
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupFieldMedicalSpecialistJumpsuit
+  - ScpLoadoutGroupFieldMedicalSpecialistBackpack
+  - ScpLoadoutGroupCommandantSquadWeaponSecondary
+  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupSecurityTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 # Научная служба
 
 - type: roleLoadout
   id: JobLeadResearcher
   groups:
-  - ScpSeniorResearcherJumpsuit
-  - ScpScientistBackpack
-  - ScpScientistGloves
-  - ScpScientistShoes
-  - ScpGlasses
-  - ScpCommonTrinkets
-  - ScientificServiceTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupLeadResearcherJumpsuit
+  - ScpLoadoutGroupScientistBackpack
+  - ScpLoadoutGroupScientistGloves
+  - ScpLoadoutGroupScientistShoes
+  - ScpLoadoutGroupGlasses
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupScientificServiceTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobAnomarchologyResearcher
   groups:
-  - ScpGroupTankHarness
-  - ScpScientistNeck
-  - ScpScientistJumpsuit
-  - ScpScientistBackpack
-  - ScpScientistOuterClothing
-  - ScpScientistGloves
-  - ScpScientistShoes
-  - ScpGlasses
-  - ScpCommonTrinkets
-  - ScientificServiceTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupScientistNeck
+  - ScpLoadoutGroupScientistJumpsuit
+  - ScpLoadoutGroupScientistBackpack
+  - ScpLoadoutGroupScientistOuterClothing
+  - ScpLoadoutGroupScientistGloves
+  - ScpLoadoutGroupScientistShoes
+  - ScpLoadoutGroupGlasses
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupScientificServiceTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobProductionSpecialist
   groups:
-  - ScpRoboticistHead
-  - ScpScientistNeck
-  - ScpRoboticistJumpsuit
-  - ScpRoboticistOuterClothing
-  - ScpScientistBackpack
-  - ScpScientistShoes
-  - ScpCommonTrinkets
-  - ScientificServiceTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupProductionSpecialistHead
+  - ScpLoadoutGroupScientistNeck
+  - ScpLoadoutGroupProductionSpecialistJumpsuit
+  - ScpLoadoutGroupProductionSpecialistOuterClothing
+  - ScpLoadoutGroupScientistBackpack
+  - ScpLoadoutGroupScientistShoes
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupScientificServiceTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobJuniorResearcher
   groups:
-  - ScpGroupTankHarness
-  - ScpResearchAssistantJumpsuit
-  - ScpScientistBackpack
-  - ScpGlasses
-  - ScpCommonTrinkets
-  - ScientificServiceTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupJuniorResearcherJumpsuit
+  - ScpLoadoutGroupScientistBackpack
+  - ScpLoadoutGroupGlasses
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupScientificServiceTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 # Медицинская служба
 
 - type: roleLoadout
   id: JobSeniorMedicalSpecialist
   groups:
-  - ScpSeniorPhysicianHead
-  - ScpSeniorPhysicianMask
-  - ScpSeniorPhysicianJumpsuit
-  - ScpSeniorPhysicianGloves
-  - ScpMedicalBackpack
-  - ScpSeniorPhysicianOuterClothing
-  - ScpSeniorPhysicianNeck
-  - ScpSeniorPhysicianBelt
-  - ScpSeniorPhysicianShoes
-  - ScpMedicalTrinkets
-  - ScpGlasses
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupSeniorMedicalSpecialistHead
+  - ScpLoadoutGroupSeniorMedicalSpecialistMask
+  - ScpLoadoutGroupSeniorMedicalSpecialistJumpsuit
+  - ScpLoadoutGroupSeniorMedicalSpecialistGloves
+  - ScpLoadoutGroupMedicalBackpack
+  - ScpLoadoutGroupSeniorMedicalSpecialistOuterClothing
+  - ScpLoadoutGroupSeniorMedicalSpecialistNeck
+  - ScpLoadoutGroupSeniorMedicalSpecialistBelt
+  - ScpLoadoutGroupSeniorMedicalSpecialistShoes
+  - ScpLoadoutGroupMedicalTrinkets
+  - ScpLoadoutGroupGlasses
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobPharmaceuticalSpecialist
   groups:
-  - ScpGroupTankHarness
-  - ScpSunriseChemistHead
-  - ScpSunriseChemistMask
-  - ScpChemistJumpsuit
-  - ScpSunriseChemistGloves
-  - ScpChemistBackpack
-  - ScpChemistOuterClothing
-  - ScpSunriseChemistNeck
-  - ScpSunriseChemistShoes
-  - ScpMedicalTrinkets
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupPharmaceuticalSpecialistHead
+  - ScpLoadoutGroupPharmaceuticalSpecialistMask
+  - ScpLoadoutGroupPharmaceuticalSpecialistJumpsuit
+  - ScpLoadoutGroupPharmaceuticalSpecialistGloves
+  - ScpLoadoutGroupPharmaceuticalSpecialistBackpack
+  - ScpLoadoutGroupPharmaceuticalSpecialistOuterClothing
+  - ScpLoadoutGroupPharmaceuticalSpecialistNeck
+  - ScpLoadoutGroupPharmaceuticalSpecialistShoes
+  - ScpLoadoutGroupMedicalTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobMedicalSpecialist
   groups:
-  - ScpGroupTankHarness
-  - ScpMedicalDoctorHead
-  - ScpMedicalMask
-  - ScpMedicalDoctorJumpsuit
-  - ScpMedicalGloves
-  - ScpMedicalBackpack
-  - ScpMedicalDoctorOuterClothing
-  - ScpSunriseMedicalDoctorNeck
-  - ScpMedicalShoes
-  - ScpGlasses
-  - ScpMedicalTrinkets
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupMedicalSpecialistHead
+  - ScpLoadoutGroupMedicalMask
+  - ScpLoadoutGroupMedicalSpecialistJumpsuit
+  - ScpLoadoutGroupMedicalGloves
+  - ScpLoadoutGroupMedicalBackpack
+  - ScpLoadoutGroupMedicalSpecialistOuterClothing
+  - ScpLoadoutGroupMedicalSpecialistNeck
+  - ScpLoadoutGroupMedicalShoes
+  - ScpLoadoutGroupGlasses
+  - ScpLoadoutGroupMedicalTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobPsychotherapist
   groups:
-  - ScpSunrisePsychologistHead
-  - ScpSunrisePsychologistMask
-  - ScpSunrisePsychologistGloves
-  - ScpGroupTankHarness
-  - ScpPsychologistJumpsuit
-  - ScpMedicalBackpack
-  - ScpSunrisePsychologistOuterClothing
-  - ScpSunrisePsychologistNeck
-  - ScpSunrisePsychologistShoes
-  - ScpGlasses
-  - ScpMedicalTrinkets
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupPsychotherapistHead
+  - ScpLoadoutGroupPsychotherapistMask
+  - ScpLoadoutGroupPsychotherapistGloves
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupPsychotherapistJumpsuit
+  - ScpLoadoutGroupMedicalBackpack
+  - ScpLoadoutGroupPsychotherapistOuterClothing
+  - ScpLoadoutGroupPsychotherapistNeck
+  - ScpLoadoutGroupPsychotherapistShoes
+  - ScpLoadoutGroupGlasses
+  - ScpLoadoutGroupMedicalTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobHospitalIntern
   groups:
-  - ScpGroupTankHarness
-  - ScpMedicalDoctorHead
-  - ScpMedicalMask
-  - ScpMedicalInternJumpsuit
-  - ScpMedicalGloves
-  - ScpMedicalBackpack
-  - ScpMedicalDoctorOuterClothing
-  - ScpSunriseMedicalDoctorNeck
-  - ScpMedicalShoes
-  - ScpGlasses
-  - ScpMedicalTrinkets
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupMedicalSpecialistHead
+  - ScpLoadoutGroupMedicalMask
+  - ScpLoadoutGroupHospitalInternJumpsuit
+  - ScpLoadoutGroupMedicalGloves
+  - ScpLoadoutGroupMedicalBackpack
+  - ScpLoadoutGroupMedicalSpecialistOuterClothing
+  - ScpLoadoutGroupMedicalSpecialistNeck
+  - ScpLoadoutGroupMedicalShoes
+  - ScpLoadoutGroupGlasses
+  - ScpLoadoutGroupMedicalTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 # Инженерно-технический отдел
 
 - type: roleLoadout
   id: JobLeadTechnicalSpecialist
   groups:
-  - ScpSeniorEngineerHead
-  - ScpSeniorEngineerMask
-  - ScpSeniorEngineerJumpsuit
-  - ScpSeniorEngineerGloves
-  - ScpStationSeniorEngineerBackpack
-  - ScpSeniorEngineerOuterClothing
-  - ScpSeniorEngineerNeck
-  - ScpSeniorEngineerShoes
-  - ScpSurvivalExtended
-  - ScpTrinketsEngineering
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupLeadTechnicalSpecialistHead
+  - ScpLoadoutGroupLeadTechnicalSpecialistMask
+  - ScpLoadoutGroupLeadTechnicalSpecialistJumpsuit
+  - ScpLoadoutGroupLeadTechnicalSpecialistGloves
+  - ScpLoadoutGroupLeadTechnicalSpecialistBackpack
+  - ScpLoadoutGroupLeadTechnicalSpecialistOuterClothing
+  - ScpLoadoutGroupLeadTechnicalSpecialistNeck
+  - ScpLoadoutGroupLeadTechnicalSpecialistShoes
+  - ScpLoadoutGroupSurvivalExtended
+  - ScpLoadoutGroupEngineeringTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobGeneralTechnicalSpecialist
   groups:
-  - ScpGroupTankHarness
-  - ScpStationEngineerHead
-  - ScpStationSunriseEngineerMask
-  - ScpStationEngineerJumpsuit
-  - ScpStationSunriseEngineerGloves
-  - ScpStationEngineerBackpack
-  - ScpStationEngineerOuterClothing
-  - ScpStationSunriseEngineerNeck
-  - ScpStationEngineerShoes
-  - ScpSurvivalExtended
-  - ScpTrinketsEngineering
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupGeneralTechnicalSpecialistHead
+  - ScpLoadoutGroupGeneralTechnicalSpecialistMask
+  - ScpLoadoutGroupGeneralTechnicalSpecialistJumpsuit
+  - ScpLoadoutGroupGeneralTechnicalSpecialistGloves
+  - ScpLoadoutGroupGeneralTechnicalSpecialistBackpack
+  - ScpLoadoutGroupGeneralTechnicalSpecialistOuterClothing
+  - ScpLoadoutGroupGeneralTechnicalSpecialistNeck
+  - ScpLoadoutGroupGeneralTechnicalSpecialistShoes
+  - ScpLoadoutGroupSurvivalExtended
+  - ScpLoadoutGroupEngineeringTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobElectricalTechnicalSpecialist
   groups:
-  - ScpGroupTankHarness
-  - ScpSunriseAtmosHead
-  - ScpSunriseAtmosMask
-  - ScpAtmosphericTechnicianJumpsuit
-  - ScpSunriseAtmosGloves
-  - ScpAtmosphericTechnicianBackpack
-  - ScpAtmosphericTechnicianOuterClothing
-  - ScpSunriseAtmosNeck
-  - ScpAtmosphericTechnicianShoes
-  - ScpTrinketsEngineering
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupElectricalTechnicalSpecialistHead
+  - ScpLoadoutGroupElectricalTechnicalSpecialistMask
+  - ScpLoadoutGroupElectricalTechnicalSpecialistJumpsuit
+  - ScpLoadoutGroupElectricalTechnicalSpecialistGloves
+  - ScpLoadoutGroupElectricalTechnicalSpecialistBackpack
+  - ScpLoadoutGroupElectricalTechnicalSpecialistOuterClothing
+  - ScpLoadoutGroupElectricalTechnicalSpecialistNeck
+  - ScpLoadoutGroupElectricalTechnicalSpecialistShoes
+  - ScpLoadoutGroupEngineeringTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobTechnicalTrainee
   groups:
-  - ScpGroupTankHarness
-  - ScpStationEngineerHead
-  - ScpStationSunriseEngineerMask
-  - ScpTechnicalAssistantJumpsuit
-  - ScpStationSunriseEngineerGloves
-  - ScpStationEngineerBackpack
-  - ScpStationEngineerOuterClothing
-  - ScpStationSunriseEngineerNeck
-  - ScpStationEngineerShoes
-  - ScpSurvivalExtended
-  - ScpTrinketsEngineering
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupGeneralTechnicalSpecialistHead
+  - ScpLoadoutGroupGeneralTechnicalSpecialistMask
+  - ScpLoadoutGroupTechnicalTraineeJumpsuit
+  - ScpLoadoutGroupGeneralTechnicalSpecialistGloves
+  - ScpLoadoutGroupGeneralTechnicalSpecialistBackpack
+  - ScpLoadoutGroupGeneralTechnicalSpecialistOuterClothing
+  - ScpLoadoutGroupGeneralTechnicalSpecialistNeck
+  - ScpLoadoutGroupGeneralTechnicalSpecialistShoes
+  - ScpLoadoutGroupSurvivalExtended
+  - ScpLoadoutGroupEngineeringTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 # Отдел логистики
 
 - type: roleLoadout
   id: JobLogisticsOfficer
   groups:
-  - ScpGroupTankHarness
-  - ScpCargoTechnicianHead
-  - ScpSunriseCargoTechMask
-  - ScpCargoTechnicianJumpsuit
-  - ScpSunriseCargoTechGloves
-  - ScpCargoTechnicianBackpack
-  - ScpCargoTechnicianOuterClothing
-  - ScpSunriseCargoTechNeck
-  - ScpCargoTechnicianShoes
-  - ScpGlasses
-  - ScpTrinketsCargo
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupLogisticsOfficerHead
+  - ScpLoadoutGroupLogisticsOfficerMask
+  - ScpLoadoutGroupLogisticsOfficerJumpsuit
+  - ScpLoadoutGroupLogisticsOfficerGloves
+  - ScpLoadoutGroupLogisticsOfficerBackpack
+  - ScpLoadoutGroupLogisticsOfficerOuterClothing
+  - ScpLoadoutGroupLogisticsOfficerNeck
+  - ScpLoadoutGroupLogisticsOfficerShoes
+  - ScpLoadoutGroupGlasses
+  - ScpLoadoutGroupCargoTrinkets
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 # Департамент продовольственного и санитарного обслуживания
 
 - type: roleLoadout
   id: JobGastronomicSpecialist
   groups:
-  - ScpGroupTankHarness
-  - ScpChefHead
-  - ScpChefMask
-  - ScpChefJumpsuit
-  - ScpCommonBackpack
-  - ScpChefOuterClothing
-  - ScpGlasses
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupGastronomicSpecialistHead
+  - ScpLoadoutGroupGastronomicSpecialistMask
+  - ScpLoadoutGroupGastronomicSpecialistJumpsuit
+  - ScpLoadoutGroupBackpack
+  - ScpLoadoutGroupGastronomicSpecialistOuterClothing
+  - ScpLoadoutGroupGlasses
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobBotanistPhytogeneticist
   groups:
-  - ScpGroupTankHarness
-  - ScpBotanistHead
-  - ScpBotanistJumpsuit
-  - ScpBotanistBackpack
-  - ScpBotanistOuterClothing
-  - ScpGlasses
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupBotanistPhytogeneticistHead
+  - ScpLoadoutGroupBotanistPhytogeneticistJumpsuit
+  - ScpLoadoutGroupBotanistPhytogeneticistBackpack
+  - ScpLoadoutGroupBotanistPhytogeneticistOuterClothing
+  - ScpLoadoutGroupGlasses
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 - type: roleLoadout
   id: JobServicePersonnel
   groups:
-  - ScpGroupTankHarness
-  - ScpJanitorHead
-  - ScpJanitorJumpsuit
-  - ScpJanitorGloves
-  - ScpCommonBackpack
-  - ScpJanitorOuterClothing
-  - ScpGlasses
-  - ScpCommonTrinkets
-  - ScpBra
-  - ScpPants
-  - ScpSocks
+  - ScpLoadoutGroupTankHarness
+  - ScpLoadoutGroupServicePersonnelHead
+  - ScpLoadoutGroupServicePersonnelJumpsuit
+  - ScpLoadoutGroupServicePersonnelGloves
+  - ScpLoadoutGroupBackpack
+  - ScpLoadoutGroupServicePersonnelOuterClothing
+  - ScpLoadoutGroupGlasses
+  - ScpLoadoutGroupTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
 
 # Класс Д
 
 - type: roleLoadout
   id: JobClassDCook
   groups:
-  - ScpBra
-  - ScpPants
-  - ScpSocks
-  - ClassDTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
+  - ScpLoadoutGroupClassDTrinkets
 
 - type: roleLoadout
   id: JobClassDBotanist
   groups:
-  - ScpBra
-  - ScpPants
-  - ScpSocks
-  - ClassDTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
+  - ScpLoadoutGroupClassDTrinkets
 
 - type: roleLoadout
   id: JobClassDJanitor
   groups:
-  - ScpBra
-  - ScpPants
-  - ScpSocks
-  - ClassDTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
+  - ScpLoadoutGroupClassDTrinkets
 
 - type: roleLoadout
   id: JobClassD
   groups:
-  - ScpBra
-  - ScpPants
-  - ScpSocks
-  - ClassDTrinkets
+  - ScpLoadoutGroupBra
+  - ScpLoadoutGroupPants
+  - ScpLoadoutGroupSocks
+  - ScpLoadoutGroupClassDTrinkets

@@ -1,0 +1,37 @@
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitSeniorPhysician
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSeniorPhysician
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtSeniorPhysician
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSeniorPhysician
+
+- type: loadout
+  id: ScpLoadoutChemBag
+  equipment:
+    belt: ChemBag
+
+- type: loadout
+  id: ScpLoadoutClothingBeltMedicalFilled
+  equipment:
+    belt: ClothingBeltMedicalFilled
+
+# Other Timers
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatBeretSeniorPhysician
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorPhysicianClothingTimer
+  equipment:
+    head: ClothingHeadHatBeretSeniorPhysician
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatLabSeniorPhysician
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorPhysicianClothingTimer
+  equipment:
+    outerClothing: ClothingOuterCoatLabSeniorPhysician

@@ -1,63 +1,63 @@
 ﻿# Голова
 - type: loadout
-  id: DirectorHat
+  id: ScpLoadoutClothingHeadHatDirector
   equipment:
     head: ClothingHeadHatDirector
 
 - type: loadout
-  id: DirectorCap
+  id: ScpLoadoutClothingHeadHatCapDirector
   equipment:
     head: ClothingHeadHatCapDirector
 
 # Униформа
 - type: loadout
-  id: DirectorJumpsuit
+  id: ScpLoadoutClothingUniformJumpsuitDirector
   equipment:
     jumpsuit: ClothingUniformJumpsuitDirector
 
 - type: loadout
-  id: DirectorJumpsuitBlueFormal
+  id: ScpLoadoutClothingUniformJumpsuitBlueDirectorFormal
   equipment:
     jumpsuit: ClothingUniformJumpsuitBlueDirectorFormal
 
 # Верхняя одежда
 - type: loadout
-  id: DirectorTrench
+  id: ScpLoadoutClothingOuterCoatDirectorTrench
   equipment:
     outerClothing: ClothingOuterCoatDirectorTrench
 
 # Перчатки
 - type: loadout
-  id: DirectorGloves
+  id: ScpLoadoutClothingHandsGlovesDirector
   equipment:
     gloves: ClothingHandsGlovesDirector
 
 - type: loadout
-  id: DirectorGlovesSpecial
+  id: ScpLoadoutClothingHandsGlovesDirectorSpecial
   equipment:
     gloves: ClothingHandsGlovesDirectorSpecial
 
 # Ключ карта
 - type: loadout
-  id: DirectorKeyCard
+  id: ScpLoadoutKeyCardDirector
   equipment:
     id: KeyCardDirector
 
 # КПК
 - type: loadout
-  id: LoadoutDirectorPDA
+  id: ScpLoadoutDirectorPDA
   equipment:
     pocket2: DirectorPDA
 
 # Сумка
 - type: loadout
-  id: DirectorSatchelLeather
+  id: ScpLoadoutClothingBackpackSatchelLeatherDirectorFilled
   equipment:
     back: ClothingBackpackSatchelLeatherDirectorFilled
 
 # В сумке
 - type: loadout
-  id: DirectorStamp
+  id: ScpLoadoutRubberStampCaptain
   storage:
     back:
     - RubberStampCaptain

@@ -1,41 +1,41 @@
 ﻿# Smokeables
 - type: loadout
-  id: ScpLighter
+  id: ScpLoadoutLighter
   storage:
     back:
     - Lighter
   groupBy: smokeables
 
 - type: loadout
-  id: ScpCigPackGreen
+  id: ScpLoadoutCigPackGreen
   storage:
     back:
     - CigPackGreen
   groupBy: smokeables
 
 - type: loadout
-  id: ScpCigPackRed
+  id: ScpLoadoutCigPackRed
   storage:
     back:
     - CigPackRed
   groupBy: smokeables
 
 - type: loadout
-  id: ScpCigPackBlue
+  id: ScpLoadoutCigPackBlue
   storage:
     back:
     - CigPackBlue
   groupBy: smokeables
 
 - type: loadout
-  id: ScpCigPackBlack
+  id: ScpLoadoutCigPackBlack
   storage:
     back:
     - CigPackBlack
   groupBy: smokeables
 
 - type: loadout
-  id: ScpCigarCase
+  id: ScpLoadoutCigarCase
   effects:
   - !type:GroupLoadoutEffect
     proto: Administration
@@ -45,7 +45,7 @@
   groupBy: smokeables
 
 - type: loadout
-  id: ScpCigarGold
+  id: ScpLoadoutCigarGold
   effects:
   - !type:GroupLoadoutEffect
     proto: Administration
@@ -58,7 +58,7 @@
 
 # Folders and bureaucracy
 - type: loadout
-  id: ScpBoxFolderClipboardThreePapers
+  id: ScpLoadoutBoxFolderClipboardThreePapers
   effects:
   - !type:GroupLoadoutEffect
     proto: Administration
@@ -68,7 +68,7 @@
   groupBy: folders
 
 - type: loadout
-  id: LegalCodeForPersonnel
+  id: ScpLoadoutHyperLinkBookCorporateLaw
   storage:
     back:
     - HyperLinkBookCorporateLaw
@@ -78,7 +78,7 @@
 
 # Canes
 - type: loadout
-  id: ScpCane
+  id: ScpLoadoutCane
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
@@ -94,14 +94,14 @@
 
 # Towels
 - type: loadout
-  id: ScpTowelColorWhite
+  id: ScpLoadoutTowelColorWhite
   storage:
     back:
     - TowelColorWhite
   groupBy: towels
 
 - type: loadout
-  id: ScpTowelColorGray
+  id: ScpLoadoutTowelColorGray
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
@@ -114,7 +114,7 @@
   groupBy: towels
 
 - type: loadout
-  id: ScpTowelColorBlack
+  id: ScpLoadoutTowelColorBlack
   effects:
   - !type:GroupLoadoutEffect
     proto: TowelColorBlackAndDinkystar
@@ -124,7 +124,7 @@
   groupBy: towels
 
 - type: loadout
-  id: ScpTowelColorRed
+  id: ScpLoadoutTowelColorRed
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
@@ -137,7 +137,7 @@
   groupBy: towels
 
 - type: loadout
-  id: ScpTowelColorOrange
+  id: ScpLoadoutTowelColorOrange
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
@@ -150,7 +150,7 @@
   groupBy: towels
 
 - type: loadout
-  id: ScpTowelColorLightBrown
+  id: ScpLoadoutTowelColorLightBrown
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
@@ -163,7 +163,7 @@
   groupBy: towels
 
 - type: loadout
-  id: ScpTowelColorYellow
+  id: ScpLoadoutTowelColorYellow
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
@@ -176,7 +176,7 @@
   groupBy: towels
 
 - type: loadout
-  id: ScpTowelColorDarkGreen
+  id: ScpLoadoutTowelColorDarkGreen
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
@@ -189,7 +189,7 @@
   groupBy: towels
 
 - type: loadout
-  id: ScpTowelColorLightBlue
+  id: ScpLoadoutTowelColorLightBlue
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
@@ -202,7 +202,7 @@
   groupBy: towels
 
 - type: loadout
-  id: ScpTowelColorDarkBlue
+  id: ScpLoadoutTowelColorDarkBlue
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
@@ -215,7 +215,7 @@
   groupBy: towels
 
 - type: loadout
-  id: ScpTowelColorPurple
+  id: ScpLoadoutTowelColorPurple
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
@@ -228,7 +228,7 @@
   groupBy: towels
 
 - type: loadout
-  id: ScpTowelColorSilver
+  id: ScpLoadoutTowelColorSilver
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
@@ -240,7 +240,7 @@
   groupBy: towels
 
 - type: loadout
-  id: ScpTowelColorGold
+  id: ScpLoadoutTowelColorGold
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
@@ -250,3 +250,88 @@
     back:
     - TowelColorGold
   groupBy: towels
+
+- type: loadout
+  id: ScpLoadoutClothingWraps
+  storage:
+    back:
+    - ClothingWraps
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatFlowerWreath
+  storage:
+    back:
+    - ClothingHeadHatFlowerWreath
+
+- type: loadout
+  id: ScpLoadoutClothingWrapsHigh
+  storage:
+    back:
+    - ClothingWrapsHigh
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatHairflower
+  storage:
+    back:
+    - ClothingHeadHatHairflower
+
+# Headphones
+
+- type: loadout
+  id: ScpLoadoutClothingMultipleHeadphones
+  storage:
+    back:
+    - ClothingMultipleHeadphones
+
+# Toys
+
+- type: loadout
+  id: ScpLoadoutPlushieLizard
+  storage:
+    back:
+    - PlushieLizard
+
+- type: loadout
+  id: ScpLoadoutPlushieSpaceLizard
+  storage:
+    back:
+    - PlushieSpaceLizard
+
+- type: loadout
+  id: ScpLoadoutCandleRed
+  dummyEntity: LoadoutDummyCandles
+  storage:
+    back:
+    - CandleRed
+    - CandleBlue
+    - CandleGreenSmall
+
+# Smokeables
+
+- type: loadout
+  id: ScpLoadoutBoxFolderBaseThreePapers
+  storage:
+    back:
+    - BoxFolderBaseThreePapers
+  groupBy: "folders"
+
+- type: loadout
+  id: ScpLoadoutBoxFolderPlasticClipboardThreePapers
+  storage:
+    back:
+    - BoxFolderPlasticClipboardThreePapers
+  groupBy: "folders"
+
+- type: loadout
+  id: ScpLoadoutOffsetCane
+  storage:
+    back:
+    - OffsetCane
+  groupBy: "canes"
+
+- type: loadout
+  id: ScpLoadoutOffsetCaneWood
+  storage:
+    back:
+    - OffsetCaneWood
+  groupBy: "canes"

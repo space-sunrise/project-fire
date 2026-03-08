@@ -1,0 +1,46 @@
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitHoP
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoP
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtHoP
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtHoP
+
+# Head
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatHopcap
+  equipment:
+    head: ClothingHeadHatHopcap
+
+# Neck
+
+- type: loadout
+  id: ScpLoadoutClothingNeckCloakHop
+  equipment:
+    neck: ClothingNeckCloakHop
+
+- type: loadout
+  id: ScpLoadoutClothingNeckMantleHOP
+  equipment:
+    neck: ClothingNeckMantleHOP
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterHoP
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackIan
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ProfessionalHoP
+  equipment:
+    back: ClothingBackpackIan
+
+# Outerclothing
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterHoP
+  equipment:
+    outerClothing: ClothingOuterWinterHoP

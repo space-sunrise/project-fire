@@ -1,19 +1,162 @@
-﻿# Пистолет
 - type: loadout
-  id: LoadoutWeaponPistolACP14
-  startingGear: GearWeaponPistolACP14
-
-- type: startingGear
-  id: GearWeaponPistolACP14
+  id: ScpLoadoutClothingUniformJumpsuitHoS
   equipment:
-    suitstorage: WeaponPistolACP14
+    jumpsuit: ClothingUniformJumpsuitHoS
+  groupBy: "jumpsuit"
 
-# Револьвер
 - type: loadout
-  id: LoadoutWeaponRevolverMatebaNew
-  startingGear: GearWeaponRevolverMatebaNew
-
-- type: startingGear
-  id: GearWeaponRevolverMatebaNew
+  id: ScpLoadoutClothingUniformJumpskirtHoS
   equipment:
-    suitstorage: WeaponRevolverMatebaNew
+    jumpsuit: ClothingUniformJumpskirtHoS
+  groupBy: "jumpskirt"
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitHoSAlt
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoSAlt
+  groupBy: "jumpsuit"
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtHoSAlt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtHoSAlt
+  groupBy: "jumpskirt"
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitHosFormal
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHosFormal
+  groupBy: "jumpsuit"
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtHosFormal
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtHosFormal
+  groupBy: "jumpskirt"
+
+#Sunrise-Start
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitHoSOld
+  sponsorOnly: false
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoSOld
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterHoS
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitUSSPBlack
+  sponsorOnly: false
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitUSSPBlack
+#Sunrise-End
+
+# Head
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatHoshat
+  equipment:
+    head: ClothingHeadHatHoshat
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatBeretHoS
+  equipment:
+    head: ClothingHeadHatBeretHoS
+
+#Sunrise-Start
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatCapHoS
+  equipment:
+    head: ClothingHeadHatCapHoS
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterHoS
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatCapUSSPBlack
+  sponsorOnly: false
+  equipment:
+    head: ClothingHeadHatCapUSSPBlack
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatCapLeatherHoS
+  sponsorOnly: false
+  equipment:
+    head: ClothingHeadHatCapLeatherHoS
+#Sunrise-End
+
+# Neck
+
+- type: loadout
+  id: ScpLoadoutClothingNeckCloakHos
+  equipment:
+    neck: ClothingNeckCloakHos
+
+- type: loadout
+  id: ScpLoadoutClothingNeckMantleHOS
+  equipment:
+    neck: ClothingNeckMantleHOS
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterHoS
+
+- type: loadout
+  id: ScpLoadoutClothingNeckCloakHOSCloak
+  sponsorOnly: false
+  equipment:
+    neck: ClothingNeckCloakHOSCloak
+
+- type: loadout
+  id: ScpLoadoutClothingNeckCloakDarthHOSCloak
+  sponsorOnly: false
+  equipment:
+    neck: ClothingNeckCloakDarthHOSCloak
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterHoS
+
+# OuterClothing
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatHoSTrench
+  equipment:
+    outerClothing: ClothingOuterCoatHoSTrench
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterHoS
+  equipment:
+    outerClothing: ClothingOuterWinterHoS
+
+#Sunrise-Start
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatHoSGreatcoat
+  equipment:
+    outerClothing: ClothingOuterCoatHoSGreatcoat
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterHoS
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatHOSOvercoatBlack
+  sponsorOnly: false
+  equipment:
+    outerClothing: ClothingOuterCoatHOSOvercoatBlack
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterHoS
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatUSSPOvercoatBlack
+  sponsorOnly: false
+  equipment:
+    outerClothing: ClothingOuterCoatUSSPOvercoatBlack
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatHoSOvercoat
+  sponsorOnly: false
+  equipment:
+    outerClothing: ClothingOuterCoatHoSOvercoat
+#Sunrise-End

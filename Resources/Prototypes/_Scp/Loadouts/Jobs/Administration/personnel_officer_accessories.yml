@@ -1,0 +1,4 @@
+- type: loadout
+  id: ScpLoadoutClothingNeckScarfHOP
+  equipment:
+    neck: ClothingNeckScarfHOP

@@ -1,0 +1,49 @@
+- type: loadout
+  id: ScpLoadoutClothingHeadHatCargosoft
+  equipment:
+    head: ClothingHeadHatCargosoft
+
+# Jumpsuit
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitCargo
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCargo
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtCargo
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCargo
+
+# Back
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackCargo
+  equipment:
+    back: ClothingBackpackCargo
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackSatchelCargo
+  equipment:
+    back: ClothingBackpackSatchelCargo
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackDuffelCargo
+  equipment:
+    back: ClothingBackpackDuffelCargo
+
+# OuterClothing
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterCargo
+  equipment:
+    outerClothing: ClothingOuterWinterCargo
+
+# Shoes
+
+- type: loadout
+  id: ScpLoadoutClothingShoesBootsWinterCargo
+  equipment:
+    shoes: ClothingShoesBootsWinterCargo
+
+# ID

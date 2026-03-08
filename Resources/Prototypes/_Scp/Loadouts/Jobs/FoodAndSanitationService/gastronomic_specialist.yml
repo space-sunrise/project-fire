@@ -1,0 +1,40 @@
+- type: loadout
+  id: ScpLoadoutClothingHeadHatChef
+  equipment:
+    head: ClothingHeadHatChef
+
+# Mask
+
+- type: loadout
+  id: ScpLoadoutClothingMaskItalianMoustache
+  equipment:
+    mask: ClothingMaskItalianMoustache
+
+# Jumpsuit
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpsuitChef
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChef
+
+- type: loadout
+  id: ScpLoadoutClothingUniformJumpskirtChef
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChef
+
+# Outer clothing
+
+- type: loadout
+  id: ScpLoadoutClothingOuterApronChef
+  equipment:
+    outerClothing: ClothingOuterApronChef
+
+- type: loadout
+  id: ScpLoadoutClothingOuterJacketChef
+  equipment:
+    outerClothing: ClothingOuterJacketChef
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterChef
+  equipment:
+    outerClothing: ClothingOuterWinterChef

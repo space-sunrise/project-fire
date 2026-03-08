@@ -1,0 +1,51 @@
+﻿# Очки
+- type: loadout
+  id: ScpLoadoutClothingEyesGlassesSecurityGuard
+  equipment:
+    eyes: ClothingEyesGlassesSecurityGuard
+
+# Маска
+- type: loadout
+  id: ScpLoadoutClothingMaskSecurityBandBlack
+  equipment:
+    mask: ClothingMaskSecurityBandBlack
+
+- type: loadout
+  id: ScpLoadoutClothingMaskSecurityBalaklava
+  equipment:
+    mask: ClothingMaskSecurityBalaklava
+
+# Пояс
+- type: loadout
+  id: ScpLoadoutScpClothingBeltSecurityWebbingFilled
+  equipment:
+    belt: ScpClothingBeltSecurityWebbingFilled
+
+# КПК
+- type: loadout
+  id: ScpLoadoutScpSecurityPDA
+  equipment:
+    pocket2: ScpSecurityPDA
+
+# С собой
+- type: loadout
+  id: ScpLoadoutScpRadioHandheldSecurityEnabled
+  storage:
+    back:
+    - ScpRadioHandheldSecurityEnabled
+
+- type: loadout
+  id: ScpLoadoutFlashlightSeclite
+  storage:
+    back:
+    - FlashlightSeclite
+
+# побрикушки
+- type: loadout
+  id: ScpLoadoutDinkystar
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: TowelColorBlackAndDinkystar
+  storage:
+    back:
+    - Dinkystar

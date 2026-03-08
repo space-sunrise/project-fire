@@ -1,0 +1,72 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpStationEngineerHardhatYellow
+  equipment:
+    head: ClothingHeadHatHardhatYellow
+
+- type: loadout
+  id: ScpStationEngineerHardhatOrange
+  equipment:
+    head: ClothingHeadHatHardhatOrange
+
+- type: loadout
+  id: ScpStationEngineerHardhatRed
+  equipment:
+    head: ClothingHeadHatHardhatRed
+
+- type: loadout
+  id: ScpStationEngineerJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitEngineering
+
+- type: loadout
+  id: ScpStationEngineerJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtEngineering
+
+- type: loadout
+  id: ScpStationEngineerHazardsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitEngineeringHazard
+
+- type: loadout
+  id: ScpStationEngineerBackpack
+  equipment:
+    back: ClothingBackpackEngineering
+
+- type: loadout
+  id: ScpStationEngineerSatchel
+  equipment:
+    back: ClothingBackpackSatchelEngineering
+
+- type: loadout
+  id: ScpStationEngineerDuffel
+  equipment:
+    back: ClothingBackpackDuffelEngineering
+
+# OuterClothing
+
+- type: loadout
+  id: ScpStationEngineerOuterVest
+  equipment:
+    outerClothing: ClothingOuterVestHazard
+
+- type: loadout
+  id: ScpStationEngineerWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterEngi
+
+# Shoes
+
+- type: loadout
+  id: ScpWorkBoots
+  equipment:
+    shoes: ClothingShoesBootsWork
+
+- type: loadout
+  id: ScpEngineeringWinterBoots
+  equipment:
+    shoes: ClothingShoesBootsWinterEngi
+
+# ID

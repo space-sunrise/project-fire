@@ -1,0 +1,870 @@
+# Copied for _Scp role loadouts.
+
+- type: loadoutGroup
+  id: ScpGlasses
+  name: loadout-group-glasses
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutGlasses
+  - ScpLoadoutGlassesJamjar
+  - ScpGlassesJensen
+
+- type: loadoutGroup
+  id: ScpGroupTankHarness
+  name: loadout-group-tank-harness
+  minLimit: 1
+  hidden: true
+  loadouts:
+  - ScpLoadoutTankHarness
+
+- type: loadoutGroup
+  id: ScpHoPHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpHoPHead
+
+- type: loadoutGroup
+  id: ScpHoPJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpHoPJumpsuit
+  - ScpHoPJumpskirt
+
+- type: loadoutGroup
+  id: ScpHoPNeck
+  name: loadout-group-neck # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpHoPCloak
+  - ScpHoPMantle
+  - ScpHoPScarf # Sunrise-Edit
+
+- type: loadoutGroup
+  id: ScpHoPBackpack
+  name: loadout-group-backpack # Fire edit
+  loadouts:
+  - ScpCommonBackpack
+  - ScpCommonSatchel
+  - ScpCommonDuffel
+  - ScpHoPBackpackIan
+
+- type: loadoutGroup
+  id: ScpHoPOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpHoPWintercoat
+
+- type: loadoutGroup
+  id: ScpCommonBackpack
+  name: loadout-group-backpack # Fire edit
+  loadouts:
+  - ScpCommonBackpack
+  - ScpCommonSatchel
+  - ScpCommonDuffel
+  - ScpCommonModsuit #Sunrise-edit
+
+- type: loadoutGroup
+  id: ScpChefHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpChefHead
+
+- type: loadoutGroup
+  id: ScpChefMask
+  name: loadout-group-mask # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpChefMask
+
+- type: loadoutGroup
+  id: ScpChefJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpChefJumpsuit
+  - ScpChefJumpskirt
+
+- type: loadoutGroup
+  id: ScpChefOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpChefApron
+  - ScpChefJacket
+  - ScpChefWintercoat
+
+- type: loadoutGroup
+  id: ScpJanitorHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpJanitorHead
+
+- type: loadoutGroup
+  id: ScpJanitorJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpJanitorJumpsuit
+  - ScpJanitorJumpskirt
+  - ScpMaidJumpskirt
+
+- type: loadoutGroup
+  id: ScpJanitorGloves
+  name: loadout-group-gloves # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpJanitorRubberGloves
+  - ScpOrangeGloves
+  - ScpPurpleGloves
+
+- type: loadoutGroup
+  id: ScpJanitorOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpJanitorWintercoat
+
+- type: loadoutGroup
+  id: ScpBotanistHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpBotanistHead
+  - ScpBotanistBandana
+
+- type: loadoutGroup
+  id: ScpBotanistJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpBotanistJumpsuit
+  - ScpBotanistJumpskirt
+  - ScpBotanistOveralls
+
+- type: loadoutGroup
+  id: ScpBotanistBackpack
+  name: loadout-group-backpack # Fire edit
+  loadouts:
+  - ScpBotanistBackpack
+  - ScpBotanistSatchel
+  - ScpBotanistDuffel
+
+- type: loadoutGroup
+  id: ScpBotanistOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpBotanistApron
+  - ScpBotanistWintercoat
+
+- type: loadoutGroup
+  id: ScpQuartermasterHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpQuartermasterHead
+  - ScpQuartermasterBeret
+#Sunrise-start
+  - ScpSunrise-BandOrange
+  - ScpSunrise-BandYellow
+  - ScpSunrise-BandBrown
+  - ScpSunrise-BandPurple
+  - ScpStationEngineerHardhatOrange
+  - ScpStationEngineerHardhatYellow
+  - ScpSunrise-HardhatYellowDark
+  - ScpSunrise-HatOrangesoft
+  - ScpSunrise-HatYellowsoft
+  - ScpSunrise-HatBrownsoft
+  - ScpSunrise-BrownFlatcap
+  - ScpSunrise-FedoraBrown
+  - ScpSunrise-CatBrown
+  - ScpSunrise-HelmetCosmonaut
+  - ScpSunrise-HideBear
+#Sunrise-end
+
+- type: loadoutGroup
+  id: ScpQuartermasterJumpsuit
+  name: loadout-group-jumpsuit  # Fire edit
+  loadouts:
+  - ScpQuartermasterJumpsuit
+  - ScpQuartermasterJumpskirt
+  - ScpQuartermasterTurtleneck
+  - ScpQuartermasterTurtleneckSkirt
+  - ScpQuartermasterFormalSuit
+
+- type: loadoutGroup
+  id: ScpQuartermasterNeck
+  name: loadout-group-neck # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpQuartermasterCloak
+  - ScpQuartermasterMantle
+  - ScpQuartermasterScarf # Sunrise-Edit
+#Sunrise-start
+  - ScpSunrise-ScarfOrange
+  - ScpSunrise-ScarfYellow
+  - ScpSunrise-ScarfBrown
+  - ScpSunrise-ScarfPurple
+  - ScpSunrise-BedsheetCosmos
+#Sunrise-end
+
+- type: loadoutGroup
+  id: ScpQuartermasterOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpQuartermasterWintercoat
+#Sunrise-start
+  - ScpSalvageSpecialistWintercoat
+  - ScpSunrise-WinterColorOrange
+  - ScpSunrise-WinterColorYellow
+  - ScpSunrise-WinterColorBrown
+  - ScpSunrise-WinterColorLightBrown
+  - ScpSunrise-WinterColorPurple
+  - ScpSunrise-PonchoClassic
+  - ScpSunrise-CoatBomber
+  - ScpSunrise-CoatTrench
+#Sunrise-end
+
+- type: loadoutGroup
+  id: ScpQuartermasterShoes
+  name: loadout-group-shoes # Fire edit
+  loadouts:
+  - ScpBrownShoes
+  - ScpCargoWinterBoots
+#Sunrise-start
+  - ScpBlackShoes
+  - ScpSunrise-OrangeShoes
+  - ScpSunrise-YellowShoes
+  - ScpSunrise-ShoesPurple
+  - ScpSunrise-ShoesLeather
+#Sunrise-end
+
+- type: loadoutGroup
+  id: ScpCargoTechnicianHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpCargoTechnicianHead
+#Sunrise-start
+  - ScpSunrise-BandOrange
+  - ScpSunrise-BandYellow
+  - ScpSunrise-BandBrown
+  - ScpSunrise-HatOrangesoft
+  - ScpSunrise-HatYellowsoft
+  - ScpSunrise-HatBrownsoft
+  - ScpSunrise-BrownFlatcap
+  - ScpSunrise-CatBrown
+  - ScpSunrise-HelmetCosmonaut
+#Sunrise-end
+
+- type: loadoutGroup
+  id: ScpCargoTechnicianJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpCargoTechnicianJumpsuit
+  - ScpCargoTechnicianJumpskirt
+
+- type: loadoutGroup
+  id: ScpCargoTechnicianBackpack
+  name: loadout-group-backpack # Fire edit
+  loadouts:
+  - ScpCargoTechnicianBackpack
+  - ScpCargoTechnicianSatchel
+  - ScpCargoTechnicianDuffel
+
+- type: loadoutGroup
+  id: ScpCargoTechnicianOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpCargoTechnicianWintercoat
+#Sunrise-start
+  - ScpSunrise-WinterColorOrange
+  - ScpSunrise-WinterColorYellow
+  - ScpSunrise-WinterColorBrown
+  - ScpSunrise-WinterColorLightBrown
+  - ScpSunrise-PonchoClassic
+  - ScpSunrise-CoatBomber
+#Sunrise-end
+
+- type: loadoutGroup
+  id: ScpCargoTechnicianShoes
+  name: loadout-group-shoes # Fire edit
+  loadouts:
+  - ScpBlackShoes
+  - ScpCargoWinterBoots
+#Sunrise-start
+  - ScpSunrise-OrangeShoes
+  - ScpSunrise-YellowShoes
+  - ScpBrownShoes
+#Sunrise-end
+
+- type: loadoutGroup
+  id: ScpChiefEngineerJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpChiefEngineerJumpsuit
+  - ScpChiefEngineerJumpskirt
+  - ScpChiefEngineerTurtleneck
+  - ScpChiefEngineerTurtleneckSkirt
+
+- type: loadoutGroup
+  id: ScpChiefEngineerNeck
+  name: loadout-group-neck # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpChiefEngineerCloak
+  - ScpChiefEngineerMantle
+  - ScpChiefEngineerScarf
+  - ScpChiefEngineerCloakLegacy #Sunrise-edit
+  #sunrise-start
+  - ScpSunrise-ScarfRed
+  - ScpSunrise-ScarfOrange
+  - ScpSunrise-ScarfYellow
+  - ScpSunrise-ScarfCyan
+  - ScpSunrise-ScarfLightBlue
+  - ScpSunrise-TieRed
+  #Sunrise-end
+
+- type: loadoutGroup
+  id: ScpChiefEngineerOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpChiefEngineerWintercoat
+  #Sunrise-start
+  - ScpSunrise-WinterColorrColorWhite
+  - ScpSunrise-ClothingOuterFlannelWhite
+  - ScpStationEngineerOuterVest
+  - ScpStationEngineerWintercoat
+  - ScpAtmosphericTechnicianWintercoat
+  - ScpSunrise-WinterColorrColorRed
+  - ScpSunrise-WinterColorOrange
+  - ScpSunrise-WinterColorYellow
+  #Sunrise-end
+
+- type: loadoutGroup
+  id: ScpChiefEngineerShoes
+  name: loadout-group-shoes # Fire edit
+  loadouts:
+  - ScpBrownShoes
+  - ScpEngineeringWinterBoots
+#sunrise-start
+  - ScpWhiteShoes
+  - ScpSunrise-RedShoes
+  - ScpSunrise-OrangeShoes
+  - ScpSunrise-YellowShoes
+#Sunrise-end
+
+- type: loadoutGroup
+  id: ScpTechnicalAssistantJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpYellowJumpsuit
+  - ScpYellowJumpskirt
+
+- type: loadoutGroup
+  id: ScpStationEngineerHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  loadouts:
+#sunrise-start
+  - ScpSunrise-EngineerHeadBeret
+  - ScpSunrise-AtmosBeret
+  - ScpSunrise-BandRed
+  - ScpSunrise-BandOrange
+  - ScpSunrise-BandYellow
+  - ScpSunrise-HardhatYellowDark
+#Sunrise-end
+  - ScpStationEngineerHardhatYellow
+  - ScpStationEngineerHardhatOrange
+  - ScpStationEngineerHardhatRed
+#sunrise-start
+  - ScpSunrise-HatRedsoft
+  - ScpSunrise-HatOrangesoft
+  - ScpSunrise-HatYellowsoft
+#Sunrise-end
+
+- type: loadoutGroup
+  id: ScpStationEngineerJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpStationEngineerJumpsuit
+  - ScpStationEngineerJumpskirt
+  - ScpStationEngineerHazardsuit
+
+- type: loadoutGroup
+  id: ScpStationEngineerBackpack
+  name: loadout-group-backpack # Fire edit
+  loadouts:
+  - ScpStationEngineerBackpack
+  - ScpStationEngineerSatchel
+  - ScpStationEngineerDuffel
+
+- type: loadoutGroup
+  id: ScpStationEngineerOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpStationEngineerOuterVest
+  - ScpStationEngineerWintercoat
+#sunrise-start
+  - ScpSunrise-WinterColorrColorRed
+  - ScpSunrise-WinterColorOrange
+  - ScpSunrise-WinterColorYellow
+#sunrise-end
+
+- type: loadoutGroup
+  id: ScpStationEngineerShoes
+  name: loadout-group-shoes # Fire edit
+  loadouts:
+  - ScpWorkBoots
+  - ScpEngineeringWinterBoots
+#sunrise-start
+  - ScpSunrise-RedShoes
+  - ScpSunrise-OrangeShoes
+  - ScpSunrise-YellowShoes
+#sunrise-end
+
+- type: loadoutGroup
+  id: ScpAtmosphericTechnicianJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpAtmosphericTechnicianJumpsuit
+  - ScpAtmosphericTechnicianJumpskirt
+  - ScpAtmosphericTechnicianJumpsuitCasual
+
+- type: loadoutGroup
+  id: ScpAtmosphericTechnicianOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpAtmosphericTechnicianWintercoat
+#sunrise-start
+  - ScpStationEngineerOuterVest
+  - ScpSunrise-WinterColorrColorRed
+  - ScpSunrise-WinterColorOrange
+  - ScpSunrise-WinterColorYellow
+#sunrise-end
+
+- type: loadoutGroup
+  id: ScpAtmosphericTechnicianBackpack
+  name: loadout-group-backpack # Fire edit
+  loadouts:
+  - ScpAtmosphericTechnicianBackpack
+  - ScpAtmosphericTechnicianSatchel
+  - ScpAtmosphericTechnicianDuffel
+
+- type: loadoutGroup
+  id: ScpAtmosphericTechnicianShoes
+  name: loadout-group-shoes # Fire edit
+  loadouts:
+  - ScpWhiteShoes
+  - ScpEngineeringWinterBoots
+#sunrise-start
+  - ScpSunrise-RedShoes
+  - ScpSunrise-OrangeShoes
+  - ScpSunrise-YellowShoes
+#sunrise-end
+
+- type: loadoutGroup
+  id: ScpSurvivalExtended
+  name: loadout-group-survival-extended
+  minLimit: 2
+  hidden: true
+  loadouts:
+  - ScpEmergencyNitrogenExtended
+  - ScpEmergencyOxygenExtended
+  - ScpLoadoutSpeciesVoxNitrogen
+  - ScpEmergencyWithoutGasExtended # Sunrise-Edit
+  - ScpEmergencyDwarfExtended # Sunrise-Edit
+
+# Science
+
+- type: loadoutGroup
+  id: ScpResearchDirectorNeck
+  name: loadout-group-neck # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpResearchDirectorMantle
+  - ScpResearchDirectorCloak
+  - ScpResearchDirectorScarf # Sunrise-Edit
+  - ScpResearchDirectorCloakLegacy # Sunrise-edit
+
+- type: loadoutGroup
+  id: ScpResearchDirectorJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpResearchDirectorJumpsuit
+  - ScpResearchDirectorJumpskirt
+
+- type: loadoutGroup
+  id: ScpResearchDirectorOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpResearchDirectorLabCoat
+  - ScpResearchDirectorWintercoat
+
+- type: loadoutGroup
+  id: ScpResearchDirectorShoes
+  name: loadout-group-shoes # Fire edit
+  loadouts:
+  - ScpBrownShoes
+  - ScpScienceWinterBoots
+
+- type: loadoutGroup
+  id: ScpScientistNeck
+  name: loadout-group-neck # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpScientistTie
+
+- type: loadoutGroup
+  id: ScpScientistJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpScientistJumpsuit
+  - ScpScientistJumpskirt
+
+- type: loadoutGroup
+  id: ScpScientistBackpack
+  name: loadout-group-backpack # Fire edit
+  loadouts:
+  - ScpScientistBackpack
+  - ScpScientistSatchel
+  - ScpScientistDuffel
+
+- type: loadoutGroup
+  id: ScpScientistOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpRegularLabCoat
+  - ScpScienceLabCoat
+  - ScpScienceWintercoat
+
+- type: loadoutGroup
+  id: ScpScientistShoes
+  name: loadout-group-shoes # Fire edit
+  loadouts:
+  - ScpWhiteShoes
+  - ScpBlackShoes
+  - ScpScienceWinterBoots
+
+- type: loadoutGroup
+  id: ScpScientistGloves
+  name: loadout-group-gloves # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpLatexGloves
+  - ScpPurpleGloves
+
+- type: loadoutGroup
+  id: ScpResearchAssistantJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpWhiteJumpsuit
+  - ScpWhiteJumpskirt
+
+- type: loadoutGroup
+  id: ScpHeadofSecurityHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpHeadofSecurityHead
+  - ScpHeadofSecurityBeret
+  #Sunrise-Start
+  - ScpHeadofSecurityHatCap
+  - ScpHeadofSecurityCapUSSPBlack
+  - ScpHeadofSecurityCapLeather
+  #Sunrise-End
+
+- type: loadoutGroup
+  id: ScpHeadofSecurityJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpHeadofSecurityJumpsuit
+  - ScpHeadofSecurityJumpskirt
+  - ScpHeadofSecurityTurtleneck
+  - ScpHeadofSecurityTurtleneckSkirt
+  - ScpHeadofSecurityFormalSuit
+  - ScpHeadofSecurityFormalSkirt
+  - ScpHeadofSecurityJumpsuitHoSOld #Sunrise-Edit
+  - ScpHeadofSecurityJumpsuitUSSPBlack #Sunrise-Edit
+
+- type: loadoutGroup
+  id: ScpHeadofSecurityNeck
+  name: loadout-group-neck # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpHeadofSecurityCloak
+  - ScpHeadofSecurityMantle
+  - ScpHeadofSecurityDarthHOSCloak #Sunrise-Edit
+  - ScpHeadofSecurityCloakHOSCloak #Sunrise-Edit
+  - ScpHeadofSecurityScarf #Sunrise-Edit
+
+- type: loadoutGroup
+  id: ScpHeadofSecurityOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  loadouts:
+  - ScpHeadofSecurityCoat
+  - ScpHeadofSecurityWinterCoat
+  #Sunrise-Start
+  - ScpHeadofSecurityGreatcoat
+  - ScpHeadofSecurityGreatcoatBlack
+  - ScpHeadofSecurityOvercoat
+  - ScpHeadofSecurityUSSPBlack
+  #Sunrise-End
+
+- type: loadoutGroup
+  id: ScpSecurityBackpack
+  name: loadout-group-backpack
+  loadouts:
+  - ScpSecurityBackpack
+  - ScpSecuritySatchel
+  - ScpSecurityDuffel
+
+- type: loadoutGroup
+  id: ScpChiefMedicalOfficerHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpChiefMedicalOfficerBeret
+  - ScpParamedicBeret # Sunrise-Edit
+  # - CMOMedicalHeadMirror # Fire Edit
+# Sunrise-start
+  - ScpBeretSeniorPhysician
+  - ScpMedicalBeret
+  - ScpChemistBeret #Sunrise-edit
+  - ScpPatologonatBeret #Sunrise-edit
+  - ScpNurseHat
+  - ScpBlueSurgeryCap
+  - ScpGreenSurgeryCap
+  - ScpPurpleSurgeryCap
+  - ScpHatPatologonatHat
+  - ScpParamedicHead
+  - ScpSunrise-HatBlacksoft
+  - ScpSunrise-HatRedsoft
+  - ScpSunrise-HatOrangesoft
+  - ScpSunrise-HatCyansoft
+  - ScpSunrise-HatBluesoft
+  - ScpMedicalHeadMirror
+# Sunrise-end
+
+- type: loadoutGroup
+  id: ScpChiefMedicalOfficerJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpChiefMedicalOfficerJumpsuit
+  - ScpChiefMedicalOfficerJumpskirt
+  - ScpChiefMedicalOfficerTurtleneckJumpsuit
+  - ScpChiefMedicalOfficerTurtleneckJumpskirt
+
+- type: loadoutGroup
+  id: ScpChiefMedicalOfficerOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpChiefMedicalOfficerLabCoat
+  - ScpChiefMedicalOfficerWintercoat
+# Sunrise-start
+  - ScpRegularLabCoat
+  - ScpSunrise-CoatLabViro
+  - ScpChemistLabCoat
+  - ScpSunrise-CoatLabGene
+  - ScpCoatLabSeniorPhysician
+  - ScpCoatPatologoanatom
+  - ScpSunrise-WinterViro
+  - ScpChemistWintercoat
+  - ScpSunrise-WinterGen
+  - ScpMedicalDoctorWintercoat
+  - ScpParamedicWintercoat
+  - ScpSunrise-WinterColorrColorWhite
+  - ScpSunrise-WinterColorBlack
+  - ScpSunrise-WinterColorrColorRed
+  - ScpSunrise-WinterColorOrange
+  - ScpSunrise-WinterColorGreen
+  - ScpSunrise-WinterColorCyan
+  - ScpSunrise-WinterColorBlue
+  - ScpParamedicWindbreaker
+# Sunrise-end
+
+- type: loadoutGroup
+  id: ScpChiefMedicalOfficerNeck
+  name: loadout-group-neck # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpChiefMedicalOfficerCloak
+  - ScpChiefMedicalOfficerMantle
+  - ScpChiefMedicalOfficerScarf # Sunrise-Edit
+# Sunrise-start
+  - ScpSunrise-ScarfRed
+  - ScpSunrise-ScarfOrange
+  - ScpSunrise-ScarfGreen
+  - ScpSunrise-ScarfLightBlue
+  - ScpSunrise-ScarfCyan
+  - ScpSunrise-ScarfBlue
+  - ScpSunrise-Stethoscope
+# Sunrise-end
+
+- type: loadoutGroup
+  id: ScpChiefMedicalOfficerShoes
+  name: loadout-group-shoes # Fire edit
+  loadouts:
+  - ScpBrownShoes
+# Sunrise-start
+  - ScpWhiteShoes
+  - ScpBlackShoes
+  - ScpSunrise-RedShoes
+  - ScpSunrise-OrangeShoes
+  - ScpSunrise-ShoesGreen
+  - ScpSunrise-ShoesCyan
+  - ScpBlueShoes
+# Sunrise-end
+  - ScpMedicalWinterBoots
+
+- type: loadoutGroup
+  id: ScpMedicalDoctorHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpMedicalBeret
+  - ScpMedicalHeadMirror
+  - ScpBlueSurgeryCap
+  - ScpGreenSurgeryCap
+  - ScpPurpleSurgeryCap
+  - ScpNurseHat
+# Sunrise-start
+  - ScpSunrise-HatRedsoft
+  - ScpSunrise-HatOrangesoft
+  - ScpSunrise-HatCyansoft
+# Sunrise-end
+
+- type: loadoutGroup
+  id: ScpMedicalDoctorJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpMedicalDoctorJumpsuit
+  - ScpMedicalDoctorJumpskirt
+  - ScpMedicalBlueScrubs
+  - ScpMedicalGreenScrubs
+  - ScpMedicalPurpleScrubs
+
+- type: loadoutGroup
+  id: ScpMedicalDoctorOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpRegularLabCoat
+  # Sunrise-start
+  - ScpSunrise-WinterColorrColorWhite
+  - ScpSunrise-WinterColorrColorRed
+  - ScpSunrise-WinterColorGreen
+  - ScpSunrise-WinterColorCyan
+# Sunrise-end
+  - ScpMedicalDoctorWintercoat
+
+- type: loadoutGroup
+  id: ScpMedicalBackpack
+  name: loadout-group-backpack # Fire edit
+  loadouts:
+  - ScpMedicalDoctorBackpack
+  - ScpMedicalDoctorSatchel
+  - ScpMedicalDoctorDuffel
+
+- type: loadoutGroup
+  id: ScpMedicalShoes
+  name: loadout-group-shoes # Fire edit
+  loadouts:
+  - ScpWhiteShoes
+# Sunrise-start
+  - ScpSunrise-RedShoes
+  - ScpSunrise-OrangeShoes
+  - ScpSunrise-ShoesGreen
+  - ScpSunrise-ShoesCyan
+# Sunrise-end
+  - ScpMedicalWinterBoots
+
+- type: loadoutGroup
+  id: ScpMedicalGloves
+  name: loadout-group-medical-gloves
+  minLimit: 0
+  loadouts:
+  - ScpLatexGloves
+# Sunrise-start
+  - ScpSunrise-WhiteGloves
+  - ScpSunrise-RedGloves
+  - ScpSunrise-GreenGloves
+  - ScpSunrise-TealGloves
+  # - Sunrise-GlovesNitrileRed
+  # - Sunrise-GlovesNitrileGreen
+# Sunrise-end
+  - ScpNitrileGloves
+
+- type: loadoutGroup
+  id: ScpMedicalMask
+  name: loadout-group-medical-mask
+  minLimit: 0
+  loadouts:
+# Sunrise-start
+  - ScpSunrise-MedicalSterileRed
+  - ScpSunrise-MedicalSterileGreen
+# Sunrise-end
+  - ScpSterileMask
+# Sunrise-start
+  - ScpSunrise-MedicalMaskRed
+  - ScpSunrise-MedicalMaskGreen
+  - ScpSunrise-MedicalMask
+# Sunrise-end
+
+- type: loadoutGroup
+  id: ScpMedicalInternJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpWhiteJumpsuit
+  - ScpWhiteJumpskirt
+
+- type: loadoutGroup
+  id: ScpChemistJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpChemistJumpsuit
+  - ScpChemistJumpskirt
+
+- type: loadoutGroup
+  id: ScpChemistOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpRegularLabCoat
+# Sunrise-start
+  - ScpRegularLabCoat
+# Sunrise-end
+  - ScpChemistLabCoat
+  - ScpChemistWintercoat
+# Sunrise-start
+  - ScpMedicalDoctorWintercoat
+  - ScpSunrise-WinterColorrColorWhite
+  - ScpSunrise-WinterColorrColorRed
+  - ScpSunrise-WinterColorOrange
+  - ScpSunrise-WinterColorGreen
+  - ScpSunrise-WinterColorCyan
+# Sunrise-end
+
+- type: loadoutGroup
+  id: ScpChemistBackpack
+  name: loadout-group-backpack # Fire edit
+  loadouts:
+  - ScpChemistBackpack
+  - ScpChemistSatchel
+  - ScpChemistDuffel
+
+- type: loadoutGroup
+  id: ScpPsychologistJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpPsychologistJumpsuit
+  - ScpPsychologistJumpskirt

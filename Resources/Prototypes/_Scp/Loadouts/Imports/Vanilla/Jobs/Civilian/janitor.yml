@@ -1,0 +1,53 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpJanitorHead
+  equipment:
+    head: ClothingHeadHatPurplesoft
+
+# Jumpsuit
+
+- type: loadout
+  id: ScpJanitorJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitJanitor
+
+- type: loadout
+  id: ScpJanitorJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtJanitor
+
+# Sunrise-start
+
+- type: loadout
+  id: ScpMaidJumpskirt
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaidJanitor
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtElegantMaid
+# Sunrise-end
+
+# Gloves
+
+- type: loadout
+  id: ScpJanitorRubberGloves
+  equipment:
+    gloves: ClothingHandsGlovesJanitor
+
+- type: loadout
+  id: ScpOrangeGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorOrange
+
+- type: loadout
+  id: ScpPurpleGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorPurple
+
+# Outer clothing
+
+- type: loadout
+  id: ScpJanitorWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterJani

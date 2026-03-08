@@ -1,0 +1,16 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpHatPatologonatHat
+  equipment:
+    head: ClothingHeadHatPatologonatHat
+
+- type: loadout
+  id: ScpCoatPatologoanatom
+  equipment:
+    outerClothing: ClothingOuterCoatPatologoanatom
+
+- type: loadout
+  id: ScpPatologonatBeret
+  equipment:
+    head: ClothingHeadHatBeretPatologoanatom

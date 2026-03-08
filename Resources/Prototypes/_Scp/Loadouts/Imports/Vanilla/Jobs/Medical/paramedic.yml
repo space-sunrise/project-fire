@@ -1,0 +1,25 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpParamedicHead
+  equipment:
+    head: ClothingHeadHatParamedicsoft
+
+# Jumpsuit
+
+- type: loadout
+  id: ScpParamedicWindbreaker
+  equipment:
+    outerClothing: ClothingOuterCoatParamedicWB
+
+- type: loadout
+  id: ScpParamedicWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterPara
+
+# Shoes
+
+- type: loadout
+  id: ScpBlueShoes
+  equipment:
+    shoes: ClothingShoesColorBlue

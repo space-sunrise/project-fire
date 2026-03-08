@@ -1,0 +1,17 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpSecurityBodycam
+  startingGear: SecurityBodycam
+
+- type: loadout
+  id: ScpSecurityPepperspray
+  startingGear: PeppersprayBlue
+
+- type: loadout
+  id: ScpSecurityWhistle
+  startingGear: SecurityWhistle
+
+- type: loadout
+  id: ScpSecurityTourniquet
+  startingGear: SecurityTourniquet

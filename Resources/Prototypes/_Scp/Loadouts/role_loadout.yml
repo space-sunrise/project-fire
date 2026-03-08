@@ -15,116 +15,116 @@
   - DirectorPDA
   - DirectorBack
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobScientificServiceDirector
   groups:
-  - GroupTankHarness
-  - ResearchDirectorNeck
-  - ResearchDirectorJumpsuit
-  - ScientistBackpack
-  - ResearchDirectorOuterClothing
-  - ScientistGloves
-  - ResearchDirectorShoes
-  - Glasses
+  - ScpGroupTankHarness
+  - ScpResearchDirectorNeck
+  - ScpResearchDirectorJumpsuit
+  - ScpScientistBackpack
+  - ScpResearchDirectorOuterClothing
+  - ScpScientistGloves
+  - ScpResearchDirectorShoes
+  - ScpGlasses
   - ScpCommonTrinkets
   - ScientificServiceTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobSecurityCommander
   groups:
-  - HeadofSecurityHead
-  - HeadofSecurityNeck
-  - HeadofSecurityJumpsuit
-  - SecurityBackpack
+  - ScpHeadofSecurityHead
+  - ScpHeadofSecurityNeck
+  - ScpHeadofSecurityJumpsuit
+  - ScpSecurityBackpack
   - CommonSecurityBelt
-  - HeadofSecurityOuterClothing
+  - ScpHeadofSecurityOuterClothing
   - GuardShoes
   - SecurityCommanderWeapon
   - SecurityRadio
   - CommonSecurityTrinkets
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobChiefTechnicalSpecialist
   groups:
-  - GroupTankHarness
-  - ChiefEngineerHead
-  - SunriseCEMask
-  - ChiefEngineerJumpsuit
-  - SunriseCEGloves
-  - ChiefEngineerBackpack
-  - ChiefEngineerOuterClothing
-  - ChiefEngineerNeck
-  - ChiefEngineerShoes
-  - SurvivalExtended
+  - ScpGroupTankHarness
+  - ScpChiefEngineerHead
+  - ScpSunriseCEMask
+  - ScpChiefEngineerJumpsuit
+  - ScpSunriseCEGloves
+  - ScpChiefEngineerBackpack
+  - ScpChiefEngineerOuterClothing
+  - ScpChiefEngineerNeck
+  - ScpChiefEngineerShoes
+  - ScpSurvivalExtended
   - ScpTrinketsEngineering
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobPersonnelOfficer
   groups:
-  - GroupTankHarness
-  - HoPHead
-  - HoPNeck
-  - HoPJumpsuit
-  - HoPBackpack
-  - HoPOuterClothing
-  - Glasses
+  - ScpGroupTankHarness
+  - ScpHoPHead
+  - ScpHoPNeck
+  - ScpHoPJumpsuit
+  - ScpHoPBackpack
+  - ScpHoPOuterClothing
+  - ScpGlasses
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobHeadOfMedicalSector
   groups:
-  - GroupTankHarness
-  - ChiefMedicalOfficerHead
-  - SunriseChiefMedicalOfficerMask
-  - ChiefMedicalOfficerJumpsuit
-  - SunriseChiefMedicalOfficerGloves
-  - MedicalBackpack
-  - ChiefMedicalOfficerOuterClothing
-  - ChiefMedicalOfficerNeck
-  - ChiefMedicalOfficerShoes
-  - Glasses
+  - ScpGroupTankHarness
+  - ScpChiefMedicalOfficerHead
+  - ScpSunriseChiefMedicalOfficerMask
+  - ScpChiefMedicalOfficerJumpsuit
+  - ScpSunriseChiefMedicalOfficerGloves
+  - ScpMedicalBackpack
+  - ScpChiefMedicalOfficerOuterClothing
+  - ScpChiefMedicalOfficerNeck
+  - ScpChiefMedicalOfficerShoes
+  - ScpGlasses
   - ScpMedicalTrinkets
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobSeniorLogisticsOfficer
   groups:
-  - GroupTankHarness
-  - QuartermasterHead
-  - SunriseQuartermasterMask
-  - QuartermasterJumpsuit
-  - SunriseQuartermasterGloves
-  - CargoTechnicianBackpack
-  - QuartermasterOuterClothing
-  - QuartermasterNeck
-  - QuartermasterShoes
-  - Glasses
+  - ScpGroupTankHarness
+  - ScpQuartermasterHead
+  - ScpSunriseQuartermasterMask
+  - ScpQuartermasterJumpsuit
+  - ScpSunriseQuartermasterGloves
+  - ScpCargoTechnicianBackpack
+  - ScpQuartermasterOuterClothing
+  - ScpQuartermasterNeck
+  - ScpQuartermasterShoes
+  - ScpGlasses
   - ScpTrinketsCargo
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 # Комитет по этике
 
@@ -135,9 +135,9 @@
   - EthicsCommitteeRepresentativeOuterClothing
   - EthicsCommitteeRepresentativeTrinkets
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 # Отряд специального назначения
 
@@ -154,16 +154,16 @@
   - GuardShoes
   - SpecialPurposeSquadLeaderKeyCard
   - CommonSecurityPDA
-  - SecurityBackpack
+  - ScpSecurityBackpack
   - CommonSecurityBelt
   - SpecialPurposeSquadWeaponPrimary
   - SpecialPurposeSquadWeaponSecondary
   - SecurityRadio
   - CommonSecurityTrinkets
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobSeniorHeavyContainmentZoneOfficer
@@ -178,16 +178,16 @@
   - GuardShoes
   - SpecialPurposeSquadSeniorSeniorHeavyContainmentZoneOfficerKeyCard
   - CommonSecurityPDA
-  - SecurityBackpack
+  - ScpSecurityBackpack
   - CommonSecurityBelt
   - SpecialPurposeSquadWeaponPrimary
   - SpecialPurposeSquadWeaponSecondary
   - SecurityRadio
   - CommonSecurityTrinkets
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobHeavyContainmentZoneOfficer
@@ -202,16 +202,16 @@
   - GuardShoes
   - SpecialPurposeSquadHeavyContainmentZoneOfficerKeyCard
   - CommonSecurityPDA
-  - SecurityBackpack
+  - ScpSecurityBackpack
   - CommonSecurityBelt
   - SpecialPurposeSquadWeaponPrimary
   - SpecialPurposeSquadWeaponSecondary
   - SecurityRadio
   - CommonSecurityTrinkets
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobJuniorHeavyContainmentZoneOfficer
@@ -225,15 +225,15 @@
   - GuardShoes
   - SpecialPurposeSquadJuniorHeavyContainmentZoneOfficerKeyCard
   - CommonSecurityPDA
-  - SecurityBackpack
+  - ScpSecurityBackpack
   - CommonSecurityBelt
   - SpecialPurposeSquadWeaponSecondary
   - SecurityRadio
   - CommonSecurityTrinkets
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 # Комендантский отряд
 
@@ -251,15 +251,15 @@
   - CommandantSquadLeaderKeyCard
   - CommonSecurityPDA
   - CommonSecurityBelt
-  - SecurityBackpack
+  - ScpSecurityBackpack
   - CommandantSquadWeaponPrimary
   - CommandantSquadWeaponSecondary
   - SecurityRadio
   - CommonSecurityTrinkets
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobSeniorExternalAdministrativeZoneOfficer
@@ -275,15 +275,15 @@
   - CommandantSquadSeniorLightContainmentZoneSecurityOfficerKeyCard
   - CommonSecurityPDA
   - CommonSecurityBelt
-  - SecurityBackpack
+  - ScpSecurityBackpack
   - CommandantSquadWeaponPrimary
   - CommandantSquadWeaponSecondary
   - SecurityRadio
   - CommonSecurityTrinkets
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobExternalAdministrativeZoneOfficer
@@ -299,15 +299,15 @@
   - CommandantSquadLightContainmentZoneSecurityOfficerKeyCard
   - CommonSecurityPDA
   - CommonSecurityBelt
-  - SecurityBackpack
+  - ScpSecurityBackpack
   - CommandantSquadWeaponPrimary
   - CommandantSquadWeaponSecondary
   - SecurityRadio
   - CommonSecurityTrinkets
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobJuniorExternalAdministrativeZoneOfficer
@@ -322,358 +322,358 @@
   - CommandantSquadJuniorLightContainmentZoneSecurityOfficerKeyCard
   - CommonSecurityPDA
   - CommonSecurityBelt
-  - SecurityBackpack
+  - ScpSecurityBackpack
   - CommandantSquadWeaponSecondary
   - SecurityRadio
   - CommonSecurityTrinkets
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobFieldMedicalSpecialist
   groups:
-  - BrigmedicJumpsuit
-  - BrigmedicBackpack
+  - ScpBrigmedicJumpsuit
+  - ScpBrigmedicBackpack
   - CommandantSquadWeaponSecondary
   - SecurityRadio
   - CommonSecurityTrinkets
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 # Научная служба
 
 - type: roleLoadout
   id: JobLeadResearcher
   groups:
-  - SeniorResearcherJumpsuit
-  - ScientistBackpack
-  - ScientistGloves
-  - ScientistShoes
-  - Glasses
+  - ScpSeniorResearcherJumpsuit
+  - ScpScientistBackpack
+  - ScpScientistGloves
+  - ScpScientistShoes
+  - ScpGlasses
   - ScpCommonTrinkets
   - ScientificServiceTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobAnomarchologyResearcher
   groups:
-  - GroupTankHarness
-  - ScientistNeck
-  - ScientistJumpsuit
-  - ScientistBackpack
-  - ScientistOuterClothing
-  - ScientistGloves
-  - ScientistShoes
-  - Glasses
+  - ScpGroupTankHarness
+  - ScpScientistNeck
+  - ScpScientistJumpsuit
+  - ScpScientistBackpack
+  - ScpScientistOuterClothing
+  - ScpScientistGloves
+  - ScpScientistShoes
+  - ScpGlasses
   - ScpCommonTrinkets
   - ScientificServiceTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobProductionSpecialist
   groups:
-  - RoboticistHead
-  - ScientistNeck
-  - RoboticistJumpsuit
-  - RoboticistOuterClothing
-  - ScientistBackpack
-  - ScientistShoes
+  - ScpRoboticistHead
+  - ScpScientistNeck
+  - ScpRoboticistJumpsuit
+  - ScpRoboticistOuterClothing
+  - ScpScientistBackpack
+  - ScpScientistShoes
   - ScpCommonTrinkets
   - ScientificServiceTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobJuniorResearcher
   groups:
-  - GroupTankHarness
-  - ResearchAssistantJumpsuit
-  - ScientistBackpack
-  - Glasses
+  - ScpGroupTankHarness
+  - ScpResearchAssistantJumpsuit
+  - ScpScientistBackpack
+  - ScpGlasses
   - ScpCommonTrinkets
   - ScientificServiceTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 # Медицинская служба
 
 - type: roleLoadout
   id: JobSeniorMedicalSpecialist
   groups:
-  - SeniorPhysicianHead
-  - SeniorPhysicianMask
-  - SeniorPhysicianJumpsuit
-  - SeniorPhysicianGloves
-  - MedicalBackpack
-  - SeniorPhysicianOuterClothing
-  - SeniorPhysicianNeck
-  - SeniorPhysicianBelt
-  - SeniorPhysicianShoes
+  - ScpSeniorPhysicianHead
+  - ScpSeniorPhysicianMask
+  - ScpSeniorPhysicianJumpsuit
+  - ScpSeniorPhysicianGloves
+  - ScpMedicalBackpack
+  - ScpSeniorPhysicianOuterClothing
+  - ScpSeniorPhysicianNeck
+  - ScpSeniorPhysicianBelt
+  - ScpSeniorPhysicianShoes
   - ScpMedicalTrinkets
-  - Glasses
+  - ScpGlasses
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobPharmaceuticalSpecialist
   groups:
-  - GroupTankHarness
-  - SunriseChemistHead
-  - SunriseChemistMask
-  - ChemistJumpsuit
-  - SunriseChemistGloves
-  - ChemistBackpack
-  - ChemistOuterClothing
-  - SunriseChemistNeck
-  - SunriseChemistShoes
+  - ScpGroupTankHarness
+  - ScpSunriseChemistHead
+  - ScpSunriseChemistMask
+  - ScpChemistJumpsuit
+  - ScpSunriseChemistGloves
+  - ScpChemistBackpack
+  - ScpChemistOuterClothing
+  - ScpSunriseChemistNeck
+  - ScpSunriseChemistShoes
   - ScpMedicalTrinkets
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobMedicalSpecialist
   groups:
-  - GroupTankHarness
-  - MedicalDoctorHead
-  - MedicalMask
-  - MedicalDoctorJumpsuit
-  - MedicalGloves
-  - MedicalBackpack
-  - MedicalDoctorOuterClothing
-  - SunriseMedicalDoctorNeck
-  - MedicalShoes
-  - Glasses
+  - ScpGroupTankHarness
+  - ScpMedicalDoctorHead
+  - ScpMedicalMask
+  - ScpMedicalDoctorJumpsuit
+  - ScpMedicalGloves
+  - ScpMedicalBackpack
+  - ScpMedicalDoctorOuterClothing
+  - ScpSunriseMedicalDoctorNeck
+  - ScpMedicalShoes
+  - ScpGlasses
   - ScpMedicalTrinkets
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobPsychotherapist
   groups:
-  - SunrisePsychologistHead
-  - SunrisePsychologistMask
-  - SunrisePsychologistGloves
-  - GroupTankHarness
-  - PsychologistJumpsuit
-  - MedicalBackpack
-  - SunrisePsychologistOuterClothing
-  - SunrisePsychologistNeck
-  - SunrisePsychologistShoes
-  - Glasses
+  - ScpSunrisePsychologistHead
+  - ScpSunrisePsychologistMask
+  - ScpSunrisePsychologistGloves
+  - ScpGroupTankHarness
+  - ScpPsychologistJumpsuit
+  - ScpMedicalBackpack
+  - ScpSunrisePsychologistOuterClothing
+  - ScpSunrisePsychologistNeck
+  - ScpSunrisePsychologistShoes
+  - ScpGlasses
   - ScpMedicalTrinkets
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobHospitalIntern
   groups:
-  - GroupTankHarness
-  - MedicalDoctorHead
-  - MedicalMask
-  - MedicalInternJumpsuit
-  - MedicalGloves
-  - MedicalBackpack
-  - MedicalDoctorOuterClothing
-  - SunriseMedicalDoctorNeck
-  - MedicalShoes
-  - Glasses
+  - ScpGroupTankHarness
+  - ScpMedicalDoctorHead
+  - ScpMedicalMask
+  - ScpMedicalInternJumpsuit
+  - ScpMedicalGloves
+  - ScpMedicalBackpack
+  - ScpMedicalDoctorOuterClothing
+  - ScpSunriseMedicalDoctorNeck
+  - ScpMedicalShoes
+  - ScpGlasses
   - ScpMedicalTrinkets
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 # Инженерно-технический отдел
 
 - type: roleLoadout
   id: JobLeadTechnicalSpecialist
   groups:
-  - SeniorEngineerHead
-  - SeniorEngineerMask
-  - SeniorEngineerJumpsuit
-  - SeniorEngineerGloves
-  - StationSeniorEngineerBackpack
-  - SeniorEngineerOuterClothing
-  - SeniorEngineerNeck
-  - SeniorEngineerShoes
-  - SurvivalExtended
+  - ScpSeniorEngineerHead
+  - ScpSeniorEngineerMask
+  - ScpSeniorEngineerJumpsuit
+  - ScpSeniorEngineerGloves
+  - ScpStationSeniorEngineerBackpack
+  - ScpSeniorEngineerOuterClothing
+  - ScpSeniorEngineerNeck
+  - ScpSeniorEngineerShoes
+  - ScpSurvivalExtended
   - ScpTrinketsEngineering
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobGeneralTechnicalSpecialist
   groups:
-  - GroupTankHarness
-  - StationEngineerHead
-  - StationSunriseEngineerMask
-  - StationEngineerJumpsuit
-  - StationSunriseEngineerGloves
-  - StationEngineerBackpack
-  - StationEngineerOuterClothing
-  - StationSunriseEngineerNeck
-  - StationEngineerShoes
-  - SurvivalExtended
+  - ScpGroupTankHarness
+  - ScpStationEngineerHead
+  - ScpStationSunriseEngineerMask
+  - ScpStationEngineerJumpsuit
+  - ScpStationSunriseEngineerGloves
+  - ScpStationEngineerBackpack
+  - ScpStationEngineerOuterClothing
+  - ScpStationSunriseEngineerNeck
+  - ScpStationEngineerShoes
+  - ScpSurvivalExtended
   - ScpTrinketsEngineering
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobElectricalTechnicalSpecialist
   groups:
-  - GroupTankHarness
-  - SunriseAtmosHead
-  - SunriseAtmosMask
-  - AtmosphericTechnicianJumpsuit
-  - SunriseAtmosGloves
-  - AtmosphericTechnicianBackpack
-  - AtmosphericTechnicianOuterClothing
-  - SunriseAtmosNeck
-  - AtmosphericTechnicianShoes
+  - ScpGroupTankHarness
+  - ScpSunriseAtmosHead
+  - ScpSunriseAtmosMask
+  - ScpAtmosphericTechnicianJumpsuit
+  - ScpSunriseAtmosGloves
+  - ScpAtmosphericTechnicianBackpack
+  - ScpAtmosphericTechnicianOuterClothing
+  - ScpSunriseAtmosNeck
+  - ScpAtmosphericTechnicianShoes
   - ScpTrinketsEngineering
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobTechnicalTrainee
   groups:
-  - GroupTankHarness
-  - StationEngineerHead
-  - StationSunriseEngineerMask
-  - TechnicalAssistantJumpsuit
-  - StationSunriseEngineerGloves
-  - StationEngineerBackpack
-  - StationEngineerOuterClothing
-  - StationSunriseEngineerNeck
-  - StationEngineerShoes
-  - SurvivalExtended
+  - ScpGroupTankHarness
+  - ScpStationEngineerHead
+  - ScpStationSunriseEngineerMask
+  - ScpTechnicalAssistantJumpsuit
+  - ScpStationSunriseEngineerGloves
+  - ScpStationEngineerBackpack
+  - ScpStationEngineerOuterClothing
+  - ScpStationSunriseEngineerNeck
+  - ScpStationEngineerShoes
+  - ScpSurvivalExtended
   - ScpTrinketsEngineering
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 # Отдел логистики
 
 - type: roleLoadout
   id: JobLogisticsOfficer
   groups:
-  - GroupTankHarness
-  - CargoTechnicianHead
-  - SunriseCargoTechMask
-  - CargoTechnicianJumpsuit
-  - SunriseCargoTechGloves
-  - CargoTechnicianBackpack
-  - CargoTechnicianOuterClothing
-  - SunriseCargoTechNeck
-  - CargoTechnicianShoes
-  - Glasses
+  - ScpGroupTankHarness
+  - ScpCargoTechnicianHead
+  - ScpSunriseCargoTechMask
+  - ScpCargoTechnicianJumpsuit
+  - ScpSunriseCargoTechGloves
+  - ScpCargoTechnicianBackpack
+  - ScpCargoTechnicianOuterClothing
+  - ScpSunriseCargoTechNeck
+  - ScpCargoTechnicianShoes
+  - ScpGlasses
   - ScpTrinketsCargo
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 # Департамент продовольственного и санитарного обслуживания
 
 - type: roleLoadout
   id: JobGastronomicSpecialist
   groups:
-  - GroupTankHarness
-  - ChefHead
-  - ChefMask
-  - ChefJumpsuit
-  - CommonBackpack
-  - ChefOuterClothing
-  - Glasses
+  - ScpGroupTankHarness
+  - ScpChefHead
+  - ScpChefMask
+  - ScpChefJumpsuit
+  - ScpCommonBackpack
+  - ScpChefOuterClothing
+  - ScpGlasses
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobBotanistPhytogeneticist
   groups:
-  - GroupTankHarness
-  - BotanistHead
-  - BotanistJumpsuit
-  - BotanistBackpack
-  - BotanistOuterClothing
-  - Glasses
+  - ScpGroupTankHarness
+  - ScpBotanistHead
+  - ScpBotanistJumpsuit
+  - ScpBotanistBackpack
+  - ScpBotanistOuterClothing
+  - ScpGlasses
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 - type: roleLoadout
   id: JobServicePersonnel
   groups:
-  - GroupTankHarness
-  - JanitorHead
-  - JanitorJumpsuit
-  - JanitorGloves
-  - CommonBackpack
-  - JanitorOuterClothing
-  - Glasses
+  - ScpGroupTankHarness
+  - ScpJanitorHead
+  - ScpJanitorJumpsuit
+  - ScpJanitorGloves
+  - ScpCommonBackpack
+  - ScpJanitorOuterClothing
+  - ScpGlasses
   - ScpCommonTrinkets
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
 
 # Класс Д
 
 - type: roleLoadout
   id: JobClassDCook
   groups:
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
   - ClassDTrinkets
 
 - type: roleLoadout
   id: JobClassDBotanist
   groups:
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
   - ClassDTrinkets
 
 - type: roleLoadout
   id: JobClassDJanitor
   groups:
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
   - ClassDTrinkets
 
 - type: roleLoadout
   id: JobClassD
   groups:
-  - Bra
-  - Pants
-  - Socks
+  - ScpBra
+  - ScpPants
+  - ScpSocks
   - ClassDTrinkets

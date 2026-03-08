@@ -1,0 +1,763 @@
+# Copied for _Scp role loadouts.
+
+- type: loadoutGroup
+  id: ScpSocks
+  name: loadout-group-socks
+  minLimit: 1
+  loadouts:
+  - ScpThighWhiteSocks
+  - ScpShortWhiteSocks
+  - ScpFishnetTights
+  - ScpKneeWhiteSocks
+  - ScpKneeAceSocks
+  - ScpKneeAssblastusaSocks
+  - ScpKneeBeeSocks
+  - ScpKneeBlackSocks
+  - ScpKneeCommieSocks
+  - ScpKneeFishnetSocks
+  - ScpKneeRainbowSocks
+  - ScpKneeStripedSocks
+  - ScpKneeThinSocks
+  - ScpKneeTransSocks
+  - ScpKneeUkSocks
+  - ScpNormBlackSocks
+  - ScpNormWhiteSocks
+  - ScpPantyhose
+  - ScpShortBlackSocks
+  - ScpStockingsBlue
+  - ScpStockingsCyan
+  - ScpStockingsDpink
+  - ScpStockingsGreen
+  - ScpStockingslpink
+  - ScpStockingsOrange
+  - ScpStockingsPurple
+  - ScpThighAceSocks
+  - ScpThighAsblastusaSocks
+  - ScpThighBeeSocks
+  - ScpThighBlackSocks
+  - ScpThighCommieSocks
+  - ScpThighRainbowSocks
+  - ScpThighTransSocks
+  - ScpThighUkSocks
+
+- type: loadoutGroup
+  id: ScpBra
+  name: loadout-group-bra
+  minLimit: 1
+  loadouts:
+  - ScpStraplessBra
+  - ScpWhiteNekoBra
+  - ScpBlackNekoBra
+  - ScpAssblastusaBra
+  - ScpBikiniBra
+  - ScpBraletteBra
+  - ScpCommieBra
+  - ScpKinkyBra
+  - ScpLaceBra
+  - ScpSportBra
+  - ScpThongBra
+  - ScpUkBra
+
+- type: loadoutGroup
+  id: ScpPants
+  name: loadout-group-pants
+  minLimit: 1
+  loadouts:
+  - ScpStraplessWomanPants
+  - ScpBoxersManPants
+  - ScpAssblastusaManPants
+  - ScpBriefsManPants
+  - ScpCommieManPants
+  - ScpHeartsManPants
+  - ScpKinkyManPants
+  - ScpLongjohnsManPants
+  - ScpMankiniManPants
+  - ScpStripeManPants
+  - ScpUkManPants
+  - ScpNekoWhiteWomanPants
+  - ScpNekoBlackWomanPants
+  - ScpAssblastusaWomanPants
+  - ScpBikiniWomanPants
+  - ScpBraletteWomanPants
+  - ScpCommieWomanPants
+  - ScpKinkyWomanPants
+  - ScpLaceWomanPants
+  - ScpSportWomanPants
+  - ScpThongWomanPants
+  - ScpUkWomanPants
+
+- type: loadoutGroup
+  id: ScpBrigmedicBackpack
+  name: loadout-group-backpack # Fire edit
+  loadouts:
+  - ScpBrigmedicBackpack
+  - ScpBrigmedicSatchel
+  - ScpBrigmedicDuffel
+
+- type: loadoutGroup
+  id: ScpBrigmedicJumpsuit
+  name: loadout-group-jumpsuit  # Fire edit
+  loadouts:
+  - ScpBrigmedicJumpsuit
+  - ScpBrigmedicJumpskirt
+
+- type: loadoutGroup
+  id: ScpChiefEngineerBackpack
+  name: loadout-group-backpack # Fire edit
+  loadouts:
+  - ScpChiefEngineerBackpack
+  - ScpChiefEngineerSatchel
+  - ScpChiefEngineerDuffel
+
+- type: loadoutGroup
+  id: ScpSeniorResearcherJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpJumpsuitSeniorResearcher
+  - ScpJumpskirtSeniorResearcher
+
+# Security
+
+- type: loadoutGroup
+  id: ScpSeniorPhysicianJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpJumpsuitSeniorPhysician
+  - ScpJumpskirtSeniorPhysician
+
+- type: loadoutGroup
+  id: ScpSeniorPhysicianBelt
+  name: loadout-group-belt  # Fire edit
+  loadouts:
+  - ScpBeltMedicalSeniorPhysician
+  - ScpChemBagSeniorPhysician
+
+- type: loadoutGroup
+  id: ScpSunriseChiefMedicalOfficerMask
+  name: loadout-group-mask # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-MedicalSterileBlack
+  - ScpSunrise-MedicalSterileRed
+  - ScpSunrise-MedicalSterileOrange
+  - ScpSunrise-MedicalSterileGreen
+  - ScpSterileMask
+  - ScpSunrise-MedicalSterileBlue
+  - ScpSunrise-MedicalMaskBlack
+  - ScpSunrise-MedicalMaskRed
+  - ScpSunrise-MedicalMaskOrange
+  - ScpSunrise-MedicalMaskGreen
+  - ScpSunrise-MedicalMask
+  - ScpSunrise-MedicalMaskBlue
+
+- type: loadoutGroup
+  id: ScpSunriseChiefMedicalOfficerGloves
+  name: loadout-group-gloves # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLatexGloves
+  - ScpSunrise-BlackGloves
+  - ScpSunrise-WhiteGloves
+  - ScpSunrise-RedGloves
+  - ScpSunrise-GreenGloves
+  - ScpSunrise-TealGloves
+  - ScpSunrise-BlueGloves
+  # - Sunrise-GlovesNitrileBlack
+  # - Sunrise-GlovesNitrileRed
+  # - Sunrise-GlovesNitrileOrange
+  # - Sunrise-GlovesNitrileGreen
+  - ScpNitrileGloves
+  # - Sunrise-GlovesNitrileBlue
+
+- type: loadoutGroup
+  id: ScpSeniorPhysicianHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpBeretSeniorPhysician
+  - ScpMedicalBeret
+  - ScpParamedicBeret
+  - ScpChemistBeret
+  - ScpPatologonatBeret
+  - ScpNurseHat
+  - ScpBlueSurgeryCap
+  - ScpGreenSurgeryCap
+  - ScpPurpleSurgeryCap
+  - ScpHatPatologonatHat
+  - ScpParamedicHead
+  - ScpSunrise-HatBlacksoft
+  - ScpSunrise-HatRedsoft
+  - ScpSunrise-HatOrangesoft
+  - ScpSunrise-HatCyansoft
+  - ScpSunrise-HatBluesoft
+  - ScpMedicalHeadMirror
+
+- type: loadoutGroup
+  id: ScpSeniorPhysicianOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpRegularLabCoat
+  - ScpSunrise-CoatLabViro
+  - ScpChemistLabCoat
+  - ScpSunrise-CoatLabGene
+  - ScpCoatLabSeniorPhysician
+  - ScpCoatPatologoanatom
+  - ScpSunrise-WinterViro
+  - ScpChemistWintercoat
+  - ScpSunrise-WinterGen
+  - ScpMedicalDoctorWintercoat
+  - ScpParamedicWintercoat
+  - ScpSunrise-WinterColorrColorWhite
+  - ScpSunrise-WinterColorBlack
+  - ScpSunrise-WinterColorrColorRed
+  - ScpSunrise-WinterColorOrange
+  - ScpSunrise-WinterColorGreen
+  - ScpSunrise-WinterColorCyan
+  - ScpSunrise-WinterColorBlue
+  - ScpParamedicWindbreaker
+
+- type: loadoutGroup
+  id: ScpSeniorPhysicianNeck
+  name: loadout-group-neck # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-ScarfBlack
+  - ScpSunrise-ScarfRed
+  - ScpSunrise-ScarfOrange
+  - ScpSunrise-ScarfGreen
+  - ScpSunrise-ScarfLightBlue
+  - ScpSunrise-ScarfCyan
+  - ScpSunrise-ScarfBlue
+  - ScpSunrise-Stethoscope
+
+- type: loadoutGroup
+  id: ScpSeniorPhysicianMask
+  name: loadout-group-mask # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-MedicalSterileBlack
+  - ScpSunrise-MedicalSterileRed
+  - ScpSunrise-MedicalSterileOrange
+  - ScpSunrise-MedicalSterileGreen
+  - ScpSterileMask
+  - ScpSunrise-MedicalSterileBlue
+  - ScpSunrise-MedicalMaskBlack
+  - ScpSunrise-MedicalMaskRed
+  - ScpSunrise-MedicalMaskOrange
+  - ScpSunrise-MedicalMaskGreen
+  - ScpSunrise-MedicalMask
+  - ScpSunrise-MedicalMaskBlue
+
+- type: loadoutGroup
+  id: ScpSeniorPhysicianShoes
+  name: loadout-group-shoes # Fire edit
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - ScpBrownShoes
+  - ScpWhiteShoes
+  - ScpBlackShoes
+  - ScpSunrise-RedShoes
+  - ScpSunrise-OrangeShoes
+  - ScpSunrise-ShoesGreen
+  - ScpSunrise-ShoesCyan
+  - ScpBlueShoes
+  - ScpMedicalWinterBoots
+
+- type: loadoutGroup
+  id: ScpSeniorPhysicianGloves
+  name: loadout-group-gloves # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLatexGloves
+  - ScpSunrise-BlackGloves
+  - ScpSunrise-WhiteGloves
+  - ScpSunrise-RedGloves
+  - ScpSunrise-GreenGloves
+  - ScpSunrise-TealGloves
+  - ScpSunrise-BlueGloves
+  # - Sunrise-GlovesNitrileBlack
+  # - Sunrise-GlovesNitrileRed
+  # - Sunrise-GlovesNitrileOrange
+  # - Sunrise-GlovesNitrileGreen
+  - ScpNitrileGloves
+  # - Sunrise-GlovesNitrileBlue
+
+- type: loadoutGroup
+  id: ScpSunriseChemistHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpMedicalBeret
+  - ScpChemistBeret
+  - ScpNurseHat
+  - ScpBlueSurgeryCap
+  - ScpGreenSurgeryCap
+  - ScpPurpleSurgeryCap
+  - ScpSunrise-HatRedsoft
+  - ScpSunrise-HatOrangesoft
+  - ScpSunrise-HatCyansoft
+  - ScpMedicalHeadMirror
+
+- type: loadoutGroup
+  id: ScpSunriseChemistNeck
+  name: loadout-group-neck # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-ScarfRed
+  - ScpSunrise-ScarfOrange
+  - ScpSunrise-ScarfGreen
+  - ScpSunrise-ScarfLightBlue
+  - ScpSunrise-ScarfCyan
+  - ScpSunrise-Stethoscope
+
+- type: loadoutGroup
+  id: ScpSunriseChemistMask
+  name: loadout-group-mask # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-MedicalSterileRed
+  - ScpSunrise-MedicalSterileOrange
+  - ScpSunrise-MedicalSterileGreen
+  - ScpSterileMask
+  - ScpSunrise-MedicalMaskRed
+  - ScpSunrise-MedicalMaskOrange
+  - ScpSunrise-MedicalMaskGreen
+  - ScpSunrise-MedicalMask
+
+- type: loadoutGroup
+  id: ScpSunriseChemistGloves
+  name: loadout-group-gloves # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLatexGloves
+  - ScpSunrise-WhiteGloves
+  - ScpSunrise-RedGloves
+  - ScpSunrise-GreenGloves
+  - ScpSunrise-TealGloves
+  # - Sunrise-GlovesNitrileRed
+  # - Sunrise-GlovesNitrileOrange
+  # - Sunrise-GlovesNitrileGreen
+  - ScpNitrileGloves
+
+- type: loadoutGroup
+  id: ScpSunriseChemistShoes
+  name: loadout-group-shoes # Fire edit
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - ScpWhiteShoes
+  - ScpSunrise-RedShoes
+  - ScpSunrise-OrangeShoes
+  - ScpSunrise-ShoesGreen
+  - ScpSunrise-ShoesCyan
+  - ScpMedicalWinterBoots
+
+- type: loadoutGroup
+  id: ScpSunrisePsychologistHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpMedicalHeadMirror
+
+- type: loadoutGroup
+  id: ScpSunrisePsychologistOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpRegularLabCoat
+  - ScpMedicalDoctorWintercoat
+  - ScpSunrise-WinterColorrColorWhite
+  - ScpSunrise-WinterColorCyan
+
+- type: loadoutGroup
+  id: ScpSunrisePsychologistNeck
+  name: loadout-group-neck # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-ScarfLightBlue
+  - ScpSunrise-ScarfCyan
+
+- type: loadoutGroup
+  id: ScpSunrisePsychologistMask
+  name: loadout-group-mask # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSterileMask
+  - ScpSunrise-MedicalMask
+
+- type: loadoutGroup
+  id: ScpSunrisePsychologistGloves
+  name: loadout-group-gloves # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLatexGloves
+  - ScpSunrise-WhiteGloves
+  - ScpNitrileGloves
+
+- type: loadoutGroup
+  id: ScpSunrisePsychologistShoes
+  name: loadout-group-shoes # Fire edit
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - ScpWhiteShoes
+  - ScpMedicalWinterBoots
+
+- type: loadoutGroup
+  id: ScpSunriseMedicalDoctorNeck
+  name: loadout-group-neck # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-ScarfRed
+  - ScpSunrise-ScarfGreen
+  - ScpSunrise-ScarfLightBlue
+  - ScpSunrise-ScarfCyan
+  - ScpSunrise-Stethoscope
+
+- type: loadoutGroup
+  id: ScpSeniorEngineerJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpJumpsuitSeniorEngineer
+  - ScpJumpskirtSeniorEngineer
+
+- type: loadoutGroup
+  id: ScpRoboticistJumpsuit
+  name: loadout-group-jumpsuit # Fire edit
+  loadouts:
+  - ScpRoboticistJumpsuit
+  - ScpRoboticistJumpskirt
+
+- type: loadoutGroup
+  id: ScpRoboticistOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpRoboticistLabCoat
+  - ScpRoboticistWintercoat
+
+- type: loadoutGroup
+  id: ScpRoboticistHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  loadouts:
+  - ScpRoboticistCap
+  - ScpSkullBandana
+
+- type: loadoutGroup
+  id: ScpSeniorEngineerNeck
+  name: loadout-group-neck # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-ScarfRed
+  - ScpSunrise-ScarfOrange
+  - ScpSunrise-ScarfYellow
+  - ScpSunrise-ScarfCyan
+  - ScpSunrise-ScarfLightBlue
+  - ScpSunrise-TieRed
+
+- type: loadoutGroup
+  id: ScpSeniorEngineerMask
+  name: loadout-group-mask # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpEngineerMaskCMG
+  - ScpEngineerMaskCMGA
+  - ScpSunrise-MBandRed
+  - ScpSunrise-MBandOrange
+  - ScpSunrise-MBandYellow
+  - ScpSunrise-MBandCyan
+
+- type: loadoutGroup
+  id: ScpSeniorEngineerHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-EngineerHeadBeret
+  - ScpSunrise-BandRed
+  - ScpSunrise-BandOrange
+  - ScpSunrise-AtmosBeret
+  - ScpSunrise-BandYellow
+  - ScpSunrise-BandCyan
+  - ScpStationEngineerHardhatRed
+  - ScpStationEngineerHardhatOrange
+  - ScpStationEngineerHardhatYellow
+  - ScpSunrise-HardhatYellowDark
+  - ScpSunrise-HardhatBlue
+  - ScpSunrise-HatRedsoft
+  - ScpSunrise-HatOrangesoft
+  - ScpSunrise-HatYellowsoft
+
+- type: loadoutGroup
+  id: ScpSeniorEngineerShoes
+  name: loadout-group-shoes # Fire edit
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - ScpBrownShoes
+  - ScpWorkBoots
+  - ScpEngineeringWinterBoots
+  - ScpSunrise-RedShoes
+  - ScpSunrise-OrangeShoes
+  - ScpSunrise-YellowShoes
+  - ScpWhiteShoes
+
+- type: loadoutGroup
+  id: ScpSeniorEngineerOuterClothing
+  name: loadout-group-outer-clothing # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpStationEngineerOuterVest
+  - ScpStationEngineerWintercoat
+  - ScpAtmosphericTechnicianWintercoat
+  - ScpSunrise-WinterColorrColorRed
+  - ScpSunrise-WinterColorOrange
+  - ScpSunrise-WinterColorYellow
+
+- type: loadoutGroup
+  id: ScpStationSeniorEngineerBackpack
+  name: loadout-group-backpack # Fire edit
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - ScpStationEngineerBackpack
+  - ScpStationEngineerSatchel
+  - ScpStationEngineerDuffel
+  - ScpAtmosphericTechnicianBackpack
+  - ScpAtmosphericTechnicianSatchel
+  - ScpAtmosphericTechnicianDuffel
+
+- type: loadoutGroup
+  id: ScpSeniorEngineerGloves
+  name: loadout-group-gloves # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpPassengerGloves
+  - ScpSunrise-YellowBudgetGloves
+  - ScpSunrise-RedGloves
+  - ScpOrangeGloves
+  - ScpSunrise-TealGloves
+  - ScpSunrise-WhiteGloves
+
+- type: loadoutGroup
+  id: ScpStationSunriseEngineerGloves
+  name: loadout-group-gloves # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpPassengerGloves
+  - ScpSunrise-YellowBudgetGloves
+  - ScpSunrise-RedGloves
+  - ScpOrangeGloves
+
+- type: loadoutGroup
+  id: ScpStationSunriseEngineerMask
+  name: loadout-group-mask # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-MBandRed
+  - ScpSunrise-MBandOrange
+  - ScpSunrise-MBandYellow
+  - ScpEngineerMaskCMG
+
+- type: loadoutGroup
+  id: ScpStationSunriseEngineerNeck
+  name: loadout-group-neck # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-ScarfRed
+  - ScpSunrise-ScarfOrange
+  - ScpSunrise-ScarfYellow
+  - ScpSunrise-TieRed
+
+- type: loadoutGroup
+  id: ScpSunriseAtmosGloves
+  name: loadout-group-gloves # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpPassengerGloves
+  - ScpSunrise-YellowBudgetGloves
+  - ScpSunrise-RedGloves
+  - ScpOrangeGloves
+  - ScpSunrise-TealGloves
+  - ScpSunrise-WhiteGloves
+
+- type: loadoutGroup
+  id: ScpSunriseAtmosHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-EngineerHeadBeret
+  - ScpSunrise-AtmosBeret
+  - ScpSunrise-BandRed
+  - ScpSunrise-BandOrange
+  - ScpSunrise-BandYellow
+  - ScpSunrise-BandCyan
+  - ScpStationEngineerHardhatRed
+  - ScpStationEngineerHardhatOrange
+  - ScpStationEngineerHardhatYellow
+  - ScpSunrise-HardhatYellowDark
+  - ScpSunrise-HardhatBlue
+  - ScpSunrise-HatRedsoft
+  - ScpSunrise-HatOrangesoft
+  - ScpSunrise-HatYellowsoft
+
+- type: loadoutGroup
+  id: ScpSunriseAtmosMask
+  name: loadout-group-mask # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpEngineerMaskCMG
+  - ScpEngineerMaskCMGA
+  - ScpSunrise-MBandRed
+  - ScpSunrise-MBandOrange
+  - ScpSunrise-MBandYellow
+  - ScpSunrise-MBandCyan
+
+- type: loadoutGroup
+  id: ScpSunriseAtmosNeck
+  name: loadout-group-neck # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-ScarfRed
+  - ScpSunrise-ScarfOrange
+  - ScpSunrise-ScarfYellow
+  - ScpSunrise-ScarfCyan
+  - ScpSunrise-ScarfLightBlue
+  - ScpSunrise-TieRed
+
+- type: loadoutGroup
+  id: ScpSunriseCEGloves
+  name: loadout-group-gloves # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpPassengerGloves
+  - ScpSunrise-YellowBudgetGloves
+  - ScpSunrise-RedGloves
+  - ScpOrangeGloves
+  - ScpSunrise-TealGloves
+  - ScpSunrise-WhiteGloves
+
+- type: loadoutGroup
+  id: ScpSunriseCEMask
+  name: loadout-group-mask # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpEngineerMaskCMG
+  - ScpEngineerMaskCMGA
+  - ScpSunrise-MBandRed
+  - ScpSunrise-MBandOrange
+  - ScpSunrise-MBandYellow
+  - ScpSunrise-MBandCyan
+  - ScpSunrise-MBandWhite
+
+- type: loadoutGroup
+  id: ScpChiefEngineerHead
+  name: loadout-group-head # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-HardhatWhite
+  - ScpSunrise-BandWhite
+  - ScpSunrise-BeretCE
+  - ScpSunrise-EngineerHeadBeret
+  - ScpSunrise-BandRed
+  - ScpSunrise-BandOrange
+  - ScpSunrise-BandYellow
+  - ScpSunrise-BandCyan
+  - ScpStationEngineerHardhatRed
+  - ScpStationEngineerHardhatOrange
+  - ScpStationEngineerHardhatYellow
+  - ScpSunrise-HardhatYellowDark
+  - ScpSunrise-HardhatBlue
+  - ScpSunrise-HatRedsoft
+  - ScpSunrise-HatOrangesoft
+  - ScpSunrise-HatYellowsoft
+  - ScpChiefEngineerCrown
+
+#Cargo
+
+- type: loadoutGroup
+  id: ScpSunriseQuartermasterGloves
+  name: loadout-group-gloves # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpOrangeGloves
+  - ScpSunrise-LightBrownGloves
+  - ScpSunrise-BrownGloves
+  - ScpPurpleGloves
+
+- type: loadoutGroup
+  id: ScpSunriseCargoTechGloves
+  name: loadout-group-gloves # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpOrangeGloves
+  - ScpSunrise-LightBrownGloves
+  - ScpSunrise-BrownGloves
+
+- type: loadoutGroup
+  id: ScpSunriseQuartermasterMask
+  name: loadout-group-mask # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-MaskGasExplorer
+  - ScpSunrise-MBandOrange
+  - ScpSunrise-MBandYellow
+  - ScpSunrise-MBandBrown
+  - ScpSunrise-MBandPurple
+
+- type: loadoutGroup
+  id: ScpSunriseCargoTechMask
+  name: loadout-group-mask # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-MBandOrange
+  - ScpSunrise-MBandYellow
+  - ScpSunrise-MBandBrown
+
+- type: loadoutGroup
+  id: ScpSunriseCargoTechNeck
+  name: loadout-group-neck # Fire edit
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpSunrise-ScarfOrange
+  - ScpSunrise-ScarfYellow
+  - ScpSunrise-ScarfBrown

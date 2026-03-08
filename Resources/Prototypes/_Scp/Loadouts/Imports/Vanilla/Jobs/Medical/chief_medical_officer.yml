@@ -1,0 +1,51 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpChiefMedicalOfficerJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCMO
+
+- type: loadout
+  id: ScpChiefMedicalOfficerJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCMO
+
+- type: loadout
+  id: ScpChiefMedicalOfficerTurtleneckJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCMOTurtle
+
+- type: loadout
+  id: ScpChiefMedicalOfficerTurtleneckJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCMOTurtle
+
+# Head
+
+- type: loadout
+  id: ScpChiefMedicalOfficerBeret
+  equipment:
+    head: ClothingHeadHatBeretCmo
+
+- type: loadout
+  id: ScpChiefMedicalOfficerCloak
+  equipment:
+    neck: ClothingCloakCmo
+
+- type: loadout
+  id: ScpChiefMedicalOfficerMantle
+  equipment:
+    neck: ClothingNeckMantleCMO
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCMO
+
+- type: loadout
+  id: ScpChiefMedicalOfficerLabCoat
+  equipment:
+    outerClothing: ClothingOuterCoatLabCmo
+
+- type: loadout
+  id: ScpChiefMedicalOfficerWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterCMO

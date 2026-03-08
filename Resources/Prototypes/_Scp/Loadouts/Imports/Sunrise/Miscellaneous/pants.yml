@@ -1,0 +1,197 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpStraplessWomanPants
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    pants: ClothingPantsWomanStrapless
+
+- type: loadout
+  id: ScpNekoWhiteWomanPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    pants: ClothingPantsWomanNekoWhite
+
+- type: loadout
+  id: ScpNekoBlackWomanPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    pants: ClothingPantsWomanNekoBlack
+
+- type: loadout
+  id: ScpAssblastusaWomanPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    pants: ClothingPantsWomanAssblastusa
+
+- type: loadout
+  id: ScpBikiniWomanPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    pants: ClothingPantsWomanBikini
+
+- type: loadout
+  id: ScpBraletteWomanPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    pants: ClothingPantsWomanBralette
+
+- type: loadout
+  id: ScpCommieWomanPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    pants: ClothingPantsWomanCommie
+
+- type: loadout
+  id: ScpKinkyWomanPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    pants: ClothingPantsWomanKinky
+
+- type: loadout
+  id: ScpLaceWomanPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    pants: ClothingPantsWomanLace
+
+- type: loadout
+  id: ScpSportWomanPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    pants: ClothingPantsWomanSport
+
+- type: loadout
+  id: ScpThongWomanPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    pants: ClothingPantsWomanThong
+
+- type: loadout
+  id: ScpUkWomanPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    pants: ClothingPantsWomanUk
+
+- type: loadout
+  id: ScpBoxersManPants
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleMoment
+  equipment:
+    pants: ClothingPantsManBoxers
+
+- type: loadout
+  id: ScpAssblastusaManPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleMoment
+  equipment:
+    pants: ClothingPantsManAssblastusa
+
+- type: loadout
+  id: ScpBriefsManPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleMoment
+  equipment:
+    pants: ClothingPantsManBriefs
+
+- type: loadout
+  id: ScpCommieManPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleMoment
+  equipment:
+    pants: ClothingPantsManCommie
+
+- type: loadout
+  id: ScpHeartsManPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleMoment
+  equipment:
+    pants: ClothingPantsManHearts
+
+- type: loadout
+  id: ScpKinkyManPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleMoment
+  equipment:
+    pants: ClothingPantsManKinky
+
+- type: loadout
+  id: ScpLongjohnsManPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleMoment
+  equipment:
+    pants: ClothingPantsManLongjohns
+
+- type: loadout
+  id: ScpMankiniManPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleMoment
+  equipment:
+    pants: ClothingPantsManMankini
+
+- type: loadout
+  id: ScpStripeManPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleMoment
+  equipment:
+    pants: ClothingPantsManStripe
+
+- type: loadout
+  id: ScpUkManPants
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaleMoment
+  equipment:
+    pants: ClothingPantsManUk

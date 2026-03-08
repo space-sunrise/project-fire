@@ -1,0 +1,108 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpMedicalHeadMirror
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MedicalHeadMirrorTimer
+  equipment:
+    head: ClothingHeadMirror
+
+- type: loadout
+  id: ScpMedicalBeret
+  equipment:
+    head: ClothingHeadHatBeretMedic
+
+- type: loadout
+  id: ScpBlueSurgeryCap
+  equipment:
+    head: ClothingHeadHatSurgcapBlue
+
+- type: loadout
+  id: ScpGreenSurgeryCap
+  equipment:
+    head: ClothingHeadHatSurgcapGreen
+
+- type: loadout
+  id: ScpPurpleSurgeryCap
+  equipment:
+    head: ClothingHeadHatSurgcapPurple
+
+- type: loadout
+  id: ScpNurseHat
+  equipment:
+    head: ClothingHeadNurseHat
+
+# Jumpsuit
+
+- type: loadout
+  id: ScpMedicalDoctorJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMedicalDoctor
+
+- type: loadout
+  id: ScpMedicalDoctorJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtMedicalDoctor
+
+- type: loadout
+  id: ScpMedicalBlueScrubs
+  equipment:
+    jumpsuit: UniformScrubsColorBlue
+
+- type: loadout
+  id: ScpMedicalGreenScrubs
+  equipment:
+    jumpsuit: UniformScrubsColorGreen
+
+- type: loadout
+  id: ScpMedicalPurpleScrubs
+  equipment:
+    jumpsuit: UniformScrubsColorPurple
+
+# Back
+
+- type: loadout
+  id: ScpMedicalDoctorBackpack
+  equipment:
+    back: ClothingBackpackMedical
+
+- type: loadout
+  id: ScpMedicalDoctorSatchel
+  equipment:
+    back: ClothingBackpackSatchelMedical
+
+- type: loadout
+  id: ScpMedicalDoctorDuffel
+  equipment:
+    back: ClothingBackpackDuffelMedical
+
+# OuterClothing
+
+- type: loadout
+  id: ScpMedicalDoctorWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterMed
+
+# Shoes
+
+- type: loadout
+  id: ScpMedicalWinterBoots
+  equipment:
+    shoes: ClothingShoesBootsWinterMed
+
+# Gloves
+
+- type: loadout
+  id: ScpNitrileGloves
+  equipment:
+    gloves: ClothingHandsGlovesNitrile
+
+#Masks
+
+- type: loadout
+  id: ScpSterileMask
+  equipment:
+    mask: ClothingMaskSterile
+
+#Eyewear

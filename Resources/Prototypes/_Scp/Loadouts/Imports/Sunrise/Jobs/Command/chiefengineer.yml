@@ -1,0 +1,11 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpChiefEngineerScarf
+  equipment:
+    neck: ClothingNeckScarfCe
+
+- type: loadout
+  id: ScpChiefEngineerCloakLegacy
+  equipment:
+    neck: ClothingNeckCloakLegacyCe

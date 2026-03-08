@@ -1,0 +1,57 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpBotanistHead
+  equipment:
+    head: ClothingHeadHatTrucker
+
+- type: loadout
+  id: ScpBotanistBandana
+  equipment:
+    head: ClothingHeadBandBotany
+
+# Jumpsuit
+
+- type: loadout
+  id: ScpBotanistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHydroponics
+
+- type: loadout
+  id: ScpBotanistJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtHydroponics
+
+- type: loadout
+  id: ScpBotanistOveralls
+  equipment:
+    jumpsuit: ClothingUniformOveralls
+
+# Back
+
+- type: loadout
+  id: ScpBotanistBackpack
+  equipment:
+    back: ClothingBackpackHydroponics
+
+- type: loadout
+  id: ScpBotanistSatchel
+  equipment:
+    back: ClothingBackpackSatchelHydroponics
+
+- type: loadout
+  id: ScpBotanistDuffel
+  equipment:
+    back: ClothingBackpackDuffelHydroponics
+
+# Outer clothing
+
+- type: loadout
+  id: ScpBotanistApron
+  equipment:
+    outerClothing: ClothingOuterApronBotanist
+
+- type: loadout
+  id: ScpBotanistWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterHydro

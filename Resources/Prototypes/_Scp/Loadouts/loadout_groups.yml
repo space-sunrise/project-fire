@@ -247,7 +247,7 @@
   name: loadout-group-belt
   loadouts:
   - LoadoutScpClothingBeltSecurityWebbingFilled
-  - SecurityBelt
+  - ScpSecurityBelt
 
 - type: loadoutGroup
   id: CommonSecurityPDA
@@ -261,10 +261,10 @@
   minLimit: 0
   maxLimit: 3
   loadouts:
-  - SecurityBodycam
-  - SecurityPepperspray
-  - SecurityWhistle
-  - SecurityTourniquet
+  - ScpSecurityBodycam
+  - ScpSecurityPepperspray
+  - ScpSecurityWhistle
+  - ScpSecurityTourniquet
   - LoadoutFlashlightSeclite
   - ScpSecStar
 
@@ -297,8 +297,8 @@
   minLimit: 0
   maxLimit: 3
   loadouts:
-  - BoxFolderBaseThreePapers
-  - BoxFolderPlasticClipboardThreePapers
+  - ScpBoxFolderBaseThreePapers
+  - ScpBoxFolderPlasticClipboardThreePapers
   - ScpBoxFolderClipboardThreePapers
   - LoadoutRubberStampVeto
 
@@ -309,17 +309,17 @@
   minLimit: 0
   maxLimit: 2
   loadouts:
-  - TrinketsMedicalS
-  - TrinketsMedicalECB
-  - TrinketsMedicalHHA
-  - TrinketsMedicalCEHM
-  - TrinketsMedicalCEEHM
-  - TrinketsMedicalBMS
-  - TrinketsMedicalTFMD
-  - TrinketsMedicalTFP
-  - TrinketsMedicalTFC
-  - TrinketsMedicalTFCMO
-  - TrinketsMedicalCNSG
+  - ScpTrinketsMedicalS
+  - ScpTrinketsMedicalECB
+  - ScpTrinketsMedicalHHA
+  - ScpTrinketsMedicalCEHM
+  - ScpTrinketsMedicalCEEHM
+  - ScpTrinketsMedicalBMS
+  - ScpTrinketsMedicalTFMD
+  - ScpTrinketsMedicalTFP
+  - ScpTrinketsMedicalTFC
+  - ScpTrinketsMedicalTFCMO
+  - ScpTrinketsMedicalCNSG
 
 # Инженерно-техническая служба
 - type: loadoutGroup
@@ -328,17 +328,17 @@
   minLimit: 0
   maxLimit: 2
   loadouts:
-  - TrinketsEngineeringAAM
-  - TrinketsEngineeringEAM
-  - TrinketsEngineeringTS
-  - TrinketsEngineeringFL
-  - TrinketsEngineeringGA
-  - TrinketsEngineeringGC
-  - TrinketsEngineeringTFE
-  - TrinketsEngineeringTFAT
-  - TrinketsEngineeringTFCF
-  - TrinketsEngineeringGCW
-  - TrinketsEngineeringST
+  - ScpTrinketsEngineeringAAM
+  - ScpTrinketsEngineeringEAM
+  - ScpTrinketsEngineeringTS
+  - ScpTrinketsEngineeringFL
+  - ScpTrinketsEngineeringGA
+  - ScpTrinketsEngineeringGC
+  - ScpTrinketsEngineeringTFE
+  - ScpTrinketsEngineeringTFAT
+  - ScpTrinketsEngineeringTFCF
+  - ScpTrinketsEngineeringGCW
+  - ScpTrinketsEngineeringST
 
 # Служба снабжения
 - type: loadoutGroup
@@ -347,18 +347,18 @@
   minLimit: 0
   maxLimit: 2
   loadouts:
-  - Sunrise-Clipboard
-  - TrinketsCargoGPS
-  - TrinketsCargoFL
-  - TrinketsCargoF
-  - TrinketsCargoLB
-  - TrinketsCargoRH
-  - TrinketsCargoT
-  - TrinketsCargoS
-  - TrinketsCargoSD
-  - TrinketsCargoQueen
-  - TrinketsCargoQ
-  - TrinketsCargoLGW
+  - ScpSunrise-Clipboard
+  - ScpTrinketsCargoGPS
+  - ScpTrinketsCargoFL
+  - ScpTrinketsCargoF
+  - ScpTrinketsCargoLB
+  - ScpTrinketsCargoRH
+  - ScpTrinketsCargoT
+  - ScpTrinketsCargoS
+  - ScpTrinketsCargoSD
+  - ScpTrinketsCargoQueen
+  - ScpTrinketsCargoQ
+  - ScpTrinketsCargoLGW
 
 # Научная служба
 
@@ -368,8 +368,8 @@
   minLimit: 0
   maxLimit: 2
   loadouts:
-  - BoxFolderBaseThreePapers
-  - BoxFolderPlasticClipboardThreePapers
+  - ScpBoxFolderBaseThreePapers
+  - ScpBoxFolderPlasticClipboardThreePapers
   - ScpBoxFolderClipboardThreePapers
 
 # Д класс
@@ -398,13 +398,13 @@
   maxLimit: 3
   loadouts:
   # разное
-  - FlowerWreath
-  - Hairflower
-  - Headphones
-  - PlushieLizard
-  - PlushieSpaceLizard
+  - ScpFlowerWreath
+  - ScpHairflower
+  - ScpHeadphones
+  - ScpPlushieLizard
+  - ScpPlushieSpaceLizard
   # поджигаемое
-  - ThreeCandles
+  - ScpThreeCandles
   - ScpLighter
   - ScpCigPackGreen
   - ScpCigPackRed
@@ -415,11 +415,11 @@
   # бюрократия
   - LegalCodeForPersonnel
   # какие-то обертки
-  - ClothingWraps
-  - ClothingWrapsHigh
+  - ScpClothingWraps
+  - ScpClothingWrapsHigh
   # трости
-  - OffsetCane
-  - OffsetCaneWood
+  - ScpOffsetCane
+  - ScpOffsetCaneWood
   - ScpCane
   # полотенчики
   - ScpTowelColorWhite

@@ -1,0 +1,133 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpTrinketsCargoGPS
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: LogisticsService # Fire Edit
+      time: 7200 # 2hr
+  storage:
+    back:
+    - HandheldGPSBasic
+
+- type: loadout
+  id: ScpTrinketsCargoFL
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: LogisticsService # Fire Edit
+      time: 7200 # 2hr
+  storage:
+    back:
+    - FlashlightLantern
+
+- type: loadout
+  id: ScpTrinketsCargoF
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: LogisticsService # Fire Edit
+      time: 7200 # 2hr
+  storage:
+    back:
+    - Flare
+
+- type: loadout
+  id: ScpTrinketsCargoLB
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: LogisticsService # Fire Edit
+      time: 7200 # 2hr
+  storage:
+    back:
+    - HandLabeler
+
+- type: loadout
+  id: ScpTrinketsCargoRH
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: LogisticsService # Fire Edit
+      time: 36000 # 10hr
+  storage:
+    back:
+    - ScpRadioHandheldCommon # Fire edit
+
+- type: loadout
+  id: ScpTrinketsCargoT
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobLogisticsOfficer # Fire Edit
+      time: 72000 # 20hr
+  storage:
+    back:
+    - ToyFigurineCargoTech
+
+- type: loadout
+  id: ScpTrinketsCargoS
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobLogisticsOfficer # Fire Edit
+      time: 72000 # 20hr
+  storage:
+    back:
+    - ToyFigurineSalvage
+
+- type: loadout
+  id: ScpTrinketsCargoQ
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobSeniorLogisticsOfficer # Fire Edit
+      time: 72000 # 20hr
+  storage:
+    back:
+    - ToyFigurineQuartermaster
+
+- type: loadout
+  id: ScpTrinketsCargoSD
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobLogisticsOfficer # Fire Edit
+      time: 108000 # 30hr
+  storage:
+    back:
+    - ToyFigurineSpaceDragon
+
+- type: loadout
+  id: ScpTrinketsCargoQueen
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobLogisticsOfficer # Fire Edit
+      time: 180000 # 50hr
+  storage:
+    back:
+    - ToyFigurineQueen
+
+- type: loadout
+  id: ScpTrinketsCargoLGW
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: LogisticsService # Fire Edit
+      time: 1080000 # 300hr
+  storage:
+    back:
+    - LegendaryGoldenWeh

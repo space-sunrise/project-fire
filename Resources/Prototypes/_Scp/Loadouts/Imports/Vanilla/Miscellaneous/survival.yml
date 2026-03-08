@@ -1,0 +1,41 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpEmergencyOxygenExtended
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: OxygenBreather
+  storage:
+    back:
+    - BoxSurvivalEngineering
+
+- type: loadout
+  id: ScpEmergencyNitrogenExtended
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NitrogenBreather
+  storage:
+    back:
+    - BoxSurvivalEngineeringNitrogen
+
+# Medical
+
+- type: loadout
+  id: ScpLoadoutSpeciesVoxNitrogen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: EffectSpeciesVox
+  equipment:
+    suitstorage: NitrogenTankFilled
+
+# Full EVA Tank, Any Species
+
+- type: loadout
+  id: ScpLoadoutTankHarness
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: EffectSpeciesVox
+  equipment:
+    outerClothing: ClothingOuterVestTank
+
+# Breath Tool On Face

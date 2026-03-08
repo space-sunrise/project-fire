@@ -1,0 +1,48 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpChiefEngineerJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChiefEngineer
+
+- type: loadout
+  id: ScpChiefEngineerJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChiefEngineer
+
+- type: loadout
+  id: ScpChiefEngineerTurtleneck
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChiefEngineerTurtle
+
+- type: loadout
+  id: ScpChiefEngineerTurtleneckSkirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChiefEngineerTurtle
+
+# Neck
+
+- type: loadout
+  id: ScpChiefEngineerCloak
+  equipment:
+    neck: ClothingNeckCloakCe
+
+- type: loadout
+  id: ScpChiefEngineerMantle
+  equipment:
+    neck: ClothingNeckMantleCE
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCE
+
+- type: loadout
+  id: ScpChiefEngineerWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterCE
+
+# Shoes
+
+- type: loadout
+  id: ScpBrownShoes
+  equipment:
+    shoes: ClothingShoesColorBrown

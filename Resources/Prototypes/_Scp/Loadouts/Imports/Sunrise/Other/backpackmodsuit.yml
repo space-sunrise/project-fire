@@ -1,0 +1,7 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpCommonModsuit
+  sponsorOnly: true
+  equipment:
+    back: ClothingCommonModsuit

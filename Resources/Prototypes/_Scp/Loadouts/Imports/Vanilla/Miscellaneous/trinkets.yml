@@ -1,0 +1,74 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpFlowerWreath
+  storage:
+    back:
+    - ClothingHeadHatFlowerWreath
+
+- type: loadout
+  id: ScpHairflower
+  storage:
+    back:
+    - ClothingHeadHatHairflower
+
+# Headphones
+
+- type: loadout
+  id: ScpHeadphones
+  storage:
+    back:
+    - ClothingMultipleHeadphones
+
+# Toys
+
+- type: loadout
+  id: ScpPlushieLizard
+  storage:
+    back:
+    - PlushieLizard
+
+- type: loadout
+  id: ScpPlushieSpaceLizard
+  storage:
+    back:
+    - PlushieSpaceLizard
+
+- type: loadout
+  id: ScpThreeCandles
+  dummyEntity: LoadoutDummyCandles
+  storage:
+    back:
+    - CandleRed
+    - CandleBlue
+    - CandleGreenSmall
+
+# Smokeables
+
+- type: loadout
+  id: ScpBoxFolderBaseThreePapers
+  storage:
+    back:
+    - BoxFolderBaseThreePapers
+  groupBy: "folders"
+
+- type: loadout
+  id: ScpBoxFolderPlasticClipboardThreePapers
+  storage:
+    back:
+    - BoxFolderPlasticClipboardThreePapers
+  groupBy: "folders"
+
+- type: loadout
+  id: ScpOffsetCane
+  storage:
+    back:
+    - OffsetCane
+  groupBy: "canes"
+
+- type: loadout
+  id: ScpOffsetCaneWood
+  storage:
+    back:
+    - OffsetCaneWood
+  groupBy: "canes"

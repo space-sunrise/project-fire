@@ -1,0 +1,40 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpChemistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChemistry
+
+- type: loadout
+  id: ScpChemistJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChemistry
+
+# Back
+
+- type: loadout
+  id: ScpChemistBackpack
+  equipment:
+    back: ClothingBackpackChemistry
+
+- type: loadout
+  id: ScpChemistSatchel
+  equipment:
+    back: ClothingBackpackSatchelChemistry
+
+- type: loadout
+  id: ScpChemistDuffel
+  equipment:
+    back: ClothingBackpackDuffelChemistry
+
+# Outer clothing
+
+- type: loadout
+  id: ScpChemistLabCoat
+  equipment:
+    outerClothing: ClothingOuterCoatLabChem
+
+- type: loadout
+  id: ScpChemistWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterChem

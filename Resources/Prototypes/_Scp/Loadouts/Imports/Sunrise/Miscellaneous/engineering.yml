@@ -1,0 +1,167 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpTrinketsEngineeringAAM
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: EngineeringTechnicalService # Fire Edit
+      time: 72000 # 20hr
+  storage:
+    back:
+    - AtmosAlertsMonitor
+
+- type: loadout
+  id: ScpTrinketsEngineeringEAM
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: EngineeringTechnicalService # Fire Edit
+      time: 72000 # 20hr
+  storage:
+    back:
+    - EngiAlertsMonitor
+
+- type: loadout
+  id: ScpTrinketsEngineeringTS
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: EngineeringTechnicalService # Fire Edit
+      time: 7200 # 2hr
+  storage:
+    back:
+    - trayScanner
+
+- type: loadout
+  id: ScpTrinketsEngineeringFL
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: EngineeringTechnicalService # Fire Edit
+      time: 7200 # 2hr
+  storage:
+    back:
+    - FlashlightLantern
+
+- type: loadout
+  id: ScpTrinketsEngineeringGA
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: EngineeringTechnicalService # Fire Edit
+      time: 7200 # 2hr
+  storage:
+    back:
+    - GasAnalyzer
+
+- type: loadout
+  id: ScpTrinketsEngineeringGC
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: EngineeringTechnicalService # Fire Edit
+      time: 7200 # 2hr
+  storage:
+    back:
+    - GeigerCounter
+
+- type: loadout
+  id: ScpTrinketsEngineeringGCW
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 1080000 # 300hr
+  storage:
+    back:
+    - GoldenCrowbarWrench
+
+- type: loadout
+  id: ScpTrinketsEngineeringTFCF
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobChiefTechnicalSpecialist # Fire Edit
+      time: 72000 # 20 hour
+  storage:
+    back:
+    - ToyFigurineChiefEngineer
+
+- type: loadout
+  id: ScpTrinketsEngineeringTFAT
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobElectricalTechnicalSpecialist # Fire Edit
+      time: 72000 # 20 hour
+  storage:
+    back:
+    - ToyFigurineAtmosTech
+
+- type: loadout
+  id: ScpTrinketsEngineeringTFE
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobGeneralTechnicalSpecialist # Fire Edit
+      time: 72000 # 20 hour
+  storage:
+    back:
+    - ToyFigurineEngineer
+
+- type: loadout
+  id: ScpTrinketsEngineeringST
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: EngineeringTechnicalService # Fire Edit
+      time: 1080000 # 300hr
+  storage:
+    back:
+    - SingularityToy
+
+- type: loadout
+  id: ScpEngineerMaskCMG
+  equipment:
+    mask: ClothingMaskGas
+
+- type: loadout
+  id: ScpEngineerMaskCMGA
+  equipment:
+    mask: ClothingMaskGasAtmos
+
+
+
+ #Head
+
+- type: loadout
+  id: ScpSunrise-EngineerHeadBeret
+  equipment:
+    head: ClothingHeadHatBeretEngineering
+
+- type: loadout
+  id: ScpSunrise-HardhatYellowDark
+  equipment:
+    head: ClothingHeadHatHardhatYellowDark
+
+- type: loadout
+  id: ScpSunrise-HardhatBlue
+  equipment:
+    head: ClothingHeadHatHardhatBlue
+
+- type: loadout
+  id: ScpSunrise-HardhatWhite
+  equipment:
+    head: ClothingHeadHatHardhatWhite

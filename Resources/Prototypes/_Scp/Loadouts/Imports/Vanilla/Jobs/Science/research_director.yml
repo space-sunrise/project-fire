@@ -1,0 +1,38 @@
+# Copied for _Scp role loadouts.
+
+- type: loadout
+  id: ScpResearchDirectorMantle
+  equipment:
+    neck: ClothingNeckMantleRD
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterRD
+
+- type: loadout
+  id: ScpResearchDirectorCloak
+  equipment:
+    neck: ClothingNeckCloakRd
+
+# Jumpsuit
+
+- type: loadout
+  id: ScpResearchDirectorJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitResearchDirector
+
+- type: loadout
+  id: ScpResearchDirectorJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtResearchDirector
+
+# OuterClothing
+
+- type: loadout
+  id: ScpResearchDirectorLabCoat
+  equipment:
+    outerClothing: ClothingOuterCoatRD
+
+- type: loadout
+  id: ScpResearchDirectorWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterRD

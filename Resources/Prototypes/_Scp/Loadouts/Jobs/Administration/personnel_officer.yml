@@ -1,22 +1,8 @@
-﻿- type: loadout
+# ID
+- type: loadout
   id: ScpLoadoutKeyCardPersonnelOfficer
   equipment:
     id: KeyCardPersonnelOfficer
-
-- type: loadout
-  id: ScpLoadoutClothingHandsGlovesHop
-  equipment:
-    gloves: ClothingHandsGlovesHop
-
-- type: loadout
-  id: ScpLoadoutBoxFolderClipboardBelt
-  equipment:
-    belt: BoxFolderClipboard
-
-- type: loadout
-  id: ScpLoadoutPersonnelOfficerPDA
-  equipment:
-    pocket2: PersonnelOfficerPDA
 
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardPersonnelOfficer
@@ -25,13 +11,7 @@
   loadouts:
   - ScpLoadoutKeyCardPersonnelOfficer
 
-- type: loadoutGroup
-  id: ScpLoadoutGroupGlovesClothingHandsGlovesHop
-  name: loadout-group-gloves
-  hidden: true
-  loadouts:
-  - ScpLoadoutClothingHandsGlovesHop
-
+# Ears
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetAltAdministration
   name: loadout-group-ears
@@ -39,12 +19,88 @@
   loadouts:
   - ScpLoadoutClothingHeadsetAltAdministration
 
+# Head
+- type: loadout
+  id: ScpLoadoutPersonnelOfficerCap
+  equipment:
+    head: ClothingHeadHatHopcap
+
+# Jumpsuit
+- type: loadout
+  id: ScpLoadoutPersonnelOfficerJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoP
+
+- type: loadout
+  id: ScpLoadoutPersonnelOfficerJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtHoP
+
+# Neck
+- type: loadout
+  id: ScpLoadoutPersonnelOfficerScarf
+  equipment:
+    neck: ClothingNeckScarfHOP
+
+- type: loadout
+  id: ScpLoadoutPersonnelOfficerCloak
+  equipment:
+    neck: ClothingNeckCloakHop
+
+- type: loadout
+  id: ScpLoadoutPersonnelOfficerMantle
+  equipment:
+    neck: ClothingNeckMantleHOP
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterHoP
+
+# Gloves
+- type: loadout
+  id: ScpLoadoutClothingHandsGlovesHop
+  equipment:
+    gloves: ClothingHandsGlovesHop
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGlovesClothingHandsGlovesHop
+  name: loadout-group-gloves
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingHandsGlovesHop
+
+# Back
+- type: loadout
+  id: ScpLoadoutPersonnelOfficerIanBackpack
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ProfessionalHoP
+  equipment:
+    back: ClothingBackpackIan
+
+# Outer Clothing
+- type: loadout
+  id: ScpLoadoutPersonnelOfficerWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterHoP
+
+# Belt
+- type: loadout
+  id: ScpLoadoutBoxFolderClipboardBelt
+  equipment:
+    belt: BoxFolderClipboard
+
 - type: loadoutGroup
   id: ScpLoadoutGroupBeltBoxFolderClipboard
   name: loadout-group-belt
   hidden: true
   loadouts:
   - ScpLoadoutBoxFolderClipboardBelt
+
+# Pocket 2
+- type: loadout
+  id: ScpLoadoutPersonnelOfficerPDA
+  equipment:
+    pocket2: PersonnelOfficerPDA
 
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket2PersonnelOfficerPDA

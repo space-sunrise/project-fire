@@ -1,27 +1,8 @@
-﻿- type: loadout
+# ID
+- type: loadout
   id: ScpLoadoutKeyCardChiefTechnicalSpecialist
   equipment:
     id: KeyCardChiefTechnicalSpecialist
-
-- type: loadout
-  id: ScpLoadoutClothingEyesGlassesMeson
-  equipment:
-    eyes: ClothingEyesGlassesMeson
-
-- type: loadout
-  id: ScpLoadoutClothingHeadsetAltEngineeringTechnicalService
-  equipment:
-    ears: ClothingHeadsetAltEngineeringTechnicalService
-
-- type: loadout
-  id: ScpLoadoutClothingBeltUtilityEngineering
-  equipment:
-    belt: ClothingBeltUtilityEngineering
-
-- type: loadout
-  id: ScpLoadoutChiefTechnicalSpecialistPDA
-  equipment:
-    pocket2: ChiefTechnicalSpecialistPDA
 
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardChiefTechnicalSpecialist
@@ -30,12 +11,24 @@
   loadouts:
   - ScpLoadoutKeyCardChiefTechnicalSpecialist
 
+# Eyes
+- type: loadout
+  id: ScpLoadoutClothingEyesGlassesMeson
+  equipment:
+    eyes: ClothingEyesGlassesMeson
+
 - type: loadoutGroup
   id: ScpLoadoutGroupEyesClothingEyesGlassesMeson
   name: loadout-group-eyes
   hidden: true
   loadouts:
   - ScpLoadoutClothingEyesGlassesMeson
+
+# Ears
+- type: loadout
+  id: ScpLoadoutClothingHeadsetAltEngineeringTechnicalService
+  equipment:
+    ears: ClothingHeadsetAltEngineeringTechnicalService
 
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetAltEngineeringTechnicalService
@@ -44,12 +37,178 @@
   loadouts:
   - ScpLoadoutClothingHeadsetAltEngineeringTechnicalService
 
+# Belt
+- type: loadout
+  id: ScpLoadoutClothingBeltUtilityEngineering
+  equipment:
+    belt: ClothingBeltUtilityEngineering
+
 - type: loadoutGroup
   id: ScpLoadoutGroupBeltClothingBeltUtilityEngineering
   name: loadout-group-belt
   hidden: true
   loadouts:
   - ScpLoadoutClothingBeltUtilityEngineering
+
+# Back
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistBackpack
+  equipment:
+    back: ClothingBackpackCE
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistSatchel
+  equipment:
+    back: ClothingBackpackSatchelCE
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistDuffelbag
+  equipment:
+    back: ClothingBackpackDuffelCE
+
+# Jumpsuit
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChiefEngineer
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChiefEngineer
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistTurtleneckJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChiefEngineerTurtle
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistTurtleneckJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChiefEngineerTurtle
+
+# Neck
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistScarf
+  equipment:
+    neck: ClothingNeckScarfCe
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistLegacyCloak
+  equipment:
+    neck: ClothingNeckCloakLegacyCe
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistCloak
+  equipment:
+    neck: ClothingNeckCloakCe
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistMantle
+  equipment:
+    neck: ClothingNeckMantleCE
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCE
+
+# Outer Clothing
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistChiefWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterCE
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistHazardVest
+  equipment:
+    outerClothing: ClothingOuterVestHazard
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistEngineeringWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterEngi
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistAtmosWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterAtmos
+
+# Shoes
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistWinterBoots
+  equipment:
+    shoes: ClothingShoesBootsWinterEngi
+
+# Gloves
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistOrangeGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorOrange
+
+# Head
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistBeret
+  equipment:
+    head: ClothingHeadHatBeretCE
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistEngineeringBeret
+  equipment:
+    head: ClothingHeadHatBeretEngineering
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistWhiteHardHat
+  equipment:
+    head: ClothingHeadHatHardhatWhite
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistRedHardHat
+  equipment:
+    head: ClothingHeadHatHardhatRed
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistOrangeHardHat
+  equipment:
+    head: ClothingHeadHatHardhatOrange
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistYellowHardHat
+  equipment:
+    head: ClothingHeadHatHardhatYellow
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistDarkYellowHardHat
+  equipment:
+    head: ClothingHeadHatHardhatYellowDark
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistBlueHardHat
+  equipment:
+    head: ClothingHeadHatHardhatBlue
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistSinguloHardHat
+  equipment:
+    head: ClothingHeadHatSingulo
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: BigMasterCE
+
+# Mask
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistGasMask
+  equipment:
+    mask: ClothingMaskGas
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistAtmosGasMask
+  equipment:
+    mask: ClothingMaskGasAtmos
+
+# Pocket 2
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistPDA
+  equipment:
+    pocket2: ChiefTechnicalSpecialistPDA
 
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket2ChiefTechnicalSpecialistPDA
@@ -58,6 +217,7 @@
   loadouts:
   - ScpLoadoutChiefTechnicalSpecialistPDA
 
+# Back Storage
 - type: loadoutGroup
   id: ScpLoadoutGroupBackStorageFlash
   name: loadout-group-storage

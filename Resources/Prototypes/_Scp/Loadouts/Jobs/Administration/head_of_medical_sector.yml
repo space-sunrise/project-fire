@@ -1,17 +1,8 @@
-﻿- type: loadout
+# ID
+- type: loadout
   id: ScpLoadoutKeyCardHeadOfMedicalSector
   equipment:
     id: KeyCardHeadOfMedicalSector
-
-- type: loadout
-  id: ScpLoadoutClothingHeadsetAltMedicalService
-  equipment:
-    ears: ClothingHeadsetAltMedicalService
-
-- type: loadout
-  id: ScpLoadoutHeadOfMedicalSectorPDA
-  equipment:
-    pocket2: HeadOfMedicalSectorPDA
 
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardHeadOfMedicalSector
@@ -20,12 +11,93 @@
   loadouts:
   - ScpLoadoutKeyCardHeadOfMedicalSector
 
+# Ears
+- type: loadout
+  id: ScpLoadoutClothingHeadsetAltMedicalService
+  equipment:
+    ears: ClothingHeadsetAltMedicalService
+
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetAltMedicalService
   name: loadout-group-ears
   hidden: true
   loadouts:
   - ScpLoadoutClothingHeadsetAltMedicalService
+
+# Head
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorBeret
+  equipment:
+    head: ClothingHeadHatBeretCmo
+
+# Mask
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorSterileMask
+  equipment:
+    mask: ClothingMaskSterile
+
+# Gloves
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorNitrileGloves
+  equipment:
+    gloves: ClothingHandsGlovesNitrile
+
+# Jumpsuit
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCMO
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCMO
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorTurtleneckJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCMOTurtle
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorTurtleneckJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCMOTurtle
+
+# Neck
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorScarf
+  equipment:
+    neck: ClothingNeckScarfCmo
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorCloak
+  equipment:
+    neck: ClothingCloakCmo
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorMantle
+  equipment:
+    neck: ClothingNeckMantleCMO
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCMO
+
+# Outer Clothing
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorLabCoat
+  equipment:
+    outerClothing: ClothingOuterCoatLabCmo
+
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterCMO
+
+# Pocket 2
+- type: loadout
+  id: ScpLoadoutHeadOfMedicalSectorPDA
+  equipment:
+    pocket2: HeadOfMedicalSectorPDA
 
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket2HeadOfMedicalSectorPDA

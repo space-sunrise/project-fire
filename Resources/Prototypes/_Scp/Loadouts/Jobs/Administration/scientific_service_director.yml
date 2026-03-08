@@ -1,22 +1,8 @@
-﻿- type: loadout
+# ID
+- type: loadout
   id: ScpLoadoutKeyCardScientificServiceDirector
   equipment:
     id: KeyCardScientificServiceDirector
-
-- type: loadout
-  id: ScpLoadoutHandheldRoboAnalyzer
-  equipment:
-    pocket1: HandheldRoboAnalyzer
-
-- type: loadout
-  id: ScpLoadoutScientificServiceDirectorPDA
-  equipment:
-    pocket2: ScientificServiceDirectorPDA
-
-- type: loadout
-  id: ScpLoadoutClothingHeadsetAltScientificService
-  equipment:
-    ears: ClothingHeadsetAltScientificService
 
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardScientificServiceDirector
@@ -25,19 +11,11 @@
   loadouts:
   - ScpLoadoutKeyCardScientificServiceDirector
 
-- type: loadoutGroup
-  id: ScpLoadoutGroupPocket1HandheldRoboAnalyzer
-  name: loadout-group-storage
-  hidden: true
-  loadouts:
-  - ScpLoadoutHandheldRoboAnalyzer
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupPocket2ScientificServiceDirectorPDA
-  name: loadout-group-pda
-  hidden: true
-  loadouts:
-  - ScpLoadoutScientificServiceDirectorPDA
+# Ears
+- type: loadout
+  id: ScpLoadoutClothingHeadsetAltScientificService
+  equipment:
+    ears: ClothingHeadsetAltScientificService
 
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetAltScientificService
@@ -45,3 +23,75 @@
   hidden: true
   loadouts:
   - ScpLoadoutClothingHeadsetAltScientificService
+
+# Jumpsuit
+- type: loadout
+  id: ScpLoadoutScientificServiceDirectorJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitResearchDirector
+
+- type: loadout
+  id: ScpLoadoutScientificServiceDirectorJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtResearchDirector
+
+# Neck
+- type: loadout
+  id: ScpLoadoutScientificServiceDirectorScarf
+  equipment:
+    neck: ClothingNeckScarfRD
+
+- type: loadout
+  id: ScpLoadoutScientificServiceDirectorLegacyCloak
+  equipment:
+    neck: ClothingNeckCloakLegacyRd
+
+- type: loadout
+  id: ScpLoadoutScientificServiceDirectorMantle
+  equipment:
+    neck: ClothingNeckMantleRD
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterRD
+
+- type: loadout
+  id: ScpLoadoutScientificServiceDirectorCloak
+  equipment:
+    neck: ClothingNeckCloakRd
+
+# Outer Clothing
+- type: loadout
+  id: ScpLoadoutScientificServiceDirectorLabCoat
+  equipment:
+    outerClothing: ClothingOuterCoatRD
+
+- type: loadout
+  id: ScpLoadoutScientificServiceDirectorWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterRD
+
+# Pocket 1
+- type: loadout
+  id: ScpLoadoutHandheldRoboAnalyzer
+  equipment:
+    pocket1: HandheldRoboAnalyzer
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket1HandheldRoboAnalyzer
+  name: loadout-group-storage
+  hidden: true
+  loadouts:
+  - ScpLoadoutHandheldRoboAnalyzer
+
+# Pocket 2
+- type: loadout
+  id: ScpLoadoutScientificServiceDirectorPDA
+  equipment:
+    pocket2: ScientificServiceDirectorPDA
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket2ScientificServiceDirectorPDA
+  name: loadout-group-pda
+  hidden: true
+  loadouts:
+  - ScpLoadoutScientificServiceDirectorPDA

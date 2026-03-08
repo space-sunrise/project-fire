@@ -1,6 +1,6 @@
 - type: loadout
   id: ScpLoadoutClassDCellblockPin
-  groupBy: "prison"
+  groupBy: ClassD
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
@@ -13,7 +13,7 @@
 
 - type: loadout
   id: ScpLoadoutClassDLockdownPin
-  groupBy: "prison"
+  groupBy: ClassD
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:

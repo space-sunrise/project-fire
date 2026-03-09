@@ -1,7 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
-using System.Linq;
 using Content.Server._Scp.Misc;
-using Content.Server._Sunrise.Helpers;
 using Content.Server.Light.EntitySystems;
 using Content.Server.Station.Events;
 using Content.Server.Station.Systems;
@@ -33,7 +31,6 @@ public sealed partial class MetaGarbageSystem : EntitySystem
     [Dependency] private readonly TransformSystem _transform = default!;
     [Dependency] private readonly StationSystem _station = default!;
     [Dependency] private readonly ContainerSystem _container = default!;
-    [Dependency] private readonly SunriseHelpersSystem _helpers = default!;
     [Dependency] private readonly EntityLookupSystem _lookup = default!;
     [Dependency] private readonly SharedSolutionContainerSystem _solution = default!;
     [Dependency] private readonly LightBulbSystem _bulb = default!;

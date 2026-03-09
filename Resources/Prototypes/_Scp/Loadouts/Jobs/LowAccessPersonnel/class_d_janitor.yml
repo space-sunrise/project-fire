@@ -72,19 +72,11 @@
   - ScpLoadoutClothingBeltJanitor
 
 - type: loadoutGroup
-  id: ScpLoadoutGroupBeltStorageSoap
+  id: ScpLoadoutGroupBeltStorageClassDJanitorSupplies
   name: loadout-group-storage
+  minLimit: 3
+  maxLimit: 3
   loadouts:
   - ScpLoadoutSoap
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupBeltStorageLightReplacer
-  name: loadout-group-storage
-  loadouts:
   - ScpLoadoutLightReplacer
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupBeltStorageSprayBottleSpaceCleaner
-  name: loadout-group-storage
-  loadouts:
   - ScpLoadoutSprayBottleSpaceCleaner

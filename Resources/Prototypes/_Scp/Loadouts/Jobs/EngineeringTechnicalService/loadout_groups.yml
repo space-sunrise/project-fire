@@ -295,6 +295,7 @@
   id: ScpLoadoutGroupSurvivalExtended
   name: loadout-group-survival-extended
   minLimit: 2
+  maxLimit: 2
   hidden: true
   loadouts:
   - ScpLoadoutBoxSurvivalEngineeringNitrogen

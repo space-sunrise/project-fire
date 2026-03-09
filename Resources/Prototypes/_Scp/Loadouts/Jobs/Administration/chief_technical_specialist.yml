@@ -211,16 +211,3 @@
   name: loadout-group-pda
   loadouts:
   - ScpLoadoutChiefTechnicalSpecialistPDA
-
-# Back Storage
-- type: loadoutGroup
-  id: ScpLoadoutGroupBackStorageFlash
-  name: loadout-group-storage
-  loadouts:
-  - ScpLoadoutFlash
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupBackStorageTelebaton
-  name: loadout-group-storage
-  loadouts:
-  - ScpLoadoutTelebaton

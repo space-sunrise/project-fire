@@ -16,3 +16,18 @@
   storage:
     back:
     - Telebaton
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBackStorageFlashTelebaton
+  name: loadout-group-storage
+  minLimit: 2
+  maxLimit: 2
+  loadouts:
+  - ScpLoadoutFlash
+  - ScpLoadoutTelebaton
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBackStorageFlash
+  name: loadout-group-storage
+  loadouts:
+  - ScpLoadoutFlash

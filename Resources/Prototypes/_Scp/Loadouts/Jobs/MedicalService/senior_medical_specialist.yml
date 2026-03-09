@@ -22,15 +22,12 @@
   - ScpLoadoutKeyCardSeniorMedicalSpecialist
 
 - type: loadoutGroup
-  id: ScpLoadoutGroupBackStorageMedicatedSuture
+  id: ScpLoadoutGroupBackStorageSeniorMedicalSpecialistSupplies
   name: loadout-group-storage
+  minLimit: 2
+  maxLimit: 2
   loadouts:
   - ScpLoadoutMedicatedSuture
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupBackStorageRegenerativeMesh
-  name: loadout-group-storage
-  loadouts:
   - ScpLoadoutRegenerativeMesh
 
 - type: loadoutGroup

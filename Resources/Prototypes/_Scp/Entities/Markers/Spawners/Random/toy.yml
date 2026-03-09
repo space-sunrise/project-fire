@@ -9,7 +9,7 @@
     rareChance: 0.03
     prototypes:
     - PlushieScp999
-    - PlushieClassD #почему не изменяется ало
+    - PlushieClassD
     - PlushieBee
     - PlushieAtmosian
     - PlushieLizard

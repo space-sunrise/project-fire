@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutKeyCardBotanistPhytogeneticist
   equipment:
     id: KeyCardBotanistPhytogeneticist
@@ -26,35 +26,30 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupShoesClothingShoesColorBrown
   name: loadout-group-shoes
-  hidden: true
   loadouts:
   - ScpLoadoutClothingShoesColorBrown
 
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardBotanistPhytogeneticist
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardBotanistPhytogeneticist
 
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetFoodAndSanitation
   name: loadout-group-ears
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadsetFoodAndSanitation
 
 - type: loadoutGroup
   id: ScpLoadoutGroupBeltClothingBeltPlantFilled
   name: loadout-group-belt
-  hidden: true
   loadouts:
   - ScpLoadoutClothingBeltPlantFilled
 
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket2ScpServicePDA
   name: loadout-group-pda
-  hidden: true
   loadouts:
   - ScpLoadoutScpServicePDA
 

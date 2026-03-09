@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutKeyCardLeadTechnicalSpecialist
   equipment:
     id: KeyCardLeadTechnicalSpecialist
@@ -12,14 +12,12 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardLeadTechnicalSpecialist
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardLeadTechnicalSpecialist
 
 - type: loadoutGroup
   id: ScpLoadoutGroupBackStorageClothingOuterHardsuitEngineeringCompact
   name: loadout-group-storage
-  hidden: true
   loadouts:
   - ScpLoadoutClothingOuterHardsuitEngineeringCompact
 

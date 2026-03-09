@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutKeyCardPsychotherapist
   equipment:
     id: KeyCardPsychotherapist
@@ -12,14 +12,12 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardPsychotherapist
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardPsychotherapist
 
 - type: loadoutGroup
   id: ScpLoadoutGroupBackStorageRubberStampPsychologist
   name: loadout-group-storage
-  hidden: true
   loadouts:
   - ScpLoadoutRubberStampPsychologist
 

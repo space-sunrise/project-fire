@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutClothingHeadHatBeretRND
   equipment:
     head: ClothingHeadHatBeretRND
@@ -16,21 +16,18 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupHeadClothingHeadHatBeretRND
   name: loadout-group-head
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadHatBeretRND
 
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardLeadResearcher
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardLeadResearcher
 
 - type: loadoutGroup
   id: ScpLoadoutGroupOuterClothingClothingOuterCoatLabSeniorResearcher
   name: loadout-group-outer-clothing
-  hidden: true
   loadouts:
   - ScpLoadoutClothingOuterCoatLabSeniorResearcher
 

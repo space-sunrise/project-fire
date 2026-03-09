@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutKeyCardJuniorResearcher
   equipment:
     id: KeyCardJuniorResearcher
@@ -16,20 +16,17 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupShoesClothingShoesColorWhite
   name: loadout-group-shoes
-  hidden: true
   loadouts:
   - ScpLoadoutClothingShoesColorWhite
 
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardJuniorResearcher
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardJuniorResearcher
 
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket1BookScientistsGuidebook
   name: loadout-group-storage
-  hidden: true
   loadouts:
   - ScpLoadoutBookScientistsGuidebook

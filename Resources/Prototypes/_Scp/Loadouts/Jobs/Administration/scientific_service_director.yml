@@ -7,7 +7,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardScientificServiceDirector
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardScientificServiceDirector
 
@@ -20,7 +19,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetAltScientificService
   name: loadout-group-ears
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadsetAltScientificService
 
@@ -79,7 +77,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket1HandheldRoboAnalyzer
   name: loadout-group-storage
-  hidden: true
   loadouts:
   - ScpLoadoutHandheldRoboAnalyzer
 
@@ -92,6 +89,5 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket2ScientificServiceDirectorPDA
   name: loadout-group-pda
-  hidden: true
   loadouts:
   - ScpLoadoutScientificServiceDirectorPDA

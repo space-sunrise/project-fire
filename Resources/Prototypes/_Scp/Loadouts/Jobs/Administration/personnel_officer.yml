@@ -7,7 +7,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardPersonnelOfficer
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardPersonnelOfficer
 
@@ -15,7 +14,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetAltAdministration
   name: loadout-group-ears
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadsetAltAdministration
 
@@ -64,7 +62,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupGlovesClothingHandsGlovesHop
   name: loadout-group-gloves
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHandsGlovesHop
 
@@ -92,7 +89,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupBeltBoxFolderClipboard
   name: loadout-group-belt
-  hidden: true
   loadouts:
   - ScpLoadoutBoxFolderClipboardBelt
 
@@ -105,6 +101,5 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket2PersonnelOfficerPDA
   name: loadout-group-pda
-  hidden: true
   loadouts:
   - ScpLoadoutPersonnelOfficerPDA

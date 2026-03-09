@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutKeyCardElectricalTechnicalSpecialist
   equipment:
     id: KeyCardElectricalTechnicalSpecialist
@@ -16,21 +16,18 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardElectricalTechnicalSpecialist
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardElectricalTechnicalSpecialist
 
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetEngineeringTechnicalService
   name: loadout-group-ears
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadsetEngineeringTechnicalService
 
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket2ScpEngineeringPDA
   name: loadout-group-pda
-  hidden: true
   loadouts:
   - ScpLoadoutScpEngineeringPDA
 

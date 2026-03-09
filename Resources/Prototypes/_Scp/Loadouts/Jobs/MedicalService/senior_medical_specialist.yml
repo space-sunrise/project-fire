@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutKeyCardSeniorMedicalSpecialist
   equipment:
     id: KeyCardSeniorMedicalSpecialist
@@ -18,21 +18,18 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardSeniorMedicalSpecialist
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardSeniorMedicalSpecialist
 
 - type: loadoutGroup
   id: ScpLoadoutGroupBackStorageMedicatedSuture
   name: loadout-group-storage
-  hidden: true
   loadouts:
   - ScpLoadoutMedicatedSuture
 
 - type: loadoutGroup
   id: ScpLoadoutGroupBackStorageRegenerativeMesh
   name: loadout-group-storage
-  hidden: true
   loadouts:
   - ScpLoadoutRegenerativeMesh
 

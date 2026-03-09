@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutClothingEyesSunGlassesHudSkill
   equipment:
     eyes: ClothingEyesSunGlassesHudSkill
@@ -31,49 +31,42 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupShoesClothingShoesBootsLaceup
   name: loadout-group-shoes
-  hidden: true
   loadouts:
   - ScpLoadoutClothingShoesBootsLaceup
 
 - type: loadoutGroup
   id: ScpLoadoutGroupEyesClothingEyesSunGlassesHudSkill
   name: loadout-group-eyes
-  hidden: true
   loadouts:
   - ScpLoadoutClothingEyesSunGlassesHudSkill
 
 - type: loadoutGroup
   id: ScpLoadoutGroupHeadClothingHeadHatCapEthicsCommittee
   name: loadout-group-head
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadHatCapEthicsCommittee
 
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardEthicsCommitteePass
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardEthicsCommitteePass
 
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetAltEthicsCommittee
   name: loadout-group-ears
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadsetAltEthicsCommittee
 
 - type: loadoutGroup
   id: ScpLoadoutGroupBackClothingBackpackSatchelLeatherEthicsCommitteeFilled
   name: loadout-group-back
-  hidden: true
   loadouts:
   - ScpLoadoutClothingBackpackSatchelLeatherEthicsCommitteeFilled
 
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket2BaseFoundationPDA
   name: loadout-group-pda
-  hidden: true
   loadouts:
   - ScpLoadoutBaseFoundationPDA
 

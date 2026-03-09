@@ -7,7 +7,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardChiefTechnicalSpecialist
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardChiefTechnicalSpecialist
 
@@ -20,7 +19,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupEyesClothingEyesGlassesMeson
   name: loadout-group-eyes
-  hidden: true
   loadouts:
   - ScpLoadoutClothingEyesGlassesMeson
 
@@ -33,7 +31,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetAltEngineeringTechnicalService
   name: loadout-group-ears
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadsetAltEngineeringTechnicalService
 
@@ -46,7 +43,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupBeltClothingBeltUtilityEngineering
   name: loadout-group-belt
-  hidden: true
   loadouts:
   - ScpLoadoutClothingBeltUtilityEngineering
 
@@ -213,7 +209,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket2ChiefTechnicalSpecialistPDA
   name: loadout-group-pda
-  hidden: true
   loadouts:
   - ScpLoadoutChiefTechnicalSpecialistPDA
 
@@ -221,13 +216,11 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupBackStorageFlash
   name: loadout-group-storage
-  hidden: true
   loadouts:
   - ScpLoadoutFlash
 
 - type: loadoutGroup
   id: ScpLoadoutGroupBackStorageTelebaton
   name: loadout-group-storage
-  hidden: true
   loadouts:
   - ScpLoadoutTelebaton

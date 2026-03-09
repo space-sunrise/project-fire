@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutClothingOuterCoatLabSecurityMedic
   equipment:
     outerClothing: ClothingOuterCoatLabSecurityMedic
@@ -41,63 +41,54 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupOuterClothingClothingOuterCoatLabSecurityMedic
   name: loadout-group-outer-clothing
-  hidden: true
   loadouts:
   - ScpLoadoutClothingOuterCoatLabSecurityMedic
 
 - type: loadoutGroup
   id: ScpLoadoutGroupShoesClothingShoesColorRed
   name: loadout-group-shoes
-  hidden: true
   loadouts:
   - ScpLoadoutClothingShoesColorRed
 
 - type: loadoutGroup
   id: ScpLoadoutGroupGlovesClothingHandsGlovesLatex
   name: loadout-group-gloves
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHandsGlovesLatex
 
 - type: loadoutGroup
   id: ScpLoadoutGroupEyesClothingEyesHudMedSec
   name: loadout-group-eyes
-  hidden: true
   loadouts:
   - ScpLoadoutClothingEyesHudMedSec
 
 - type: loadoutGroup
   id: ScpLoadoutGroupHeadClothingHeadHatBeretSecurityMedic
   name: loadout-group-head
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadHatBeretSecurityMedic
 
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardFieldMedicalSpecialist
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardFieldMedicalSpecialist
 
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetFieldMedicalSpecialist
   name: loadout-group-ears
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadsetFieldMedicalSpecialist
 
 - type: loadoutGroup
   id: ScpLoadoutGroupBeltClothingBeltMedicalFilled
   name: loadout-group-belt
-  hidden: true
   loadouts:
   - ScpLoadoutClothingBeltMedicalFilled
 
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket2ScpMedicalPDA
   name: loadout-group-pda
-  hidden: true
   loadouts:
   - ScpLoadoutScpMedicalPDA
 

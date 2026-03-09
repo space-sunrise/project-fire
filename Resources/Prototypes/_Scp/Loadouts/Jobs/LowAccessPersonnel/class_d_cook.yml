@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutClothingBeltChefFilled
   equipment:
     belt: ClothingBeltChefFilled
@@ -21,34 +21,29 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupHeadClothingHeadHatChef
   name: loadout-group-head
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadHatChef
 
 - type: loadoutGroup
   id: ScpLoadoutGroupOuterClothingClothingOuterApronChef
   name: loadout-group-outer-clothing
-  hidden: true
   loadouts:
   - ScpLoadoutClothingOuterApronChef
 
 - type: loadoutGroup
   id: ScpLoadoutGroupBeltClothingBeltChefFilled
   name: loadout-group-belt
-  hidden: true
   loadouts:
   - ScpLoadoutClothingBeltChefFilled
 
 - type: loadoutGroup
   id: ScpLoadoutGroupGlovesClothingHandsGlovesColorWhite
   name: loadout-group-gloves
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHandsGlovesColorWhite
 
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardClassDCock
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardClassDCock

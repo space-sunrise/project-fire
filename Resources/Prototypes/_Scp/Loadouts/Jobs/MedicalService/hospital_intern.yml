@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutKeyCardHospitalIntern
   equipment:
     id: KeyCardHospitalIntern
@@ -21,21 +21,18 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardHospitalIntern
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardHospitalIntern
 
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetMedicalService
   name: loadout-group-ears
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadsetMedicalService
 
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket1BookMedicalReferenceBook
   name: loadout-group-storage
-  hidden: true
   loadouts:
   - ScpLoadoutBookMedicalReferenceBook
 

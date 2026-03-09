@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutClothingHeadsetScientificService
   equipment:
     ears: ClothingHeadsetScientificService
@@ -16,20 +16,17 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetScientificService
   name: loadout-group-ears
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadsetScientificService
 
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardAnomarchologyResearcher
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardAnomarchologyResearcher
 
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket2ScpResearchPDA
   name: loadout-group-pda
-  hidden: true
   loadouts:
   - ScpLoadoutScpResearchPDA

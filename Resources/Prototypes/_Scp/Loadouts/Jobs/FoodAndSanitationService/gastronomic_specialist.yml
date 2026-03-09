@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutKeyCardGastronomicSpecialist
   equipment:
     id: KeyCardGastronomicSpecialist
@@ -6,14 +6,12 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupShoesClothingShoesColorBlack
   name: loadout-group-shoes
-  hidden: true
   loadouts:
   - ScpLoadoutClothingShoesColorBlack
 
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardGastronomicSpecialist
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardGastronomicSpecialist
 

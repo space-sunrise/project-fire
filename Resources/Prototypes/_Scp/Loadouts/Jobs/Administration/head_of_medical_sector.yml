@@ -7,7 +7,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardHeadOfMedicalSector
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardHeadOfMedicalSector
 
@@ -20,7 +19,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetAltMedicalService
   name: loadout-group-ears
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadsetAltMedicalService
 
@@ -102,6 +100,5 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket2HeadOfMedicalSectorPDA
   name: loadout-group-pda
-  hidden: true
   loadouts:
   - ScpLoadoutHeadOfMedicalSectorPDA

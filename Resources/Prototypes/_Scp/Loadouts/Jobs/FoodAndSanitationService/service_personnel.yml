@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutKeyCardServicePersonnel
   equipment:
     id: KeyCardServicePersonnel
@@ -11,14 +11,12 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardServicePersonnel
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardServicePersonnel
 
 - type: loadoutGroup
   id: ScpLoadoutGroupBeltClothingBeltJanitorFilled
   name: loadout-group-belt
-  hidden: true
   loadouts:
   - ScpLoadoutClothingBeltJanitorFilled
 

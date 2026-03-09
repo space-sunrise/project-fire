@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutKeyCardMedicalSpecialist
   equipment:
     id: KeyCardMedicalSpecialist
@@ -6,7 +6,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardMedicalSpecialist
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardMedicalSpecialist
 

@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutClothingHandsGlovesLeather
   equipment:
     gloves: ClothingHandsGlovesLeather
@@ -21,27 +21,23 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupHeadClothingHeadBandBotany
   name: loadout-group-head
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadBandBotany
 
 - type: loadoutGroup
   id: ScpLoadoutGroupOuterClothingClothingOuterApronBotanist
   name: loadout-group-outer-clothing
-  hidden: true
   loadouts:
   - ScpLoadoutClothingOuterApronBotanist
 
 - type: loadoutGroup
   id: ScpLoadoutGroupGlovesClothingHandsGlovesLeather
   name: loadout-group-gloves
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHandsGlovesLeather
 
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardClassDBotanist
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardClassDBotanist

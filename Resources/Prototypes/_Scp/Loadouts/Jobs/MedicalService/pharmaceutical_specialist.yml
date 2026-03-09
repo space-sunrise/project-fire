@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutKeyCardPharmaceuticalSpecialist
   equipment:
     id: KeyCardPharmaceuticalSpecialist
@@ -21,28 +21,24 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardPharmaceuticalSpecialist
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardPharmaceuticalSpecialist
 
 - type: loadoutGroup
   id: ScpLoadoutGroupBeltChemBag
   name: loadout-group-belt
-  hidden: true
   loadouts:
   - ScpLoadoutChemBag
 
 - type: loadoutGroup
   id: ScpLoadoutGroupEyesClothingEyesGlassesChemical
   name: loadout-group-eyes
-  hidden: true
   loadouts:
   - ScpLoadoutClothingEyesGlassesChemical
 
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket1HandLabeler
   name: loadout-group-storage
-  hidden: true
   loadouts:
   - ScpLoadoutHandLabelerPocket1
 

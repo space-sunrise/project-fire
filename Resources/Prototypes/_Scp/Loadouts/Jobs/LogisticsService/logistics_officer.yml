@@ -1,4 +1,4 @@
-﻿- type: loadout
+- type: loadout
   id: ScpLoadoutKeyCardLogisticsOfficer
   equipment:
     id: KeyCardLogisticsOfficer
@@ -21,28 +21,24 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardLogisticsOfficer
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardLogisticsOfficer
 
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetLogistics
   name: loadout-group-ears
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadsetLogistics
 
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket1AppraisalTool
   name: loadout-group-storage
-  hidden: true
   loadouts:
   - ScpLoadoutAppraisalTool
 
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket2ScpLogisticsPDA
   name: loadout-group-pda
-  hidden: true
   loadouts:
   - ScpLoadoutScpLogisticsPDA
 

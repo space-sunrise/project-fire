@@ -7,7 +7,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardSecurityCommander
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardSecurityCommander
 
@@ -20,7 +19,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetAltSecurityAdministration
   name: loadout-group-ears
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadsetAltSecurityAdministration
 
@@ -64,7 +62,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupSecurityCommanderEyes
   name: loadout-group-eyes
-  hidden: true
   loadouts:
   - ScpLoadoutSecurityCommanderSecurityGlasses
 
@@ -77,7 +74,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupSecurityCommanderGloves
   name: loadout-group-gloves
-  hidden: true
   loadouts:
   - ScpLoadoutSecurityCommanderCombatGloves
 
@@ -235,6 +231,5 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket2SecurityCommanderPDA
   name: loadout-group-pda
-  hidden: true
   loadouts:
   - ScpLoadoutSecurityCommanderPDA

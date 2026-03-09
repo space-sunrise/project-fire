@@ -7,7 +7,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardSeniorLogisticsOfficer
   name: loadout-group-id
-  hidden: true
   loadouts:
   - ScpLoadoutKeyCardSeniorLogisticsOfficer
 
@@ -20,7 +19,6 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupEarsClothingHeadsetAltLogistics
   name: loadout-group-ears
-  hidden: true
   loadouts:
   - ScpLoadoutClothingHeadsetAltLogistics
 
@@ -132,6 +130,5 @@
 - type: loadoutGroup
   id: ScpLoadoutGroupPocket2SeniorLogisticsOfficerPDA
   name: loadout-group-pda
-  hidden: true
   loadouts:
   - ScpLoadoutSeniorLogisticsOfficerPDA

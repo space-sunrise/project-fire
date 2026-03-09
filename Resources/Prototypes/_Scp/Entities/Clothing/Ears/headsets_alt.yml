@@ -40,7 +40,6 @@
       key_slots:
       - EncryptionKeyAdministration
       - EncryptionKeyInternalSecurity
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/command.rsi
   - type: Clothing
@@ -57,7 +56,6 @@
       key_slots:
       - EncryptionKeyAdministration
       - EncryptionKeyEthicsCommittee
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/command.rsi
   - type: Clothing
@@ -74,7 +72,6 @@
       key_slots:
       - EncryptionKeyAdministration
       - EncryptionKeyInternalTribunalService
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/command.rsi
   - type: Clothing
@@ -92,7 +89,6 @@
       - EncryptionKeyAdministration
       - EncryptionKeyHeavyContainmentSecurityService
       - EncryptionKeyExternalAdministrativeZoneSecurityService
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/security.rsi
   - type: Clothing
@@ -109,7 +105,6 @@
       key_slots:
       - EncryptionKeyAdministration
       - EncryptionKeyHeavyContainmentSecurityService
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/security.rsi
   - type: Clothing
@@ -126,7 +121,6 @@
       key_slots:
       - EncryptionKeyAdministration
       - EncryptionKeyExternalAdministrativeZoneSecurityService
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/security.rsi
   - type: Clothing
@@ -143,7 +137,6 @@
       key_slots:
       - EncryptionKeyAdministration
       - EncryptionKeyScientificService
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/science.rsi
   - type: Clothing
@@ -160,7 +153,6 @@
       key_slots:
       - EncryptionKeyAdministration
       - EncryptionKeyMedicalService
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/medical.rsi
   - type: Clothing
@@ -177,7 +169,6 @@
       key_slots:
       - EncryptionKeyAdministration
       - EncryptionKeyEngineeringTechnicalService
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/engineering.rsi
   - type: Clothing
@@ -194,7 +185,6 @@
       key_slots:
       - EncryptionKeyLogisticsService
       - EncryptionKeyAdministration
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/cargo.rsi
   - type: Clothing

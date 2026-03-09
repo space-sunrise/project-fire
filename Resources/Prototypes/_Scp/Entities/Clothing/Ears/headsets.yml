@@ -8,7 +8,6 @@
     containers:
       key_slots:
       - EncryptionKeyHeavyContainmentSecurityService
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/security.rsi
   - type: Clothing
@@ -25,7 +24,6 @@
       key_slots:
       - EncryptionKeyMedicalService
       - EncryptionKeyExternalAdministrativeZoneSecurityService
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/brigmedic.rsi
   - type: Clothing
@@ -39,7 +37,6 @@
     containers:
       key_slots:
       - EncryptionKeyExternalAdministrativeZoneSecurityService
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/security.rsi
   - type: Clothing
@@ -55,7 +52,6 @@
     containers:
       key_slots:
       - EncryptionKeyScientificService
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/science.rsi
   - type: Clothing
@@ -71,7 +67,6 @@
     containers:
       key_slots:
       - EncryptionKeyMedicalService
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/medical.rsi
   - type: Clothing
@@ -87,7 +82,6 @@
     containers:
       key_slots:
       - EncryptionKeyEngineeringTechnicalService
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/engineering.rsi
   - type: Clothing
@@ -103,7 +97,6 @@
     containers:
       key_slots:
       - EncryptionKeyLogisticsService
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/cargo.rsi
   - type: Clothing
@@ -119,7 +112,6 @@
     containers:
       key_slots:
       - EncryptionKeyFoodAndSanitationService
-      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/service.rsi
   - type: Clothing

@@ -3,15 +3,12 @@
   equipment:
     back: ClothingBackpackCargo
 
-
 - type: loadout
   id: ScpLoadoutLogisticsServiceSatchel
   equipment:
     back: ClothingBackpackSatchelCargo
 
-
 - type: loadout
   id: ScpLoadoutLogisticsServiceDuffelbag
   equipment:
     back: ClothingBackpackDuffelCargo
-

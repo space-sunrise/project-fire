@@ -1,4 +1,4 @@
-﻿# Smokeables
+# Smokeables
 - type: loadout
   id: ScpLoadoutLighter
   storage:
@@ -54,8 +54,6 @@
     - CigarGold
   groupBy: smokeables
 
-
-
 # Folders and bureaucracy
 - type: loadout
   id: ScpLoadoutBoxFolderClipboardThreePapers
@@ -74,8 +72,6 @@
     - HyperLinkBookCorporateLaw
   groupBy: folders
 
-
-
 # Canes
 - type: loadout
   id: ScpLoadoutCane
@@ -89,8 +85,6 @@
     back:
     - Cane
   groupBy: canes
-
-
 
 # Towels
 - type: loadout

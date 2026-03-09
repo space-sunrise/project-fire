@@ -4,7 +4,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement
-      department: LogisticsService # Fire Edit
+      department: LogisticsService
       time: 7200 # 2hr
   storage:
     back:
@@ -16,7 +16,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement
-      department: LogisticsService # Fire Edit
+      department: LogisticsService
       time: 7200 # 2hr
   storage:
     back:
@@ -28,7 +28,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement
-      department: LogisticsService # Fire Edit
+      department: LogisticsService
       time: 7200 # 2hr
   storage:
     back:
@@ -40,7 +40,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement
-      department: LogisticsService # Fire Edit
+      department: LogisticsService
       time: 7200 # 2hr
   storage:
     back:
@@ -52,11 +52,11 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement
-      department: LogisticsService # Fire Edit
+      department: LogisticsService
       time: 36000 # 10hr
   storage:
     back:
-    - ScpRadioHandheldCommon # Fire edit
+    - ScpRadioHandheldCommon
 
 - type: loadout
   id: ScpLoadoutToyFigurineCargoTech
@@ -64,7 +64,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:RoleTimeRequirement
-      role: JobLogisticsOfficer # Fire Edit
+      role: JobLogisticsOfficer
       time: 72000 # 20hr
   storage:
     back:
@@ -76,7 +76,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:RoleTimeRequirement
-      role: JobLogisticsOfficer # Fire Edit
+      role: JobLogisticsOfficer
       time: 72000 # 20hr
   storage:
     back:
@@ -88,7 +88,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:RoleTimeRequirement
-      role: JobSeniorLogisticsOfficer # Fire Edit
+      role: JobSeniorLogisticsOfficer
       time: 72000 # 20hr
   storage:
     back:
@@ -100,7 +100,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:RoleTimeRequirement
-      role: JobLogisticsOfficer # Fire Edit
+      role: JobLogisticsOfficer
       time: 108000 # 30hr
   storage:
     back:
@@ -112,7 +112,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:RoleTimeRequirement
-      role: JobLogisticsOfficer # Fire Edit
+      role: JobLogisticsOfficer
       time: 180000 # 50hr
   storage:
     back:
@@ -124,7 +124,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement
-      department: LogisticsService # Fire Edit
+      department: LogisticsService
       time: 1080000 # 300hr
   storage:
     back:

@@ -3,42 +3,35 @@
   equipment:
     back: ClothingBackpackEngineering
 
-
 - type: loadout
   id: ScpLoadoutEngineeringTechnicalServiceEngineeringSatchel
   equipment:
     back: ClothingBackpackSatchelEngineering
-
 
 - type: loadout
   id: ScpLoadoutEngineeringTechnicalServiceEngineeringDuffelbag
   equipment:
     back: ClothingBackpackDuffelEngineering
 
-
 - type: loadout
   id: ScpLoadoutEngineeringTechnicalServiceHazardVest
   equipment:
     outerClothing: ClothingOuterVestHazard
-
 
 - type: loadout
   id: ScpLoadoutEngineeringTechnicalServiceEngineeringWinterCoat
   equipment:
     outerClothing: ClothingOuterWinterEngi
 
-
 - type: loadout
   id: ScpLoadoutEngineeringTechnicalServiceWorkBoots
   equipment:
     shoes: ClothingShoesBootsWork
 
-
 - type: loadout
   id: ScpLoadoutEngineeringTechnicalServiceWinterBoots
   equipment:
     shoes: ClothingShoesBootsWinterEngi
-
 
 - type: loadout
   id: ScpLoadoutEngineeringTechnicalServiceOrangeGloves

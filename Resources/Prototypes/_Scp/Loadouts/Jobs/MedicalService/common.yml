@@ -3,30 +3,25 @@
   equipment:
     head: ClothingHeadHatBeretMedic
 
-
 - type: loadout
   id: ScpLoadoutMedicalServiceHeadMirror
   equipment:
     head: ClothingHeadMirror
-
 
 - type: loadout
   id: ScpLoadoutMedicalServiceBlueSurgicalCap
   equipment:
     head: ClothingHeadHatSurgcapBlue
 
-
 - type: loadout
   id: ScpLoadoutMedicalServiceGreenSurgicalCap
   equipment:
     head: ClothingHeadHatSurgcapGreen
 
-
 - type: loadout
   id: ScpLoadoutMedicalServicePurpleSurgicalCap
   equipment:
     head: ClothingHeadHatSurgcapPurple
-
 
 - type: loadout
   id: ScpLoadoutMedicalServiceNurseHat
@@ -41,24 +36,20 @@
   equipment:
     head: ClothingHeadHatBeretSeniorPhysician
 
-
 - type: loadout
   id: ScpLoadoutMedicalServiceChemistryBeret
   equipment:
     head: ClothingHeadHatBeretChemistry
-
 
 - type: loadout
   id: ScpLoadoutMedicalServiceBackpack
   equipment:
     back: ClothingBackpackMedical
 
-
 - type: loadout
   id: ScpLoadoutMedicalServiceSatchel
   equipment:
     back: ClothingBackpackSatchelMedical
-
 
 - type: loadout
   id: ScpLoadoutMedicalServiceDuffelbag

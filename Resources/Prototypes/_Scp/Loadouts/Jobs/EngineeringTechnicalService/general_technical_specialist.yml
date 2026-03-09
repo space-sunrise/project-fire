@@ -14,12 +14,10 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitEngineering
 
-
 - type: loadout
   id: ScpLoadoutGeneralTechnicalSpecialistJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtEngineering
-
 
 - type: loadout
   id: ScpLoadoutGeneralTechnicalSpecialistHazardJumpsuit

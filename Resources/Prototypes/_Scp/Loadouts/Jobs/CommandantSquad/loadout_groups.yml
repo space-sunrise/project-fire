@@ -1,0 +1,72 @@
+# Commandant Squad
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupCommandantSquadLeaderEars
+  name: loadout-group-ears
+  loadouts:
+  - ScpLoadoutClothingHeadsetAltExternalAdministrativeZoneSecurityService
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupCommandantSquadLeaderKeyCard
+  name: loadout-group-key-card
+  loadouts:
+  - ScpLoadoutKeyCardLightContainmentZoneSecurityCommandant
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupCommandantSquadEars
+  name: loadout-group-ears
+  loadouts:
+  - ScpLoadoutClothingHeadsetExternalAdministrativeZoneSecurityService
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupCommandantSquadArmorVestJunior
+  name: loadout-group-outer-clothing
+  loadouts:
+  - ScpLoadoutClothingOuterArmorSecurity
+  - ScpLoadoutClothingOuterArmorSecurityBulletproof
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupCommandantSquadWeaponPrimary
+  name: loadout-group-weapon
+  loadouts:
+  - ScpLoadoutWeaponSubMachineGunMP7
+  - ScpLoadoutWeaponShotgunRiot
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupCommandantSquadWeaponSecondary
+  name: loadout-group-weapon-secondary
+  loadouts:
+  - ScpLoadoutWeaponTaser
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupCommandantSquadSeniorLightContainmentZoneSecurityOfficerKeyCard
+  name: loadout-group-key-card
+  loadouts:
+  - ScpLoadoutKeyCardSeniorLightContainmentZoneSecurityOfficer
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupCommandantSquadLightContainmentZoneSecurityOfficerKeyCard
+  name: loadout-group-key-card
+  loadouts:
+  - ScpLoadoutKeyCardLightContainmentZoneSecurityOfficer
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupCommandantSquadJuniorLightContainmentZoneSecurityOfficerKeyCard
+  name: loadout-group-key-card
+  loadouts:
+  - ScpLoadoutKeyCardJuniorLightContainmentZoneSecurityOfficer
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupFieldMedicalSpecialistBackpack
+  name: loadout-group-backpack
+  loadouts:
+  - ScpLoadoutFieldMedicalSpecialistBackpack
+  - ScpLoadoutFieldMedicalSpecialistSatchel
+  - ScpLoadoutFieldMedicalSpecialistDuffelbag
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupFieldMedicalSpecialistJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutFieldMedicalSpecialistJumpsuit
+  - ScpLoadoutFieldMedicalSpecialistJumpskirt

@@ -36,66 +36,55 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitAtmos
 
-
 - type: loadout
   id: ScpLoadoutElectricalTechnicalSpecialistJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtAtmos
-
 
 - type: loadout
   id: ScpLoadoutElectricalTechnicalSpecialistCasualJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitAtmosCasual
 
-
 - type: loadout
   id: ScpLoadoutElectricalTechnicalSpecialistAtmosWinterCoat
   equipment:
     outerClothing: ClothingOuterWinterAtmos
-
 
 - type: loadout
   id: ScpLoadoutElectricalTechnicalSpecialistAtmosBackpack
   equipment:
     back: ClothingBackpackAtmospherics
 
-
 - type: loadout
   id: ScpLoadoutElectricalTechnicalSpecialistAtmosSatchel
   equipment:
     back: ClothingBackpackSatchelAtmospherics
-
 
 - type: loadout
   id: ScpLoadoutElectricalTechnicalSpecialistAtmosDuffelbag
   equipment:
     back: ClothingBackpackDuffelAtmospherics
 
-
 - type: loadout
   id: ScpLoadoutElectricalTechnicalSpecialistOrangeGloves
   equipment:
     gloves: ClothingHandsGlovesColorOrange
-
 
 - type: loadout
   id: ScpLoadoutElectricalTechnicalSpecialistWinterBoots
   equipment:
     shoes: ClothingShoesBootsWinterEngi
 
-
 - type: loadout
   id: ScpLoadoutElectricalTechnicalSpecialistRedHardHat
   equipment:
     head: ClothingHeadHatHardhatRed
 
-
 - type: loadout
   id: ScpLoadoutElectricalTechnicalSpecialistOrangeHardHat
   equipment:
     head: ClothingHeadHatHardhatOrange
-
 
 - type: loadout
   id: ScpLoadoutElectricalTechnicalSpecialistYellowHardHat

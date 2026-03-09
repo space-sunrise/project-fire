@@ -25,9 +25,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorYellow
 
-
 - type: loadout
   id: ScpLoadoutTechnicalTraineeJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorYellow
-

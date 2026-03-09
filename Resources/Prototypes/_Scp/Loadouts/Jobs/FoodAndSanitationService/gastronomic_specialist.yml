@@ -20,27 +20,22 @@
   equipment:
     mask: ClothingMaskItalianMoustache
 
-
 - type: loadout
   id: ScpLoadoutGastronomicSpecialistJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitChef
-
 
 - type: loadout
   id: ScpLoadoutGastronomicSpecialistJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtChef
 
-
 - type: loadout
   id: ScpLoadoutGastronomicSpecialistJacket
   equipment:
     outerClothing: ClothingOuterJacketChef
 
-
 - type: loadout
   id: ScpLoadoutGastronomicSpecialistWinterCoat
   equipment:
     outerClothing: ClothingOuterWinterChef
-

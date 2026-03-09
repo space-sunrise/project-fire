@@ -10,7 +10,6 @@
   equipment:
     neck: ClothingNeckPlanetPrisonCellblockPin
 
-
 - type: loadout
   id: ScpLoadoutClassDLockdownPin
   groupBy: ClassD
@@ -22,4 +21,3 @@
       time: 360000 # 100 hrs
   equipment:
     neck: ClothingNeckPlanetPrisonLockdownPin
-

@@ -1,0 +1,27 @@
+# Ethics Committee
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupEthicsCommitteeRepresentativeJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutEthicsCommitteeRepresentativeWhiteShirtJumpsuit
+  - ScpLoadoutEthicsCommitteeRepresentativeWhiteShirtJumpskirt
+  - ScpLoadoutEthicsCommitteeRepresentativeBlackFormalSuit
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupEthicsCommitteeRepresentativeOuterClothing
+  name: loadout-group-outer-clothing
+  loadouts:
+  - ScpLoadoutEthicsCommitteeRepresentativeFormalCoat
+  - ScpLoadoutEthicsCommitteeRepresentativeOpenFormalCoat
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupEthicsCommitteeRepresentativeTrinkets
+  name: loadout-group-department-trinkets
+  minLimit: 0
+  maxLimit: 3
+  loadouts:
+  - ScpLoadoutBoxFolderBaseThreePapers
+  - ScpLoadoutBoxFolderPlasticClipboardThreePapers
+  - ScpLoadoutBoxFolderClipboardThreePapers
+  - ScpLoadoutEthicsCommitteeRepresentativeVetoStamp

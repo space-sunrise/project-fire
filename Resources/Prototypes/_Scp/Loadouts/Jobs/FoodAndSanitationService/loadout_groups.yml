@@ -1,0 +1,94 @@
+# Food And Sanitation Service
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGastronomicSpecialistHead
+  name: loadout-group-head
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutClothingHeadHatChef
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGastronomicSpecialistMask
+  name: loadout-group-mask
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutGastronomicSpecialistItalianMoustache
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGastronomicSpecialistJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutGastronomicSpecialistJumpsuit
+  - ScpLoadoutGastronomicSpecialistJumpskirt
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGastronomicSpecialistOuterClothing
+  name: loadout-group-outer-clothing
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutClothingOuterApronChef
+  - ScpLoadoutGastronomicSpecialistJacket
+  - ScpLoadoutGastronomicSpecialistWinterCoat
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupServicePersonnelHead
+  name: loadout-group-head
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutClothingHeadHatPurplesoft
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupServicePersonnelJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutServicePersonnelJumpsuit
+  - ScpLoadoutServicePersonnelJumpskirt
+  - ScpLoadoutServicePersonnelMaidJanitor
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupServicePersonnelGloves
+  name: loadout-group-gloves
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutClothingHandsGlovesJanitor
+  - ScpLoadoutServicePersonnelOrangeGloves
+  - ScpLoadoutServicePersonnelPurpleGloves
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupServicePersonnelOuterClothing
+  name: loadout-group-outer-clothing
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutServicePersonnelWinterCoat
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBotanistPhytogeneticistHead
+  name: loadout-group-head
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutBotanistPhytogeneticistTruckerCap
+  - ScpLoadoutClothingHeadBandBotany
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBotanistPhytogeneticistJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutBotanistPhytogeneticistJumpsuit
+  - ScpLoadoutBotanistPhytogeneticistJumpskirt
+  - ScpLoadoutBotanistPhytogeneticistOveralls
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBotanistPhytogeneticistBackpack
+  name: loadout-group-backpack
+  loadouts:
+  - ScpLoadoutBotanistPhytogeneticistBackpack
+  - ScpLoadoutBotanistPhytogeneticistSatchel
+  - ScpLoadoutBotanistPhytogeneticistDuffelbag
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBotanistPhytogeneticistOuterClothing
+  name: loadout-group-outer-clothing
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutClothingOuterApronBotanist
+  - ScpLoadoutBotanistPhytogeneticistWinterCoat

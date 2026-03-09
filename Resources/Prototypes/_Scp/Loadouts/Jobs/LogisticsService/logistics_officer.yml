@@ -47,33 +47,27 @@
   equipment:
     head: ClothingHeadHatCargosoft
 
-
 - type: loadout
   id: ScpLoadoutLogisticsOfficerJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitCargo
-
 
 - type: loadout
   id: ScpLoadoutLogisticsOfficerJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtCargo
 
-
 - type: loadout
   id: ScpLoadoutLogisticsOfficerWinterCoat
   equipment:
     outerClothing: ClothingOuterWinterCargo
-
 
 - type: loadout
   id: ScpLoadoutLogisticsOfficerWinterBoots
   equipment:
     shoes: ClothingShoesBootsWinterCargo
 
-
 - type: loadout
   id: ScpLoadoutLogisticsOfficerOrangeGloves
   equipment:
     gloves: ClothingHandsGlovesColorOrange
-

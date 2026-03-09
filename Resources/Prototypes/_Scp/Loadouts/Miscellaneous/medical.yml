@@ -4,7 +4,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement
-      department: MedicalService # Fire Edit
+      department: MedicalService
       time: 7200 # 2hr
   storage:
     back:
@@ -16,7 +16,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement
-      department: MedicalService # Fire Edit
+      department: MedicalService
       time: 7200 # 2hr
   storage:
     back:
@@ -28,7 +28,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement
-      department: MedicalService # Fire Edit
+      department: MedicalService
       time: 7200 # 2hr
   storage:
     back:
@@ -40,7 +40,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement
-      department: MedicalService # Fire Edit
+      department: MedicalService
       time: 7200 # 2hr
   storage:
     back:
@@ -52,7 +52,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement
-      department: MedicalService # Fire Edit
+      department: MedicalService
       time: 7200 # 2hr
   storage:
     back:
@@ -64,7 +64,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement
-      department: MedicalService # Fire Edit
+      department: MedicalService
       time: 7200 # 2hr
   storage:
     back:
@@ -76,7 +76,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:RoleTimeRequirement
-      role: JobPharmaceuticalSpecialist # Fire Edit
+      role: JobPharmaceuticalSpecialist
       time: 72000 # 20 hour
   storage:
     back:
@@ -88,7 +88,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:RoleTimeRequirement
-      role: JobHeadOfMedicalSector # Fire Edit
+      role: JobHeadOfMedicalSector
       time: 72000 # 20 hour
   storage:
     back:
@@ -100,7 +100,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:RoleTimeRequirement
-      role: JobMedicalSpecialist # Fire Edit
+      role: JobMedicalSpecialist
       time: 72000 # 20 hour
   storage:
     back:
@@ -112,7 +112,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:RoleTimeRequirement
-      role: JobMedicalSpecialist # Fire Edit
+      role: JobMedicalSpecialist
       time: 72000 # 20 hour
   storage:
     back:
@@ -124,7 +124,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement
-      department: MedicalService # Fire Edit
+      department: MedicalService
       time: 1080000 # 300hr
   storage:
     back:
@@ -193,35 +193,6 @@
   id: ScpLoadoutClothingMaskSterileRed
   equipment:
     mask: ClothingMaskSterileRed
-
-# #Gloves
-
-# - type: loadout
-#   id: Sunrise-GlovesNitrileBlack # Sunrise-TODO: Не добавлять, пока не сделаете им уникальные для каждой волокна, ибо на момент комита тут все "нитриловые"
-#   equipment:
-#     gloves: ClothingHandsGlovesNitrileBlack
-
-# - type: loadout
-#   id: Sunrise-GlovesNitrileGreen
-#   equipment:
-#     gloves: ClothingHandsGlovesNitrileGreen
-
-# - type: loadout
-#   id: Sunrise-GlovesNitrileOrange
-#   equipment:
-#     gloves: ClothingHandsGlovesNitrileOrange
-
-# - type: loadout
-#   id: Sunrise-GlovesNitrileRed
-#   equipment:
-#     gloves: ClothingHandsGlovesNitrileRed
-
-# - type: loadout
-#   id: Sunrise-GlovesNitrileBlue
-#   equipment:
-#     gloves: ClothingHandsGlovesNitrileBlue
-
-# Когда появятся вирусолог и генетик, перенести к ним (если появятся конечно)
 
 - type: loadout
   id: ScpLoadoutClothingOuterWinterGen

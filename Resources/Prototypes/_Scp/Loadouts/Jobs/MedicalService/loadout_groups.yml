@@ -1,0 +1,412 @@
+# Medical Service
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupMedicalTrinkets
+  name: loadout-group-department-trinkets
+  minLimit: 0
+  maxLimit: 2
+  loadouts:
+  - ScpLoadoutSyringe
+  - ScpLoadoutChemistryBottleEpinephrine
+  - ScpLoadoutHandheldHealthAnalyzer
+  - ScpLoadoutClothingEyesHudMedical
+  - ScpLoadoutClothingEyesEyepatchHudMedical
+  - ScpLoadoutBoxMouthSwab
+  - ScpLoadoutToyFigurineMedicalDoctor
+  - ScpLoadoutToyFigurineParamedic
+  - ScpLoadoutToyFigurineChemist
+  - ScpLoadoutToyFigurineChiefMedicalOfficer
+  - ScpLoadoutClothingNeckStethoscopeGold
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSeniorMedicalSpecialistJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutSeniorMedicalSpecialistJumpsuit
+  - ScpLoadoutSeniorMedicalSpecialistJumpskirt
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSeniorMedicalSpecialistBelt
+  name: loadout-group-belt
+  loadouts:
+  - ScpLoadoutClothingBeltMedicalFilled
+  - ScpLoadoutChemBag
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSeniorMedicalSpecialistHead
+  name: loadout-group-head
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutSeniorMedicalSpecialistSeniorBeret
+  - ScpLoadoutSeniorMedicalSpecialistBeret
+  - ScpLoadoutClothingHeadHatBeretParamedic
+  - ScpLoadoutSeniorMedicalSpecialistChemistryBeret
+  - ScpLoadoutClothingHeadHatBeretPatologoanatom
+  - ScpLoadoutSeniorMedicalSpecialistNurseHat
+  - ScpLoadoutSeniorMedicalSpecialistBlueSurgicalCap
+  - ScpLoadoutSeniorMedicalSpecialistGreenSurgicalCap
+  - ScpLoadoutSeniorMedicalSpecialistPurpleSurgicalCap
+  - ScpLoadoutClothingHeadHatPatologonatHat
+  - ScpLoadoutClothingHeadHatParamedicsoft
+  - ScpLoadoutClothingHeadHatBlacksoft
+  - ScpLoadoutClothingHeadHatRedsoft
+  - ScpLoadoutClothingHeadHatOrangesoft
+  - ScpLoadoutClothingHeadHatCyansoft
+  - ScpLoadoutClothingHeadHatBluesoft
+  - ScpLoadoutSeniorMedicalSpecialistHeadMirror
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSeniorMedicalSpecialistOuterClothing
+  name: loadout-group-outer-clothing
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutClothingOuterCoatLab
+  - ScpLoadoutClothingOuterCoatLabViro
+  - ScpLoadoutSeniorMedicalSpecialistChemistryLabCoat
+  - ScpLoadoutClothingOuterCoatLabGene
+  - ScpLoadoutSeniorMedicalSpecialistSeniorLabCoat
+  - ScpLoadoutClothingOuterCoatPatologoanatom
+  - ScpLoadoutClothingOuterWinterViro
+  - ScpLoadoutSeniorMedicalSpecialistChemistryWinterCoat
+  - ScpLoadoutClothingOuterWinterGen
+  - ScpLoadoutSeniorMedicalSpecialistWinterCoat
+  - ScpLoadoutClothingOuterWinterPara
+  - ScpLoadoutClothingOuterWinterColorWhite
+  - ScpLoadoutClothingOuterWinterColorBlack
+  - ScpLoadoutClothingOuterWinterColorRed
+  - ScpLoadoutClothingOuterWinterColorOrange
+  - ScpLoadoutClothingOuterWinterColorGreen
+  - ScpLoadoutClothingOuterWinterColorCyan
+  - ScpLoadoutClothingOuterWinterColorBlue
+  - ScpLoadoutClothingOuterCoatParamedicWB
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSeniorMedicalSpecialistNeck
+  name: loadout-group-neck
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutClothingNeckScarfStripedBlack
+  - ScpLoadoutClothingNeckScarfStripedRed
+  - ScpLoadoutClothingNeckScarfStripedOrange
+  - ScpLoadoutClothingNeckScarfStripedGreen
+  - ScpLoadoutClothingNeckScarfStripedLightBlue
+  - ScpLoadoutClothingNeckScarfStripedCyan
+  - ScpLoadoutClothingNeckScarfStripedBlue
+  - ScpLoadoutClothingNeckStethoscope
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSeniorMedicalSpecialistMask
+  name: loadout-group-mask
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutClothingMaskSterileBlack
+  - ScpLoadoutClothingMaskSterileRed
+  - ScpLoadoutClothingMaskSterileOrange
+  - ScpLoadoutClothingMaskSterileGreen
+  - ScpLoadoutSeniorMedicalSpecialistSterileMask
+  - ScpLoadoutClothingMaskSterileBlue
+  - ScpLoadoutClothingMaskBreathMedicalBlack
+  - ScpLoadoutClothingMaskBreathMedicalRed
+  - ScpLoadoutClothingMaskBreathMedicalOrange
+  - ScpLoadoutClothingMaskBreathMedicalGreen
+  - ScpLoadoutClothingMaskBreathMedical
+  - ScpLoadoutClothingMaskBreathMedicalBlue
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSeniorMedicalSpecialistShoes
+  name: loadout-group-shoes
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutClothingShoesColorBrown
+  - ScpLoadoutClothingShoesColorWhite
+  - ScpLoadoutClothingShoesColorBlack
+  - ScpLoadoutClothingShoesColorRed
+  - ScpLoadoutClothingShoesColorOrange
+  - ScpLoadoutClothingShoesColorGreen
+  - ScpLoadoutClothingShoesColorCyan
+  - ScpLoadoutClothingShoesColorBlue
+  - ScpLoadoutSeniorMedicalSpecialistWinterBoots
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSeniorMedicalSpecialistGloves
+  name: loadout-group-gloves
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutClothingHandsGlovesLatex
+  - ScpLoadoutClothingHandsGlovesColorBlack
+  - ScpLoadoutClothingHandsGlovesColorWhite
+  - ScpLoadoutClothingHandsGlovesColorRed
+  - ScpLoadoutClothingHandsGlovesColorGreen
+  - ScpLoadoutClothingHandsGlovesColorTeal
+  - ScpLoadoutClothingHandsGlovesColorBlue
+  - ScpLoadoutSeniorMedicalSpecialistNitrileGloves
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPharmaceuticalSpecialistHead
+  name: loadout-group-head
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutPharmaceuticalSpecialistBeret
+  - ScpLoadoutPharmaceuticalSpecialistChemistryBeret
+  - ScpLoadoutPharmaceuticalSpecialistNurseHat
+  - ScpLoadoutPharmaceuticalSpecialistBlueSurgicalCap
+  - ScpLoadoutPharmaceuticalSpecialistGreenSurgicalCap
+  - ScpLoadoutPharmaceuticalSpecialistPurpleSurgicalCap
+  - ScpLoadoutClothingHeadHatRedsoft
+  - ScpLoadoutClothingHeadHatOrangesoft
+  - ScpLoadoutClothingHeadHatCyansoft
+  - ScpLoadoutPharmaceuticalSpecialistHeadMirror
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPharmaceuticalSpecialistNeck
+  name: loadout-group-neck
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutClothingNeckScarfStripedRed
+  - ScpLoadoutClothingNeckScarfStripedOrange
+  - ScpLoadoutClothingNeckScarfStripedGreen
+  - ScpLoadoutClothingNeckScarfStripedLightBlue
+  - ScpLoadoutClothingNeckScarfStripedCyan
+  - ScpLoadoutClothingNeckStethoscope
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPharmaceuticalSpecialistMask
+  name: loadout-group-mask
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutClothingMaskSterileRed
+  - ScpLoadoutClothingMaskSterileOrange
+  - ScpLoadoutClothingMaskSterileGreen
+  - ScpLoadoutPharmaceuticalSpecialistSterileMask
+  - ScpLoadoutClothingMaskBreathMedicalRed
+  - ScpLoadoutClothingMaskBreathMedicalOrange
+  - ScpLoadoutClothingMaskBreathMedicalGreen
+  - ScpLoadoutClothingMaskBreathMedical
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPharmaceuticalSpecialistGloves
+  name: loadout-group-gloves
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutClothingHandsGlovesLatex
+  - ScpLoadoutClothingHandsGlovesColorWhite
+  - ScpLoadoutClothingHandsGlovesColorRed
+  - ScpLoadoutClothingHandsGlovesColorGreen
+  - ScpLoadoutClothingHandsGlovesColorTeal
+  - ScpLoadoutPharmaceuticalSpecialistNitrileGloves
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPharmaceuticalSpecialistShoes
+  name: loadout-group-shoes
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutClothingShoesColorWhite
+  - ScpLoadoutClothingShoesColorRed
+  - ScpLoadoutClothingShoesColorOrange
+  - ScpLoadoutClothingShoesColorGreen
+  - ScpLoadoutClothingShoesColorCyan
+  - ScpLoadoutPharmaceuticalSpecialistWinterBoots
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPsychotherapistHead
+  name: loadout-group-head
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutPsychotherapistHeadMirror
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPsychotherapistOuterClothing
+  name: loadout-group-outer-clothing
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutClothingOuterCoatLab
+  - ScpLoadoutPsychotherapistWinterCoat
+  - ScpLoadoutClothingOuterWinterColorWhite
+  - ScpLoadoutClothingOuterWinterColorCyan
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPsychotherapistNeck
+  name: loadout-group-neck
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutClothingNeckScarfStripedLightBlue
+  - ScpLoadoutClothingNeckScarfStripedCyan
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPsychotherapistMask
+  name: loadout-group-mask
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutPsychotherapistSterileMask
+  - ScpLoadoutClothingMaskBreathMedical
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPsychotherapistGloves
+  name: loadout-group-gloves
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutClothingHandsGlovesLatex
+  - ScpLoadoutClothingHandsGlovesColorWhite
+  - ScpLoadoutPsychotherapistNitrileGloves
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPsychotherapistShoes
+  name: loadout-group-shoes
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutClothingShoesColorWhite
+  - ScpLoadoutPsychotherapistWinterBoots
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupMedicalSpecialistNeck
+  name: loadout-group-neck
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutClothingNeckScarfStripedRed
+  - ScpLoadoutClothingNeckScarfStripedGreen
+  - ScpLoadoutClothingNeckScarfStripedLightBlue
+  - ScpLoadoutClothingNeckScarfStripedCyan
+  - ScpLoadoutClothingNeckStethoscope
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupMedicalSpecialistHead
+  name: loadout-group-head
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutMedicalServiceBeret
+  - ScpLoadoutMedicalServiceHeadMirror
+  - ScpLoadoutMedicalServiceBlueSurgicalCap
+  - ScpLoadoutMedicalServiceGreenSurgicalCap
+  - ScpLoadoutMedicalServicePurpleSurgicalCap
+  - ScpLoadoutMedicalServiceNurseHat
+  - ScpLoadoutClothingHeadHatRedsoft
+  - ScpLoadoutClothingHeadHatOrangesoft
+  - ScpLoadoutClothingHeadHatCyansoft
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupMedicalSpecialistJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutMedicalSpecialistJumpsuit
+  - ScpLoadoutMedicalSpecialistJumpskirt
+  - ScpLoadoutMedicalSpecialistBlueScrubs
+  - ScpLoadoutMedicalSpecialistGreenScrubs
+  - ScpLoadoutMedicalSpecialistPurpleScrubs
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupMedicalSpecialistOuterClothing
+  name: loadout-group-outer-clothing
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutClothingOuterCoatLab
+  - ScpLoadoutClothingOuterWinterColorWhite
+  - ScpLoadoutClothingOuterWinterColorRed
+  - ScpLoadoutClothingOuterWinterColorGreen
+  - ScpLoadoutClothingOuterWinterColorCyan
+  - ScpLoadoutMedicalServiceWinterCoat
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupMedicalBackpack
+  name: loadout-group-backpack
+  loadouts:
+  - ScpLoadoutMedicalServiceBackpack
+  - ScpLoadoutMedicalServiceSatchel
+  - ScpLoadoutMedicalServiceDuffelbag
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupMedicalShoes
+  name: loadout-group-shoes
+  loadouts:
+  - ScpLoadoutClothingShoesColorWhite
+  - ScpLoadoutClothingShoesColorRed
+  - ScpLoadoutClothingShoesColorOrange
+  - ScpLoadoutClothingShoesColorGreen
+  - ScpLoadoutClothingShoesColorCyan
+  - ScpLoadoutMedicalServiceWinterBoots
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupMedicalGloves
+  name: loadout-group-medical-gloves
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutClothingHandsGlovesLatex
+  - ScpLoadoutClothingHandsGlovesColorWhite
+  - ScpLoadoutClothingHandsGlovesColorRed
+  - ScpLoadoutClothingHandsGlovesColorGreen
+  - ScpLoadoutClothingHandsGlovesColorTeal
+  - ScpLoadoutMedicalServiceNitrileGloves
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupMedicalMask
+  name: loadout-group-medical-mask
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutClothingMaskSterileRed
+  - ScpLoadoutClothingMaskSterileGreen
+  - ScpLoadoutMedicalServiceSterileMask
+  - ScpLoadoutClothingMaskBreathMedicalRed
+  - ScpLoadoutClothingMaskBreathMedicalGreen
+  - ScpLoadoutClothingMaskBreathMedical
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupHospitalInternJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutClothingUniformJumpsuitColorWhite
+  - ScpLoadoutClothingUniformJumpskirtColorWhite
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPharmaceuticalSpecialistJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutPharmaceuticalSpecialistJumpsuit
+  - ScpLoadoutPharmaceuticalSpecialistJumpskirt
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPharmaceuticalSpecialistOuterClothing
+  name: loadout-group-outer-clothing
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutClothingOuterCoatLab
+  - ScpLoadoutClothingOuterCoatLab
+  - ScpLoadoutMedicalServiceChemistryLabCoat
+  - ScpLoadoutMedicalServiceChemistryWinterCoat
+  - ScpLoadoutMedicalServiceWinterCoat
+  - ScpLoadoutClothingOuterWinterColorWhite
+  - ScpLoadoutClothingOuterWinterColorRed
+  - ScpLoadoutClothingOuterWinterColorOrange
+  - ScpLoadoutClothingOuterWinterColorGreen
+  - ScpLoadoutClothingOuterWinterColorCyan
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPharmaceuticalSpecialistBackpack
+  name: loadout-group-backpack
+  loadouts:
+  - ScpLoadoutPharmaceuticalSpecialistBackpack
+  - ScpLoadoutPharmaceuticalSpecialistSatchel
+  - ScpLoadoutPharmaceuticalSpecialistDuffelbag
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPsychotherapistJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutPsychotherapistJumpsuit
+  - ScpLoadoutPsychotherapistJumpskirt

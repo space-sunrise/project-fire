@@ -39,7 +39,6 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorResearcher
 
-
 - type: loadout
   id: ScpLoadoutLeadResearcherSeniorResearcherSeniorResearcher
   effects:
@@ -47,4 +46,3 @@
     proto: SeniorResearcher
   equipment:
     jumpsuit: ClothingUniformJumpskirtSeniorResearcher
-

@@ -75,34 +75,28 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitWithWhiteShirt
 
-
 - type: loadout
   id: ScpLoadoutEthicsCommitteeRepresentativeWhiteShirtJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtWithWhiteShirt
-
 
 - type: loadout
   id: ScpLoadoutEthicsCommitteeRepresentativeBlackFormalSuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitBlackFormal
 
-
 - type: loadout
   id: ScpLoadoutEthicsCommitteeRepresentativeFormalCoat
   equipment:
     outerClothing: ClothingOuterCoatBlackFancy
-
 
 - type: loadout
   id: ScpLoadoutEthicsCommitteeRepresentativeOpenFormalCoat
   equipment:
     outerClothing: ClothingOuterCoatBlackFancyOpen
 
-
 - type: loadout
   id: ScpLoadoutEthicsCommitteeRepresentativeVetoStamp
   storage:
     back:
     - RubberStampVeto
-

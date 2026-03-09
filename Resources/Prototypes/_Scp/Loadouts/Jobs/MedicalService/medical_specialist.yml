@@ -21,24 +21,20 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitMedicalDoctor
 
-
 - type: loadout
   id: ScpLoadoutMedicalSpecialistJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtMedicalDoctor
-
 
 - type: loadout
   id: ScpLoadoutMedicalSpecialistBlueScrubs
   equipment:
     jumpsuit: UniformScrubsColorBlue
 
-
 - type: loadout
   id: ScpLoadoutMedicalSpecialistGreenScrubs
   equipment:
     jumpsuit: UniformScrubsColorGreen
-
 
 - type: loadout
   id: ScpLoadoutMedicalSpecialistPurpleScrubs

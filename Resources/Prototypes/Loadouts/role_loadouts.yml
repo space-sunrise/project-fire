@@ -18,7 +18,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobHeadOfPersonnel
@@ -40,7 +39,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 # Silicons
 - type: roleLoadout
@@ -76,7 +74,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobBartender
@@ -97,7 +94,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobServiceWorker
@@ -116,7 +112,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobChef
@@ -138,7 +133,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobLibrarian
@@ -157,7 +151,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobLawyer
@@ -177,7 +170,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobChaplain
@@ -201,7 +193,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobJanitor
@@ -223,7 +214,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobBotanist
@@ -244,7 +234,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobClown
@@ -266,7 +255,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobMime
@@ -289,7 +277,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobMusician
@@ -311,7 +298,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 # Cargo
 - type: roleLoadout
@@ -319,7 +305,7 @@
   groups:
   - GroupTankHarness
   - QuartermasterHead
-#  - QuartermasterNeck #Sunrise-edit
+  #  - QuartermasterNeck #Sunrise-edit
   # Sunrise-start
   - SunriseQuartermasterMask
   # Sunrise-end
@@ -345,7 +331,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobCargoTechnician
@@ -378,7 +363,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobSalvageSpecialist
@@ -407,7 +391,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 # Engineering
 - type: roleLoadout
@@ -423,7 +406,7 @@
   - SunriseCEGloves
   # Sunrise-end
   - ChiefEngineerBackpack # Sunrise-Edit
-#  - ChiefEngineerNeck # Sunrise-Edit
+  #  - ChiefEngineerNeck # Sunrise-Edit
   - ChiefEngineerOuterClothing
   # Sunrise-start
   - ChiefEngineerNeck
@@ -440,7 +423,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobTechnicalAssistant
@@ -471,25 +453,24 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobStationEngineer
   groups:
   - GroupTankHarness
   - StationEngineerHead
-   # Sunrise-start
+  # Sunrise-start
   - StationSunriseEngineerMask
-   # Sunrise-end
+  # Sunrise-end
   - StationEngineerJumpsuit
-   # Sunrise-start
+  # Sunrise-start
   - StationSunriseEngineerGloves
-   # Sunrise-end
+  # Sunrise-end
   - StationEngineerBackpack
   - StationEngineerOuterClothing
-   # Sunrise-start
+  # Sunrise-start
   - StationSunriseEngineerNeck
-   # Sunrise-end
+  # Sunrise-end
   - StationEngineerShoes
   - StationEngineerID
   - SurvivalExtended
@@ -503,7 +484,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobAtmosphericTechnician
@@ -534,7 +514,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 # Science
 - type: roleLoadout
@@ -559,7 +538,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobScientist
@@ -584,7 +562,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobResearchAssistant
@@ -603,7 +580,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 # Security
 - type: roleLoadout
@@ -628,7 +604,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobWarden
@@ -651,17 +626,16 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobSecurityOfficer
   groups:
-#  - SecurityHead
-#  - SecurityJumpsuit
+  - SecurityHead
+  - SecurityJumpsuit
   - SecurityBackpack
-#  - SecurityOuterClothing
-#  - SecurityShoes
-  #- SecurityPDA
+  - SecurityOuterClothing
+  - SecurityShoes
+  - SecurityPDA
   - SecurityBelt
   - SurvivalSecurity
   - Trinkets
@@ -675,20 +649,12 @@
   - Socks
   - Contributors
   # Sunrise-end
-  # Fire-Station-Start
-  - GuardHead
-  - GuardGloves
-  - GuardJumpsuit
-  - GuardArmorVest
-  - GuardShoes
-  - CommonMiscItems
-  # Fire-Station-End
 
 - type: roleLoadout
   id: JobDetective
   groups:
   - DetectiveHead
-#  - DetectiveNeck # Fire-Station XZ
+  - DetectiveNeck
   - DetectiveJumpsuit
   - SecurityBackpack
   - DetectiveOuterClothing
@@ -705,12 +671,11 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobSecurityCadet
   groups:
-  # - SecurityCadetJumpsuit # FireStation Edit
+  - SecurityCadetJumpsuit
   - SecurityBackpack
   - SurvivalSecurity
   - Trinkets
@@ -731,15 +696,15 @@
   groups:
   - GroupTankHarness
   - ChiefMedicalOfficerHead
-#  - MedicalMask   #Sunrise-edit
-# Sunrise-start
+  #  - MedicalMask   #Sunrise-edit
+  # Sunrise-start
   - SunriseChiefMedicalOfficerMask
-# Sunrise-end
+  # Sunrise-end
   - ChiefMedicalOfficerJumpsuit
-# Sunrise-start
+  # Sunrise-start
   - SunriseChiefMedicalOfficerGloves
-# Sunrise-end
-#  - MedicalGloves  #Sunrise-edit
+  # Sunrise-end
+  #  - MedicalGloves  #Sunrise-edit
   - MedicalBackpack
   - ChiefMedicalOfficerOuterClothing
   - ChiefMedicalOfficerNeck
@@ -756,7 +721,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobMedicalDoctor
@@ -785,7 +749,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobMedicalIntern
@@ -817,7 +780,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobChemist
@@ -827,9 +789,9 @@
   - SunriseChemistHead
   - SunriseChemistMask
   # Sunrise-end
-#  - MedicalMask   #Sunrise-edit
+  #  - MedicalMask   #Sunrise-edit
   - ChemistJumpsuit
-#    - MedicalGloves #Sunrise-edit
+  #    - MedicalGloves #Sunrise-edit
   # Sunrise-start
   - SunriseChemistGloves
   # Sunrise-end
@@ -840,7 +802,7 @@
   - SunriseChemistShoes
   - SunriseChemistMisc
   # Sunrise-end
-#  - MedicalShoes #Sunrise-edit
+  #  - MedicalShoes #Sunrise-edit
   - SurvivalMedical
   - Trinkets
   - ChemistJobTrinkets
@@ -852,19 +814,18 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobParamedic
   groups:
   - GroupTankHarness
   - ParamedicHead
-#  - MedicalMask   #Sunrise-edit
+  #  - MedicalMask   #Sunrise-edit
   # Sunrise-start
   - SunriseParamedicMask
   # Sunrise-end
   - ParamedicJumpsuit
-#  - MedicalGloves #Sunrise-edit
+  #  - MedicalGloves #Sunrise-edit
   # Sunrise-start
   - SunriseParamedicGloves
   # Sunrise-end
@@ -879,14 +840,13 @@
   - Trinkets
   - ParamedicJobTrinkets
   - GroupSpeciesBreathToolMedical
-# Sunrise-start
+  # Sunrise-start
   - MedicalTrinkets
   - Bra
   - Pants
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 # Wildcards
 - type: roleLoadout
@@ -906,14 +866,13 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 - type: roleLoadout
   id: JobPsychologist
   groups:
   # Sunrise-start
   - SunrisePsychologistHead
-# - MedicalMask Sunrise-edit
+  # - MedicalMask Sunrise-edit
   - SunrisePsychologistMask
   - SunrisePsychologistGloves
   # Sunrise-end
@@ -937,7 +896,6 @@
   - Socks
   - Contributors
   # Sunrise-end
-  - CommonMiscItems # Fire
 
 # These loadouts are used for non-crew spawns, like off-station antags and event mobs
 # They will be used without player configuration, thus they will only ever apply what is forced by MinLimit

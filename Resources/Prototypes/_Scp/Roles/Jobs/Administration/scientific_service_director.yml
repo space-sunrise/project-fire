@@ -41,6 +41,7 @@
   equipment:
     eyes: ClothingEyesGlasses
     neck: ClothingNeckScarfRD
+    jumpsuit: ClothingUniformJumpsuitResearchDirector
     gloves: ClothingHandsGlovesLatex
     shoes: ClothingShoesColorBrown
     back: ClothingBackpackScience

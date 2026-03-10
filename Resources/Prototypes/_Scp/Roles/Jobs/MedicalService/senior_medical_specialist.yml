@@ -34,6 +34,7 @@
     mask: ClothingMaskSterileBlack
     neck: ClothingNeckScarfStripedBlack
     outerClothing: ClothingOuterCoatLab
+    jumpsuit: ClothingUniformJumpsuitSeniorPhysician
     gloves: ClothingHandsGlovesLatex
     shoes: ClothingShoesColorBrown
     id: KeyCardSeniorMedicalSpecialist

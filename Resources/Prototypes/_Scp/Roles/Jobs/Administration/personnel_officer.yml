@@ -45,6 +45,7 @@
   equipment:
     eyes: ClothingEyesGlasses
     neck: ClothingNeckScarfHOP
+    jumpsuit: ClothingUniformJumpsuitHoP
     gloves: ClothingHandsGlovesHop
     shoes: ClothingShoesColorBrown
     back: ClothingBackpack

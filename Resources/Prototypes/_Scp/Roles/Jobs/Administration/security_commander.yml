@@ -72,6 +72,7 @@
   equipment:
     eyes: ClothingEyesGlassesSecurity
     neck: ClothingNeckScarfHos
+    jumpsuit: ClothingUniformJumpsuitHoS
     gloves: ClothingHandsGlovesCombat
     shoes: ClothingShoesBootsSecurityGuard
     back: ClothingBackpackSecurity

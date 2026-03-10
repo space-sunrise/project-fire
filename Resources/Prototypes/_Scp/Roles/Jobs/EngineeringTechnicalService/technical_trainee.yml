@@ -26,6 +26,7 @@
     mask: ClothingMaskBandRed
     neck: ClothingNeckScarfStripedRed
     outerClothing: ClothingOuterWinterColorRed
+    jumpsuit: ClothingUniformJumpsuitColorYellow
     gloves: ClothingHandsGlovesFingerlessInsulated
     shoes: ClothingShoesColorRed
     suitstorage: NitrogenTankFilled

@@ -34,6 +34,7 @@
     head: ClothingHeadHatBeretRND
     eyes: ClothingEyesGlasses
     outerClothing: ClothingOuterCoatLabSeniorResearcher
+    jumpsuit: ClothingUniformJumpsuitSeniorResearcher
     gloves: ClothingHandsGlovesLatex
     shoes: ClothingShoesColorWhite
     back: ClothingBackpackScience

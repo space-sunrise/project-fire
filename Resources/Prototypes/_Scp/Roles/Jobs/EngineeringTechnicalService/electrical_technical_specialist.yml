@@ -30,6 +30,7 @@
     mask: ClothingMaskGas
     neck: ClothingNeckScarfStripedRed
     outerClothing: ClothingOuterWinterColorRed
+    jumpsuit: ClothingUniformJumpsuitAtmos
     gloves: ClothingHandsGlovesFingerlessInsulated
     shoes: ClothingShoesColorWhite
     id: KeyCardElectricalTechnicalSpecialist

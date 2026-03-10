@@ -35,6 +35,7 @@
   id: FieldMedicalSpecialistGear
   equipment:
     outerClothing: ClothingOuterCoatLabSecurityMedic
+    jumpsuit: ClothingUniformJumpsuitBrigmedic
     shoes: ClothingShoesColorRed
     gloves: ClothingHandsGlovesLatex
     eyes: ClothingEyesHudMedSec

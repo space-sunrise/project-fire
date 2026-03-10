@@ -25,6 +25,7 @@
     head: ClothingHeadBandBotany
     eyes: ClothingEyesGlasses
     outerClothing: ClothingOuterApronBotanist
+    jumpsuit: ClothingUniformJumpsuitHydroponics
     shoes: ClothingShoesColorBrown
     id: KeyCardBotanistPhytogeneticist
     ears: ClothingHeadsetFoodAndSanitation

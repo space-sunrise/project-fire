@@ -37,6 +37,7 @@
     mask: ClothingMaskGasExplorer
     neck: ClothingNeckScarfQm
     outerClothing: ClothingOuterWinterMiner
+    jumpsuit: ClothingUniformJumpsuitQM
     gloves: ClothingHandsGlovesColorLightBrown
     shoes: ClothingShoesColorBrown
     id: KeyCardSeniorLogisticsOfficer

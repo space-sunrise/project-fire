@@ -22,6 +22,7 @@
     head: ClothingHeadHatChef
     eyes: ClothingEyesGlasses
     outerClothing: ClothingOuterApronChef
+    jumpsuit: ClothingUniformJumpsuitChef
     shoes: ClothingShoesColorBlack
     back: ClothingBackpack
     id: KeyCardGastronomicSpecialist

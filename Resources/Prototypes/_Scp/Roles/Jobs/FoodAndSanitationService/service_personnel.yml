@@ -26,5 +26,6 @@
     back: ClothingBackpack
     id: KeyCardServicePersonnel
     ears: ClothingHeadsetFoodAndSanitation
+    jumpsuit: ClothingUniformJumpsuitJanitor
     belt: ClothingBeltJanitorFilled
     pocket2: ScpServicePDA

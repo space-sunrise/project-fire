@@ -33,6 +33,7 @@
     mask: ClothingMaskSterileRed
     neck: ClothingNeckScarfStripedRed
     outerClothing: ClothingOuterCoatLab
+    jumpsuit: ClothingUniformJumpsuitChemistry
     gloves: ClothingHandsGlovesLatex
     shoes: ClothingShoesColorWhite
     id: KeyCardPharmaceuticalSpecialist

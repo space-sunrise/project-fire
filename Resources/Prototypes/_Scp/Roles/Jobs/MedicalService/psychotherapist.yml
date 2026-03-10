@@ -27,6 +27,7 @@
     mask: ClothingMaskBreathMedical
     neck: ClothingNeckScarfStripedLightBlue
     outerClothing: ClothingOuterCoatLab
+    jumpsuit: ClothingUniformJumpsuitPsychologist
     gloves: ClothingHandsGlovesLatex
     shoes: ClothingShoesLeather
     id: KeyCardPsychotherapist

@@ -30,7 +30,6 @@
     gloves: ClothingHandsGlovesFingerlessInsulated
     shoes: ClothingShoesColorRed
     back: ClothingBackpackEngineering
-    suitstorage: NitrogenTankFilled
     id: KeyCardTechnicalTrainee
     ears: ClothingHeadsetEngineeringTechnicalService
     belt: ClothingBeltUtilityEngineering

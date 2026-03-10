@@ -70,8 +70,10 @@
 - type: startingGear
   id: SecurityCommanderGear
   equipment:
+    head: ClothingHeadHatHoshat
     eyes: ClothingEyesGlassesSecurity
     neck: ClothingNeckScarfHos
+    outerClothing: ClothingOuterCoatHoSTrench
     jumpsuit: ClothingUniformJumpsuitHoS
     gloves: ClothingHandsGlovesCombat
     shoes: ClothingShoesBootsSecurityGuard

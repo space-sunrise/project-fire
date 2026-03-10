@@ -9319,3 +9319,14 @@
   id: 375
   time: '2026-03-09T23:43:26.0000000+00:00'
   url: https://github.com/space-sunrise/fire-station/pull/846
+- author: rokudara
+  changes:
+  - message: Disabled the global "Common" radio channel to encourage departmental
+      communication.
+    type: Remove
+  - message: Added physical call buttons for all major departments that broadcast
+      assistance requests to their respective radio channels.
+    type: Add
+  id: 376
+  time: '2026-03-10T08:55:17.0000000+00:00'
+  url: https://github.com/space-sunrise/project-fire/pull/859

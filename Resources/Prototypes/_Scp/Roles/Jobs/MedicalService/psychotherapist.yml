@@ -23,6 +23,7 @@
 - type: startingGear
   id: PsychotherapistGear
   equipment:
+    head: ClothingHeadMirror
     eyes: ClothingEyesGlasses
     mask: ClothingMaskBreathMedical
     neck: ClothingNeckScarfStripedLightBlue
@@ -34,3 +35,6 @@
     id: KeyCardPsychotherapist
     ears: ClothingHeadsetMedicalService
     pocket2: ScpMedicalPDA
+  storage:
+    back:
+    - RubberStampPsychologist

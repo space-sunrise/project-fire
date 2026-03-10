@@ -74,3 +74,6 @@
     belt: ScpClothingBeltSecurityWebbingFilled
     pocket1: WeaponPistolG22
     pocket2: ScpSecurityPDA
+  storage:
+    back:
+    - ScpRadioHandheldSecurityEnabled

@@ -61,3 +61,6 @@
     belt: ScpClothingBeltSecurityWebbingFilled
     pocket1: HyperLinkBookCorporateLaw
     pocket2: ScpSecurityPDA
+  storage:
+    back:
+    - ScpRadioHandheldSecurityEnabled

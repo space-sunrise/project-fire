@@ -1,53 +1,3 @@
-- type: loadout
-  id: ScpLoadoutBoxSurvivalWithoutGas
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: NoBreather
-  storage:
-    back:
-    - BoxSurvivalWithoutGas
-
-# Medical
-
-- type: loadout
-  id: ScpLoadoutBoxSurvivalEngineering
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: OxygenBreather
-  storage:
-    back:
-    - BoxSurvivalEngineering
-
-- type: loadout
-  id: ScpLoadoutBoxSurvivalEngineeringWithBeer
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: Dwarf
-  storage:
-    back:
-    - BoxSurvivalEngineeringWithBeer
-
-# Medical
-
-- type: loadout
-  id: ScpLoadoutBoxSurvivalEngineeringNitrogen
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: NitrogenBreather
-  storage:
-    back:
-    - BoxSurvivalEngineeringNitrogen
-
-# Medical
-
-- type: loadout
-  id: ScpLoadoutNitrogenTankFilled
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: EffectSpeciesVox
-  equipment:
-    suitstorage: NitrogenTankFilled
-
 # Full EVA Tank, Any Species
 
 - type: loadout
@@ -57,5 +7,3 @@
     proto: EffectSpeciesVox
   equipment:
     outerClothing: ClothingOuterVestTank
-
-# Breath Tool On Face

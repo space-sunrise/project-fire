@@ -80,3 +80,7 @@
     ears: ClothingHeadsetAltSecurityAdministration
     belt: ScpClothingBeltSecurityWebbingFilled
     pocket2: SecurityCommanderPDA
+  storage:
+    back:
+    - Flash
+    - ScpRadioHandheldSecurityEnabled

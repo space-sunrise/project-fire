@@ -292,19 +292,6 @@
   - ScpLoadoutClothingHeadHatYellowsoft
 
 - type: loadoutGroup
-  id: ScpLoadoutGroupSurvivalExtended
-  name: loadout-group-survival-extended
-  minLimit: 2
-  maxLimit: 2
-  hidden: true
-  loadouts:
-  - ScpLoadoutBoxSurvivalEngineeringNitrogen
-  - ScpLoadoutBoxSurvivalEngineering
-  - ScpLoadoutNitrogenTankFilled
-  - ScpLoadoutBoxSurvivalWithoutGas
-  - ScpLoadoutBoxSurvivalEngineeringWithBeer
-
-- type: loadoutGroup
   id: ScpLoadoutGroupElectricalTechnicalSpecialistMask
   name: loadout-group-mask
   minLimit: 0

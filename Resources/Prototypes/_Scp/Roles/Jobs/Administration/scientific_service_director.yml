@@ -49,3 +49,7 @@
     ears: ClothingHeadsetAltScientificService
     pocket1: HandheldRoboAnalyzer
     pocket2: ScientificServiceDirectorPDA
+  storage:
+    back:
+    - Flash
+    - Telebaton

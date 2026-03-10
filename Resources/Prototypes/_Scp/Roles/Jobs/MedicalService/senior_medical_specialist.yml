@@ -42,3 +42,7 @@
     ears: ClothingHeadsetMedicalService
     belt: ClothingBeltMedicalFilled
     pocket2: ScpMedicalPDA
+  storage:
+    back:
+    - MedicatedSuture
+    - RegenerativeMesh

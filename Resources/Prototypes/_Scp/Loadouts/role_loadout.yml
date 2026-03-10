@@ -82,7 +82,6 @@
   - ScpLoadoutGroupChiefTechnicalSpecialistBackpack
   - ScpLoadoutGroupPocket2ChiefTechnicalSpecialistPDA
   - ScpLoadoutGroupBackStorageFlashTelebaton
-  - ScpLoadoutGroupSurvivalExtended
   - ScpLoadoutGroupIdKeyCardChiefTechnicalSpecialist
   - ScpLoadoutGroupEngineeringTrinkets
   - ScpLoadoutGroupTrinkets
@@ -608,8 +607,6 @@
   - ScpLoadoutGroupBeltClothingBeltUtilityEngineering
   - ScpLoadoutGroupLeadTechnicalSpecialistBackpack
   - ScpLoadoutGroupPocket2ScpEngineeringPDA
-  - ScpLoadoutGroupBackStorageClothingOuterHardsuitEngineeringCompact
-  - ScpLoadoutGroupSurvivalExtended
   - ScpLoadoutGroupIdKeyCardLeadTechnicalSpecialist
   - ScpLoadoutGroupEngineeringTrinkets
   - ScpLoadoutGroupTrinkets
@@ -633,7 +630,6 @@
   - ScpLoadoutGroupBeltClothingBeltUtilityEngineering
   - ScpLoadoutGroupGeneralTechnicalSpecialistBackpack
   - ScpLoadoutGroupPocket2ScpEngineeringPDA
-  - ScpLoadoutGroupSurvivalExtended
   - ScpLoadoutGroupIdKeyCardGeneralTechnicalSpecialist
   - ScpLoadoutGroupEngineeringTrinkets
   - ScpLoadoutGroupTrinkets
@@ -680,7 +676,6 @@
   - ScpLoadoutGroupGeneralTechnicalSpecialistBackpack
   - ScpLoadoutGroupPocket1BookEngineersHandbook
   - ScpLoadoutGroupPocket2ScpEngineeringPDA
-  - ScpLoadoutGroupSurvivalExtended
   - ScpLoadoutGroupIdKeyCardTechnicalTrainee
   - ScpLoadoutGroupEngineeringTrinkets
   - ScpLoadoutGroupTrinkets

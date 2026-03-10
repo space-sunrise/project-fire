@@ -74,3 +74,6 @@
     belt: ScpClothingBeltSecurityWebbingFilled
     pocket1: WeaponTaser
     pocket2: ScpSecurityPDA
+  storage:
+    back:
+    - ScpRadioHandheldSecurityEnabled

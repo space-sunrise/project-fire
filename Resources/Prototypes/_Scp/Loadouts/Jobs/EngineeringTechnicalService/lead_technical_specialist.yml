@@ -3,23 +3,11 @@
   equipment:
     id: KeyCardLeadTechnicalSpecialist
 
-- type: loadout
-  id: ScpLoadoutClothingOuterHardsuitEngineeringCompact
-  storage:
-    back:
-    - ClothingOuterHardsuitEngineeringCompact
-
 - type: loadoutGroup
   id: ScpLoadoutGroupIdKeyCardLeadTechnicalSpecialist
   name: loadout-group-id
   loadouts:
   - ScpLoadoutKeyCardLeadTechnicalSpecialist
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupBackStorageClothingOuterHardsuitEngineeringCompact
-  name: loadout-group-storage
-  loadouts:
-  - ScpLoadoutClothingOuterHardsuitEngineeringCompact
 
 - type: loadout
   id: ScpLoadoutLeadTechnicalSpecialistSeniorEngineering

@@ -197,7 +197,7 @@
   - ScpLoadoutGroupSpecialPurposeSquadWeaponPrimary
   - ScpLoadoutGroupSecurityPDA
   - ScpLoadoutGroupSpecialPurposeSquadWeaponSecondary
-  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupRadioHandheldHeavyContainmentSecurityService
   - ScpLoadoutGroupSpecialPurposeSquadLeaderKeyCard
   - ScpLoadoutGroupSecurityTrinkets
   - ScpLoadoutGroupTrinkets
@@ -221,7 +221,7 @@
   - ScpLoadoutGroupSpecialPurposeSquadWeaponPrimary
   - ScpLoadoutGroupSecurityPDA
   - ScpLoadoutGroupSpecialPurposeSquadWeaponSecondary
-  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupRadioHandheldHeavyContainmentSecurityService
   - ScpLoadoutGroupSpecialPurposeSquadSeniorHeavyContainmentZoneOfficerKeyCard
   - ScpLoadoutGroupSecurityTrinkets
   - ScpLoadoutGroupTrinkets
@@ -245,7 +245,7 @@
   - ScpLoadoutGroupSpecialPurposeSquadWeaponPrimary
   - ScpLoadoutGroupSecurityPDA
   - ScpLoadoutGroupSpecialPurposeSquadWeaponSecondary
-  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupRadioHandheldHeavyContainmentSecurityService
   - ScpLoadoutGroupSpecialPurposeSquadHeavyContainmentZoneOfficerKeyCard
   - ScpLoadoutGroupSecurityTrinkets
   - ScpLoadoutGroupTrinkets
@@ -266,7 +266,7 @@
   - ScpLoadoutGroupSecurityBackpack
   - ScpLoadoutGroupSecurityPDA
   - ScpLoadoutGroupSpecialPurposeSquadWeaponSecondary
-  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupRadioHandheldHeavyContainmentSecurityService
   - ScpLoadoutGroupSpecialPurposeSquadJumpsuitJunior
   - ScpLoadoutGroupSpecialPurposeSquadJuniorHeavyContainmentZoneOfficerKeyCard
   - ScpLoadoutGroupSecurityTrinkets
@@ -293,7 +293,7 @@
   - ScpLoadoutGroupCommandantSquadWeaponPrimary
   - ScpLoadoutGroupSecurityPDA
   - ScpLoadoutGroupCommandantSquadWeaponSecondary
-  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupRadioHandheldExternalAdministrativeZoneSecurityService
   - ScpLoadoutGroupCommandantSquadLeaderKeyCard
   - ScpLoadoutGroupSecurityTrinkets
   - ScpLoadoutGroupTrinkets
@@ -317,7 +317,7 @@
   - ScpLoadoutGroupCommandantSquadWeaponPrimary
   - ScpLoadoutGroupSecurityPDA
   - ScpLoadoutGroupCommandantSquadWeaponSecondary
-  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupRadioHandheldExternalAdministrativeZoneSecurityService
   - ScpLoadoutGroupCommandantSquadSeniorLightContainmentZoneSecurityOfficerKeyCard
   - ScpLoadoutGroupSecurityTrinkets
   - ScpLoadoutGroupTrinkets
@@ -341,7 +341,7 @@
   - ScpLoadoutGroupCommandantSquadWeaponPrimary
   - ScpLoadoutGroupSecurityPDA
   - ScpLoadoutGroupCommandantSquadWeaponSecondary
-  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupRadioHandheldExternalAdministrativeZoneSecurityService
   - ScpLoadoutGroupCommandantSquadLightContainmentZoneSecurityOfficerKeyCard
   - ScpLoadoutGroupSecurityTrinkets
   - ScpLoadoutGroupTrinkets
@@ -363,7 +363,7 @@
   - ScpLoadoutGroupSecurityBackpack
   - ScpLoadoutGroupSecurityPDA
   - ScpLoadoutGroupCommandantSquadWeaponSecondary
-  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupRadioHandheldExternalAdministrativeZoneSecurityService
   - ScpLoadoutGroupCommandantSquadJuniorLightContainmentZoneSecurityOfficerKeyCard
   - ScpLoadoutGroupSecurityTrinkets
   - ScpLoadoutGroupTrinkets
@@ -386,7 +386,7 @@
   - ScpLoadoutGroupFieldMedicalSpecialistPocket1
   - ScpLoadoutGroupPocket2ScpMedicalPDA
   - ScpLoadoutGroupBackStorageFlash
-  - ScpLoadoutGroupSecurityRadio
+  - ScpLoadoutGroupRadioHandheldExternalAdministrativeZoneSecurityService
   - ScpLoadoutGroupIdKeyCardFieldMedicalSpecialist
   - ScpLoadoutGroupSecurityTrinkets
   - ScpLoadoutGroupTrinkets

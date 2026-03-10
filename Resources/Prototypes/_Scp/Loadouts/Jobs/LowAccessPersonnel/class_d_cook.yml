@@ -4,9 +4,9 @@
     belt: ClothingBeltChefFilled
 
 - type: loadout
-  id: ScpLoadoutKeyCardClassDCock
+  id: ScpLoadoutKeyCardClassDCook
   equipment:
-    id: KeyCardClassDCock
+    id: KeyCardClassDCook
 
 - type: loadout
   id: ScpLoadoutClothingHeadHatChef
@@ -46,4 +46,4 @@
   id: ScpLoadoutGroupIdKeyCardClassDCock
   name: loadout-group-id
   loadouts:
-  - ScpLoadoutKeyCardClassDCock
+  - ScpLoadoutKeyCardClassDCook

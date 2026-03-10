@@ -10,7 +10,7 @@
   - ScpLoadoutKeyCardLeadTechnicalSpecialist
 
 - type: loadout
-  id: ScpLoadoutLeadTechnicalSpecialistSeniorEngineering
+  id: ScpLoadoutLeadTechnicalSpecialistJumpsuit
   effects:
   - !type:GroupLoadoutEffect
     proto: SeniorEngineering
@@ -18,7 +18,7 @@
     jumpsuit: ClothingUniformJumpsuitSeniorEngineer
 
 - type: loadout
-  id: ScpLoadoutLeadTechnicalSpecialistSeniorEngineeringSeniorEngineering
+  id: ScpLoadoutLeadTechnicalSpecialistJumpskirt
   effects:
   - !type:GroupLoadoutEffect
     proto: SeniorEngineering
@@ -59,17 +59,6 @@
   id: ScpLoadoutLeadTechnicalSpecialistEngineeringBeret
   equipment:
     head: ClothingHeadHatBeretEngineering
-
-- type: loadout
-  id: ScpLoadoutLeadTechnicalSpecialistAtmosBeret
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: JobElectricalTechnicalSpecialist
-      time: 360000 # 100 hour
-  equipment:
-    head: ClothingHeadHatBeretAtmos
 
 - type: loadout
   id: ScpLoadoutLeadTechnicalSpecialistGasMask

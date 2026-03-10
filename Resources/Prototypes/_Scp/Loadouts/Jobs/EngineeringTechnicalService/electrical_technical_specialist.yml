@@ -107,7 +107,7 @@
     head: ClothingHeadHatBeretEngineering
 
 - type: loadout
-  id: ScpLoadoutElectricalTechnicalSpecialistAtmosBeret
+  id: ScpLoadoutElectricalTechnicalSpecialistBeret
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:

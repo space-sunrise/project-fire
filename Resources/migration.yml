@@ -1771,7 +1771,7 @@ TribunalOfficerIDCard: null
 InternalSecurityOperativeIDCard: null
 ChaosAgentIDCard: null
 ClassDBotanistIDCard: KeyCardClassDBotanist
-ClassDCookIDCard: KeyCardClassDCock
+ClassDCookIDCard: KeyCardClassDCook
 ClassDJanitorIDCard: KeyCardClassDJanitor
 
 # ПДА
@@ -2635,5 +2635,9 @@ CodeConsole: ScpComputerCodes
 ComputerIcarus: ScpComputerIcarus
 BaseComputer: ScpComputer
 BaseComputerAiAccess: ScpComputer
+
+# Keycards rename
+
+KeyCardClassDCock: KeyCardClassDCook
 
 # Fire added end

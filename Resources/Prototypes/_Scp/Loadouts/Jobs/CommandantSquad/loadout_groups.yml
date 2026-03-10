@@ -70,3 +70,9 @@
   loadouts:
   - ScpLoadoutFieldMedicalSpecialistJumpsuit
   - ScpLoadoutFieldMedicalSpecialistJumpskirt
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupRadioHandheldExternalAdministrativeZoneSecurityService
+  name: loadout-group-radio
+  loadouts:
+  - ScpLoadoutRadioHandheldExternalAdministrativeZoneSecurityService

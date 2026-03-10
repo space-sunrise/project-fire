@@ -386,7 +386,6 @@
   minLimit: 0
   loadouts:
   - ScpLoadoutClothingOuterCoatLab
-  - ScpLoadoutClothingOuterCoatLab
   - ScpLoadoutMedicalServiceChemistryLabCoat
   - ScpLoadoutMedicalServiceChemistryWinterCoat
   - ScpLoadoutMedicalServiceWinterCoat

@@ -23,7 +23,7 @@
   equipment:
     gloves: ClothingHandsGlovesFingerlessInsulated
 
-# Outerclothing
+# Shoes
 
 - type: loadout
   id: ScpLoadoutClothingShoesColorBlack

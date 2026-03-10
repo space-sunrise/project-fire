@@ -78,3 +78,9 @@
   loadouts:
   - ScpLoadoutWeaponPistolG22
   - ScpLoadoutWeaponTaser
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupRadioHandheldHeavyContainmentSecurityService
+  name: loadout-group-radio
+  loadouts:
+  - ScpLoadoutRadioHandheldHeavyContainmentSecurityService

@@ -122,7 +122,7 @@
 
 - type: loadoutGroup
   id: ScpLoadoutGroupSecurityRadio
-  name: loadout-group-security-radio
+  name: loadout-group-radio
   loadouts:
   - ScpLoadoutScpRadioHandheldSecurityEnabled
 

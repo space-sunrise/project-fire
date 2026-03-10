@@ -48,7 +48,7 @@
   id: ScpLoadoutRadioHandheldHeavyContainmentSecurityService
   storage:
     back:
-    - RadioHandheldHeavyContainmentSecurityService
+    - RadioHandheldHeavyContainmentSecurityServiceEnabled
 
 # Пистолет-пулемет
 - type: loadout

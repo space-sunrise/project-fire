@@ -22,8 +22,8 @@
   id: ScpLoadoutGroupLeadTechnicalSpecialistJumpsuit
   name: loadout-group-jumpsuit
   loadouts:
-  - ScpLoadoutLeadTechnicalSpecialistSeniorEngineering
-  - ScpLoadoutLeadTechnicalSpecialistSeniorEngineeringSeniorEngineering
+  - ScpLoadoutLeadTechnicalSpecialistJumpsuit
+  - ScpLoadoutLeadTechnicalSpecialistJumpskirt
 
 - type: loadoutGroup
   id: ScpLoadoutGroupLeadTechnicalSpecialistNeck
@@ -67,7 +67,7 @@
   - ScpLoadoutLeadTechnicalSpecialistEngineeringBeret
   - ScpLoadoutClothingHeadBandRed
   - ScpLoadoutClothingHeadBandOrange
-  - ScpLoadoutLeadTechnicalSpecialistAtmosBeret
+  - ScpLoadoutElectricalTechnicalSpecialistBeret
   - ScpLoadoutClothingHeadBandYellow
   - ScpLoadoutClothingHeadBandCyan
   - ScpLoadoutLeadTechnicalSpecialistRedHardHat
@@ -278,6 +278,7 @@
   loadouts:
   - ScpLoadoutElectricalTechnicalSpecialistEngineeringBeret
   - ScpLoadoutElectricalTechnicalSpecialistAtmosBeret
+  - ScpLoadoutElectricalTechnicalSpecialistBeret
   - ScpLoadoutClothingHeadBandRed
   - ScpLoadoutClothingHeadBandOrange
   - ScpLoadoutClothingHeadBandYellow

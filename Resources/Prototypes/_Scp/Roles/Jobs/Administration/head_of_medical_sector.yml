@@ -51,6 +51,7 @@
     jumpsuit: ClothingUniformJumpsuitCMO
     gloves: ClothingHandsGlovesLatex
     shoes: ClothingShoesColorBrown
+    back: ClothingBackpackMedical
     id: KeyCardHeadOfMedicalSector
     ears: ClothingHeadsetAltMedicalService
     belt: ClothingBeltMedicalFilled

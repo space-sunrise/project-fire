@@ -27,6 +27,7 @@
     outerClothing: ClothingOuterApronBotanist
     jumpsuit: ClothingUniformJumpsuitHydroponics
     shoes: ClothingShoesColorBrown
+    back: ClothingBackpackHydroponics
     id: KeyCardBotanistPhytogeneticist
     ears: ClothingHeadsetFoodAndSanitation
     belt: ClothingBeltPlantFilled

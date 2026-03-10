@@ -30,6 +30,7 @@
     jumpsuit: ClothingUniformJumpsuitPsychologist
     gloves: ClothingHandsGlovesLatex
     shoes: ClothingShoesLeather
+    back: ClothingBackpackMedical
     id: KeyCardPsychotherapist
     ears: ClothingHeadsetMedicalService
     pocket2: ScpMedicalPDA

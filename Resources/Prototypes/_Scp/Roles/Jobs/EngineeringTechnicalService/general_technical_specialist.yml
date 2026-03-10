@@ -33,6 +33,7 @@
     jumpsuit: ClothingUniformJumpsuitEngineering
     gloves: ClothingHandsGlovesFingerlessInsulated
     shoes: ClothingShoesColorRed
+    back: ClothingBackpackEngineering
     suitstorage: NitrogenTankFilled
     id: KeyCardGeneralTechnicalSpecialist
     ears: ClothingHeadsetEngineeringTechnicalService

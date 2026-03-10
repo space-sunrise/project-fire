@@ -30,6 +30,7 @@
     outerClothing: ClothingOuterCoatLab
     gloves: ClothingHandsGlovesLatex
     shoes: ClothingShoesColorWhite
+    back: ClothingBackpackMedical
     id: KeyCardHospitalIntern
     ears: ClothingHeadsetMedicalService
     belt: ClothingBeltMedicalFilled

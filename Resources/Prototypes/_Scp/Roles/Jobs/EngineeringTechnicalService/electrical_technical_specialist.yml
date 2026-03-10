@@ -33,6 +33,7 @@
     jumpsuit: ClothingUniformJumpsuitAtmos
     gloves: ClothingHandsGlovesFingerlessInsulated
     shoes: ClothingShoesColorWhite
+    back: ClothingBackpackAtmospherics
     id: KeyCardElectricalTechnicalSpecialist
     ears: ClothingHeadsetEngineeringTechnicalService
     belt: ClothingBeltUtilityEngineering

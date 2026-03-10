@@ -36,6 +36,7 @@
     jumpsuit: ClothingUniformJumpsuitChemistry
     gloves: ClothingHandsGlovesLatex
     shoes: ClothingShoesColorWhite
+    back: ClothingBackpackChemistry
     id: KeyCardPharmaceuticalSpecialist
     ears: ClothingHeadsetMedicalService
     belt: ChemBag

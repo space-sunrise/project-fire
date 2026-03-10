@@ -37,6 +37,7 @@
     outerClothing: ClothingOuterCoatLabSecurityMedic
     jumpsuit: ClothingUniformJumpsuitBrigmedic
     shoes: ClothingShoesColorRed
+    back: ClothingBackpackBrigmedic
     gloves: ClothingHandsGlovesLatex
     eyes: ClothingEyesHudMedSec
     head: ClothingHeadHatBeretSecurityMedic

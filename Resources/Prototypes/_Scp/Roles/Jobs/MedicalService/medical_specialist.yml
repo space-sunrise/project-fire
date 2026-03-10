@@ -37,6 +37,7 @@
     jumpsuit: ClothingUniformJumpsuitMedicalDoctor
     gloves: ClothingHandsGlovesLatex
     shoes: ClothingShoesColorWhite
+    back: ClothingBackpackMedical
     id: KeyCardMedicalSpecialist
     ears: ClothingHeadsetMedicalService
     belt: ClothingBeltMedicalFilled

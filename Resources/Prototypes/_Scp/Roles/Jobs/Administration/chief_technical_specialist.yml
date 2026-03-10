@@ -41,6 +41,7 @@
     jumpsuit: ClothingUniformJumpsuitChiefEngineer
     gloves: ClothingHandsGlovesFingerlessInsulated
     shoes: ClothingShoesColorBrown
+    back: ClothingBackpackCE
     suitstorage: NitrogenTankFilled
     id: KeyCardChiefTechnicalSpecialist
     ears: ClothingHeadsetAltEngineeringTechnicalService

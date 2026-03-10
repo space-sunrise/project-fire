@@ -34,6 +34,7 @@
     jumpsuit: ClothingUniformJumpsuitCargo
     gloves: ClothingHandsGlovesColorLightBrown
     shoes: ClothingShoesColorBlack
+    back: ClothingBackpackCargo
     id: KeyCardLogisticsOfficer
     ears: ClothingHeadsetLogistics
     pocket1: AppraisalTool

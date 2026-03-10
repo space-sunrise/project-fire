@@ -80,10 +80,10 @@
     entries:
     - id: MobCockroach
       prob: 0.03
-    - id: MobMothroach
-      prob: 0.008
-    - id: MobMoproach
-      prob: 0.004
+    # - id: MobMothroach # Fire edit
+    #   prob: 0.008
+    # - id: MobMoproach # Fire edit
+    #   prob: 0.004
 
 - type: entity
   id: SnailMigrationLowPop

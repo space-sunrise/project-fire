@@ -1,5 +1,7 @@
 # Administration
 
+# Complex Director
+
 - type: loadoutGroup
   id: ScpLoadoutGroupDirectorHead
   name: loadout-group-head
@@ -75,6 +77,8 @@
   loadouts:
   - ScpLoadoutKeyCardDirector
 
+# Scientific Service Director
+
 - type: loadoutGroup
   id: ScpLoadoutGroupScientificServiceDirectorNeck
   name: loadout-group-neck
@@ -106,6 +110,8 @@
   loadouts:
   - ScpLoadoutClothingShoesColorBrown
   - ScpLoadoutClothingShoesBootsWinterSci
+
+# Security Commander
 
 - type: loadoutGroup
   id: ScpLoadoutGroupSecurityCommanderHead
@@ -159,6 +165,8 @@
   loadouts:
   - ScpLoadoutWeaponPistolACP14
   - ScpLoadoutWeaponRevolverMatebaNew
+
+# Chief Technical Specialist
 
 - type: loadoutGroup
   id: ScpLoadoutGroupChiefTechnicalSpecialistHead
@@ -270,6 +278,8 @@
   - ScpLoadoutChiefTechnicalSpecialistSatchel
   - ScpLoadoutChiefTechnicalSpecialistDuffelbag
 
+# Personnel Officer
+
 - type: loadoutGroup
   id: ScpLoadoutGroupPersonnelOfficerHead
   name: loadout-group-head
@@ -308,6 +318,8 @@
   - ScpLoadoutClothingBackpackSatchel
   - ScpLoadoutClothingBackpackDuffel
   - ScpLoadoutPersonnelOfficerIanBackpack
+
+# Head of Medical Sector
 
 - type: loadoutGroup
   id: ScpLoadoutGroupHeadOfMedicalSectorHead
@@ -432,6 +444,8 @@
   - ScpLoadoutClothingShoesColorCyan
   - ScpLoadoutClothingShoesColorBlue
   - ScpLoadoutMedicalServiceWinterBoots
+
+# Senior Logistics Officer
 
 - type: loadoutGroup
   id: ScpLoadoutGroupSeniorLogisticsOfficerHead

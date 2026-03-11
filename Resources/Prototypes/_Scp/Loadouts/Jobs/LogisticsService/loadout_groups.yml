@@ -1,5 +1,7 @@
 # Logistics Service
 
+# Senior Logistics Officer
+
 - type: loadoutGroup
   id: ScpLoadoutGroupLogisticsOfficerBackpack
   name: loadout-group-backpack
@@ -26,6 +28,8 @@
   - ScpLoadoutToyFigurineQueen
   - ScpLoadoutToyFigurineQuartermaster
   - ScpLoadoutLegendaryGoldenWeh
+
+# Logistics Officer
 
 - type: loadoutGroup
   id: ScpLoadoutGroupLogisticsOfficerHead

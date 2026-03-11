@@ -1,5 +1,7 @@
 # Food And Sanitation Service
 
+# Gastronomic Specialist
+
 - type: loadoutGroup
   id: ScpLoadoutGroupGastronomicSpecialistHead
   name: loadout-group-head
@@ -29,6 +31,8 @@
   loadouts:
   - ScpLoadoutGastronomicSpecialistJumpsuit
   - ScpLoadoutGastronomicSpecialistJumpskirt
+
+# Botanist-Phytogeneticist
 
 - type: loadoutGroup
   id: ScpLoadoutGroupBotanistPhytogeneticistHead
@@ -61,6 +65,8 @@
   - ScpLoadoutBotanistPhytogeneticistBackpack
   - ScpLoadoutBotanistPhytogeneticistSatchel
   - ScpLoadoutBotanistPhytogeneticistDuffelbag
+
+# Service Personnel
 
 - type: loadoutGroup
   id: ScpLoadoutGroupServicePersonnelHead

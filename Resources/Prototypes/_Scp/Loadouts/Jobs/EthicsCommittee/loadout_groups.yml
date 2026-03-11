@@ -1,5 +1,7 @@
 # Ethics Committee
 
+# Ethics Committee Representative
+
 - type: loadoutGroup
   id: ScpLoadoutGroupEthicsCommitteeRepresentativeOuterClothing
   name: loadout-group-outer-clothing

@@ -1,5 +1,7 @@
 # Scientific Service
 
+# Scientific Service Director
+
 - type: loadoutGroup
   id: ScpLoadoutGroupScientistGloves
   name: loadout-group-gloves
@@ -26,6 +28,8 @@
   - ScpLoadoutBoxFolderPlasticClipboardThreePapers
   - ScpLoadoutBoxFolderClipboardThreePapers
 
+# Lead Researcher
+
 - type: loadoutGroup
   id: ScpLoadoutGroupLeadResearcherJumpsuit
   name: loadout-group-jumpsuit
@@ -40,6 +44,8 @@
   - ScpLoadoutClothingShoesColorWhite
   - ScpLoadoutClothingShoesColorBlack
   - ScpLoadoutClothingShoesBootsWinterSci
+
+# Anomarchology Researcher
 
 - type: loadoutGroup
   id: ScpLoadoutGroupScientistNeck
@@ -64,6 +70,8 @@
   - ScpLoadoutClothingUniformJumpsuitScientist
   - ScpLoadoutClothingUniformJumpskirtScientist
 
+# Production Specialist
+
 - type: loadoutGroup
   id: ScpLoadoutGroupProductionSpecialistHead
   name: loadout-group-head
@@ -86,6 +94,8 @@
   loadouts:
   - ScpLoadoutClothingUniformJumpsuitRoboticist
   - ScpLoadoutClothingUniformJumpskirtRoboticist
+
+# Junior Researcher
 
 - type: loadoutGroup
   id: ScpLoadoutGroupJuniorResearcherJumpsuit

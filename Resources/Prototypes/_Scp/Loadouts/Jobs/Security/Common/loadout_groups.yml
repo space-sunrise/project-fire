@@ -1,5 +1,43 @@
 # Security shared
 
+# Common security
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGuardHead
+  name: loadout-group-head
+  loadouts:
+  - ScpLoadoutClothingHeadHelmetSecurity
+  - ScpLoadoutClothingHeadClosedHelmetSecurity
+  - ScpLoadoutClothingHeadSecurityBeret
+  - ScpLoadoutClothingHeadHatSecBlack
+  - ScpLoadoutClothingHeadHelmetSecurityRiot
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGuardArmorVest
+  name: loadout-group-outer-clothing
+  loadouts:
+  - ScpLoadoutClothingOuterArmorSecurity
+  - ScpLoadoutClothingOuterArmorSecurityBulletproof
+  - ScpLoadoutClothingOuterArmorSecurityWinter
+  - ScpLoadoutClothingOuterArmorSecurityRiotLight
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGuardJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutClothingUniformSecurity2
+  - ScpLoadoutClothingUniformSecurity
+  - ScpLoadoutClothingUniformSecurity3
+  - ScpLoadoutClothingUniformSecurityWhite
+  - ScpLoadoutClothingUniformSecurityWhiteAlternativeCommandant
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGuardGloves
+  name: loadout-group-gloves
+  loadouts:
+  - ScpLoadoutClothingHandsGlovesSecurity
+  - ScpLoadoutClothingHandsGlovesWinterSecurity
+
 - type: loadoutGroup
   id: ScpLoadoutGroupGuardShoes
   name: loadout-group-shoes
@@ -23,10 +61,10 @@
   - ScpLoadoutClothingBackpackDuffelSecurity
 
 - type: loadoutGroup
-  id: ScpLoadoutGroupSecurityRadio
-  name: loadout-group-radio
+  id: ScpLoadoutGroupSecurityPDA
+  name: loadout-group-pda
   loadouts:
-  - ScpLoadoutScpRadioHandheldSecurityEnabled
+  - ScpLoadoutScpSecurityPDA
 
 - type: loadoutGroup
   id: ScpLoadoutGroupSecurityTrinkets
@@ -40,6 +78,14 @@
   - ScpLoadoutTourniquet
   - ScpLoadoutFlashlightSeclite
   - ScpLoadoutDinkystar
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSecurityRadio
+  name: loadout-group-radio
+  loadouts:
+  - ScpLoadoutScpRadioHandheldSecurityEnabled
+
+# Squad leaders
 
 - type: loadoutGroup
   id: ScpLoadoutGroupSquadLeaderHead
@@ -91,45 +137,3 @@
   - ScpLoadoutClothingHandsGlovesSecurity
   - ScpLoadoutClothingHandsGlovesWinterSecurity
   - ScpLoadoutClothingHandsGlovesColorBlackAlt
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSecurityPDA
-  name: loadout-group-pda
-  loadouts:
-  - ScpLoadoutScpSecurityPDA
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupGuardArmorVest
-  name: loadout-group-outer-clothing
-  loadouts:
-  - ScpLoadoutClothingOuterArmorSecurity
-  - ScpLoadoutClothingOuterArmorSecurityBulletproof
-  - ScpLoadoutClothingOuterArmorSecurityWinter
-  - ScpLoadoutClothingOuterArmorSecurityRiotLight
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupGuardGloves
-  name: loadout-group-gloves
-  loadouts:
-  - ScpLoadoutClothingHandsGlovesSecurity
-  - ScpLoadoutClothingHandsGlovesWinterSecurity
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupGuardHead
-  name: loadout-group-head
-  loadouts:
-  - ScpLoadoutClothingHeadHelmetSecurity
-  - ScpLoadoutClothingHeadClosedHelmetSecurity
-  - ScpLoadoutClothingHeadSecurityBeret
-  - ScpLoadoutClothingHeadHatSecBlack
-  - ScpLoadoutClothingHeadHelmetSecurityRiot
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupGuardJumpsuit
-  name: loadout-group-jumpsuit
-  loadouts:
-  - ScpLoadoutClothingUniformSecurity2
-  - ScpLoadoutClothingUniformSecurity
-  - ScpLoadoutClothingUniformSecurity3
-  - ScpLoadoutClothingUniformSecurityWhite
-  - ScpLoadoutClothingUniformSecurityWhiteAlternativeCommandant

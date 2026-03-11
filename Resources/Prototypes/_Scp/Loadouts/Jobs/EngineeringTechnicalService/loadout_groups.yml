@@ -1,5 +1,7 @@
 # Engineering Technical Service
 
+# Chief Technical Specialist
+
 - type: loadoutGroup
   id: ScpLoadoutGroupEngineeringTrinkets
   name: loadout-group-department-trinkets
@@ -17,6 +19,8 @@
   - ScpLoadoutChiefTechnicalSpecialistFigurine
   - ScpLoadoutEngineeringTechnicalServiceGoldenCrowbarWrench
   - ScpLoadoutEngineeringTechnicalServiceSingularityToy
+
+# Lead Technical Specialist
 
 - type: loadoutGroup
   id: ScpLoadoutGroupLeadTechnicalSpecialistHead
@@ -125,6 +129,8 @@
   - ScpLoadoutLeadTechnicalSpecialistAtmosSatchel
   - ScpLoadoutLeadTechnicalSpecialistAtmosDuffelbag
 
+# General Technical Specialist
+
 - type: loadoutGroup
   id: ScpLoadoutGroupGeneralTechnicalSpecialistHead
   name: loadout-group-head
@@ -212,6 +218,8 @@
   - ScpLoadoutEngineeringTechnicalServiceEngineeringBackpack
   - ScpLoadoutEngineeringTechnicalServiceEngineeringSatchel
   - ScpLoadoutEngineeringTechnicalServiceEngineeringDuffelbag
+
+# Electrical Technical Specialist
 
 - type: loadoutGroup
   id: ScpLoadoutGroupElectricalTechnicalSpecialistHead
@@ -309,6 +317,8 @@
   - ScpLoadoutElectricalTechnicalSpecialistAtmosBackpack
   - ScpLoadoutElectricalTechnicalSpecialistAtmosSatchel
   - ScpLoadoutElectricalTechnicalSpecialistAtmosDuffelbag
+
+# Technical Trainee
 
 - type: loadoutGroup
   id: ScpLoadoutGroupTechnicalTraineeJumpsuit

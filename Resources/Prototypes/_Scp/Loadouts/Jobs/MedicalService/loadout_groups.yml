@@ -1,5 +1,7 @@
 # Medical Service
 
+# Head of Medical Sector
+
 - type: loadoutGroup
   id: ScpLoadoutGroupMedicalBackpack
   name: loadout-group-backpack
@@ -25,6 +27,8 @@
   - ScpLoadoutToyFigurineChemist
   - ScpLoadoutToyFigurineChiefMedicalOfficer
   - ScpLoadoutClothingNeckStethoscopeGold
+
+# Senior Medical Specialist
 
 - type: loadoutGroup
   id: ScpLoadoutGroupSeniorMedicalSpecialistHead
@@ -155,6 +159,8 @@
   - ScpLoadoutClothingBeltMedicalFilled
   - ScpLoadoutChemBag
 
+# Pharmaceutical Specialist
+
 - type: loadoutGroup
   id: ScpLoadoutGroupPharmaceuticalSpecialistHead
   name: loadout-group-head
@@ -256,6 +262,8 @@
   - ScpLoadoutPharmaceuticalSpecialistSatchel
   - ScpLoadoutPharmaceuticalSpecialistDuffelbag
 
+# Medical Specialist
+
 - type: loadoutGroup
   id: ScpLoadoutGroupMedicalSpecialistHead
   name: loadout-group-head
@@ -340,6 +348,8 @@
   - ScpLoadoutClothingShoesColorCyan
   - ScpLoadoutMedicalServiceWinterBoots
 
+# Psychotherapist
+
 - type: loadoutGroup
   id: ScpLoadoutGroupPsychotherapistHead
   name: loadout-group-head
@@ -395,13 +405,6 @@
   - ScpLoadoutPsychotherapistNitrileGloves
 
 - type: loadoutGroup
-  id: ScpLoadoutGroupHospitalInternJumpsuit
-  name: loadout-group-jumpsuit
-  loadouts:
-  - ScpLoadoutClothingUniformJumpsuitColorWhite
-  - ScpLoadoutClothingUniformJumpskirtColorWhite
-
-- type: loadoutGroup
   id: ScpLoadoutGroupPsychotherapistShoes
   name: loadout-group-shoes
   minLimit: 1
@@ -409,3 +412,12 @@
   loadouts:
   - ScpLoadoutClothingShoesColorWhite
   - ScpLoadoutPsychotherapistWinterBoots
+
+# Intern
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupHospitalInternJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutClothingUniformJumpsuitColorWhite
+  - ScpLoadoutClothingUniformJumpskirtColorWhite

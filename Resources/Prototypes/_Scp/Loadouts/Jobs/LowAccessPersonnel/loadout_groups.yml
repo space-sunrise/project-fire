@@ -1,5 +1,7 @@
 # Low Access Personnel
 
+# Class D Cook
+
 - type: loadoutGroup
   id: ScpLoadoutGroupClassDTrinkets
   name: loadout-group-department-trinkets

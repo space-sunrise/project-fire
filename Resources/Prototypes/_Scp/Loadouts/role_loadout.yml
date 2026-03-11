@@ -1,4 +1,4 @@
-# Руководство
+# Complex Administration
 
 - type: roleLoadout
   id: JobDirector
@@ -159,7 +159,7 @@
   - ScpLoadoutGroupPants
   - ScpLoadoutGroupBra
 
-# Комитет по Этике
+# Ethics Committee
 
 - type: roleLoadout
   id: JobEthicsCommitteeRepresentative
@@ -179,7 +179,7 @@
   - ScpLoadoutGroupPants
   - ScpLoadoutGroupBra
 
-# Отряд специального назначения
+# Heavy Containment Security Service
 
 - type: roleLoadout
   id: JobHeavyContainmentZoneCommandant
@@ -275,7 +275,7 @@
   - ScpLoadoutGroupPants
   - ScpLoadoutGroupBra
 
-# Комендантский отряд
+# External Administrative Zone Security Service
 
 - type: roleLoadout
   id: JobExternalAdministrativeZoneCommandant
@@ -394,7 +394,7 @@
   - ScpLoadoutGroupPants
   - ScpLoadoutGroupBra
 
-# Научная служба
+# Scientific Service
 
 - type: roleLoadout
   id: JobLeadResearcher
@@ -471,7 +471,7 @@
   - ScpLoadoutGroupPants
   - ScpLoadoutGroupBra
 
-# Медицинская служба
+# Medical Service
 
 - type: roleLoadout
   id: JobSeniorMedicalSpecialist
@@ -590,7 +590,7 @@
   - ScpLoadoutGroupPants
   - ScpLoadoutGroupBra
 
-# Инженерно-техническая служба
+# Engineering and Technical Service
 
 - type: roleLoadout
   id: JobLeadTechnicalSpecialist
@@ -683,7 +683,7 @@
   - ScpLoadoutGroupPants
   - ScpLoadoutGroupBra
 
-# Служба снабжения
+# Logistics Service
 
 - type: roleLoadout
   id: JobLogisticsOfficer
@@ -708,7 +708,7 @@
   - ScpLoadoutGroupPants
   - ScpLoadoutGroupBra
 
-# Департамент продовольственного и санитарного обслуживания
+# Food and Sanitation Service Department
 
 - type: roleLoadout
   id: JobGastronomicSpecialist
@@ -769,7 +769,7 @@
   - ScpLoadoutGroupPants
   - ScpLoadoutGroupBra
 
-# Класс Д
+# Class D Personnel
 
 - type: roleLoadout
   id: JobClassDCook

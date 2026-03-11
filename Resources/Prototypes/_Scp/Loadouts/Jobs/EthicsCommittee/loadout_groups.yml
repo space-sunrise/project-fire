@@ -1,19 +1,19 @@
 # Ethics Committee
 
 - type: loadoutGroup
+  id: ScpLoadoutGroupEthicsCommitteeRepresentativeOuterClothing
+  name: loadout-group-outer-clothing
+  loadouts:
+  - ScpLoadoutEthicsCommitteeRepresentativeFormalCoat
+  - ScpLoadoutEthicsCommitteeRepresentativeOpenFormalCoat
+
+- type: loadoutGroup
   id: ScpLoadoutGroupEthicsCommitteeRepresentativeJumpsuit
   name: loadout-group-jumpsuit
   loadouts:
   - ScpLoadoutEthicsCommitteeRepresentativeWhiteShirtJumpsuit
   - ScpLoadoutEthicsCommitteeRepresentativeWhiteShirtJumpskirt
   - ScpLoadoutEthicsCommitteeRepresentativeBlackFormalSuit
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupEthicsCommitteeRepresentativeOuterClothing
-  name: loadout-group-outer-clothing
-  loadouts:
-  - ScpLoadoutEthicsCommitteeRepresentativeFormalCoat
-  - ScpLoadoutEthicsCommitteeRepresentativeOpenFormalCoat
 
 - type: loadoutGroup
   id: ScpLoadoutGroupEthicsCommitteeRepresentativeTrinkets

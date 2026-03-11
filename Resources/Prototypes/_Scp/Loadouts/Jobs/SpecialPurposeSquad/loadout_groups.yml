@@ -7,65 +7,6 @@
   - ScpLoadoutClothingHeadsetAltHeavyContainmentSecurityService
 
 - type: loadoutGroup
-  id: ScpLoadoutGroupSpecialPurposeSquadLeaderKeyCard
-  name: loadout-group-key-card
-  loadouts:
-  - ScpLoadoutKeyCardHeavyContainmentZoneCommandant
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSpecialPurposeSquadHead
-  name: loadout-group-head
-  loadouts:
-  - ScpLoadoutClothingHeadHelmetBasic
-  - ScpLoadoutClothingHeadSecurityBeret
-  - ScpLoadoutClothingHeadHatSecBlack
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSpecialPurposeSquadEars
-  name: loadout-group-ears
-  loadouts:
-  - ScpLoadoutClothingHeadsetHeavyContainmentSecurityService
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSpecialPurposeSquadEyes
-  name: loadout-group-eyes
-  loadouts:
-  - ScpLoadoutClothingEyesGlassesSecurity
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSpecialPurposeSquadJumpsuit
-  name: loadout-group-jumpsuit
-  loadouts:
-  - ScpLoadoutClothingUniformSecurityBlack
-  - ScpLoadoutClothingUniformTurleneckBlack
-  - ScpLoadoutClothingUniformTurleneckBlackSleeveless
-  - ScpLoadoutClothingUniformSecurityBlackCamouflage
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSpecialPurposeSquadJumpsuitJunior
-  name: loadout-group-jumpsuit
-  loadouts:
-  - ScpLoadoutClothingUniformSecurityBlack
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSpecialPurposeSquadSeniorHeavyContainmentZoneOfficerKeyCard
-  name: loadout-group-key-card
-  loadouts:
-  - ScpLoadoutKeyCardSeniorHeavyContainmentZoneOfficer
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSpecialPurposeSquadHeavyContainmentZoneOfficerKeyCard
-  name: loadout-group-key-card
-  loadouts:
-  - ScpLoadoutKeyCardHeavyContainmentZoneOfficer
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSpecialPurposeSquadJuniorHeavyContainmentZoneOfficerKeyCard
-  name: loadout-group-key-card
-  loadouts:
-  - ScpLoadoutKeyCardJuniorHeavyContainmentZoneOfficer
-
-- type: loadoutGroup
   id: ScpLoadoutGroupSpecialPurposeSquadWeaponPrimary
   name: loadout-group-weapon
   loadouts:
@@ -84,3 +25,62 @@
   name: loadout-group-radio
   loadouts:
   - ScpLoadoutRadioHandheldHeavyContainmentSecurityService
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadLeaderKeyCard
+  name: loadout-group-key-card
+  loadouts:
+  - ScpLoadoutKeyCardHeavyContainmentZoneCommandant
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadHead
+  name: loadout-group-head
+  loadouts:
+  - ScpLoadoutClothingHeadHelmetBasic
+  - ScpLoadoutClothingHeadSecurityBeret
+  - ScpLoadoutClothingHeadHatSecBlack
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadEyes
+  name: loadout-group-eyes
+  loadouts:
+  - ScpLoadoutClothingEyesGlassesSecurity
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadEars
+  name: loadout-group-ears
+  loadouts:
+  - ScpLoadoutClothingHeadsetHeavyContainmentSecurityService
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutClothingUniformSecurityBlack
+  - ScpLoadoutClothingUniformTurleneckBlack
+  - ScpLoadoutClothingUniformTurleneckBlackSleeveless
+  - ScpLoadoutClothingUniformSecurityBlackCamouflage
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadSeniorHeavyContainmentZoneOfficerKeyCard
+  name: loadout-group-key-card
+  loadouts:
+  - ScpLoadoutKeyCardSeniorHeavyContainmentZoneOfficer
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadHeavyContainmentZoneOfficerKeyCard
+  name: loadout-group-key-card
+  loadouts:
+  - ScpLoadoutKeyCardHeavyContainmentZoneOfficer
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadJumpsuitJunior
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutClothingUniformSecurityBlack
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadJuniorHeavyContainmentZoneOfficerKeyCard
+  name: loadout-group-key-card
+  loadouts:
+  - ScpLoadoutKeyCardJuniorHeavyContainmentZoneOfficer

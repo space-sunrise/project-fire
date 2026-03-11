@@ -1,6 +1,120 @@
 # Security shared
 
 - type: loadoutGroup
+  id: ScpLoadoutGroupGuardShoes
+  name: loadout-group-shoes
+  loadouts:
+  - ScpLoadoutClothingShoesBootsSecurityGuard
+  - ScpLoadoutClothingShoesBootsWinterSecurityGuard
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSecurityBelt
+  name: loadout-group-belt
+  loadouts:
+  - ScpLoadoutScpClothingBeltSecurityWebbingFilled
+  - ScpLoadoutClothingBeltSecurityFilled
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSecurityBackpack
+  name: loadout-group-backpack
+  loadouts:
+  - ScpLoadoutClothingBackpackSecurity
+  - ScpLoadoutClothingBackpackSatchelSecurity
+  - ScpLoadoutClothingBackpackDuffelSecurity
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSecurityRadio
+  name: loadout-group-radio
+  loadouts:
+  - ScpLoadoutScpRadioHandheldSecurityEnabled
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSecurityTrinkets
+  name: loadout-group-department-trinkets
+  minLimit: 0
+  maxLimit: 3
+  loadouts:
+  - ScpLoadoutHandheldCamera
+  - ScpLoadoutPepperSprayBottleBlue
+  - ScpLoadoutSecurityWhistle
+  - ScpLoadoutTourniquet
+  - ScpLoadoutFlashlightSeclite
+  - ScpLoadoutDinkystar
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSquadLeaderHead
+  name: loadout-group-head
+  loadouts:
+  - ScpLoadoutClothingHeadHatCapLeatherSquadLeader
+  - ScpLoadoutClothingHeadCapBlackSquadLeader
+  - ScpLoadoutClothingHeadHatCapBlackSquadLeader
+  - ScpLoadoutClothingHeadSecurityBeret
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSecurityEyes
+  name: loadout-group-eyes
+  loadouts:
+  - ScpLoadoutClothingEyesGlassesSecurityGuard
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGuardMantle
+  name: loadout-group-neck
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutClothingNeckMantleSecurity
+  - ScpLoadoutClothingMaskSecurityBandBlack
+  - ScpLoadoutClothingMaskSecurityBalaklava
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSquadLeaderOuterClothing
+  name: loadout-group-outer-clothing
+  loadouts:
+  - ScpLoadoutClothingOuterArmorSecurity
+  - ScpLoadoutClothingOuterArmorSecurityBulletproof
+  - ScpLoadoutClothingOuterArmorSecurityRiotLight
+  - ScpLoadoutClothingOuterArmorSecurityWinter
+  - ScpLoadoutClothingOuterCoatSquadLeader
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSquadLeaderJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutClothingUniformJumpsuitSquadLeader
+  - ScpLoadoutClothingUniformJumpsuitSquadLeaderAlt
+  - ScpLoadoutClothingUniformSecurityWhiteAlternativeCommandantLeader
+  - ScpLoadoutClothingUniformSecurityBlackDresscoat
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSquadLeaderGloves
+  name: loadout-group-gloves
+  loadouts:
+  - ScpLoadoutClothingHandsGlovesSecurity
+  - ScpLoadoutClothingHandsGlovesWinterSecurity
+  - ScpLoadoutClothingHandsGlovesColorBlackAlt
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSecurityPDA
+  name: loadout-group-pda
+  loadouts:
+  - ScpLoadoutScpSecurityPDA
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGuardArmorVest
+  name: loadout-group-outer-clothing
+  loadouts:
+  - ScpLoadoutClothingOuterArmorSecurity
+  - ScpLoadoutClothingOuterArmorSecurityBulletproof
+  - ScpLoadoutClothingOuterArmorSecurityWinter
+  - ScpLoadoutClothingOuterArmorSecurityRiotLight
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGuardGloves
+  name: loadout-group-gloves
+  loadouts:
+  - ScpLoadoutClothingHandsGlovesSecurity
+  - ScpLoadoutClothingHandsGlovesWinterSecurity
+
+- type: loadoutGroup
   id: ScpLoadoutGroupGuardHead
   name: loadout-group-head
   loadouts:
@@ -19,117 +133,3 @@
   - ScpLoadoutClothingUniformSecurity3
   - ScpLoadoutClothingUniformSecurityWhite
   - ScpLoadoutClothingUniformSecurityWhiteAlternativeCommandant
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupGuardGloves
-  name: loadout-group-gloves
-  loadouts:
-  - ScpLoadoutClothingHandsGlovesSecurity
-  - ScpLoadoutClothingHandsGlovesWinterSecurity
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupGuardMantle
-  name: loadout-group-neck
-  minLimit: 0
-  loadouts:
-  - ScpLoadoutClothingNeckMantleSecurity
-  - ScpLoadoutClothingMaskSecurityBandBlack
-  - ScpLoadoutClothingMaskSecurityBalaklava
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupGuardArmorVest
-  name: loadout-group-outer-clothing
-  loadouts:
-  - ScpLoadoutClothingOuterArmorSecurity
-  - ScpLoadoutClothingOuterArmorSecurityBulletproof
-  - ScpLoadoutClothingOuterArmorSecurityWinter
-  - ScpLoadoutClothingOuterArmorSecurityRiotLight
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupGuardShoes
-  name: loadout-group-shoes
-  loadouts:
-  - ScpLoadoutClothingShoesBootsSecurityGuard
-  - ScpLoadoutClothingShoesBootsWinterSecurityGuard
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSquadLeaderHead
-  name: loadout-group-head
-  loadouts:
-  - ScpLoadoutClothingHeadHatCapLeatherSquadLeader
-  - ScpLoadoutClothingHeadCapBlackSquadLeader
-  - ScpLoadoutClothingHeadHatCapBlackSquadLeader
-  - ScpLoadoutClothingHeadSecurityBeret
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSquadLeaderJumpsuit
-  name: loadout-group-jumpsuit
-  loadouts:
-  - ScpLoadoutClothingUniformJumpsuitSquadLeader
-  - ScpLoadoutClothingUniformJumpsuitSquadLeaderAlt
-  - ScpLoadoutClothingUniformSecurityWhiteAlternativeCommandantLeader
-  - ScpLoadoutClothingUniformSecurityBlackDresscoat
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSquadLeaderOuterClothing
-  name: loadout-group-outer-clothing
-  loadouts:
-  - ScpLoadoutClothingOuterArmorSecurity
-  - ScpLoadoutClothingOuterArmorSecurityBulletproof
-  - ScpLoadoutClothingOuterArmorSecurityRiotLight
-  - ScpLoadoutClothingOuterArmorSecurityWinter
-  - ScpLoadoutClothingOuterCoatSquadLeader
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSquadLeaderGloves
-  name: loadout-group-gloves
-  loadouts:
-  - ScpLoadoutClothingHandsGlovesSecurity
-  - ScpLoadoutClothingHandsGlovesWinterSecurity
-  - ScpLoadoutClothingHandsGlovesColorBlackAlt
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSecurityEyes
-  name: loadout-group-eyes
-  loadouts:
-  - ScpLoadoutClothingEyesGlassesSecurityGuard
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSecurityBelt
-  name: loadout-group-belt
-  loadouts:
-  - ScpLoadoutScpClothingBeltSecurityWebbingFilled
-  - ScpLoadoutClothingBeltSecurityFilled
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSecurityPDA
-  name: loadout-group-pda
-  loadouts:
-  - ScpLoadoutScpSecurityPDA
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSecurityTrinkets
-  name: loadout-group-department-trinkets
-  minLimit: 0
-  maxLimit: 3
-  loadouts:
-  - ScpLoadoutHandheldCamera
-  - ScpLoadoutPepperSprayBottleBlue
-  - ScpLoadoutSecurityWhistle
-  - ScpLoadoutTourniquet
-  - ScpLoadoutFlashlightSeclite
-  - ScpLoadoutDinkystar
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSecurityRadio
-  name: loadout-group-radio
-  loadouts:
-  - ScpLoadoutScpRadioHandheldSecurityEnabled
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupSecurityBackpack
-  name: loadout-group-backpack
-  loadouts:
-  - ScpLoadoutClothingBackpackSecurity
-  - ScpLoadoutClothingBackpackSatchelSecurity
-  - ScpLoadoutClothingBackpackDuffelSecurity

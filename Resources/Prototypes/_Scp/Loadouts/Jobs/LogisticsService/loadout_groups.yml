@@ -1,6 +1,14 @@
 # Logistics Service
 
 - type: loadoutGroup
+  id: ScpLoadoutGroupLogisticsOfficerBackpack
+  name: loadout-group-backpack
+  loadouts:
+  - ScpLoadoutLogisticsServiceBackpack
+  - ScpLoadoutLogisticsServiceSatchel
+  - ScpLoadoutLogisticsServiceDuffelbag
+
+- type: loadoutGroup
   id: ScpLoadoutGroupCargoTrinkets
   name: loadout-group-department-trinkets
   minLimit: 0
@@ -36,54 +44,6 @@
   - ScpLoadoutClothingHeadHelmetCosmonaut
 
 - type: loadoutGroup
-  id: ScpLoadoutGroupLogisticsOfficerJumpsuit
-  name: loadout-group-jumpsuit
-  loadouts:
-  - ScpLoadoutLogisticsOfficerJumpsuit
-  - ScpLoadoutLogisticsOfficerJumpskirt
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupLogisticsOfficerBackpack
-  name: loadout-group-backpack
-  loadouts:
-  - ScpLoadoutLogisticsServiceBackpack
-  - ScpLoadoutLogisticsServiceSatchel
-  - ScpLoadoutLogisticsServiceDuffelbag
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupLogisticsOfficerOuterClothing
-  name: loadout-group-outer-clothing
-  minLimit: 0
-  loadouts:
-  - ScpLoadoutLogisticsOfficerWinterCoat
-  - ScpLoadoutClothingOuterWinterColorOrange
-  - ScpLoadoutClothingOuterWinterColorYellow
-  - ScpLoadoutClothingOuterWinterColorBrown
-  - ScpLoadoutClothingOuterWinterColorLightBrown
-  - ScpLoadoutClothingOuterPonchoClassic
-  - ScpLoadoutClothingOuterCoatBomber
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupLogisticsOfficerShoes
-  name: loadout-group-shoes
-  loadouts:
-  - ScpLoadoutClothingShoesColorBlack
-  - ScpLoadoutLogisticsOfficerWinterBoots
-  - ScpLoadoutClothingShoesColorOrange
-  - ScpLoadoutClothingShoesColorYellow
-  - ScpLoadoutClothingShoesColorBrown
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupLogisticsOfficerGloves
-  name: loadout-group-gloves
-  minLimit: 0
-  maxLimit: 1
-  loadouts:
-  - ScpLoadoutLogisticsOfficerOrangeGloves
-  - ScpLoadoutClothingHandsGlovesColorLightBrown
-  - ScpLoadoutClothingHandsGlovesColorBrown
-
-- type: loadoutGroup
   id: ScpLoadoutGroupLogisticsOfficerMask
   name: loadout-group-mask
   minLimit: 0
@@ -102,3 +62,43 @@
   - ScpLoadoutClothingNeckScarfStripedOrange
   - ScpLoadoutClothingNeckScarfStripedYellow
   - ScpLoadoutClothingNeckScarfStripedBrown
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupLogisticsOfficerOuterClothing
+  name: loadout-group-outer-clothing
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutLogisticsOfficerWinterCoat
+  - ScpLoadoutClothingOuterWinterColorOrange
+  - ScpLoadoutClothingOuterWinterColorYellow
+  - ScpLoadoutClothingOuterWinterColorBrown
+  - ScpLoadoutClothingOuterWinterColorLightBrown
+  - ScpLoadoutClothingOuterPonchoClassic
+  - ScpLoadoutClothingOuterCoatBomber
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupLogisticsOfficerJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutLogisticsOfficerJumpsuit
+  - ScpLoadoutLogisticsOfficerJumpskirt
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupLogisticsOfficerGloves
+  name: loadout-group-gloves
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ScpLoadoutLogisticsOfficerOrangeGloves
+  - ScpLoadoutClothingHandsGlovesColorLightBrown
+  - ScpLoadoutClothingHandsGlovesColorBrown
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupLogisticsOfficerShoes
+  name: loadout-group-shoes
+  loadouts:
+  - ScpLoadoutClothingShoesColorBlack
+  - ScpLoadoutLogisticsOfficerWinterBoots
+  - ScpLoadoutClothingShoesColorOrange
+  - ScpLoadoutClothingShoesColorYellow
+  - ScpLoadoutClothingShoesColorBrown

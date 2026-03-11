@@ -7,25 +7,6 @@
   - ScpLoadoutClothingHeadsetAltExternalAdministrativeZoneSecurityService
 
 - type: loadoutGroup
-  id: ScpLoadoutGroupCommandantSquadLeaderKeyCard
-  name: loadout-group-key-card
-  loadouts:
-  - ScpLoadoutKeyCardLightContainmentZoneSecurityCommandant
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupCommandantSquadEars
-  name: loadout-group-ears
-  loadouts:
-  - ScpLoadoutClothingHeadsetExternalAdministrativeZoneSecurityService
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupCommandantSquadArmorVestJunior
-  name: loadout-group-outer-clothing
-  loadouts:
-  - ScpLoadoutClothingOuterArmorSecurity
-  - ScpLoadoutClothingOuterArmorSecurityBulletproof
-
-- type: loadoutGroup
   id: ScpLoadoutGroupCommandantSquadWeaponPrimary
   name: loadout-group-weapon
   loadouts:
@@ -37,6 +18,24 @@
   name: loadout-group-weapon-secondary
   loadouts:
   - ScpLoadoutWeaponTaser
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupRadioHandheldExternalAdministrativeZoneSecurityService
+  name: loadout-group-radio
+  loadouts:
+  - ScpLoadoutRadioHandheldExternalAdministrativeZoneSecurityService
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupCommandantSquadLeaderKeyCard
+  name: loadout-group-key-card
+  loadouts:
+  - ScpLoadoutKeyCardLightContainmentZoneSecurityCommandant
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupCommandantSquadEars
+  name: loadout-group-ears
+  loadouts:
+  - ScpLoadoutClothingHeadsetExternalAdministrativeZoneSecurityService
 
 - type: loadoutGroup
   id: ScpLoadoutGroupCommandantSquadSeniorLightContainmentZoneSecurityOfficerKeyCard
@@ -51,18 +50,17 @@
   - ScpLoadoutKeyCardLightContainmentZoneSecurityOfficer
 
 - type: loadoutGroup
+  id: ScpLoadoutGroupCommandantSquadArmorVestJunior
+  name: loadout-group-outer-clothing
+  loadouts:
+  - ScpLoadoutClothingOuterArmorSecurity
+  - ScpLoadoutClothingOuterArmorSecurityBulletproof
+
+- type: loadoutGroup
   id: ScpLoadoutGroupCommandantSquadJuniorLightContainmentZoneSecurityOfficerKeyCard
   name: loadout-group-key-card
   loadouts:
   - ScpLoadoutKeyCardJuniorLightContainmentZoneSecurityOfficer
-
-- type: loadoutGroup
-  id: ScpLoadoutGroupFieldMedicalSpecialistBackpack
-  name: loadout-group-backpack
-  loadouts:
-  - ScpLoadoutFieldMedicalSpecialistBackpack
-  - ScpLoadoutFieldMedicalSpecialistSatchel
-  - ScpLoadoutFieldMedicalSpecialistDuffelbag
 
 - type: loadoutGroup
   id: ScpLoadoutGroupFieldMedicalSpecialistJumpsuit
@@ -72,7 +70,9 @@
   - ScpLoadoutFieldMedicalSpecialistJumpskirt
 
 - type: loadoutGroup
-  id: ScpLoadoutGroupRadioHandheldExternalAdministrativeZoneSecurityService
-  name: loadout-group-radio
+  id: ScpLoadoutGroupFieldMedicalSpecialistBackpack
+  name: loadout-group-backpack
   loadouts:
-  - ScpLoadoutRadioHandheldExternalAdministrativeZoneSecurityService
+  - ScpLoadoutFieldMedicalSpecialistBackpack
+  - ScpLoadoutFieldMedicalSpecialistSatchel
+  - ScpLoadoutFieldMedicalSpecialistDuffelbag

@@ -1,0 +1,94 @@
+# Special Purpose Squad
+
+# Special Purpose Squad Leader
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadLeaderEars
+  name: loadout-group-ears
+  loadouts:
+  - ScpLoadoutClothingHeadsetAltHeavyContainmentSecurityService
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadWeaponPrimary
+  name: loadout-group-weapon
+  loadouts:
+  - ScpLoadoutWeaponSubMachineGunMP5
+  - ScpLoadoutWeaponShotgunSPAS12
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadWeaponSecondary
+  name: loadout-group-weapon-secondary
+  loadouts:
+  - ScpLoadoutWeaponPistolG22
+  - ScpLoadoutWeaponTaser
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupRadioHandheldHeavyContainmentSecurityService
+  name: loadout-group-radio
+  loadouts:
+  - ScpLoadoutRadioHandheldHeavyContainmentSecurityService
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadLeaderKeyCard
+  name: loadout-group-key-card
+  loadouts:
+  - ScpLoadoutKeyCardHeavyContainmentZoneCommandant
+
+# Senior Special Purpose Squad Officer
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadHead
+  name: loadout-group-head
+  loadouts:
+  - ScpLoadoutClothingHeadHelmetBasic
+  - ScpLoadoutClothingHeadSecurityBeret
+  - ScpLoadoutClothingHeadHatSecBlack
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadEyes
+  name: loadout-group-eyes
+  loadouts:
+  - ScpLoadoutClothingEyesGlassesSecurity
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadEars
+  name: loadout-group-ears
+  loadouts:
+  - ScpLoadoutClothingHeadsetHeavyContainmentSecurityService
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutClothingUniformSecurityBlack
+  - ScpLoadoutClothingUniformTurleneckBlack
+  - ScpLoadoutClothingUniformTurleneckBlackSleeveless
+  - ScpLoadoutClothingUniformSecurityBlackCamouflage
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadSeniorHeavyContainmentZoneOfficerKeyCard
+  name: loadout-group-key-card
+  loadouts:
+  - ScpLoadoutKeyCardSeniorHeavyContainmentZoneOfficer
+
+# Special Purpose Squad Officer
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadHeavyContainmentZoneOfficerKeyCard
+  name: loadout-group-key-card
+  loadouts:
+  - ScpLoadoutKeyCardHeavyContainmentZoneOfficer
+
+# Junior Special Purpose Squad Officer
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadJumpsuitJunior
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutClothingUniformSecurityBlack
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSpecialPurposeSquadJuniorHeavyContainmentZoneOfficerKeyCard
+  name: loadout-group-key-card
+  loadouts:
+  - ScpLoadoutKeyCardJuniorHeavyContainmentZoneOfficer

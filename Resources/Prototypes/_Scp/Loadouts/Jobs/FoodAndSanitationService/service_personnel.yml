@@ -1,0 +1,54 @@
+- type: loadout
+  id: ScpLoadoutKeyCardServicePersonnel
+  equipment:
+    id: KeyCardServicePersonnel
+
+- type: loadout
+  id: ScpLoadoutClothingBeltJanitorFilled
+  equipment:
+    belt: ClothingBeltJanitorFilled
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardServicePersonnel
+  name: loadout-group-id
+  loadouts:
+  - ScpLoadoutKeyCardServicePersonnel
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBeltClothingBeltJanitorFilled
+  name: loadout-group-belt
+  loadouts:
+  - ScpLoadoutClothingBeltJanitorFilled
+
+- type: loadout
+  id: ScpLoadoutServicePersonnelJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitJanitor
+
+- type: loadout
+  id: ScpLoadoutServicePersonnelJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtJanitor
+
+- type: loadout
+  id: ScpLoadoutServicePersonnelMaidJanitor
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MaidJanitor
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtElegantMaid
+
+- type: loadout
+  id: ScpLoadoutServicePersonnelOrangeGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorOrange
+
+- type: loadout
+  id: ScpLoadoutServicePersonnelPurpleGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorPurple
+
+- type: loadout
+  id: ScpLoadoutServicePersonnelWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterJani

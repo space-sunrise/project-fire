@@ -1,0 +1,9 @@
+# Full EVA Tank, Any Species
+
+- type: loadout
+  id: ScpLoadoutClothingOuterVestTank
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: EffectSpeciesVox
+  equipment:
+    outerClothing: ClothingOuterVestTank

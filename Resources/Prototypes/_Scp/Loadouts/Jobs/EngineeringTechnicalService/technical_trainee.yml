@@ -1,0 +1,31 @@
+- type: loadout
+  id: ScpLoadoutKeyCardTechnicalTrainee
+  equipment:
+    id: KeyCardTechnicalTrainee
+
+- type: loadout
+  id: ScpLoadoutBookEngineersHandbook
+  equipment:
+    pocket1: BookEngineersHandbook
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardTechnicalTrainee
+  name: loadout-group-id
+  loadouts:
+  - ScpLoadoutKeyCardTechnicalTrainee
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket1BookEngineersHandbook
+  name: loadout-group-storage
+  loadouts:
+  - ScpLoadoutBookEngineersHandbook
+
+- type: loadout
+  id: ScpLoadoutTechnicalTraineeJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorYellow
+
+- type: loadout
+  id: ScpLoadoutTechnicalTraineeJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtColorYellow

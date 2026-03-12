@@ -1,0 +1,95 @@
+- type: loadout
+  id: ScpLoadoutMedicalServiceBeret
+  equipment:
+    head: ClothingHeadHatBeretMedic
+
+- type: loadout
+  id: ScpLoadoutMedicalServiceHeadMirror
+  equipment:
+    head: ClothingHeadMirror
+
+- type: loadout
+  id: ScpLoadoutMedicalServiceBlueSurgicalCap
+  equipment:
+    head: ClothingHeadHatSurgcapBlue
+
+- type: loadout
+  id: ScpLoadoutMedicalServiceGreenSurgicalCap
+  equipment:
+    head: ClothingHeadHatSurgcapGreen
+
+- type: loadout
+  id: ScpLoadoutMedicalServicePurpleSurgicalCap
+  equipment:
+    head: ClothingHeadHatSurgcapPurple
+
+- type: loadout
+  id: ScpLoadoutMedicalServiceNurseHat
+  equipment:
+    head: ClothingHeadNurseHat
+
+- type: loadout
+  id: ScpLoadoutMedicalServiceSeniorBeret
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorPhysicianClothingTimer
+  equipment:
+    head: ClothingHeadHatBeretSeniorPhysician
+
+- type: loadout
+  id: ScpLoadoutMedicalServiceChemistryBeret
+  equipment:
+    head: ClothingHeadHatBeretChemistry
+
+- type: loadout
+  id: ScpLoadoutMedicalServiceBackpack
+  equipment:
+    back: ClothingBackpackMedical
+
+- type: loadout
+  id: ScpLoadoutMedicalServiceSatchel
+  equipment:
+    back: ClothingBackpackSatchelMedical
+
+- type: loadout
+  id: ScpLoadoutMedicalServiceDuffelbag
+  equipment:
+    back: ClothingBackpackDuffelMedical
+
+- type: loadout
+  id: ScpLoadoutMedicalServiceChemistryLabCoat
+  equipment:
+    outerClothing: ClothingOuterCoatLabChem
+
+- type: loadout
+  id: ScpLoadoutMedicalServiceSeniorLabCoat
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorPhysicianClothingTimer
+  equipment:
+    outerClothing: ClothingOuterCoatLabSeniorPhysician
+
+- type: loadout
+  id: ScpLoadoutMedicalServiceChemistryWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterChem
+
+- type: loadout
+  id: ScpLoadoutMedicalServiceWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterMed
+
+- type: loadout
+  id: ScpLoadoutMedicalServiceSterileMask
+  equipment:
+    mask: ClothingMaskSterile
+
+- type: loadout
+  id: ScpLoadoutMedicalServiceNitrileGloves
+  equipment:
+    gloves: ClothingHandsGlovesNitrile
+
+- type: loadout
+  id: ScpLoadoutMedicalServiceWinterBoots
+  equipment:
+    shoes: ClothingShoesBootsWinterMed

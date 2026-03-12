@@ -3,7 +3,6 @@
   name: job-name-gastronomic-specialist
   description: job-description-gastronomic-specialist
   playTimeTracker: JobGastronomicSpecialist
-  startingGear: GastronomicSpecialistGear
   icon: JobGastronomicSpecialist
   supervisors: job-supervisors-personnel-officer
   weight: 735
@@ -20,7 +19,12 @@
 - type: startingGear
   id: GastronomicSpecialistGear
   equipment:
+    head: ClothingHeadHatChef
+    eyes: ClothingEyesGlasses
+    outerClothing: ClothingOuterApronChef
+    jumpsuit: ClothingUniformJumpsuitChef
     shoes: ClothingShoesColorBlack
+    back: ClothingBackpack
     id: KeyCardGastronomicSpecialist
     ears: ClothingHeadsetFoodAndSanitation
     belt: ClothingBeltChefFilled

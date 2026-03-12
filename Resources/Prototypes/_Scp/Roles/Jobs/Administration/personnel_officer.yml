@@ -17,7 +17,6 @@
       department: Administration
       time: 18000
   weight: 950
-  startingGear: PersonnelOfficerGear
   icon: JobPersonnelOfficer
   supervisors: job-supervisors-director
   canBeAntag: false
@@ -44,9 +43,13 @@
 - type: startingGear
   id: PersonnelOfficerGear
   equipment:
-    shoes: ClothingShoesColorBrown
-    id: KeyCardPersonnelOfficer
+    eyes: ClothingEyesGlasses
+    neck: ClothingNeckScarfHOP
+    jumpsuit: ClothingUniformJumpsuitHoP
     gloves: ClothingHandsGlovesHop
+    shoes: ClothingShoesColorBrown
+    back: ClothingBackpack
+    id: KeyCardPersonnelOfficer
     ears: ClothingHeadsetAltAdministration
     belt: BoxFolderClipboard
     pocket2: PersonnelOfficerPDA

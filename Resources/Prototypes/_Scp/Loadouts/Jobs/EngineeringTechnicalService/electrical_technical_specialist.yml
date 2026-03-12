@@ -1,0 +1,128 @@
+- type: loadout
+  id: ScpLoadoutKeyCardElectricalTechnicalSpecialist
+  equipment:
+    id: KeyCardElectricalTechnicalSpecialist
+
+- type: loadout
+  id: ScpLoadoutClothingHeadsetEngineeringTechnicalService
+  equipment:
+    ears: ClothingHeadsetEngineeringTechnicalService
+
+- type: loadout
+  id: ScpLoadoutScpEngineeringPDA
+  equipment:
+    pocket2: ScpEngineeringPDA
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardElectricalTechnicalSpecialist
+  name: loadout-group-id
+  loadouts:
+  - ScpLoadoutKeyCardElectricalTechnicalSpecialist
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupEarsClothingHeadsetEngineeringTechnicalService
+  name: loadout-group-ears
+  loadouts:
+  - ScpLoadoutClothingHeadsetEngineeringTechnicalService
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket2ScpEngineeringPDA
+  name: loadout-group-pda
+  loadouts:
+  - ScpLoadoutScpEngineeringPDA
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitAtmos
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtAtmos
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistCasualJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitAtmosCasual
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistAtmosWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterAtmos
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistAtmosBackpack
+  equipment:
+    back: ClothingBackpackAtmospherics
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistAtmosSatchel
+  equipment:
+    back: ClothingBackpackSatchelAtmospherics
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistAtmosDuffelbag
+  equipment:
+    back: ClothingBackpackDuffelAtmospherics
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistOrangeGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorOrange
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistWinterBoots
+  equipment:
+    shoes: ClothingShoesBootsWinterEngi
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistRedHardHat
+  equipment:
+    head: ClothingHeadHatHardhatRed
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistOrangeHardHat
+  equipment:
+    head: ClothingHeadHatHardhatOrange
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistYellowHardHat
+  equipment:
+    head: ClothingHeadHatHardhatYellow
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistDarkYellowHardHat
+  equipment:
+    head: ClothingHeadHatHardhatYellowDark
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistBlueHardHat
+  equipment:
+    head: ClothingHeadHatHardhatBlue
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistEngineeringBeret
+  equipment:
+    head: ClothingHeadHatBeretEngineering
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistBeret
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobElectricalTechnicalSpecialist
+      time: 360000 # 100 hour
+  equipment:
+    head: ClothingHeadHatBeretAtmos
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistGasMask
+  equipment:
+    mask: ClothingMaskGas
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistAtmosGasMask
+  equipment:
+    mask: ClothingMaskGasAtmos

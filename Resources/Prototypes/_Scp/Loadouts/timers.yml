@@ -1,4 +1,4 @@
-﻿- type: loadoutEffectGroup
+- type: loadoutEffectGroup
   id: LightweightRiotArmorTimer
   effects:
   - !type:JobRequirementLoadoutEffect

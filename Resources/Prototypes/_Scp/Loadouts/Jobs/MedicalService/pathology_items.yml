@@ -1,0 +1,14 @@
+- type: loadout
+  id: ScpLoadoutClothingHeadHatPatologonatHat
+  equipment:
+    head: ClothingHeadHatPatologonatHat
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatPatologoanatom
+  equipment:
+    outerClothing: ClothingOuterCoatPatologoanatom
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatBeretPatologoanatom
+  equipment:
+    head: ClothingHeadHatBeretPatologoanatom

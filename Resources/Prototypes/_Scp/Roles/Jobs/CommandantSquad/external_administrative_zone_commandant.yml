@@ -65,12 +65,20 @@
   id: ExternalAdministrativeZoneCommandantGear
   equipment:
     head: ClothingHeadHatCapLeatherSquadLeader
-    ears: ClothingHeadsetAltExternalAdministrativeZoneSecurityService
     eyes: ClothingEyesGlassesSecurity
+    mask: ClothingMaskSecurityBandBlack
     neck: ClothingNeckMantleSecurity
     jumpsuit: ClothingUniformJumpsuitSquadLeader
     outerClothing: ClothingOuterArmorSecurity
     gloves: ClothingHandsGlovesColorBlackAlt
     shoes: ClothingShoesBootsSecurityGuard
+    back: ClothingBackpackSecurity
+    suitstorage: WeaponSubMachineGunMP7
     id: KeyCardLightContainmentZoneSecurityCommandant
+    ears: ClothingHeadsetAltExternalAdministrativeZoneSecurityService
+    belt: ScpClothingBeltSecurityWebbingFilled
+    pocket1: WeaponTaser
     pocket2: ScpSecurityPDA
+  storage:
+    back:
+    - ScpRadioHandheldSecurityEnabled

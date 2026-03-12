@@ -1,5 +1,5 @@
 # Ключ-карта
 - type: loadout
-  id: LoadoutKeyCardJuniorLightContainmentZoneSecurityOfficer
+  id: ScpLoadoutKeyCardJuniorLightContainmentZoneSecurityOfficer
   equipment:
     id: KeyCardJuniorLightContainmentZoneSecurityOfficer

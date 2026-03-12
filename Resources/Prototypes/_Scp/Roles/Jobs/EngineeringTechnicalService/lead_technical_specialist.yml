@@ -7,7 +7,6 @@
     - !type:DepartmentTimeRequirement
       department: EngineeringTechnicalService
       time: 36000
-  startingGear: LeadTechnicalSpecialistGear
   icon: JobLeadTechnicalSpecialist
   supervisors: job-supervisors-chief-technical-specialist
   displayWeight: 30
@@ -26,11 +25,16 @@
 - type: startingGear
   id: LeadTechnicalSpecialistGear
   equipment:
-    id: KeyCardLeadTechnicalSpecialist
+    head: ClothingHeadHatBeretEngineering
     eyes: ClothingEyesGlassesMeson
-    belt: ClothingBeltUtilityEngineering
+    mask: ClothingMaskGas
+    neck: ClothingNeckScarfStripedRed
+    outerClothing: ClothingOuterWinterColorRed
+    jumpsuit: ClothingUniformJumpsuitSeniorEngineer
+    gloves: ClothingHandsGlovesFingerlessInsulated
+    shoes: ClothingShoesColorBrown
+    back: ClothingBackpackEngineering
+    id: KeyCardLeadTechnicalSpecialist
     ears: ClothingHeadsetEngineeringTechnicalService
+    belt: ClothingBeltUtilityEngineering
     pocket2: ScpEngineeringPDA
-  storage:
-    back:
-    - ClothingOuterHardsuitEngineeringCompact

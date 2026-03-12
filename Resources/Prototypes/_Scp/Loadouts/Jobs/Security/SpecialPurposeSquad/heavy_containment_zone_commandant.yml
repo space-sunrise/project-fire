@@ -1,6 +1,6 @@
-﻿# Униформа
+# Униформа
 - type: loadout
-  id: LoadoutClothingUniformSecurityBlackDresscoat
+  id: ScpLoadoutClothingUniformSecurityBlackDresscoat
   equipment:
     jumpsuit: ClothingUniformSecurityBlackDresscoat
   effects:
@@ -9,12 +9,12 @@
 
 # Наушник
 - type: loadout
-  id: LoadoutClothingHeadsetAltHeavyContainmentSecurityService
+  id: ScpLoadoutClothingHeadsetAltHeavyContainmentSecurityService
   equipment:
     ears: ClothingHeadsetAltHeavyContainmentSecurityService
 
 # Ключ карта
 - type: loadout
-  id: LoadoutKeyCardHeavyContainmentZoneCommandant
+  id: ScpLoadoutKeyCardHeavyContainmentZoneCommandant
   equipment:
     id: KeyCardHeavyContainmentZoneCommandant

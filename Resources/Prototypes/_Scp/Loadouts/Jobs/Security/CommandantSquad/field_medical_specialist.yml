@@ -1,0 +1,125 @@
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatLabSecurityMedic
+  equipment:
+    outerClothing: ClothingOuterCoatLabSecurityMedic
+
+- type: loadout
+  id: ScpLoadoutClothingEyesHudMedSec
+  equipment:
+    eyes: ClothingEyesHudMedSec
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatBeretSecurityMedic
+  equipment:
+    head: ClothingHeadHatBeretSecurityMedic
+
+- type: loadout
+  id: ScpLoadoutKeyCardFieldMedicalSpecialist
+  equipment:
+    id: KeyCardFieldMedicalSpecialist
+
+- type: loadout
+  id: ScpLoadoutClothingBeltMedicalFilled
+  equipment:
+    belt: ClothingBeltMedicalFilled
+
+- type: loadout
+  id: ScpLoadoutClothingHeadsetFieldMedicalSpecialist
+  equipment:
+    ears: ClothingHeadsetFieldMedicalSpecialist
+
+- type: loadout
+  id: ScpLoadoutAmnesiacSpray
+  equipment:
+    pocket1: AmnesiacSpray
+
+- type: loadout
+  id: ScpLoadoutScpMedicalPDA
+  equipment:
+    pocket2: ScpMedicalPDA
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupOuterClothingClothingOuterCoatLabSecurityMedic
+  name: loadout-group-outer-clothing
+  loadouts:
+  - ScpLoadoutClothingOuterCoatLabSecurityMedic
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupShoesClothingShoesColorRed
+  name: loadout-group-shoes
+  loadouts:
+  - ScpLoadoutClothingShoesColorRed
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGlovesClothingHandsGlovesLatex
+  name: loadout-group-gloves
+  loadouts:
+  - ScpLoadoutClothingHandsGlovesLatex
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupEyesClothingEyesHudMedSec
+  name: loadout-group-eyes
+  loadouts:
+  - ScpLoadoutClothingEyesHudMedSec
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupHeadClothingHeadHatBeretSecurityMedic
+  name: loadout-group-head
+  loadouts:
+  - ScpLoadoutClothingHeadHatBeretSecurityMedic
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardFieldMedicalSpecialist
+  name: loadout-group-id
+  loadouts:
+  - ScpLoadoutKeyCardFieldMedicalSpecialist
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupEarsClothingHeadsetFieldMedicalSpecialist
+  name: loadout-group-ears
+  loadouts:
+  - ScpLoadoutClothingHeadsetFieldMedicalSpecialist
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBeltClothingBeltMedicalFilled
+  name: loadout-group-belt
+  loadouts:
+  - ScpLoadoutClothingBeltMedicalFilled
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket2ScpMedicalPDA
+  name: loadout-group-pda
+  loadouts:
+  - ScpLoadoutScpMedicalPDA
+
+- type: loadoutGroup
+  parent: [ScpLoadoutGroupCommandantSquadWeaponSecondary]
+  id: ScpLoadoutGroupFieldMedicalSpecialistPocket1
+  minLimit: 1
+  loadouts:
+  - ScpLoadoutAmnesiacSpray
+
+- type: loadout
+  id: ScpLoadoutFieldMedicalSpecialistBackpack
+  equipment:
+    back: ClothingBackpackBrigmedic
+
+- type: loadout
+  id: ScpLoadoutFieldMedicalSpecialistSatchel
+  equipment:
+    back: ClothingBackpackSatchelBrigmedic
+
+- type: loadout
+  id: ScpLoadoutFieldMedicalSpecialistDuffelbag
+  equipment:
+    back: ClothingBackpackDuffelBrigmedic
+
+- type: loadout
+  id: ScpLoadoutFieldMedicalSpecialistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBrigmedic
+
+- type: loadout
+  id: ScpLoadoutFieldMedicalSpecialistJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtBrigmedic

@@ -3,7 +3,6 @@
   name: job-name-service-personnel
   description: job-description-service-personnel
   playTimeTracker: JobServicePersonnel
-  startingGear: ServicePersonnelGear
   icon: JobServicePersonnel
   supervisors: job-supervisors-personnel-officer
   weight: 725
@@ -20,8 +19,13 @@
 - type: startingGear
   id: ServicePersonnelGear
   equipment:
+    head: ClothingHeadHatPurplesoft
+    eyes: ClothingEyesGlasses
+    gloves: ClothingHandsGlovesJanitor
     shoes: ClothingShoesGaloshes
+    back: ClothingBackpack
     id: KeyCardServicePersonnel
     ears: ClothingHeadsetFoodAndSanitation
+    jumpsuit: ClothingUniformJumpsuitJanitor
     belt: ClothingBeltJanitorFilled
     pocket2: ScpServicePDA

@@ -1,0 +1,32 @@
+- type: loadout
+  id: ScpLoadoutKeyCardJuniorResearcher
+  equipment:
+    id: KeyCardJuniorResearcher
+
+- type: loadout
+  id: ScpLoadoutBookScientistsGuidebook
+  equipment:
+    pocket1: BookScientistsGuidebook
+
+- type: loadout
+  id: ScpLoadoutClothingShoesColorWhite
+  equipment:
+    shoes: ClothingShoesColorWhite
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupShoesClothingShoesColorWhite
+  name: loadout-group-shoes
+  loadouts:
+  - ScpLoadoutClothingShoesColorWhite
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardJuniorResearcher
+  name: loadout-group-id
+  loadouts:
+  - ScpLoadoutKeyCardJuniorResearcher
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket1BookScientistsGuidebook
+  name: loadout-group-storage
+  loadouts:
+  - ScpLoadoutBookScientistsGuidebook

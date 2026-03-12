@@ -6,7 +6,6 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 7200
-  startingGear: PsychotherapistGear
   icon: JobPsychotherapist
   supervisors: job-supervisors-head-of-medical-sector
   displayWeight: 10  # Sunrise
@@ -24,7 +23,15 @@
 - type: startingGear
   id: PsychotherapistGear
   equipment:
+    head: ClothingHeadMirror
+    eyes: ClothingEyesGlasses
+    mask: ClothingMaskBreathMedical
+    neck: ClothingNeckScarfStripedLightBlue
+    outerClothing: ClothingOuterCoatLab
+    jumpsuit: ClothingUniformJumpsuitPsychologist
+    gloves: ClothingHandsGlovesLatex
     shoes: ClothingShoesLeather
+    back: ClothingBackpackMedical
     id: KeyCardPsychotherapist
     ears: ClothingHeadsetMedicalService
     pocket2: ScpMedicalPDA

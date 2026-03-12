@@ -1,0 +1,171 @@
+- type: loadout
+  id: ScpLoadoutEngineeringTechnicalServiceEngineeringBackpack
+  equipment:
+    back: ClothingBackpackEngineering
+
+- type: loadout
+  id: ScpLoadoutEngineeringTechnicalServiceEngineeringSatchel
+  equipment:
+    back: ClothingBackpackSatchelEngineering
+
+- type: loadout
+  id: ScpLoadoutEngineeringTechnicalServiceEngineeringDuffelbag
+  equipment:
+    back: ClothingBackpackDuffelEngineering
+
+- type: loadout
+  id: ScpLoadoutEngineeringTechnicalServiceHazardVest
+  equipment:
+    outerClothing: ClothingOuterVestHazard
+
+- type: loadout
+  id: ScpLoadoutEngineeringTechnicalServiceEngineeringWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterEngi
+
+- type: loadout
+  id: ScpLoadoutEngineeringTechnicalServiceWorkBoots
+  equipment:
+    shoes: ClothingShoesBootsWork
+
+- type: loadout
+  id: ScpLoadoutEngineeringTechnicalServiceWinterBoots
+  equipment:
+    shoes: ClothingShoesBootsWinterEngi
+
+- type: loadout
+  id: ScpLoadoutEngineeringTechnicalServiceOrangeGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorOrange
+
+- type: loadout
+  id: ScpLoadoutEngineeringTechnicalServiceAtmosAlertsMonitor
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: EngineeringTechnicalService
+      time: 72000 # 20hr
+  storage:
+    back:
+    - AtmosAlertsMonitor
+
+- type: loadout
+  id: ScpLoadoutEngineeringTechnicalServiceEngineeringAlertsMonitor
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: EngineeringTechnicalService
+      time: 72000 # 20hr
+  storage:
+    back:
+    - EngiAlertsMonitor
+
+- type: loadout
+  id: ScpLoadoutEngineeringTechnicalServiceTrayScanner
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: EngineeringTechnicalService
+      time: 7200 # 2hr
+  storage:
+    back:
+    - trayScanner
+
+- type: loadout
+  id: ScpLoadoutEngineeringTechnicalServiceFlashlightLantern
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: EngineeringTechnicalService
+      time: 7200 # 2hr
+  storage:
+    back:
+    - FlashlightLantern
+
+- type: loadout
+  id: ScpLoadoutEngineeringTechnicalServiceGasAnalyzer
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: EngineeringTechnicalService
+      time: 7200 # 2hr
+  storage:
+    back:
+    - GasAnalyzer
+
+- type: loadout
+  id: ScpLoadoutEngineeringTechnicalServiceGeigerCounter
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: EngineeringTechnicalService
+      time: 7200 # 2hr
+  storage:
+    back:
+    - GeigerCounter
+
+- type: loadout
+  id: ScpLoadoutEngineeringTechnicalServiceGoldenCrowbarWrench
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: EngineeringTechnicalService
+      time: 1080000 # 300hr
+  storage:
+    back:
+    - GoldenCrowbarWrench
+
+- type: loadout
+  id: ScpLoadoutChiefTechnicalSpecialistFigurine
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobChiefTechnicalSpecialist
+      time: 72000 # 20 hour
+  storage:
+    back:
+    - ToyFigurineChiefEngineer
+
+- type: loadout
+  id: ScpLoadoutElectricalTechnicalSpecialistFigurine
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobElectricalTechnicalSpecialist
+      time: 72000 # 20 hour
+  storage:
+    back:
+    - ToyFigurineAtmosTech
+
+- type: loadout
+  id: ScpLoadoutGeneralTechnicalSpecialistFigurine
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobGeneralTechnicalSpecialist
+      time: 72000 # 20 hour
+  storage:
+    back:
+    - ToyFigurineEngineer
+
+- type: loadout
+  id: ScpLoadoutEngineeringTechnicalServiceSingularityToy
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: EngineeringTechnicalService
+      time: 1080000 # 300hr
+  storage:
+    back:
+    - SingularityToy

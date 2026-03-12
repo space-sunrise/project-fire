@@ -6,7 +6,6 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 3600
-  startingGear: JuniorResearcherGear
   icon: JobJuniorResearcher
   supervisors: job-supervisors-scientific-service-director
   canBeAntag: true
@@ -32,7 +31,10 @@
 - type: startingGear
   id: JuniorResearcherGear
   equipment:
+    eyes: ClothingEyesGlasses
+    jumpsuit: ClothingUniformJumpsuitColorWhite
     shoes: ClothingShoesColorWhite
+    back: ClothingBackpackScience
     id: KeyCardJuniorResearcher
     ears: ClothingHeadsetScientificService
     pocket1: BookScientistsGuidebook

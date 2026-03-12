@@ -1,6 +1,6 @@
 <div class="header" align="center">
 
-# 🔥 Fire Station - SS14 + SCP 🔥
+# 🔥 SCP: Project Fire - SS14 + SCP 🔥
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/space-sunrise/fire-station)
 ![GitHub Issues](https://img.shields.io/github/issues/space-sunrise/fire-station)
@@ -9,8 +9,14 @@
 
 ---
 
-**Fire Station - первый проект в Space Station 14, перенесший тематику Фонда SCP в рамки станции.** Первый запуск проекта состоялся в далеком 2023ем году. А текущий перезапуск 2.0 перевернул положение дел, расширив механики SCP в десятки раз. <br>
-Множество новых объектов, механики исследования, новые измерения, роли и карты. Fire Station уникальный проект, аналогов которому не существует.
+**SCP: Project Fire - первый проект в Space Station 14, перенесший тематику Фонда SCP в рамки станции.** Первый запуск проекта состоялся в далеком 2023ем году. А текущий перезапуск 2.0 перевернул положение дел, расширив механики SCP в десятки раз. <br>
+
+Множество новых объектов, механики исследования, новые измерения, роли и карты. SCP: Project Fire уникальный проект, аналогов которому не существует.
+
+🌐 **Read this in other languages:**
+
+- 🇺🇸 [English](README.en.md)
+- 🇷🇺 [Русский](README.md)
 
 ---
 
@@ -25,7 +31,7 @@
 
 >🔗 Реализованы играбельные объекты: SCP-106, SCP-939, SCP-173, SCP-049, SCP-096, SCP-999! <br>
 >🛡️ Полностью новые лорные роли. Ассистенты остались на космической станции! <br>
->🗺️ Используются собственные карты комплексов SCP с проработанной атмосферой! <br>
+>🗺️ Используются собственные карты комплексов SCP на планете, без космоса! <br>
 >🔊 Уникальная система аудио-эффектов для погружения в атмосферу комплекса. У нас есть эхо! <br>
 >🩸 Никаких вульп и фелинидов, в комплексе работают только люди! <br>
 >👁️ Система моргания, прямо как в SCP:CB! <br>
@@ -53,11 +59,6 @@
 ![Alt](https://repobeats.axiom.co/api/embed/64abb657f27748e21cc7bb35ccf7c84486542597.svg "Repobeats analytics image")
 
 ---
-
-🌐 **Read this in other languages:**
-
-- 🇺🇸 [English](README.en.md)
-- 🇷🇺 [Русский](README.md)
 
 <div class="header" align="center">
 
@@ -93,5 +94,5 @@
 <details>
 <summary><a href="#"><img src="https://img.shields.io/badge/licence-CLA-orange?style=for-the-badge" alt="CLA"></a></summary>
 
->Весь код, относящийся к Sunrise или Fire Station, а также ассеты Sunrise или Fire Station, защищены лицензией [CLA](https://github.com/space-sunrise/space-station-14/blob/master/CLA.txt).
+>Весь код, относящийся к Sunrise или SCP: Project Fire(Fire Station), а также ассеты Sunrise или SCP: Project Fire(Fire Station), защищены лицензией [CLA](https://github.com/space-sunrise/space-station-14/blob/master/CLA.txt).
 </details>

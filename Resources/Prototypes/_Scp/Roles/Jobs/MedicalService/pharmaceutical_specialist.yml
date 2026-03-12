@@ -7,7 +7,6 @@
   - !type:DepartmentTimeRequirement
     department: MedicalService
     time: 10800
-  startingGear: PharmaceuticalSpecialistGear
   icon: JobPharmaceuticalSpecialist
   supervisors: job-supervisors-head-of-medical-sector
   displayWeight: 30
@@ -29,9 +28,17 @@
 - type: startingGear
   id: PharmaceuticalSpecialistGear
   equipment:
+    head: ClothingHeadHatRedsoft
+    eyes: ClothingEyesGlassesChemical
+    mask: ClothingMaskSterileRed
+    neck: ClothingNeckScarfStripedRed
+    outerClothing: ClothingOuterCoatLab
+    jumpsuit: ClothingUniformJumpsuitChemistry
+    gloves: ClothingHandsGlovesLatex
+    shoes: ClothingShoesColorWhite
+    back: ClothingBackpackChemistry
     id: KeyCardPharmaceuticalSpecialist
     ears: ClothingHeadsetMedicalService
     belt: ChemBag
-    eyes: ClothingEyesGlassesChemical
     pocket1: HandLabeler
     pocket2: ScpMedicalPDA

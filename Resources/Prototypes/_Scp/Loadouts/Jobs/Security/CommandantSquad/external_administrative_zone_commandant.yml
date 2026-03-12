@@ -1,5 +1,5 @@
-﻿- type: loadout
-  id: LoadoutClothingUniformSecurityWhiteAlternativeSquadLeader
+- type: loadout
+  id: ScpLoadoutClothingUniformSecurityWhiteAlternativeCommandantLeader
   equipment:
     jumpsuit: ClothingUniformSecurityWhiteAlternative
   effects:
@@ -9,13 +9,13 @@
 # Наушник
 
 - type: loadout
-  id: LoadoutClothingHeadsetAltExternalAdministrativeZoneSecurityService
+  id: ScpLoadoutClothingHeadsetAltExternalAdministrativeZoneSecurityService
   equipment:
     ears: ClothingHeadsetAltExternalAdministrativeZoneSecurityService
 
 # Ключ карта
 
 - type: loadout
-  id: LoadoutKeyCardLightContainmentZoneSecurityCommandant
+  id: ScpLoadoutKeyCardLightContainmentZoneSecurityCommandant
   equipment:
     id: KeyCardLightContainmentZoneSecurityCommandant

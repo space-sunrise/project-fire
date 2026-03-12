@@ -3,7 +3,6 @@
   name: job-name-botanist-phytogeneticist
   description: job-description-botanist-phytogeneticist
   playTimeTracker: JobBotanistPhytogeneticist
-  startingGear: BotanistPhytogeneticistGear
   icon: JobBotanistPhytogeneticist
   supervisors: job-supervisors-personnel-officer
   weight: 730
@@ -23,7 +22,12 @@
 - type: startingGear
   id: BotanistPhytogeneticistGear
   equipment:
+    head: ClothingHeadBandBotany
+    eyes: ClothingEyesGlasses
+    outerClothing: ClothingOuterApronBotanist
+    jumpsuit: ClothingUniformJumpsuitHydroponics
     shoes: ClothingShoesColorBrown
+    back: ClothingBackpackHydroponics
     id: KeyCardBotanistPhytogeneticist
     ears: ClothingHeadsetFoodAndSanitation
     belt: ClothingBeltPlantFilled

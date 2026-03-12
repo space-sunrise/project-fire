@@ -7,7 +7,6 @@
   - !type:DepartmentTimeRequirement
     department: MedicalService
     time: 36000
-  startingGear: SeniorMedicalSpecialistGear
   icon: JobSeniorMedicalSpecialist
   supervisors: job-supervisors-head-of-medical-sector
   displayWeight: 35
@@ -30,9 +29,18 @@
 - type: startingGear
   id: SeniorMedicalSpecialistGear
   equipment:
+    head: ClothingHeadHatBeretParamedic
+    eyes: ClothingEyesHudMedical
+    mask: ClothingMaskSterileBlack
+    neck: ClothingNeckScarfStripedBlack
+    outerClothing: ClothingOuterCoatLab
+    jumpsuit: ClothingUniformJumpsuitSeniorPhysician
+    gloves: ClothingHandsGlovesLatex
+    shoes: ClothingShoesColorBrown
+    back: ClothingBackpackMedical
     id: KeyCardSeniorMedicalSpecialist
     ears: ClothingHeadsetMedicalService
-    eyes: ClothingEyesHudMedical
+    belt: ClothingBeltMedicalFilled
     pocket2: ScpMedicalPDA
   storage:
     back:

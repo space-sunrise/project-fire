@@ -150,6 +150,7 @@
     - id: BluespaceArtifact
     - id: BureaucraticError
     - id: ClericalError
+    - id: ScpCockroachMigration
     - id: GreytideVirus
     - id: IonStorm
     - id: MassHallucinations

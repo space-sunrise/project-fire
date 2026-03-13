@@ -1,0 +1,14 @@
+- type: entity
+  id: ScpCockroachMigration
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    #startAnnouncement: station-event-vent-creatures-start-announcement Fire edit
+#    startAudio: Fire edit
+#      path: /Audio/Announcements/attention.ogg
+    weight: 6
+    duration: 50
+  - type: VentCrittersRule
+    entries:
+    - id: MobCockroach
+      prob: 0.03

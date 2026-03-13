@@ -154,7 +154,7 @@
   - type: Item
     size: Small
   - type: Sprite
-    sprite: _Starlight/Objects/Misc/wooden_hilt.rsi
+    sprite: _Scp/Objects/Misc/wooden_hilt.rsi # Fire edit
     state: icon
   - type: Tag
     tags:

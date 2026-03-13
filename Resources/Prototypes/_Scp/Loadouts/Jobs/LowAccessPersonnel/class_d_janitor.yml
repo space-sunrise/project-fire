@@ -1,0 +1,82 @@
+- type: loadout
+  id: ScpLoadoutClothingShoesGaloshes
+  equipment:
+    shoes: ClothingShoesGaloshes
+
+- type: loadout
+  id: ScpLoadoutKeyCardClassDJanitor
+  equipment:
+    id: KeyCardClassDJanitor
+
+- type: loadout
+  id: ScpLoadoutClothingBeltJanitor
+  equipment:
+    belt: ClothingBeltJanitor
+
+- type: loadout
+  id: ScpLoadoutSoap
+  storage:
+    belt:
+    - Soap
+
+- type: loadout
+  id: ScpLoadoutLightReplacer
+  storage:
+    belt:
+    - LightReplacer
+
+- type: loadout
+  id: ScpLoadoutSprayBottleSpaceCleaner
+  storage:
+    belt:
+    - SprayBottleSpaceCleaner
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatPurplesoft
+  equipment:
+    head: ClothingHeadHatPurplesoft
+
+- type: loadout
+  id: ScpLoadoutClothingHandsGlovesJanitor
+  equipment:
+    gloves: ClothingHandsGlovesJanitor
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupHeadClothingHeadHatPurplesoft
+  name: loadout-group-head
+  loadouts:
+  - ScpLoadoutClothingHeadHatPurplesoft
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGlovesClothingHandsGlovesJanitor
+  name: loadout-group-gloves
+  loadouts:
+  - ScpLoadoutClothingHandsGlovesJanitor
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupShoesClothingShoesGaloshes
+  name: loadout-group-shoes
+  loadouts:
+  - ScpLoadoutClothingShoesGaloshes
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardClassDJanitor
+  name: loadout-group-id
+  loadouts:
+  - ScpLoadoutKeyCardClassDJanitor
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBeltClothingBeltJanitor
+  name: loadout-group-belt
+  loadouts:
+  - ScpLoadoutClothingBeltJanitor
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBeltStorageClassDJanitorSupplies
+  name: loadout-group-storage
+  minLimit: 3
+  maxLimit: 3
+  loadouts:
+  - ScpLoadoutSoap
+  - ScpLoadoutLightReplacer
+  - ScpLoadoutSprayBottleSpaceCleaner

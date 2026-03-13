@@ -1,0 +1,102 @@
+- type: loadout
+  id: ScpLoadoutClothingEyesSunGlassesHudSkill
+  equipment:
+    eyes: ClothingEyesSunGlassesHudSkill
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatCapEthicsCommittee
+  equipment:
+    head: ClothingHeadHatCapEthicsCommittee
+
+- type: loadout
+  id: ScpLoadoutKeyCardEthicsCommitteePass
+  equipment:
+    id: KeyCardEthicsCommitteePass
+
+- type: loadout
+  id: ScpLoadoutClothingHeadsetAltEthicsCommittee
+  equipment:
+    ears: ClothingHeadsetAltEthicsCommittee
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackSatchelLeatherEthicsCommitteeFilled
+  equipment:
+    back: ClothingBackpackSatchelLeatherEthicsCommitteeFilled
+
+- type: loadout
+  id: ScpLoadoutBaseFoundationPDA
+  equipment:
+    pocket2: BaseFoundationPDA
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupShoesClothingShoesBootsLaceup
+  name: loadout-group-shoes
+  loadouts:
+  - ScpLoadoutClothingShoesBootsLaceup
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupEyesClothingEyesSunGlassesHudSkill
+  name: loadout-group-eyes
+  loadouts:
+  - ScpLoadoutClothingEyesSunGlassesHudSkill
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupHeadClothingHeadHatCapEthicsCommittee
+  name: loadout-group-head
+  loadouts:
+  - ScpLoadoutClothingHeadHatCapEthicsCommittee
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardEthicsCommitteePass
+  name: loadout-group-id
+  loadouts:
+  - ScpLoadoutKeyCardEthicsCommitteePass
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupEarsClothingHeadsetAltEthicsCommittee
+  name: loadout-group-ears
+  loadouts:
+  - ScpLoadoutClothingHeadsetAltEthicsCommittee
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBackClothingBackpackSatchelLeatherEthicsCommitteeFilled
+  name: loadout-group-back
+  loadouts:
+  - ScpLoadoutClothingBackpackSatchelLeatherEthicsCommitteeFilled
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPocket2BaseFoundationPDA
+  name: loadout-group-pda
+  loadouts:
+  - ScpLoadoutBaseFoundationPDA
+
+- type: loadout
+  id: ScpLoadoutEthicsCommitteeRepresentativeWhiteShirtJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitWithWhiteShirt
+
+- type: loadout
+  id: ScpLoadoutEthicsCommitteeRepresentativeWhiteShirtJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtWithWhiteShirt
+
+- type: loadout
+  id: ScpLoadoutEthicsCommitteeRepresentativeBlackFormalSuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBlackFormal
+
+- type: loadout
+  id: ScpLoadoutEthicsCommitteeRepresentativeFormalCoat
+  equipment:
+    outerClothing: ClothingOuterCoatBlackFancy
+
+- type: loadout
+  id: ScpLoadoutEthicsCommitteeRepresentativeOpenFormalCoat
+  equipment:
+    outerClothing: ClothingOuterCoatBlackFancyOpen
+
+- type: loadout
+  id: ScpLoadoutEthicsCommitteeRepresentativeVetoStamp
+  storage:
+    back:
+    - RubberStampVeto

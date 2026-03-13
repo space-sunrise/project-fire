@@ -1,0 +1,25 @@
+- type: loadout
+  id: ScpLoadoutClothingEyesGlasses
+  equipment:
+    eyes: ClothingEyesGlasses
+
+# Special options
+# Jamjar
+
+- type: loadout
+  id: ScpLoadoutClothingEyesGlassesJamjar
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: JamjarTimer
+  equipment:
+    eyes: ClothingEyesGlassesJamjar
+
+# Jensen
+
+- type: loadout
+  id: ScpLoadoutClothingEyesGlassesJensen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: JensenTimer
+  equipment:
+    eyes: ClothingEyesGlassesJensen

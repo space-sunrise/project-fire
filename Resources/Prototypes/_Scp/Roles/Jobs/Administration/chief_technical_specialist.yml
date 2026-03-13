@@ -8,7 +8,6 @@
     department: EngineeringTechnicalService
     time: 54000
   weight: 940
-  startingGear: ChiefTechnicalSpecialistGear
   icon: JobChiefTechnicalSpecialist
   supervisors: job-supervisors-director
   radioBold: true
@@ -34,8 +33,16 @@
 - type: startingGear
   id: ChiefTechnicalSpecialistGear
   equipment:
-    id: KeyCardChiefTechnicalSpecialist
+    head: ClothingHeadHatHardhatWhite
     eyes: ClothingEyesGlassesMeson
+    mask: ClothingMaskGas
+    neck: ClothingNeckScarfCe
+    outerClothing: ClothingOuterWinterColorWhite
+    jumpsuit: ClothingUniformJumpsuitChiefEngineer
+    gloves: ClothingHandsGlovesFingerlessInsulated
+    shoes: ClothingShoesColorBrown
+    back: ClothingBackpackCE
+    id: KeyCardChiefTechnicalSpecialist
     ears: ClothingHeadsetAltEngineeringTechnicalService
     belt: ClothingBeltUtilityEngineering
     pocket2: ChiefTechnicalSpecialistPDA

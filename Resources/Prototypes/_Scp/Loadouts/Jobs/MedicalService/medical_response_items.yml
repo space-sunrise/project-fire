@@ -1,0 +1,28 @@
+- type: loadout
+  id: ScpLoadoutClothingHeadHatBeretParamedic
+  equipment:
+    head: ClothingHeadHatBeretParamedic
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatParamedicsoft
+  equipment:
+    head: ClothingHeadHatParamedicsoft
+
+# Jumpsuit
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatParamedicWB
+  equipment:
+    outerClothing: ClothingOuterCoatParamedicWB
+
+- type: loadout
+  id: ScpLoadoutClothingOuterWinterPara
+  equipment:
+    outerClothing: ClothingOuterWinterPara
+
+# Shoes
+
+- type: loadout
+  id: ScpLoadoutClothingShoesColorBlue
+  equipment:
+    shoes: ClothingShoesColorBlue

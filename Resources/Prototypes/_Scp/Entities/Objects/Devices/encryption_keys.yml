@@ -24,7 +24,6 @@
   components:
   - type: EncryptionKey
     channels:
-    - Common
     - Administration
     - EthicsCommittee
     - HeavyContainmentSecurityService
@@ -68,7 +67,6 @@
   components:
   - type: EncryptionKey
     channels:
-    - Common
     - RegionalAdministration
     - Administration
     - HeavyContainmentSecurityService

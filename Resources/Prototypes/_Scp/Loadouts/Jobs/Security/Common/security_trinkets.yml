@@ -1,0 +1,15 @@
+- type: loadout
+  id: ScpLoadoutHandheldCamera
+  startingGear: SecurityBodycam
+
+- type: loadout
+  id: ScpLoadoutPepperSprayBottleBlue
+  startingGear: PeppersprayBlue
+
+- type: loadout
+  id: ScpLoadoutSecurityWhistle
+  startingGear: SecurityWhistle
+
+- type: loadout
+  id: ScpLoadoutTourniquet
+  startingGear: SecurityTourniquet

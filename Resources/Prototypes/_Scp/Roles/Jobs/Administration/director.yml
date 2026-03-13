@@ -36,6 +36,7 @@
   id: DirectorGear
   equipment:
     head: ClothingHeadHatDirector
+    eyes: ClothingEyesGlassesSunglasses
     neck: ClothingNeckTieDet
     jumpsuit: ClothingUniformJumpsuitDirector
     outerClothing: ClothingOuterCoatDirectorTrench
@@ -45,7 +46,3 @@
     id: KeyCardDirector
     ears: ClothingHeadsetAltAdministration
     pocket2: DirectorPDA
-  storage:
-    back:
-    - Flash
-    - Telebaton

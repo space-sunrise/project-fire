@@ -3,7 +3,6 @@
   name: job-name-hospital-intern
   description: job-description-hospital-intern
   playTimeTracker: JobHospitalIntern
-  startingGear: HospitalInternGear
   icon: JobHospitalIntern
   supervisors: job-supervisors-head-of-medical-sector
   canBeAntag: true
@@ -23,9 +22,17 @@
 - type: startingGear
   id: HospitalInternGear
   equipment:
+    head: ClothingHeadHatRedsoft
+    eyes: ClothingEyesHudMedical
+    mask: ClothingMaskSterileRed
+    neck: ClothingNeckScarfStripedRed
+    jumpsuit: ClothingUniformJumpsuitColorWhite
+    outerClothing: ClothingOuterCoatLab
+    gloves: ClothingHandsGlovesLatex
+    shoes: ClothingShoesColorWhite
+    back: ClothingBackpackMedical
     id: KeyCardHospitalIntern
     ears: ClothingHeadsetMedicalService
     belt: ClothingBeltMedicalFilled
-    eyes: ClothingEyesHudMedical
     pocket1: BookMedicalReferenceBook
     pocket2: ScpMedicalPDA

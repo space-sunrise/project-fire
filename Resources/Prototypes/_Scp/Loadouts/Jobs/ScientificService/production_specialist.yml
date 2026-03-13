@@ -1,0 +1,10 @@
+- type: loadout
+  id: ScpLoadoutKeyCardProductionSpecialist
+  equipment:
+    id: KeyCardProductionSpecialist
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardProductionSpecialist
+  name: loadout-group-id
+  loadouts:
+  - ScpLoadoutKeyCardProductionSpecialist

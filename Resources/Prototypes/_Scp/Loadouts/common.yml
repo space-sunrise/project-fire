@@ -1,0 +1,158 @@
+# Common loadout groups
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupMiscItems
+  name: loadout-group-common-misc-items
+  loadouts:
+  - ScpLoadoutHandheldStationMap
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupTrinkets
+  name: loadout-group-common-trinkets
+  minLimit: 0
+  maxLimit: 3
+  loadouts:
+  - ScpLoadoutClothingHeadHatFlowerWreath
+  - ScpLoadoutClothingHeadHatHairflower
+  - ScpLoadoutClothingMultipleHeadphones
+  - ScpLoadoutPlushieLizard
+  - ScpLoadoutPlushieSpaceLizard
+  - ScpLoadoutCandleRed
+  - ScpLoadoutLighter
+  - ScpLoadoutCigPackGreen
+  - ScpLoadoutCigPackRed
+  - ScpLoadoutCigPackBlue
+  - ScpLoadoutCigPackBlack
+  - ScpLoadoutCigarCase
+  - ScpLoadoutCigarGold
+  - ScpLoadoutHyperLinkBookCorporateLaw
+  - ScpLoadoutClothingWraps
+  - ScpLoadoutClothingWrapsHigh
+  - ScpLoadoutOffsetCane
+  - ScpLoadoutOffsetCaneWood
+  - ScpLoadoutCane
+  - ScpLoadoutTowelColorWhite
+  - ScpLoadoutTowelColorGray
+  - ScpLoadoutTowelColorBlack
+  - ScpLoadoutTowelColorRed
+  - ScpLoadoutTowelColorOrange
+  - ScpLoadoutTowelColorLightBrown
+  - ScpLoadoutTowelColorYellow
+  - ScpLoadoutTowelColorDarkGreen
+  - ScpLoadoutTowelColorLightBlue
+  - ScpLoadoutTowelColorDarkBlue
+  - ScpLoadoutTowelColorPurple
+  - ScpLoadoutTowelColorSilver
+  - ScpLoadoutTowelColorGold
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupSocks
+  name: loadout-group-socks
+  minLimit: 1
+  loadouts:
+  - ScpLoadoutClothingThighWhite
+  - ScpLoadoutClothingShortWhite
+  - ScpLoadoutClothingFishnet
+  - ScpLoadoutClothingKneeWhite
+  - ScpLoadoutClothingKneeAce
+  - ScpLoadoutClothingKneeAsblastusa
+  - ScpLoadoutClothingKneeBee
+  - ScpLoadoutClothingKneeBlack
+  - ScpLoadoutClothingKneeCommie
+  - ScpLoadoutClothingKneeFishnet
+  - ScpLoadoutClothingKneeRainbow
+  - ScpLoadoutClothingKneeStriped
+  - ScpLoadoutClothingKneeThin
+  - ScpLoadoutClothingKneeTrans
+  - ScpLoadoutClothingKneeUk
+  - ScpLoadoutClothingNormBlack
+  - ScpLoadoutClothingNormWhite
+  - ScpLoadoutClothingPantyhose
+  - ScpLoadoutClothingShortBlack
+  - ScpLoadoutClothingStockingsBlue
+  - ScpLoadoutClothingStockingsCyan
+  - ScpLoadoutClothingStockingsDpink
+  - ScpLoadoutClothingStockingsGreen
+  - ScpLoadoutClothingStockingslpink
+  - ScpLoadoutClothingStockingsOrange
+  - ScpLoadoutClothingStockingsPurple
+  - ScpLoadoutClothingThighAce
+  - ScpLoadoutClothingThighAsblastusa
+  - ScpLoadoutClothingThighBee
+  - ScpLoadoutClothingThighBlack
+  - ScpLoadoutClothingThighCommie
+  - ScpLoadoutClothingThighRainbow
+  - ScpLoadoutClothingThighTrans
+  - ScpLoadoutClothingThighUk
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGlasses
+  name: loadout-group-glasses
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutClothingEyesGlasses
+  - ScpLoadoutClothingEyesGlassesJamjar
+  - ScpLoadoutClothingEyesGlassesJensen
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBra
+  name: loadout-group-bra
+  minLimit: 1
+  loadouts:
+  - ScpLoadoutClothingBraStrapless
+  - ScpLoadoutClothingBraNekoWhite
+  - ScpLoadoutClothingBraNekoBlack
+  - ScpLoadoutClothingBraAssblastusa
+  - ScpLoadoutClothingBraBikini
+  - ScpLoadoutClothingBraBralette
+  - ScpLoadoutClothingBraCommie
+  - ScpLoadoutClothingBraKinky
+  - ScpLoadoutClothingBraLace
+  - ScpLoadoutClothingBraSport
+  - ScpLoadoutClothingBraThong
+  - ScpLoadoutClothingBraUk
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupTankHarness
+  name: loadout-group-tank-harness
+  minLimit: 1
+  hidden: true
+  loadouts:
+  - ScpLoadoutClothingOuterVestTank
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupPants
+  name: loadout-group-pants
+  minLimit: 1
+  loadouts:
+  - ScpLoadoutClothingPantsWomanStrapless
+  - ScpLoadoutClothingPantsManBoxers
+  - ScpLoadoutClothingPantsManAssblastusa
+  - ScpLoadoutClothingPantsManBriefs
+  - ScpLoadoutClothingPantsManCommie
+  - ScpLoadoutClothingPantsManHearts
+  - ScpLoadoutClothingPantsManKinky
+  - ScpLoadoutClothingPantsManLongjohns
+  - ScpLoadoutClothingPantsManMankini
+  - ScpLoadoutClothingPantsManStripe
+  - ScpLoadoutClothingPantsManUk
+  - ScpLoadoutClothingPantsWomanNekoWhite
+  - ScpLoadoutClothingPantsWomanNekoBlack
+  - ScpLoadoutClothingPantsWomanAssblastusa
+  - ScpLoadoutClothingPantsWomanBikini
+  - ScpLoadoutClothingPantsWomanBralette
+  - ScpLoadoutClothingPantsWomanCommie
+  - ScpLoadoutClothingPantsWomanKinky
+  - ScpLoadoutClothingPantsWomanLace
+  - ScpLoadoutClothingPantsWomanSport
+  - ScpLoadoutClothingPantsWomanThong
+  - ScpLoadoutClothingPantsWomanUk
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBackpack
+  name: loadout-group-backpack
+  loadouts:
+  - ScpLoadoutClothingBackpack
+  - ScpLoadoutClothingBackpackSatchel
+  - ScpLoadoutClothingBackpackDuffel
+  - ScpLoadoutClothingCommonModsuit

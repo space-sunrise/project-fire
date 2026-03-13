@@ -7,7 +7,6 @@
     - !type:DepartmentTimeRequirement
       department: EngineeringTechnicalService
       time: 18000
-  startingGear: ElectricalTechnicalSpecialistGear
   icon: JobElectricalTechnicalSpecialist
   supervisors: job-supervisors-chief-technical-specialist
   displayWeight: 10
@@ -26,8 +25,16 @@
 - type: startingGear
   id: ElectricalTechnicalSpecialistGear
   equipment:
+    head: ClothingHeadHatBeretEngineering
     eyes: ClothingEyesGlassesMeson
+    mask: ClothingMaskGas
+    neck: ClothingNeckScarfStripedRed
+    outerClothing: ClothingOuterWinterColorRed
+    jumpsuit: ClothingUniformJumpsuitAtmos
+    gloves: ClothingHandsGlovesFingerlessInsulated
+    shoes: ClothingShoesColorWhite
+    back: ClothingBackpackAtmospherics
     id: KeyCardElectricalTechnicalSpecialist
-    belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineeringTechnicalService
+    belt: ClothingBeltUtilityEngineering
     pocket2: ScpEngineeringPDA

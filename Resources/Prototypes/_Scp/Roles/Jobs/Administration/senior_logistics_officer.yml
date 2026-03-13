@@ -8,7 +8,6 @@
     role: JobLogisticsOfficer
     time: 36000
   weight: 935
-  startingGear: SeniorLogisticsOfficerGear
   icon: JobSeniorLogisticsOfficer
   supervisors: job-supervisors-director
   canBeAntag: true
@@ -33,6 +32,15 @@
 - type: startingGear
   id: SeniorLogisticsOfficerGear
   equipment:
+    head: ClothingHeadBandOrange
+    eyes: ClothingEyesGlasses
+    mask: ClothingMaskGasExplorer
+    neck: ClothingNeckScarfQm
+    outerClothing: ClothingOuterWinterMiner
+    jumpsuit: ClothingUniformJumpsuitQM
+    gloves: ClothingHandsGlovesColorLightBrown
+    shoes: ClothingShoesColorBrown
+    back: ClothingBackpackCargo
     id: KeyCardSeniorLogisticsOfficer
     ears: ClothingHeadsetAltLogistics
     pocket1: AppraisalTool

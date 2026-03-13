@@ -1,0 +1,48 @@
+- type: loadout
+  id: ScpLoadoutClothingHeadHatBeretRND
+  equipment:
+    head: ClothingHeadHatBeretRND
+
+- type: loadout
+  id: ScpLoadoutKeyCardLeadResearcher
+  equipment:
+    id: KeyCardLeadResearcher
+
+- type: loadout
+  id: ScpLoadoutClothingOuterCoatLabSeniorResearcher
+  equipment:
+    outerClothing: ClothingOuterCoatLabSeniorResearcher
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupHeadClothingHeadHatBeretRND
+  name: loadout-group-head
+  loadouts:
+  - ScpLoadoutClothingHeadHatBeretRND
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardLeadResearcher
+  name: loadout-group-id
+  loadouts:
+  - ScpLoadoutKeyCardLeadResearcher
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupOuterClothingClothingOuterCoatLabSeniorResearcher
+  name: loadout-group-outer-clothing
+  loadouts:
+  - ScpLoadoutClothingOuterCoatLabSeniorResearcher
+
+- type: loadout
+  id: ScpLoadoutLeadResearcherSeniorResearcher
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorResearcher
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSeniorResearcher
+
+- type: loadout
+  id: ScpLoadoutLeadResearcherSeniorResearcherSeniorResearcher
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorResearcher
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSeniorResearcher

@@ -1,34 +1,34 @@
-﻿# Голова
+# Голова
 - type: loadout
-  id: LoadoutClothingHeadHelmetBasic
+  id: ScpLoadoutClothingHeadHelmetBasic
   equipment:
     head: ClothingHeadHelmetBasic
 
 # Уши
 - type: loadout
-  id: LoadoutClothingHeadsetHeavyContainmentSecurityService
+  id: ScpLoadoutClothingHeadsetHeavyContainmentSecurityService
   equipment:
     ears: ClothingHeadsetHeavyContainmentSecurityService
 
 # Глаза
 - type: loadout
-  id: LoadoutClothingEyesGlassesSecurity
+  id: ScpLoadoutClothingEyesGlassesSecurity
   equipment:
     eyes: ClothingEyesGlassesSecurity
 
 # Униформа
 - type: loadout
-  id: LoadoutClothingUniformSecurityBlack
+  id: ScpLoadoutClothingUniformSecurityBlack
   equipment:
     jumpsuit: ClothingUniformSecurityBlack
 
 - type: loadout
-  id: LoadoutClothingUniformTurleneckBlack
+  id: ScpLoadoutClothingUniformTurleneckBlack
   equipment:
     jumpsuit: ClothingUniformTurleneckBlack
 
 - type: loadout
-  id: LoadoutClothingUniformTurleneckBlackSleeveless
+  id: ScpLoadoutClothingUniformTurleneckBlackSleeveless
   equipment:
     jumpsuit: ClothingUniformTurleneckBlackSleeveless
   effects:
@@ -36,7 +36,7 @@
     proto: CommandantSquadFancyUniformTimer
 
 - type: loadout
-  id: LoadoutClothingUniformSecurityBlackCamouflage
+  id: ScpLoadoutClothingUniformSecurityBlackCamouflage
   equipment:
     jumpsuit: ClothingUniformSecurityBlackCamouflage
   effects:
@@ -45,25 +45,25 @@
 
 # Рация
 - type: loadout
-  id: RadioHandheldHeavyContainmentSecurityService
+  id: ScpLoadoutRadioHandheldHeavyContainmentSecurityService
   storage:
     back:
-    - RadioHandheldHeavyContainmentSecurityService
+    - RadioHandheldHeavyContainmentSecurityServiceEnabled
 
 # Пистолет-пулемет
 - type: loadout
-  id: LoadoutWeaponSubMachineGunMP5
+  id: ScpLoadoutWeaponSubMachineGunMP5
   equipment:
     suitstorage: WeaponSubMachineGunMP5
 
 # Дробовик
 - type: loadout
-  id: LoadoutWeaponShotgunSPAS12
+  id: ScpLoadoutWeaponShotgunSPAS12
   equipment:
     suitstorage: WeaponShotgunSPAS12
 
 # Пистолет
 - type: loadout
-  id: LoadoutWeaponPistolG22Auto
+  id: ScpLoadoutWeaponPistolG22
   equipment:
     pocket1: WeaponPistolG22

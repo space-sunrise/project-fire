@@ -1,0 +1,21 @@
+- type: loadout
+  id: ScpLoadoutClothingBackpackSecurity
+  equipment:
+    back: ClothingBackpackSecurity
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackSatchelSecurity
+  equipment:
+    back: ClothingBackpackSatchelSecurity
+
+- type: loadout
+  id: ScpLoadoutClothingBackpackDuffelSecurity
+  equipment:
+    back: ClothingBackpackDuffelSecurity
+
+# Belt
+
+- type: loadout
+  id: ScpLoadoutClothingBeltSecurityFilled
+  equipment:
+    belt: ClothingBeltSecurityFilled

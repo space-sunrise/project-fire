@@ -10,7 +10,6 @@
   - !type:DepartmentTimeRequirement
     department: MedicalService
     time: 10800
-  startingGear: FieldMedicalSpecialistGear
   icon: JobAmnesthesiologist
   supervisors: job-supervisors-heavy-containment-zone-commandant
   canBeAntag: false
@@ -36,7 +35,9 @@
   id: FieldMedicalSpecialistGear
   equipment:
     outerClothing: ClothingOuterCoatLabSecurityMedic
+    jumpsuit: ClothingUniformJumpsuitBrigmedic
     shoes: ClothingShoesColorRed
+    back: ClothingBackpackBrigmedic
     gloves: ClothingHandsGlovesLatex
     eyes: ClothingEyesHudMedSec
     head: ClothingHeadHatBeretSecurityMedic
@@ -48,3 +49,4 @@
   storage:
     back:
     - Flash
+    - ScpRadioHandheldSecurityEnabled

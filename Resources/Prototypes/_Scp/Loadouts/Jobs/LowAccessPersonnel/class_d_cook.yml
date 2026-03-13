@@ -1,0 +1,49 @@
+- type: loadout
+  id: ScpLoadoutClothingBeltChefFilled
+  equipment:
+    belt: ClothingBeltChefFilled
+
+- type: loadout
+  id: ScpLoadoutKeyCardClassDCook
+  equipment:
+    id: KeyCardClassDCook
+
+- type: loadout
+  id: ScpLoadoutClothingHeadHatChef
+  equipment:
+    head: ClothingHeadHatChef
+
+- type: loadout
+  id: ScpLoadoutClothingOuterApronChef
+  equipment:
+    outerClothing: ClothingOuterApronChef
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupHeadClothingHeadHatChef
+  name: loadout-group-head
+  loadouts:
+  - ScpLoadoutClothingHeadHatChef
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupOuterClothingClothingOuterApronChef
+  name: loadout-group-outer-clothing
+  loadouts:
+  - ScpLoadoutClothingOuterApronChef
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupBeltClothingBeltChefFilled
+  name: loadout-group-belt
+  loadouts:
+  - ScpLoadoutClothingBeltChefFilled
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupGlovesClothingHandsGlovesColorWhite
+  name: loadout-group-gloves
+  loadouts:
+  - ScpLoadoutClothingHandsGlovesColorWhite
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupIdKeyCardClassDCock
+  name: loadout-group-id
+  loadouts:
+  - ScpLoadoutKeyCardClassDCook

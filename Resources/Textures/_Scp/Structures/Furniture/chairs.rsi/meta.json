@@ -23,14 +23,24 @@
             "copyright": "Made by odlieerr(discord), continued by MIDUZKA (discord)"
         },
         {
-            "name": "chair-greyscale",
+            "name": "chair_grayscale_legs",
             "directions": 4,
-            "copyright": "Made by odlieerr(discord), continued by MIDUZKA (discord)"
+            "copyright": "Made by odlieerr(discord), continued and split into 2 parts by MIDUZKA (discord)"
         },
         {
-            "name": "chair-greyscale-knocked",
+            "name": "chair_grayscale_legs-knocked",
             "directions": 4,
-            "copyright": "Made by odlieerr(discord), continued by MIDUZKA (discord)"
+            "copyright": "Made by odlieerr(discord), continued and split into 2 parts by MIDUZKA (discord)"
+        },
+        {
+            "name": "chair_grayscale_seat",
+            "directions": 4,
+            "copyright": "Made by odlieerr(discord), continued and split into 2 parts by MIDUZKA (discord)"
+        },
+        {
+            "name": "chair_grayscale_seat-knocked",
+            "directions": 4,
+            "copyright": "Made by odlieerr(discord), continued and split into 2 parts by MIDUZKA (discord)"
         },
         {
             "name": "office-dark",

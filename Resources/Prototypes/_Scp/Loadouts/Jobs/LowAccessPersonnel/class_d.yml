@@ -1,0 +1,21 @@
+- type: loadout
+  id: ScpLoadoutClothingUniformClassD
+  equipment:
+    jumpsuit: ClothingUniformClassD
+
+- type: loadout
+  id: ScpLoadoutClothingShoesClassD
+  equipment:
+    shoes: ClothingShoesClassD
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupJumpsuitClothingUniformClassD
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutClothingUniformClassD
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupShoesClothingShoesClassD
+  name: loadout-group-shoes
+  loadouts:
+  - ScpLoadoutClothingShoesClassD

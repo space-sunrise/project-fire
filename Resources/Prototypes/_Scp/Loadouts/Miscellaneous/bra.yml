@@ -1,0 +1,106 @@
+- type: loadout
+  id: ScpLoadoutClothingBraStrapless
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    bra: ClothingBraStrapless
+
+- type: loadout
+  id: ScpLoadoutClothingBraNekoWhite
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    bra: ClothingBraNekoWhite
+
+- type: loadout
+  id: ScpLoadoutClothingBraNekoBlack
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    bra: ClothingBraNekoBlack
+
+- type: loadout
+  id: ScpLoadoutClothingBraAssblastusa
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    bra: ClothingBraAssblastusa
+
+- type: loadout
+  id: ScpLoadoutClothingBraBikini
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    bra: ClothingBraBikini
+
+- type: loadout
+  id: ScpLoadoutClothingBraBralette
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    bra: ClothingBraBralette
+
+- type: loadout
+  id: ScpLoadoutClothingBraCommie
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    bra: ClothingBraCommie
+
+- type: loadout
+  id: ScpLoadoutClothingBraKinky
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    bra: ClothingBraKinky
+
+- type: loadout
+  id: ScpLoadoutClothingBraLace
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    bra: ClothingBraLace
+
+- type: loadout
+  id: ScpLoadoutClothingBraSport
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    bra: ClothingBraSport
+
+- type: loadout
+  id: ScpLoadoutClothingBraThong
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    bra: ClothingBraThong
+
+- type: loadout
+  id: ScpLoadoutClothingBraUk
+  sponsorOnly: false
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WomanMoment
+  equipment:
+    bra: ClothingBraUk

@@ -11,7 +11,6 @@
     department: ExternalAdministrativeZoneSecurityService
     time: 36000
   weight: 955
-  startingGear: SecurityCommanderGear
   icon: JobSecurityCommander
   supervisors: job-supervisors-director
   canBeAntag: false
@@ -71,11 +70,19 @@
 - type: startingGear
   id: SecurityCommanderGear
   equipment:
+    head: ClothingHeadHatHoshat
     eyes: ClothingEyesGlassesSecurity
-    id: KeyCardSecurityCommander
+    neck: ClothingNeckScarfHos
+    outerClothing: ClothingOuterCoatHoSTrench
+    jumpsuit: ClothingUniformJumpsuitHoS
     gloves: ClothingHandsGlovesCombat
+    shoes: ClothingShoesBootsSecurityGuard
+    back: ClothingBackpackSecurity
+    id: KeyCardSecurityCommander
     ears: ClothingHeadsetAltSecurityAdministration
+    belt: ScpClothingBeltSecurityWebbingFilled
     pocket2: SecurityCommanderPDA
   storage:
     back:
     - Flash
+    - ScpRadioHandheldSecurityEnabled

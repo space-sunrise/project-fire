@@ -3,7 +3,6 @@
   name: job-name-technical-trainee
   description: job-description-technical-trainee
   playTimeTracker: JobTechnicalTrainee
-  startingGear: TechnicalTraineeGear
   icon: JobTechnicalTrainee
   supervisors: job-supervisors-chief-technical-specialist
   canBeAntag: true
@@ -23,8 +22,16 @@
 - type: startingGear
   id: TechnicalTraineeGear
   equipment:
+    head: ClothingHeadHatBeretEngineering
+    mask: ClothingMaskBandRed
+    neck: ClothingNeckScarfStripedRed
+    outerClothing: ClothingOuterWinterColorRed
+    jumpsuit: ClothingUniformJumpsuitColorYellow
+    gloves: ClothingHandsGlovesFingerlessInsulated
+    shoes: ClothingShoesColorRed
+    back: ClothingBackpackEngineering
     id: KeyCardTechnicalTrainee
-    belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineeringTechnicalService
+    belt: ClothingBeltUtilityEngineering
     pocket1: BookEngineersHandbook
     pocket2: ScpEngineeringPDA

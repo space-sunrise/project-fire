@@ -14,7 +14,6 @@
       department: MedicalService
       time: 36000
   weight: 945
-  startingGear: HeadOfMedicalSectorGear
   icon: JobHeadOfMedicalSector
   supervisors: job-supervisors-director
   canBeAntag: true
@@ -44,6 +43,15 @@
 - type: startingGear
   id: HeadOfMedicalSectorGear
   equipment:
+    head: ClothingHeadHatBeretParamedic
+    eyes: ClothingEyesGlasses
+    mask: ClothingMaskSterileBlack
+    neck: ClothingNeckScarfCmo
+    outerClothing: ClothingOuterCoatLab
+    jumpsuit: ClothingUniformJumpsuitCMO
+    gloves: ClothingHandsGlovesLatex
+    shoes: ClothingShoesColorBrown
+    back: ClothingBackpackMedical
     id: KeyCardHeadOfMedicalSector
     ears: ClothingHeadsetAltMedicalService
     belt: ClothingBeltMedicalFilled

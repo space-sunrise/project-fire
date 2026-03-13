@@ -1,0 +1,105 @@
+# Scientific Service
+
+# Scientific Service Director
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupScientistGloves
+  name: loadout-group-gloves
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutClothingHandsGlovesLatex
+  - ScpLoadoutScientificServicePurpleGloves
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupScientistBackpack
+  name: loadout-group-backpack
+  loadouts:
+  - ScpLoadoutClothingBackpackScience
+  - ScpLoadoutClothingBackpackSatchelScience
+  - ScpLoadoutClothingBackpackDuffelScience
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupScientificServiceTrinkets
+  name: loadout-group-department-trinkets
+  minLimit: 0
+  maxLimit: 2
+  loadouts:
+  - ScpLoadoutBoxFolderBaseThreePapers
+  - ScpLoadoutBoxFolderPlasticClipboardThreePapers
+  - ScpLoadoutBoxFolderClipboardThreePapers
+
+# Lead Researcher
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupLeadResearcherJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutLeadResearcherSeniorResearcher
+  - ScpLoadoutLeadResearcherSeniorResearcherSeniorResearcher
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupScientistShoes
+  name: loadout-group-shoes
+  loadouts:
+  - ScpLoadoutClothingShoesColorWhite
+  - ScpLoadoutClothingShoesColorBlack
+  - ScpLoadoutClothingShoesBootsWinterSci
+
+# Anomarchology Researcher
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupScientistNeck
+  name: loadout-group-neck
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutClothingNeckTieSci
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupScientistOuterClothing
+  name: loadout-group-outer-clothing
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutClothingOuterCoatLab
+  - ScpLoadoutClothingOuterCoatRnd
+  - ScpLoadoutClothingOuterWinterSci
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupScientistJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutClothingUniformJumpsuitScientist
+  - ScpLoadoutClothingUniformJumpskirtScientist
+
+# Production Specialist
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupProductionSpecialistHead
+  name: loadout-group-head
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutClothingHeadHatCorpsoft
+  - ScpLoadoutClothingHeadBandSkull
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupProductionSpecialistOuterClothing
+  name: loadout-group-outer-clothing
+  minLimit: 0
+  loadouts:
+  - ScpLoadoutClothingOuterCoatRobo
+  - ScpLoadoutClothingOuterWinterRobo
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupProductionSpecialistJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutClothingUniformJumpsuitRoboticist
+  - ScpLoadoutClothingUniformJumpskirtRoboticist
+
+# Junior Researcher
+
+- type: loadoutGroup
+  id: ScpLoadoutGroupJuniorResearcherJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - ScpLoadoutClothingUniformJumpsuitColorWhite
+  - ScpLoadoutClothingUniformJumpskirtColorWhite

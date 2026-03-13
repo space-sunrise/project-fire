@@ -1,0 +1,508 @@
+// SPDX-FileCopyrightText: 2025 LaCumbiaDelCoronavirus
+// SPDX-FileCopyrightText: 2025 ark1368
+//
+// SPDX-License-Identifier: MPL-2.0
+
+using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.Contracts;
+using System.Linq;
+using System.Numerics;
+using System.Runtime.CompilerServices;
+using Content.Client.Light.EntitySystems;
+using Content.Shared._Scp.ScpCCVars;
+using Content.Shared.Light.Components;
+using Content.Shared.Physics;
+using Robust.Client.GameObjects;
+using Robust.Shared.Audio;
+using Robust.Shared.Audio.Components;
+using Robust.Shared.Configuration;
+using Robust.Shared.Map;
+using Robust.Shared.Map.Components;
+using Robust.Shared.Physics;
+using Robust.Shared.Prototypes;
+using Robust.Shared.Timing;
+using Robust.Shared.Utility;
+using DependencyAttribute = Robust.Shared.IoC.DependencyAttribute;
+
+namespace Content.Client._Scp.Audio;
+
+/// <summary>
+///     Handles making sounds 'echo' in large, open spaces. Uses simplified raytracing.
+/// </summary>
+// could use RaycastSystem but the api it has isn't very amazing
+public sealed class AreaEchoSystem : EntitySystem
+{
+    [Dependency] private readonly IGameTiming _timing = default!;
+    [Dependency] private readonly IConfigurationManager _cfg = default!;
+    [Dependency] private readonly MapSystem _map = default!;
+    [Dependency] private readonly Robust.Client.Physics.PhysicsSystem _physics = default!;
+    [Dependency] private readonly TransformSystem _transform = default!;
+    [Dependency] private readonly AudioEffectSystem _audioEffect = default!;
+    [Dependency] private readonly RoofSystem _roof = default!;
+
+    /// <summary>
+    ///     The directions that are raycasted to determine size for echo.
+    ///         Used relative to the grid.
+    /// </summary>
+    private Angle[] _calculatedDirections =
+    [
+        Direction.North.ToAngle(),
+        Direction.West.ToAngle(),
+        Direction.South.ToAngle(),
+        Direction.East.ToAngle(),
+    ];
+
+    /// <summary>
+    ///     Values for the minimum arbitrary size at which a certain audio preset
+    ///         is picked for sounds. The higher the highest distance here is,
+    ///         the generally more calculations it has to do.
+    /// </summary>
+    /// <remarks>
+    ///     Keep in descending order.
+    /// </remarks>
+    private static readonly (float Distance, ProtoId<AudioPresetPrototype> Preset)[] DistancePresets =
+    [
+        (14f, "Hangar"),
+        (12f, "ConcertHall"),
+        (8f, "Auditorium"),
+        (3f, "Hallway"),
+    ];
+
+    private const float BounceDampening = 0.1f;
+
+    /// <summary>
+    ///     When is the next time we should check all audio entities and see if they are eligible to be updated.
+    /// </summary>
+    private TimeSpan _nextExistingUpdate = TimeSpan.Zero;
+
+    /// <summary>
+    ///     Collision mask for echoes.
+    /// </summary>
+    private const int EchoLayer = (int) (CollisionGroup.Opaque | CollisionGroup.Impassable); // this could be better but whatever
+
+    private int _echoMaxReflections;
+    private bool _echoEnabled = true;
+    private TimeSpan _calculationInterval; // how often we should check existing audio re-apply or remove echo from them when necessary
+    private float _calculationalFidelity;
+
+    private ConfigurationMultiSubscriptionBuilder _configSub = default!;
+
+    private EntityQuery<MapGridComponent> _gridQuery;
+    private EntityQuery<RoofComponent> _roofQuery;
+
+    public override void Initialize()
+    {
+        base.Initialize();
+
+        UpdatesBefore.Add(typeof(AudioMuffleSystem));
+
+        _configSub = _cfg.SubscribeMultiple()
+            .OnValueChanged(ScpCCVars.EchoReflectionCount, x => _echoMaxReflections = x, invokeImmediately: true)
+            .OnValueChanged(ScpCCVars.EchoEnabled, x => _echoEnabled = x, invokeImmediately: true)
+            .OnValueChanged(ScpCCVars.EchoHighResolution,
+                x => _calculatedDirections = GetEffectiveDirections(x),
+                invokeImmediately: true)
+            .OnValueChanged(ScpCCVars.EchoRecalculationInterval,
+                x => _calculationInterval = TimeSpan.FromSeconds(x),
+                invokeImmediately: true)
+            .OnValueChanged(ScpCCVars.EchoStepFidelity, x => _calculationalFidelity = x, invokeImmediately: true);
+
+        _gridQuery = GetEntityQuery<MapGridComponent>();
+        _roofQuery = GetEntityQuery<RoofComponent>();
+
+        SubscribeLocalEvent<AudioComponent, EntParentChangedMessage>(OnAudioParentChanged);
+
+        Log.Level = LogLevel.Verbose;
+    }
+
+    public override void Shutdown()
+    {
+        base.Shutdown();
+
+        _configSub.Dispose();
+    }
+
+    public override void Update(float frameTime)
+    {
+        base.Update(frameTime);
+
+        if (!_echoEnabled)
+            return;
+
+        if (_timing.CurTime < _nextExistingUpdate)
+            return;
+
+        _nextExistingUpdate = _timing.CurTime + _calculationInterval;
+
+        var (minimumMagnitude, maximumMagnitude) = GetMinMax();
+
+        var audioEnumerator = AllEntityQuery<AudioComponent, TransformComponent>();
+        while (audioEnumerator.MoveNext(out var uid, out var audio, out var xform))
+        {
+            if (audio.Global)
+                continue;
+
+            if (!audio.Playing)
+                continue;
+
+            ProcessAudioEntity((uid, audio), xform, minimumMagnitude, maximumMagnitude);
+        }
+    }
+
+    /// <summary>
+    ///     Returns all four cardinal directions when <paramref name="highResolution"/> is false.
+    ///         Otherwise, returns all eight intercardinal and cardinal directions as listed in
+    ///         <see cref="DirectionExtensions.AllDirections"/>.
+    /// </summary>
+    [Pure]
+    public static Angle[] GetEffectiveDirections(bool highResolution)
+    {
+        if (!highResolution)
+            return [Direction.North.ToAngle(), Direction.West.ToAngle(), Direction.South.ToAngle(), Direction.East.ToAngle()];
+
+        var allDirections = DirectionExtensions.AllDirections;
+        var directions = new Angle[allDirections.Length];
+
+        for (var i = 0; i < allDirections.Length; i++)
+        {
+            directions[i] = allDirections[i].ToAngle();
+        }
+
+        return directions;
+    }
+
+    /// <summary>
+    ///     Takes an entity's <see cref="TransformComponent"/>. Goes through every parent it
+    ///         has before reaching one that is a map. Returns the hierarchy
+    ///         discovered, which includes the given <paramref name="originEntity"/>.
+    /// </summary>
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    private List<Entity<TransformComponent>> TryGetHierarchyBeforeMap(Entity<TransformComponent> originEntity)
+    {
+        var hierarchy = new List<Entity<TransformComponent>>() { originEntity };
+
+        ref var currentEntity = ref originEntity;
+        ref var currentTransformComponent = ref currentEntity.Comp;
+
+        var mapUid = currentEntity.Comp.MapUid;
+
+        while (currentTransformComponent.ParentUid != mapUid /* break when the next entity is a map... */ &&
+            currentTransformComponent.ParentUid.IsValid() /* ...or invalid */ )
+        {
+            // iterate to next entity
+            var nextUid = currentTransformComponent.ParentUid;
+            currentEntity.Owner = nextUid;
+            currentTransformComponent = Transform(nextUid);
+
+            hierarchy.Add(currentEntity);
+        }
+
+        DebugTools.Assert(hierarchy.Count >= 1, "Malformed entity hierarchy! Hierarchy must always contain one element, but it doesn't. How did this happen?");
+        return hierarchy;
+    }
+
+    /// <summary>
+    ///     Gets the length of the direction that reaches the furthest unobstructed
+    ///         distance, in an attempt to get the size of the area. Aborts early
+    ///         if either grid is missing or the tile isnt rooved.
+    ///
+    ///     Returned magnitude is the longest valid length of the ray in each direction,
+    ///         divided by the number of total processed angles.
+    /// </summary>
+    /// <returns>Whether anything was actually processed.</returns>
+    // i am the total overengineering guy... and this, is my code.
+    /*
+        This works under a few assumptions:
+        - An entity in space is invalid
+        - Any spaced tile is invalid
+        - Rays end on invalid tiles (space) or unrooved tiles, and dont process on separate grids.
+        - - This checked every `_calculationalFidelity`-ish tiles. Not precisely. But somewhere around that. Its moreso just proportional to that.
+        - Rays bounce.
+    */
+    public bool TryProcessAreaSpaceMagnitude(Entity<TransformComponent> entity, float maximumMagnitude, out float magnitude)
+    {
+        magnitude = 0f;
+        var transformComponent = entity.Comp;
+
+        // get either the grid or other parent entity this entity is on, and it's rotation
+        var entityHierarchy = TryGetHierarchyBeforeMap(entity);
+        if (entityHierarchy.Count <= 1) // hierarchy always starts with our entity. if it only has our entity, it means the next parent was the map, which we don't want
+            return false; // means this entity is in space/otherwise not on a grid
+
+        // at this point, we know that we are somewhere on a grid
+
+        // e.g.: if a sound is inside a crate, this will now be the grid the crate is on; if the sound is just on the grid, this will be the grid that the sound is on.
+        var entityGrid = entityHierarchy.Last();
+
+        // this is the last entity, or this entity itself, that this entity has, before the parent is a grid/map. e.g.: if a sound is inside a crate, this will be the crate; if the sound is just on the grid, this will be the sound
+        var lastEntityBeforeGrid = entityHierarchy[^2]; // `l[^x]` is analogous to `l[l.Count - x]`
+        // `lastEntityBeforeGrid` is obviously directly before `entityGrid`
+        // the earlier guard clause makes sure this will always be valid
+
+        if (!_gridQuery.TryGetComponent(entityGrid, out var gridComponent))
+            return false;
+
+        var checkRoof = _roofQuery.TryGetComponent(entityGrid, out var roofComponent);
+        var tileRef = _map.GetTileRef(entityGrid, gridComponent, lastEntityBeforeGrid.Comp.Coordinates);
+
+        if (tileRef.Tile.IsEmpty)
+            return false;
+
+        var gridRoofEntity = new Entity<MapGridComponent, RoofComponent?>(entityGrid, gridComponent, roofComponent);
+        if (checkRoof && !_roof.IsRooved(gridRoofEntity!, tileRef.GridIndices))
+            return false;
+
+        var originTileIndices = tileRef.GridIndices;
+        var worldPosition = _transform.GetWorldPosition(transformComponent);
+
+        // At this point, we are ready for war against the client's pc.
+        foreach (var direction in _calculatedDirections)
+        {
+            var currentDirectionVector = direction.ToVec();
+            var currentTargetEntityUid = lastEntityBeforeGrid.Owner;
+
+            var totalDistance = 0f;
+            var remainingDistance = maximumMagnitude;
+
+            var currentOriginWorldPosition = worldPosition;
+            var currentOriginTileIndices = originTileIndices;
+
+            var currentAcousticEnergy = 1.0f;
+
+            for (var reflectIteration = 0; reflectIteration <= _echoMaxReflections /* if maxreflections is 0 we still cast atleast once */; reflectIteration++)
+            {
+                var (distanceCovered, raycastResults) = CastEchoRay(
+                    currentOriginWorldPosition,
+                    currentOriginTileIndices,
+                    currentDirectionVector,
+                    transformComponent.MapID,
+                    currentTargetEntityUid,
+                    gridRoofEntity,
+                    checkRoof,
+                    remainingDistance
+                );
+
+                // Добавляем пройденную дистанцию с учетом оставшейся "энергии" звука
+                totalDistance += distanceCovered * currentAcousticEnergy;
+
+                // Физический лимит луча отнимаем по-настоящему
+                remainingDistance -= distanceCovered;
+
+                // we don't need further logic anyway if we just finished the last iteration
+                if (reflectIteration == _echoMaxReflections)
+                    break;
+
+                if (raycastResults is null) // means we didnt hit anything
+                    break;
+
+                currentAcousticEnergy *= BounceDampening;
+
+                // i think cross-grid would actually be pretty easy here? but the tile-marching doesnt often account for that at fidelities above 1 so whatever.
+
+                var previousRayWorldOriginPosition = currentOriginWorldPosition;
+                currentOriginWorldPosition = raycastResults.Value.HitPos; // it's now where we hit
+                currentTargetEntityUid = raycastResults.Value.HitEntity;
+
+                // means tile that ray hit is invalid, just assume the ray ends here
+                if (!_map.TryGetTileRef(entityGrid, gridComponent, currentOriginWorldPosition, out var hitTileRef))
+                    break;
+
+                currentOriginTileIndices = hitTileRef.GridIndices;
+
+                var worldMatrix = _transform.GetInvWorldMatrix(gridRoofEntity);
+                var previousRayOriginLocalPosition = Vector2.Transform(previousRayWorldOriginPosition, worldMatrix);
+                var currentOriginLocalPosition = Vector2.Transform(currentOriginWorldPosition, worldMatrix);
+
+                var delta = currentOriginLocalPosition - previousRayOriginLocalPosition;
+                if (delta.LengthSquared() <= float.Epsilon * 2)
+                    break;
+
+                var normalVector = GetTileHitNormal(currentOriginLocalPosition, _map.TileToVector(gridRoofEntity, currentOriginTileIndices), gridRoofEntity.Comp1.TileSize);
+                currentDirectionVector = Reflect(currentDirectionVector, normalVector);
+            }
+
+            if (totalDistance > magnitude)
+                magnitude = totalDistance;
+        }
+
+        return true;
+    }
+
+    private static Vector2 GetTileHitNormal(Vector2 rayHitPos, Vector2 tileOrigin, float tileSize)
+    {
+        // Position inside the tile (0..tileSize)
+        var local = rayHitPos - tileOrigin;
+
+        // Distances to each side
+        var left = local.X;
+        var right = tileSize - local.X;
+        var bottom = local.Y;
+        var top = tileSize - local.Y;
+
+        // Find smallest distance
+        var minDist = MathF.Min(MathF.Min(left, right), MathF.Min(bottom, top));
+
+        if (MathHelper.CloseTo(minDist, left))
+            return new Vector2(-1, 0);
+        if (MathHelper.CloseTo(minDist, right))
+            return new Vector2(1, 0);
+        if (MathHelper.CloseTo(minDist, bottom))
+            return new Vector2(0, -1);
+
+        return new Vector2(0, 1); // must be top
+    }
+
+    /// <remarks>
+    ///     <paramref name="normal"/> should be normalised upon calling.
+    /// </remarks>
+    [Pure]
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    private static Vector2 Reflect(in Vector2 direction, in Vector2 normal)
+        => direction - 2 * Vector2.Dot(direction, normal) * normal;
+
+    // this caused vsc to spike to 28gb memory usage
+    /// <summary>
+    ///     Casts a ray and marches it. See <see cref="MarchRayByTiles"/>.
+    /// </summary>
+    private (float, RayCastResults?) CastEchoRay(
+        in Vector2 originWorldPosition,
+        in Vector2i originTileIndices,
+        in Vector2 directionVector,
+        in MapId mapId,
+        in EntityUid ignoredEntity,
+        in Entity<MapGridComponent, RoofComponent?> gridRoofEntity,
+        bool checkRoof,
+        float maximumDistance
+    )
+    {
+        var directionFidelityStep = directionVector * _calculationalFidelity;
+
+        var ray = new CollisionRay(originWorldPosition, directionVector, EchoLayer);
+        var rayResults = _physics.IntersectRay(mapId, ray, maxLength: maximumDistance, ignoredEnt: ignoredEntity, returnOnFirstHit: true);
+
+        // if we hit something, distance to that is magnitude but it must be lower than maximum. if we didnt hit anything, it's maximum magnitude
+        var rayMagnitude = rayResults.TryFirstOrNull(out var firstResult)
+            ? MathF.Min(firstResult.Value.Distance, maximumDistance)
+            : maximumDistance;
+
+        var nextCheckedPosition = new Vector2(originTileIndices.X, originTileIndices.Y) * gridRoofEntity.Comp1.TileSize + directionFidelityStep;
+        var incrementedRayMagnitude = MarchRayByTiles(
+            rayMagnitude,
+            gridRoofEntity,
+            directionFidelityStep,
+            ref nextCheckedPosition,
+            gridRoofEntity.Comp1.TileSize,
+            checkRoof
+        );
+
+        return (incrementedRayMagnitude, firstResult);
+    }
+
+    /// <summary>
+    ///     Advances a ray, in intervals of `_calculationalFidelity`, by tiles until
+    ///         reaching an unrooved tile (if checking roofs) or space.
+    /// </summary>
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    private float MarchRayByTiles(
+        in float rayMagnitude,
+        in Entity<MapGridComponent, RoofComponent?> gridRoofEntity,
+        in Vector2 directionFidelityStep,
+        ref Vector2 nextCheckedPosition,
+        ushort gridTileSize,
+        bool checkRoof
+    )
+    {
+        // find the furthest distance this ray reaches until its on an unrooved/dataless (space) tile
+
+        var fidelityStepLength = directionFidelityStep.Length();
+        var incrementedRayMagnitude = 0f;
+
+        for (; incrementedRayMagnitude < rayMagnitude;)
+        {
+            var nextCheckedTilePosition = new Vector2i(
+                (int) MathF.Floor(nextCheckedPosition.X / gridTileSize),
+                (int) MathF.Floor(nextCheckedPosition.Y / gridTileSize)
+            );
+
+            if (checkRoof)
+            {
+                // if we're checking roofs, end this ray if this tile is unrooved or dataless (latter is inherent of this method)
+                if (!_roof.IsRooved(gridRoofEntity!, nextCheckedTilePosition))
+                    break;
+            }
+            // if we're not checking roofs, end this ray if this tile is empty/space
+            else if (!_map.TryGetTileRef(gridRoofEntity, gridRoofEntity, nextCheckedTilePosition, out var tile) ||
+                tile.Tile.IsEmpty)
+                break;
+
+            nextCheckedPosition += directionFidelityStep;
+            incrementedRayMagnitude += fidelityStepLength;
+        }
+
+        return MathF.Min(incrementedRayMagnitude, rayMagnitude);
+    }
+
+    private void ProcessAudioEntity(Entity<AudioComponent> entity, TransformComponent transformComponent, float minimumMagnitude, float maximumMagnitude)
+    {
+        TryProcessAreaSpaceMagnitude((entity, transformComponent), maximumMagnitude, out var echoMagnitude);
+
+        if (echoMagnitude <= minimumMagnitude)
+        {
+            _audioEffect.TryRemoveEffect(entity);
+            return;
+        }
+
+        if (!TryGetPreset(echoMagnitude, out var bestPreset))
+        {
+            _audioEffect.TryRemoveEffect(entity);
+            return;
+        }
+
+        Log.Debug($"Used preset {bestPreset.Value}");
+        _audioEffect.TryAddEffect(entity, bestPreset.Value);
+    }
+
+    private bool TryGetPreset(float echoMagnitude, [NotNullWhen(true)] out ProtoId<AudioPresetPrototype>? bestPreset)
+    {
+        bestPreset = null;
+
+        foreach (var (distance, preset) in DistancePresets)
+        {
+            if (echoMagnitude < distance)
+                continue;
+
+            bestPreset = preset;
+            return true;
+        }
+
+        return false;
+    }
+
+    // Maybe TODO: defer this onto ticks? but whatever its just clientside
+    private void OnAudioParentChanged(Entity<AudioComponent> ent, ref EntParentChangedMessage args)
+    {
+        if (!_echoEnabled)
+            return;
+
+        if (ent.Comp.Global)
+            return;
+
+        if (args.Transform.MapID == MapId.Nullspace)
+            return;
+
+        var (minimumMagnitude, maximumMagnitude) = GetMinMax();
+
+        ProcessAudioEntity(ent, args.Transform, minimumMagnitude, maximumMagnitude);
+    }
+
+    private static (float Min, float Max) GetMinMax()
+    {
+        var minimumMagnitude = DistancePresets.Last().Distance;
+        DebugTools.Assert(minimumMagnitude > 0f, "Minimum distance must be greater than zero!");
+
+        var maximumMagnitude = DistancePresets.First().Distance;
+        DebugTools.Assert(maximumMagnitude > 0f, "Maximum distance must be greater than zero!");
+
+        return (minimumMagnitude, maximumMagnitude);
+    }
+}

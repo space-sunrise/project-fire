@@ -4,6 +4,6 @@ ent-BaseScp3008.desc = Непропорциональная и безликая 
 ent-BasicScp3008 = Сотрудник IKEA
 ent-BasicScp3008Angry = { ent-BasicScp3008 }
 ent-StrongScp3008 = Крепкий сотрудник IKEA
-ent-StrongScp3008Angry = { ent-StrongScp3008Angry }
+ent-StrongScp3008Angry = { ent-StrongScp3008 }
 ent-TallScp3008 = Высокий сотрудник IKEA
 ent-TallScp3008Angry = { ent-TallScp3008 }

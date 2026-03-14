@@ -87,7 +87,7 @@
     lifetime: 600.1
   - type: TimedSpawner
     prototypes:
-    - Basic3008Angry
+    - BasicScp3008Angry
     intervalSeconds: 600
   - type: MeleeWeapon
     damage:
@@ -110,7 +110,7 @@
     lifetime: 300.1
   - type: TimedSpawner
     prototypes:
-    - Basic3008
+    - BasicScp3008
     intervalSeconds: 300
   - type: NPCRetaliation
     _enabled: false
@@ -140,7 +140,7 @@
     lifetime: 600.1
   - type: TimedSpawner
     prototypes:
-    - Strong3008Angry
+    - StrongScp3008Angry
     intervalSeconds: 600
   - type: MeleeWeapon
     attackRate: 0.7
@@ -173,7 +173,7 @@
     lifetime: 300.1
   - type: TimedSpawner
     prototypes:
-    - Strong3008
+    - StrongScp3008
     intervalSeconds: 300
   - type: NPCRetaliation
     _enabled: false
@@ -188,7 +188,7 @@
 
 - type: entity
   id: TallScp3008
-  parent: Base3008
+  parent: BaseScp3008
   name: A tall IKEA employee
   components:
   - type: Sprite
@@ -203,7 +203,7 @@
     lifetime: 600.1
   - type: TimedSpawner
     prototypes:
-    - Tall3008Angry
+    - TallScp3008Angry
     intervalSeconds: 600
 
 
@@ -239,7 +239,7 @@
     lifetime: 300.1
   - type: TimedSpawner
     prototypes:
-    - Tall3008
+    - TallScp3008
     intervalSeconds: 300
     minimumEntitiesSpawned: 1
     maximumEntitiesSpawned: 1

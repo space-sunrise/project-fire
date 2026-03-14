@@ -2637,7 +2637,20 @@ BaseComputer: ScpComputer
 BaseComputerAiAccess: ScpComputer
 
 # Keycards rename
-
 KeyCardClassDCock: KeyCardClassDCook
+
+# Chair replacements
+Chair: ScpChair
+ChairGreyscale: ScpChairGreyscale
+ChairOfficeLight: ScpChairOfficeLight
+ChairOfficeDark: ScpChairOfficeDark
+ChairOfficeGrey: ScpChairOfficeGrey
+ChairWood: ScpChairWood
+WoodenBench: ScpWoodenBench
+ChairRitual: ScpChairRitual
+ChairCursed: ScpChairCursed
+FloorTileItemWood: ScpFloorTileItemWood
+FloorTileItemWoodLarge: ScpFloorTileItemWoodLarge
+FloorTileItemWoodPattern: ScpFloorTileItemWoodPattern
 
 # Fire added end

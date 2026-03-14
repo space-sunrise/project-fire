@@ -7,9 +7,9 @@
   components:
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: _Sunrise/Structures/Walls/woodenrailing.rsi
+    sprite: _Scp/Structures/Walls/wooden_railing.rsi # Fire edit
   - type: Icon
-    sprite: _Sunrise/Structures/Walls/woodenrailing.rsi
+    sprite: _Scp/Structures/Walls/wooden_railing.rsi # Fire edit
   - type: Physics
     bodyType: Static
   - type: InteractionOutline
